@@ -1,0 +1,233 @@
+[
+    ["HTTP shell.iicp.net:8008","http://shell.iicp.net:8008","",["本机服务"]],
+    ["HTTP 192.168.56.101:80","http://192.168.56.101/","",["本机服务", "虚拟服务"]],
+    ["HTTP 127.0.0.1:80","http://127.0.0.1/","",["本机服务"]],
+    ["HTTP 127.0.0.1:8080","http://127.0.0.1:8080/","",["本机服务"]],
+    ["HTTPS 127.0.0.1:443","https://127.0.0.1/","",["hide","本机服务"]],
+    ["FTP 127.0.0.1:21","ftp://127.0.0.1/","",["本机服务"]],
+    ["HTTP 192.168.1.1","http://192.168.1.1","{user g4su8s9t}\n{039308183642 123456}",["hide","本机服务"]],
+    ["HTTP 192.168.10.1","http://192.168.10.1","",["hide","本机服务"]],
+    ["","这是一个分割线","",["################################################"]],
+
+    ["QQ邮箱","https://mail.qq.com","",["邮箱"]],
+    ["163邮箱","https://mail.163.com/","",["邮箱"]],
+    ["Sina邮箱","https://mail.sina.com","",["邮箱"]],
+    ["Google邮箱","https://mail.google.com","",["邮箱","科学上网"]],
+    ["Outlook邮箱","https://outlook.live.com/mail/","",["邮箱"]],
+    ["","这是一个分割线","",["################################################"]],
+
+    ["谷歌搜索","https://www.google.com/","",["搜索引擎","科学上网"]],
+    ["聚合狗","http://www.addog.vip/","",["搜索引擎","网站聚合"]],
+    ["谷歌插件","http://crxdown.com/","",["Downloader"]],
+    ["百度搜索","https://www.baidu.com/","",["搜索引擎"]],
+    ["必应搜索","https://cn.bing.com/","",["搜索引擎"]],
+    ["","这是一个分割线","",["################################################"]],
+
+    ["百度网盘","https://pan.baidu.com/","",["云盘"]],
+    ["坚果云盘","https://www.jianguoyun.com/d/signup","",["云盘"]],
+    ["谷歌网盘","https://drive.google.com","",["云盘","科学上网"]],
+    ["盘搜搜","http://www.pansoso.com/","百度网盘 资源搜索",["Downloader", "Searcher", "云盘"]],
+    ["PanDownload","https://www.baiduwp.com/","百度网盘 直接下载",["Downloader", "云盘"]],
+    ["","这是一个分割线","",["################################################"]],
+
+    ["百度翻译","https://fanyi.baidu.com/","",["翻译"]],
+    ["日语翻译","https://dict.hjenglish.com","",["翻译"]],
+    ["谷歌翻译","https://translate.google.cn/","",["翻译", "学术"]],
+    ["必应翻译","https://cn.bing.com/Translator","",["翻译"]],
+    ["","这是一个分割线","",["################################################"]],
+
+    ["Dilidili","http://www.dilidili.name/","",["视频","动漫"]],
+    ["日剧TV","https://www.rijutv.com","",["视频","日剧"]],
+    ["韩剧TV","http://www.hanjutv.com/","",["视频","韩剧"]],
+    ["风车动漫","http://www.fengchedm.com/","",["hide", "视频","动漫"]],
+    ["52tian","http://www.52tian.me/","",["hide", "视频","动漫"]],
+    ["Bilibili","https://t.bilibili.com/","",["社区","视频","动漫","直播"]],
+    ["Acfun","https://www.acfun.cn/","",["社区","视频","动漫"]],
+    ["腾讯视频","https://v.qq.com","",["社区","影视资源","视频","动漫"]],
+    ["最大资源","http://www.zuida.me","盗版影视，你值得拥有！",["影视资源","动漫"]],
+    ["斗鱼直播","https://www.douyu.com/","",["直播"]],
+    ["虎牙直播","http://www.huya.com","",["直播"]],
+    ["Youtube","https://www.youtube.com/","",["hide", "视频","直播","科学上网"]],
+    ["YouTube","https://www.youtubnow.com/cn","视频下载器",["Downloader"]],
+    ["","这是一个分割线","",["################################################"]],
+
+    ["哔哩音乐","https://www.bilibili.com/audio/home","bilibili 音乐",["音频","音乐","动漫"]],
+    ["猫耳FM","https://www.missevan.com/mperson/homepage","Miss Evan",["社区","音频","音乐","动漫"]],
+    ["QQ音乐","https://y.qq.com/portal/profile.html#sub=other&tab=create","",["音频","音乐"]],
+    ["网易音乐","https://music.163.com/","",["音频","音乐"]],
+    ["由你音乐","https://yobang.tencentmusic.com/#/","",["音频","音乐","榜单"]],
+    ["音乐Tai","http://www.yinyuetai.com/","",["音频","音乐","榜单"]],
+    ["MidiShow","https://www.midishow.com/","",["音频","音乐","MIDI"]],
+    ["爱上ASMR","https://www.asasmr.com/","",["hide", "ASMR","音频"]],
+    ["耳萌ASMR","https://www.rmasmr.com/","",["hide", "ASMR","音频"]],
+    ["18ASMR","https://18asmr.org","{zmh944@163.com zmh999@163.com Jff4CYa3bYvsa3H}",["hide", "ASMR","音频"]],
+    ["","这是一个分割线","",["################################################"]],
+
+
+    ["Facebook","https://www.facebook.com","",["hide", "社区","科学上网"]],
+    ["Instagram","https://www.instagram.com","",["hide", "社区","科学上网"]],
+    ["Quora","www.quora.com/","",["hide", "社区","科学上网"]],
+    ["新浪微博","https://weibo.com","",["社区"]],
+    ["新浪微博","https://m.weibo.cn","手机版",["社区"]],
+    ["超话排行","https://huati.weibo.cn/discovery/super","",["社区","榜单"]],
+    ["今日热榜","https://tophub.today/","",["社区","榜单"]],
+    ["LPL赛事","https://lpl.qq.com","LoL Pro League",["LPL","英雄联盟"]],
+    ["英雄数据","https://www.op.gg/champion/statistics","LoL Pro League",["英雄联盟"]],
+    ["","这是一个分割线","",["################################################"]],
+
+    ["起点","https://www.qidian.com/","",["Text","书籍","小说"]],
+    ["知轩","http://www.zxcs.me/","",["Text","书籍","小说"]],
+    ["变身","http://www.bswxue.com/","",["hide", "Text","书籍","小说"]],
+    ["","这是一个分割线","",["################################################"]],
+
+    ["Echarts","https://echarts.apache.org/examples/zh/index.html","折线图 直方图 WebGL...",["图片", "图例"]],
+    ["临时存图","https://upload.cc/","",["图片", "传图"]],
+    ["Pixiv","https://www.pixiv.net/","",["hide", "动漫","图片","绘画","背景","科学上网"]],
+    ["Pexels","https://www.pexels.com/","",["图片","绘画","背景","高清壁纸"]],
+    ["EasyIcon","https://www.easyicon.net/","",["ICON","图片","图标","编程"]],
+    ["Iconfont","https://www.iconfont.cn","",["ICON","图片","图标","编程"]],
+    ["Charat","https://charat.me/","2D卡通角色由你定义！",["图片","DIY","动漫"]],
+    ["Remove","https://www.remove.bg/","自动在线抠图！",["图片","DIY","图像处理"]],
+    ["Panzoid","https://panzoid.com/","视频片头动画制作！",["视频","DIY"]],
+    ["字体家","https://www.zitijia.com/","免费字体下载！",["字体", "下载"]],
+    ["Smallpdf","https://smallpdf.com/cn","文档转换！",["文档", "转换"]],
+    ["Adobe Creative Cloud","https://creative.adobe.com/zh-tw/products/download/creative-cloud","",["Adobe"]],
+    ["","这是一个分割线","",["################################################"]],
+
+    ["编程语言排名","https://hellogithub.com/report/tiobe/","",["编程", "榜单"]],
+    ["LeetCode","https://leetcode.com/","",["编程", "题库"]],
+    ["微信小程序","https://developers.weixin.qq.com/miniprogram/dev/framework/","",["编程", "API"]],
+    ["Face++","https://console.faceplusplus.com.cn","人体、人脸、证件识别",["编程", "API"]],
+    ["W3school","http://www.w3school.com.cn/","",["编程", "源码"]],
+    ["Markdown","https://pandao.github.io/editor.md/","",["编程", "说明文档", "Markdown"]],
+    ["在线工具","http://tool.oschina.net/","",["编程"]],
+    ["菜鸟教程","https://www.runoob.com/","",["编程", "源码"]],
+    ["TinyC","https://pandolia.net/tinyc","",["编程", "编译器"]],
+    ["Github","https://github.com/","",["编程", "仓库", "源码"]],
+    ["码云","https://gitee.com/","",["编程", "仓库", "源码"]],
+    ["自制编程","https://avnpc.com/pages/devlang","",["编程", "源码"]],
+    ["苹果开发者","https://developer.apple.com/cn/","",["编程", "苹果"]],
+    ["","这是一个分割线","",["################################################"]],
+
+    ["研招网","https://yz.chsi.com.cn/","",["学业"]],
+    ["控制与计算机学院","http://cce.ncepu.edu.cn/","",["学业"]],
+    ["华北电力","http://yjsy.ncepu.edu.cn/zsxx/sszsxx/index.htm","",["学业"]],
+    ["研创网","https://cpipc.chinadegrees.cn/","",["学业"]],
+
+    ["zotero","https://www.zotero.org/","",["学术", "个人图书馆"]],
+    ["每日arXiv","https://zhuanlan.zhihu.com/arxivdaily","",["学术", "每日文献"]],
+    ["机器之心","https://www.jiqizhixin.com/","",["学术", "每日文献"]],
+    ["虫部落","https://scholar.chongbuluo.com/","",["学术", "学术检索"]],
+    ["猫咪论文","https://lunwen.im/","",["学术", "学术检索"]],
+    ["沃克学术","https://xueshu.9178.work/","",["学术", "学术检索"]],
+    ["上海研发公共服务平台","http://lib.sstir.cn/","",["学术", "学术检索"]],
+    ["Anypaper","https://ifish.fun/paper/search","",["学术", "学术检索"]],
+    ["GeenMedical","https://www.geenmedical.com/","",["学术", "学术检索"]],
+    ["万千合集","http://www.hejizhan.com/html/search/","",["学术", "学术检索"]],
+    ["超星发现","http://www.chaoxing.com/","",["学术", "学术检索"]],
+    ["泉方学术","http://www.yuntsg.com","",["学术", "学术检索"]],
+    ["中教数据库","http://www.zjdata.net/","",["学术", "学术检索"]],
+    ["中国知网","https://www.cnki.net/","",["学术", "学术检索"]],
+    ["Bing学术","https://cn.bing.com/academic","",["学术", "学术检索"]],
+    ["Baidu学术","http://xueshu.baidu.com/","",["学术", "学术检索"]],
+    ["Google学术","https://scholar.google.com/","",["学术", "学术检索"]],
+    ["iData","https://www.cn-ki.net/","",["学术", "学术检索"]],
+    ["SCI-HUB（TW）","https://www.sci-hub.tw/","",["学术", "学术检索"]],
+    ["SCI-HUB（SE）","https://www.sci-hub.se/","",["学术", "学术检索"]],
+    ["文献小镇（SCI-HUB）","http://www.sci-hub.ac.cn/","",["学术", "学术检索"]],
+    ["图书馆参考咨询","http://www.ucdrs.superlib.net/","",["学术", "学术检索"]],
+    ["广西图书馆","http://wap.gxlib.org/ermsClient/browse.do","",["学术", "学术检索"]],
+    ["国家哲学社会科学文献中心","http://www.ncpssd.org/","",["学术", "学术检索"]],
+
+    ["Web of Science","http://apps.webofknowledge.com","",["学术", "学术检索", "学校专线"]],
+    ["Engineering Village","https://www.engineeringvillage.com","",["学术", "学术检索", "学校专线"]],
+
+    ["Standford Courses","https://online.stanford.edu/courses","",["学术", "Courses", "Standford"]],
+    ["OCW Courses","https://ocw.mit.edu/courses/","",["学术", "Courses"]],
+    ["Coursera","https://www.coursera.org/courses","",["学术", "Courses"]],
+    ["机器学习","https://www.zhihu.com/question/37031588/answer/776053153","",["学术", "机器学习", "Courses"]],
+
+    ["Kaggle","https://www.kaggle.com/","",["学术", "数据集"]],
+    ["UCI","http://archive.ics.uci.edu/ml/index.php","",["学术", "数据集"]],
+    ["Scikit-learn","https://scikit-learn.org/stable/datasets/index.html","",["学术", "数据集"]],
+    ["LFW","http://vis-www.cs.umass.edu/lfw/","标记的人脸",["学术", "数据集"]],
+    ["MNIST","http://yann.lecun.com/exdb/mnist/","手写数字",["学术", "数据集"]],
+    ["Fashion-MNIST","https://www.kaggle.com/zalando-research/fashionmnist","时尚产品",["学术", "数据集"]],
+    ["MS-COCO","https://github.com/cocodataset/cocoapi","物体检测",["学术", "数据集"]],
+    ["WordNet","https://wordnet.princeton.edu/","图像数据集",["学术", "数据集"]],
+    ["ImageNet","http://www.image-net.org/","图像数据集",["学术", "数据集"]],
+    ["Open Images","https://storage.googleapis.com/openimages/web/index.html","图像数据集",["学术", "数据集"]],
+    ["VisualQA","https://visualqa.org/","图像数据集",["学术", "数据集"]],
+    ["SVHN","http://ufldl.stanford.edu/housenumbers/","街景房屋号码",["学术", "数据集"]],
+    ["CIFAR-10","https://www.cs.toronto.edu/~kriz/cifar.html","图像分类",["学术", "数据集"]],
+
+    ["USENIX","https://www.usenix.org/conferences","",["学术", "顶会", "信安"]],
+    ["IEEE SSP","https://www.ieee-security.org/index.html","安全与隐私会议",["学术", "顶会", "信安"]],
+    ["ACM CCS","http://www.sigsac.org/ccs.html","计算机和通信安全会议",["学术", "顶会", "信安"]],
+    ["NDSS","https://www.ndss-symposium.org/","网络与分布式系统安全会议",["学术", "顶会", "信安"]],
+    ["ACM Digital Library","https://dlnext.acm.org/","",["学术", "学术检索", "学校专线"]],
+
+    ["CVF","https://www.thecvf.com/","视觉大会时间表",["学术", "顶会", "视觉"]],
+    ["CVF Access","http://openaccess.thecvf.com/menu.py","相关文档下载",["学术", "顶会", "视觉"]],
+    ["ICCV 2019","http://openaccess.thecvf.com/ICCV2019.py","国际计算机视觉大会",["学术", "顶会", "视觉"]],
+    ["CVPR 2019","http://openaccess.thecvf.com/CVPR2019.py","国际计算机视觉与模式识别会议",["学术", "顶会", "视觉"]],
+    ["ECCV 2018","http://openaccess.thecvf.com/ECCV2018.py","欧洲计算机视觉国际会议",["学术", "顶会", "视觉"]],
+    ["MICCAI","http://www.miccai.org/","国际医学图像计算和计算机辅助干预协会",["学术", "顶会", "视觉", "医疗影像"]],
+    ["MICCAI 2019","https://www.miccai2019.org/","",["学术", "顶会", "视觉", "医疗影像"]],
+
+    ["ICASSP 2019","https://2019.ieeeicassp.org/","国际声学、语音与信号处理会议",["学术", "顶会", "语音"]],
+    ["Interspeech 2019","https://www.interspeech2019.org/","语音顶会",["学术", "顶会", "语音"]],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ["Go173","http://go173.me/","",["hide", "H"]],
+    ["avmoo","https://tellme.pw/avmoo/","",["hide", "H"]],
+    ["HH","https://hentaihaven.org/","",["hide", "H"]],
+    ["HM","https://hanime.tv/","",["hide", "H"]],
+    ["BT","https://go2think.com/bt-magnet-search/","",["hide", "H"]],
+    ["绅士","https://www.zhaijuhe.com/","",["hide", "H"]],
+    ["森萝财团","https://www.meitulu.com/t/1290/","",["hide", "H"]],
+    ["E-Hentai","https://theporndude.com/zh/338/e-hentai","",["hide", "H"]],
+    ["Iwara","https://www.iwara.tv/","",["hide", "H"]],
+
+["","","",[]]]
