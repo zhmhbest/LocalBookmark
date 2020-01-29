@@ -1,0 +1,89 @@
+[
+  {
+    "title": "日剧TV",
+    "url": "https://www.rijutv.com",
+    "tag": [
+      "视频"
+    ]
+  },
+  {
+    "title": "韩剧TV",
+    "url": "http://www.hanjutv.com/",
+    "tag": [
+      "视频"
+    ]
+  },
+  {
+    "title": "Dilidili",
+    "url": "http://www.dilidili.one/",
+    "tag": [
+      "视频",
+      "二次元"
+    ]
+  },
+  {
+    "title": "Acfun",
+    "url": "https://www.acfun.cn/",
+    "tag": [
+      "视频",
+      "二次元"
+    ]
+  },
+  {
+    "title": "Bilibili",
+    "url": "https://t.bilibili.com/",
+    "tag": [
+      "视频",
+      "二次元",
+      "社区"
+    ]
+  },
+  {
+    "title": "风车动漫",
+    "url": "http://www.fengchedm.com/",
+    "tag": [
+      "视频",
+      "二次元"
+    ]
+  },
+  {
+    "title": "风车动漫（手机）",
+    "url": "http://m.fengchedm.com/",
+    "tag": [
+      "视频",
+      "二次元"
+    ]
+  },
+  {
+    "title": "腾讯视频",
+    "url": "https://v.qq.com",
+    "tag": [
+      "视频"
+    ]
+  },
+  {
+    "title": "最大资源",
+    "url": "http://www.zuidazy1.com/",
+    "desc": "域名数字[1-5]可替换",
+    "tag": [
+      "视频"
+    ]
+  },
+  {
+    "title": "Youtube",
+    "url": "https://www.youtube.com/",
+    "tag": [
+      "视频",
+      "科学上网"
+    ]
+  },
+  {
+    "title": "Panzoid",
+    "url": "https://panzoid.com/",
+    "desc": "制作视频片头动画",
+    "tag": [
+      "视频",
+      "工具"
+    ]
+  }
+]

@@ -5,12 +5,45 @@
     <title>bookmark</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/shortcut.ico"/>
     <link rel="stylesheet" href="lib/layui/css/layui.css" />
+    <link rel="stylesheet" href="css/default.css" />
+    <script src="lib/jquery-1.7.2.min.js"></script>
     <script src="lib/layui/layui.js"></script>
 </head>
+
 <body>
-
+<div class="container">
+<table id="my_table" class="layui-table">
+    <thead><tr>
+        <th style="text-align: center">标题</th>
+        <th style="text-align: center">描述</th>
+        <th style="text-align: center">标签</th>
+    </tr></thead>
+</table>
+</div>
 </body>
-<script>
 
+<script src="js/getparams.js"></script>
+<script src="js/bookmarks.js"></script>
+
+<script>
+    var refreshBookmarks;
+
+    layui.use([], function(){
+        var $ = layui.jquery;
+        // 第一次加载
+        loadBookmarkConfig($, function (bms) {
+            refreshBookmarks = (function () {
+                var bookmarks = bms;
+                var table = document.getElementById('my_table');
+                return function() {
+                    bookmark2Table(table, bookmarkFilter(paramsParseHash(), bookmarks));
+                };
+            })();
+            refreshBookmarks();
+        });
+    });
+    window.onhashchange = function () {
+        refreshBookmarks();
+    }
 </script>
 </html>

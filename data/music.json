@@ -1,0 +1,56 @@
+[
+  {
+    "title": "QQ音乐",
+    "url": "https://y.qq.com/portal/profile.html#sub=other&tab=create",
+    "tag": [
+      "音频"
+    ]
+  },
+  {
+    "title": "网易音乐",
+    "url": "https://music.163.com/",
+    "tag": [
+      "音频"
+    ]
+  },
+  {
+    "title": "哔哩音乐",
+    "url": "https://www.bilibili.com/audio/home",
+    "tag": [
+      "音频",
+      "二次元"
+    ]
+  },
+  {
+    "title": "猫耳FM",
+    "url": "https://www.missevan.com/mperson/homepage",
+    "tag": [
+      "音频",
+      "社区"
+    ]
+  },
+  {
+    "title": "MidiShow",
+    "url": "https://www.midishow.com/",
+    "tag": [
+      "音频",
+      "MIDI"
+    ]
+  },
+  {
+    "title": "由你音乐",
+    "url": "https://yobang.tencentmusic.com/",
+    "tag": [
+      "音频",
+      "榜单"
+    ]
+  },
+  {
+    "title": "音乐Tai",
+    "url": "http://vchart.yinyuetai.com/vchart/month",
+    "tag": [
+      "音频",
+      "榜单"
+    ]
+  }
+]

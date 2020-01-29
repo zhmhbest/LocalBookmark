@@ -1,0 +1,43 @@
+[
+  {
+    "title": "百度网盘",
+    "url": "https://pan.baidu.com/",
+    "tag": [
+      "云盘",
+      "百度"
+    ]
+  },
+  {
+    "title": "坚果云盘",
+    "url": "https://www.jianguoyun.com/d/signup",
+    "tag": [
+      "云盘",
+      "坚果云"
+    ]
+  },
+  {
+    "title": "谷歌网盘",
+    "url": "https://drive.google.com",
+    "tag": [
+      "云盘",
+      "谷歌",
+      "科学上网"
+    ]
+  },
+  {
+    "title": "盘搜搜",
+    "url": "http://www.pansoso.com/",
+    "tag": [
+      "云盘",
+      "搜索"
+    ]
+  },
+  {
+    "title": "PanDownload",
+    "url": "https://www.baiduwp.com/",
+    "tag": [
+      "云盘",
+      "下载"
+    ]
+  }
+]

@@ -1,4 +1,5 @@
-**/summary
+**/dump
 .idea/*
+
 !.idea/.idea/modules.xml
 !.idea/.idea/LocalBookmark.iml

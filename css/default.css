@@ -1,0 +1,32 @@
+
+body {
+    font-size: 28px;
+}
+
+.container {
+    margin-top: 20px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.bm-icon {
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+}
+
+.bm-title {
+    text-align: center;
+}
+
+.bm-desc {
+    text-align: left;
+}
+
+.bm-tag {
+    text-align: left;
+}
+
+.bm-tag-badge {
+    margin-right: 5px;
+}

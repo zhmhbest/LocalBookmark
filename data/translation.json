@@ -1,0 +1,34 @@
+[
+  {
+    "title": "百度翻译",
+    "url": "https://fanyi.baidu.com/",
+    "tag": [
+      "翻译",
+      "百度"
+    ]
+  },
+  {
+    "title": "日语翻译",
+    "url": "https://dict.hjenglish.com",
+    "tag": [
+      "翻译",
+      "沪江"
+    ]
+  },
+  {
+    "title": "谷歌翻译",
+    "url": "https://translate.google.cn/",
+    "tag": [
+      "翻译",
+      "谷歌"
+    ]
+  },
+  {
+    "title": "必应翻译",
+    "url": "https://cn.bing.com/Translator",
+    "tag": [
+      "翻译",
+      "微软"
+    ]
+  }
+]

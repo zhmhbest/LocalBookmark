@@ -1,0 +1,78 @@
+[
+  {
+    "title": "新浪微博",
+    "url": "https://weibo.com",
+    "tag": [
+      "博客",
+      "社区"
+    ]
+  },
+  {
+    "title": "新浪微博（手机版）",
+    "url": "https://m.weibo.cn",
+    "tag": [
+      "博客",
+      "社区"
+    ]
+  },
+  {
+    "title": "微博超话",
+    "url": "https://huati.weibo.cn/discovery/super",
+    "tag": [
+      "博客",
+      "社区",
+      "榜单"
+    ]
+  },
+  {
+    "title": "知乎",
+    "url": "https://www.zhihu.com/",
+    "tag": [
+      "论坛",
+      "社区"
+    ]
+  },
+  {
+    "title": "今日热点",
+    "url": "https://tophub.today/",
+    "tag": [
+      "聚合",
+      "博客",
+      "论坛",
+      "榜单"
+    ]
+  },
+  {
+    "title": "Facebook",
+    "url": "https://www.facebook.com",
+    "tag": [
+      "博客",
+      "科学上网"
+    ]
+  },
+  {
+    "title": "Instagram",
+    "url": "https://www.instagram.com",
+    "tag": [
+      "博客",
+      "科学上网"
+    ]
+  },
+  {
+    "title": "Twitter",
+    "url": "https://www.twitter.com",
+    "tag": [
+      "博客",
+      "科学上网"
+    ]
+  },
+  {
+    "title": "Quora",
+    "url": "www.quora.com/",
+    "tag": [
+      "论坛",
+      "社区",
+      "科学上网"
+    ]
+  }
+]
