@@ -59,6 +59,15 @@
     ]
   },
   {
+    "title": "Quora",
+    "url": "www.quora.com/",
+    "tag": [
+      "论坛",
+      "社区",
+      "科学上网"
+    ]
+  },
+  {
     "title": "Twitter",
     "url": "https://www.twitter.com",
     "tag": [
@@ -67,11 +76,62 @@
     ]
   },
   {
-    "title": "Quora",
-    "url": "www.quora.com/",
+    "title": "TIME",
+    "url": "https://twitter.com/TIME",
+    "desc": "时代周刊",
     "tag": [
-      "论坛",
-      "社区",
+      "博客",
+      "twitter",
+      "科学上网"
+    ]
+  },
+  {
+    "title": "The New York Times",
+    "url": "https://twitter.com/nytimes",
+    "desc": "纽约时报",
+    "tag": [
+      "博客",
+      "twitter",
+      "科学上网"
+    ]
+  },
+  {
+    "title": "CNN",
+    "url": "https://twitter.com/CNN",
+    "desc": "美国有线电视新闻网",
+    "tag": [
+      "博客",
+      "twitter",
+      "科学上网"
+    ]
+  },
+  {
+    "title": "BBC News",
+    "url": "https://twitter.com/BBC",
+    "desc": "英国广播公司",
+    "tag": [
+      "博客",
+      "twitter",
+      "科学上网"
+    ]
+  },
+  {
+    "title": "BBC News (World)",
+    "url": "https://twitter.com/BBCWorld",
+    "desc": "英国广播公司",
+    "tag": [
+      "博客",
+      "twitter",
+      "科学上网"
+    ]
+  },
+  {
+    "title": "The Washington Times",
+    "url": "https://twitter.com/WashTimes",
+    "desc": "华盛顿时报",
+    "tag": [
+      "博客",
+      "twitter",
       "科学上网"
     ]
   }

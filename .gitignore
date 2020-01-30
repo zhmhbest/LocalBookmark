@@ -1,4 +1,5 @@
 **/dump
+**/cache
 .idea/*
 data/h.json
 !.idea/.idea/modules.xml
