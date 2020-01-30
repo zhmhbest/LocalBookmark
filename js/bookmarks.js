@@ -22,10 +22,23 @@ function loadBookmarkConfig($, callback) {
     }, 100);
 
     function addBookmark(data_json_name, index) {
-        $.getJSON("data/" + data_json_name + ".json", undefined, function (res) {
-            bookmark_jsons[index] = res;
-            config_count++;
+        $.ajax({
+            url: "data/" + data_json_name + ".json",
+            success: function (res) {
+                // console.log(res);
+                bookmark_jsons[index] = res;
+                config_count++;
+            },
+            error: function (err) {
+                console.error(data_json_name);
+                bookmark_jsons[index] = [];
+                config_count++;
+            }
         });
+        // $.getJSON("data/" + data_json_name + ".json", undefined, function (res) {
+        //     bookmark_jsons[index] = res;
+        //     config_count++;
+        // });
     }
 
     $.getJSON("data/__init__.json", undefined, function (res) {
