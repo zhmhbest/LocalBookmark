@@ -152,6 +152,7 @@ function onTagClick() {
  * 数据可视化
  */
 function bookmark2Table(mount_table, bookmarks) {
+    var API_GET_FAVICON = "https://ico.kucat.cn/get.php";
     // tbody
     var tbody = mount_table.getElementsByTagName('tbody')[0];
     if (undefined === tbody) {
@@ -189,8 +190,7 @@ function bookmark2Table(mount_table, bookmarks) {
         // title
         var a = document.createElement('a');
         a.innerHTML =
-            "<img class='bm-icon' alt='' src='https://ico.kucat.cn/get.php?url=" +
-            item['url'] + "'/>" +
+            "<img class='bm-icon' alt='' src='" + API_GET_FAVICON + "?url=" + item['url'] + "'/>" +
             item['title'];
         a.href = item['url'];
         new_td(tr, "bm-title", a);
