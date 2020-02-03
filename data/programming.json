@@ -95,5 +95,21 @@
       "编程",
       "教程"
     ]
+  },
+  {
+    "title": "Tensorflow入门",
+    "url": "http://tensornews.cn/",
+    "tag": [
+      "编程",
+      "教程"
+    ]
+  },
+  {
+    "title": "数模知识库",
+    "url": "https://www.shumo.com/wiki/doku.php",
+    "tag": [
+      "编程",
+      "竞赛"
+    ]
   }
 ]
