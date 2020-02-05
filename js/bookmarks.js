@@ -136,11 +136,13 @@ function onTagClick(e) {
      */
     function change_hash(current_tag, mode) {
         var current_hash = paramsParseHash();
-        if (0===mode || undefined===current_hash['tag'] || 0===current_hash['tag'].length) {
+
+        if (0===mode) {
             // 单标签
             current_hash['tag'] = current_tag;
         } else {
-            var tags = current_hash['tag'].split(',');
+            var tags = (undefined===current_hash['tag'] || 0===current_hash['tag'].length) ?
+                [] : current_hash['tag'].split(',');
             if (1===mode) {
                 // 加选
                 if (-1 === tags.indexOf(current_tag)) {tags.push(current_tag);}
@@ -149,7 +151,6 @@ function onTagClick(e) {
                 var index = tags.indexOf(current_tag);
                 if (-1 !== index) {tags.splice(index, 1);}
             }
-            console.log(tags);
             current_hash['tag'] = tags.join(',')
         }
         window.location.hash = params2String(current_hash);
