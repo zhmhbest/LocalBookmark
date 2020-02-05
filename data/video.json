@@ -58,7 +58,16 @@
     "title": "腾讯视频",
     "url": "https://v.qq.com",
     "tag": [
-      "视频"
+      "视频",
+      "社区"
+    ]
+  },
+  {
+    "title": "爱奇艺视频",
+    "url": "https://www.iqiyi.com/",
+    "tag": [
+      "视频",
+      "社区"
     ]
   },
   {
