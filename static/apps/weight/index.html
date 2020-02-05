@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html><head>
+
+	<title>进制转换</title>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' href='../../common/css/bootstrap.min.css'>
+	<script src='../../common/lib/jquery.min-2.1.1.js'></script>
+	<script src='./caculate.js'></script>
+
+</head><body><div class='container'>
+
+	<br/><h2>进制转换</h2><br/>
+
+	<label for="text">2进制：</label>
+	<input type="text" class="form-control" id="text_bin" placeholder="输入一个2进制数字">
+	<input type="text" class="form-control" id="text_cbin" placeholder="" disabled="disabled"><br/>
+
+	<label for="text">8进制：</label>
+	<input type="text" class="form-control" id="text_oct" placeholder="输入一个8进制数字"><br/>
+
+	<label for="text">10进制：</label>
+	<input type="number" class="form-control" id="text_dec" placeholder="输入一个10进制数字"><br/>
+
+	<label for="text">16进制：</label>
+	<input type="text" class="form-control" id="text_hex" placeholder="输入一个16进制数字"><br/>
+
+	<br/><h3>历史记录</h3><br/>
+	<table class="table table-secondary table-striped">
+		<thead>
+		<tr>
+			<th>2进制</th>
+			<th>8进制</th>
+			<th>10进制</th>
+			<th>16进制</th>
+		</tr>
+		</thead>
+		<tbody id='caculate_history'>
+
+		</tbody>
+	</table>
+
+</div></body></html>

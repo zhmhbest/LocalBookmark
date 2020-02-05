@@ -93,7 +93,8 @@
     "url": "http://nqdeng.github.io/7-days-nodejs/",
     "tag": [
       "编程",
-      "教程"
+      "教程",
+      "Web"
     ]
   },
   {
@@ -110,6 +111,23 @@
     "tag": [
       "编程",
       "竞赛"
+    ]
+  },
+  {
+    "title": "WebGL",
+    "url": "https://www.w3cschool.cn/webgl/",
+    "tag": [
+      "编程",
+      "Web"
+    ]
+  },
+  {
+    "title": "ChromeDevTools",
+    "url": "https://www.w3cschool.cn/chromedevtools/",
+    "desc": "F12 或 Ctrl+Shift+I 唤出开发工具",
+    "tag": [
+      "编程",
+      "Web"
     ]
   }
 ]

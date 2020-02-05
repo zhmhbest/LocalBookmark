@@ -1,0 +1,37 @@
+<html lang="zh-cmn-Hans">
+	<head>
+		<meta charset="UTF-8">
+		<title>硬盘整数分区计算器</title>
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="s3.tool.lu.css">
+	</head>
+	<body>
+		<div style="width: 600px; height: 200px;margin: 0 auto;">
+			<p>分区容量(G):
+					<input id="inputSize" class="text" type="text" name="size" value="10">
+					<button onclick="caculateSize()">计算</button>
+			</p>
+			<table class="tbl" width="100%" cellpadding="0" cellspacing="0">
+				<thead>
+					<tr><th width="33%">格式</th><th width="66%">大小(M)</th></tr>
+				</thead>
+				<tbody>
+					<tr><td>NTFS</td><td id="outputNTFS">0</td></tr>
+					<tr><td>FAT32</td><td id="outputFAT32">0</td></tr>
+				</tbody>
+			</table>
+		</div>
+		<script>
+			var o_is = document.getElementById("inputSize");
+			var o_on = document.getElementById("outputNTFS");
+			var o_of = document.getElementById("outputFAT32");
+			const SECTORSIZE=7.84423828125;
+			caculateSize(); //首次运行立即初始化
+			function caculateSize(){
+				var Size = o_is.value;
+				o_on.innerHTML =  Math.ceil(Math.ceil(1024*Size/7.84423828125)*SECTORSIZE);
+				o_of.innerHTML = (Size - 1)*4     + 1024*Size;
+			}
+		</script>
+	</body>
+</html>

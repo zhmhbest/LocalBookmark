@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>加密</title>
+        <link rel='stylesheet' href='../../common/css/bootstrap.min.css'>
+        <script src="lib/CryptoJS/v3.1.2/components/core-min.js"></script>
+        <script src="lib/CryptoJS/v3.1.2/rollups/hmac-md5.js"></script>
+        <script src="lib/CryptoJS/v3.1.2/rollups/hmac-sha1.js"></script>
+        <script src="lib/CryptoJS/v3.1.2/rollups/hmac-sha224.js"></script>
+        <script src="lib/CryptoJS/v3.1.2/rollups/hmac-sha256.js"></script>
+        <script src="lib/CryptoJS/v3.1.2/rollups/hmac-sha384.js"></script>
+        <script src="lib/CryptoJS/v3.1.2/rollups/hmac-sha512.js"></script>
+    </head>
+
+    <body><div class='container'>
+        <br/><h2>散列</h2><br/>
+        <input type="text" class="form-control" id="c_text" placeholder="待 散列 字符">
+        <input type="text" class="form-control" id="c_key" placeholder="Key（不启用HMAC算法）"><br/>
+
+        <label for="text">MD5:</label>
+        <input type="text" class="form-control" id="c_md5" placeholder="Normal结果" disabled="disabled" />
+        <input type="text" class="form-control" id="c_hmd5" placeholder="HMAC结果" disabled="disabled" /><br/>
+        <label for="text">SHA1:</label>
+        <input type="text" class="form-control" id="c_sha1" placeholder="Normal结果" disabled="disabled" />
+        <input type="text" class="form-control" id="c_hsha1" placeholder="HMAC结果" disabled="disabled" /><br/>
+        <label for="text">SHA224:</label>
+        <input type="text" class="form-control" id="c_sha224" placeholder="Normal结果" disabled="disabled" />
+        <input type="text" class="form-control" id="c_hsha224" placeholder="HMAC结果" disabled="disabled" /><br/>
+        <label for="text">SHA256:</label>
+        <input type="text" class="form-control" id="c_sha256" placeholder="Normal结果" disabled="disabled" />
+        <input type="text" class="form-control" id="c_hsha256" placeholder="HMAC结果" disabled="disabled" /><br/>
+        <label for="text">SHA384:</label>
+        <input type="text" class="form-control" id="c_sha384" placeholder="Normal结果" disabled="disabled" />
+        <input type="text" class="form-control" id="c_hsha384" placeholder="HMAC结果" disabled="disabled" /><br/>
+        <label for="text">SHA512:</label>
+        <input type="text" class="form-control" id="c_sha512" placeholder="Normal结果" disabled="disabled" />
+        <input type="text" class="form-control" id="c_hsha512" placeholder="HMAC结果" disabled="disabled" /><br/>
+        <!-- =================================================================================== -->
+        <!-- =================================================================================== -->
+        <script>
+            function setInputTextValueNullString() {
+                    c_md5.value =
+                    c_hmd5.value =
+
+                    c_sha1.value =
+                    c_hsha1.value  =
+
+                    c_sha224.value =
+                    c_hsha224.value =
+
+                    c_sha256.value =
+                    c_hsha256.value =
+
+                    c_sha384.value =
+                    c_hsha384.value =
+
+                    c_sha512.value =
+                    c_hsha512.value = "";
+                    return;
+            }
+            function caculateHMAC(str, key) {
+                if(key) {
+                    c_hmd5.hidden    = false; c_hmd5.value    = CryptoJS.HmacMD5(str, key);
+                    c_hsha1.hidden   = false; c_hsha1.value   = CryptoJS.HmacSHA1(str, key);
+                    c_hsha224.hidden = false; c_hsha224.value = CryptoJS.HmacSHA224(str, key);
+                    c_hsha256.hidden = false; c_hsha256.value = CryptoJS.HmacSHA256(str, key);
+                    c_hsha384.hidden = false; c_hsha384.value = CryptoJS.HmacSHA384(str, key);
+                    c_hsha512.hidden = false; c_hsha512.value = CryptoJS.HmacSHA512(str, key);
+                } else {
+                    c_hmd5.hidden    = true;
+                    c_hsha1.hidden   = true;
+                    c_hsha224.hidden = true;
+                    c_hsha256.hidden = true;
+                    c_hsha384.hidden = true;
+                    c_hsha512.hidden = true;
+                }
+            }
+            function caculateNormal(str) {
+                c_md5.value    = CryptoJS.MD5(str);
+                c_sha1.value   = CryptoJS.SHA1(str);
+                c_sha224.value = CryptoJS.SHA224(str);
+                c_sha256.value = CryptoJS.SHA256(str);
+                c_sha384.value = CryptoJS.SHA384(str);
+                c_sha512.value = CryptoJS.SHA512(str);
+            }
+        </script>
+        <!-- =================================================================================== -->
+        <!-- =================================================================================== -->
+        <script>
+            c_key.onchange = function() {
+                var str = c_text.value;
+                var key = c_key.value;
+                caculateHMAC(str, key);
+            };
+            c_text.onchange = function() {
+                var str = c_text.value;
+                var key = c_key.value;
+                if(str) {
+                    caculateNormal(str);
+                    caculateHMAC(str, key);
+                } else {
+                    setInputTextValueNullString();
+                }
+            }
+        </script>
+    </div></body>
+</html>

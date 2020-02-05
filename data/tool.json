@@ -1,0 +1,40 @@
+[
+  {
+    "title": "字符串工具",
+    "url": "static/apps/string/index.html",
+    "tag": [
+      "编程",
+      "工具"
+    ]
+  },
+  {
+    "title": "进制转换",
+    "url": "static/apps/weight/index.html",
+    "tag": [
+      "编程",
+      "工具"
+    ]
+  },
+  {
+    "title": "整数分区",
+    "url": "static/apps/partition/index.html",
+    "tag": [
+      "系统",
+      "工具"
+    ]
+  },
+  {
+    "title": "二维码生成器",
+    "url": "static/apps/qrcode/index.html",
+    "tag": [
+      "工具"
+    ]
+  },
+  {
+    "title": "50音图",
+    "url": "static/apps/50tones/index.html",
+    "tag": [
+      "工具"
+    ]
+  }
+]

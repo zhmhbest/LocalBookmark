@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>转义</title>
+        <link rel='stylesheet' href='../../common/css/bootstrap.min.css'>
+        <script src="lib/CryptoJS/v3.1.2/components/core-min.js"></script>
+        <!-- <script src="lib/CryptoJS/v3.1.2/components/x64-core-min.js"></script> -->
+        <script src="lib/CryptoJS/v3.1.2/components/enc-base64-min.js"></script>
+    </head>
+
+    <body><div class='container'>
+        <br/><h2>转义</h2><br/>
+        <input type="text" class="form-control" id="c_text" placeholder="待 转义 字符"><br/>
+
+        <label for="text">Base64:</label>
+        <input type="text" class="form-control" id="c_b64" placeholder="待解码字符" /><br/>
+        <label for="text">Escape:</label>
+        <input type="text" class="form-control" id="c_esc" placeholder="待解码字符" /><br/>
+        <label for="text">Escape and Base64:</label>
+        <input type="text" class="form-control" id="c_e64" placeholder="待解码字符" /><br/>
+        <label for="text">URI:</label>
+        <input type="text" class="form-control" id="c_uri" placeholder="待解码字符" /><br/>
+
+        <script>
+            c_text.onchange = function() {
+                var str = c_text.value;
+                if(!str) {
+                    c_b64.value =
+                    c_esc.value =
+                    c_e64.value =
+                    c_uri.value = "";
+                    return;
+                } else {
+                    c_b64.value = CryptoJS.enc.Base64.stringify(CryptoJS.enc.Utf8.parse(str));
+                    var str_esc = escape(str);
+                        c_esc.value = str_esc;
+                        c_e64.value = CryptoJS.enc.Base64.stringify(CryptoJS.enc.Utf8.parse(str_esc));
+                    c_uri.value = encodeURIComponent(str); //encodeURI(str);
+                }
+            }
+            //==========================================
+            c_b64.onchange = function() {
+                try {
+                    var str = CryptoJS.enc.Base64.parse(c_b64.value).toString(CryptoJS.enc.Utf8);
+                    c_text.value = str;
+                    c_text.onchange();
+                } catch(err) {
+                    console.error(err); //err.message
+                    alert("输入的 Base64 Code错误！");
+                }
+            }
+            c_esc.onchange = function() {
+                var str = unescape(c_esc.value);
+                c_text.value = str;
+                c_text.onchange();
+            }
+            c_e64.onchange = function() {
+                try {
+                    var str_esc = CryptoJS.enc.Base64.parse(c_e64.value).toString(CryptoJS.enc.Utf8);
+                    c_text.value = unescape(str_esc);
+                    c_text.onchange();
+                } catch(err) {
+                    console.error(err); //err.message
+                    alert("输入的 escape&base64 Code错误！");
+                }
+            }
+            c_uri.onchange = function() {
+                try {
+                    var str = decodeURIComponent(c_uri.value); //decodeURI(c_uri.value)
+                    c_text.value = str;
+                    c_text.onchange();
+                } catch(err) {
+                    console.error(err); //err.message
+                    alert("输入的 URI Code错误！");
+                }
+            }
+        </script>
+    </div></body>
+</html>
