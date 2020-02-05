@@ -128,23 +128,43 @@ function bookmarkFilter(argv, bookmarks) {
 /**
  * 点击标签
  */
-function onTagClick() {
-    // alert(this.innerHTML);
-    var current_hash = paramsParseHash();
-    var current_hash_tag = current_hash['tag'];
-    var current_tag = this.innerHTML;
-
-    if (undefined===current_hash_tag || 0===current_hash_tag.length) {
-        current_hash['tag'] = current_tag;
-    } else {
-        var tags = current_hash_tag.split(',');
-        if (-1 === tags.indexOf(current_tag)) {
-            tags.push(current_tag);
+function onTagClick(e) {
+    /**
+     * 改变hash值
+     * @param current_tag: 当前点击标签的值
+     * @param mode: 0:单标签 | 1:加选 |2:减选
+     */
+    function change_hash(current_tag, mode) {
+        var current_hash = paramsParseHash();
+        if (0===mode || undefined===current_hash['tag'] || 0===current_hash['tag'].length) {
+            // 单标签
+            current_hash['tag'] = current_tag;
+        } else {
+            var tags = current_hash['tag'].split(',');
+            if (1===mode) {
+                // 加选
+                if (-1 === tags.indexOf(current_tag)) {tags.push(current_tag);}
+            } else if (2===mode) {
+                // 减选
+                var index = tags.indexOf(current_tag);
+                if (-1 !== index) {tags.splice(index, 1);}
+            }
+            console.log(tags);
+            current_hash['tag'] = tags.join(',')
         }
-        // console.log(tags, current_tag);
-        current_hash['tag'] = tags.join(',')
+        window.location.hash = params2String(current_hash);
     }
-    window.location.hash = params2String(current_hash);
+    var current_tag = this.innerHTML;
+    // console.log(e);
+    if (e.ctrlKey) {
+        // 按住Ctrl 标签加选模式
+        change_hash(current_tag, 1)
+    } else if (e.altKey) {
+        // 按住Alt 标签减选模式
+        change_hash(current_tag, 2)
+    } else {
+        change_hash(current_tag, 0)
+    }
 }
 
 
