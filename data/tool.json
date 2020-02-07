@@ -44,5 +44,29 @@
       "工具",
       "文档"
     ]
+  },
+  {
+    "title": "手机CPU天梯图",
+    "url": "http://www.mydrivers.com/zhuanti/tianti/01/",
+    "tag": [
+      "工具",
+      "榜单"
+    ]
+  },
+  {
+    "title": "CPU天梯图",
+    "url": "http://www.mydrivers.com/zhuanti/tianti/cpu/",
+    "tag": [
+      "工具",
+      "榜单"
+    ]
+  },
+  {
+    "title": "GPU天梯图",
+    "url": "http://www.mydrivers.com/zhuanti/tianti/gpu/",
+    "tag": [
+      "工具",
+      "榜单"
+    ]
   }
 ]
