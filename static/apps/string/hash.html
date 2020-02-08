@@ -2,9 +2,11 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>加密</title>
+        <title>散列</title>
         <link rel='stylesheet' href='../../common/css/bootstrap.min.css'>
         <script src="lib/CryptoJS/v3.1.2/components/core-min.js"></script>
+        <script src="lib/CryptoJS/v3.1.2/components/x64-core-min.js"></script>
+
         <script src="lib/CryptoJS/v3.1.2/rollups/hmac-md5.js"></script>
         <script src="lib/CryptoJS/v3.1.2/rollups/hmac-sha1.js"></script>
         <script src="lib/CryptoJS/v3.1.2/rollups/hmac-sha224.js"></script>
@@ -19,23 +21,23 @@
         <input type="text" class="form-control" id="c_key" placeholder="Key（不启用HMAC算法）"><br/>
 
         <label for="text">MD5:</label>
-        <input type="text" class="form-control" id="c_md5" placeholder="Normal结果" disabled="disabled" />
-        <input type="text" class="form-control" id="c_hmd5" placeholder="HMAC结果" disabled="disabled" /><br/>
+        <input type="text" class="form-control" id="c_md5" placeholder="Normal结果" readonly="readonly" />
+        <input type="text" class="form-control" id="c_hmd5" placeholder="HMAC结果" readonly="readonly" style="opacity: 0.4"/><br/>
         <label for="text">SHA1:</label>
-        <input type="text" class="form-control" id="c_sha1" placeholder="Normal结果" disabled="disabled" />
-        <input type="text" class="form-control" id="c_hsha1" placeholder="HMAC结果" disabled="disabled" /><br/>
+        <input type="text" class="form-control" id="c_sha1" placeholder="Normal结果" readonly="readonly" />
+        <input type="text" class="form-control" id="c_hsha1" placeholder="HMAC结果" readonly="readonly" style="opacity: 0.4"/><br/>
         <label for="text">SHA224:</label>
-        <input type="text" class="form-control" id="c_sha224" placeholder="Normal结果" disabled="disabled" />
-        <input type="text" class="form-control" id="c_hsha224" placeholder="HMAC结果" disabled="disabled" /><br/>
+        <input type="text" class="form-control" id="c_sha224" placeholder="Normal结果" readonly="readonly" />
+        <input type="text" class="form-control" id="c_hsha224" placeholder="HMAC结果" readonly="readonly" style="opacity: 0.4"/><br/>
         <label for="text">SHA256:</label>
-        <input type="text" class="form-control" id="c_sha256" placeholder="Normal结果" disabled="disabled" />
-        <input type="text" class="form-control" id="c_hsha256" placeholder="HMAC结果" disabled="disabled" /><br/>
+        <input type="text" class="form-control" id="c_sha256" placeholder="Normal结果" readonly="readonly" />
+        <input type="text" class="form-control" id="c_hsha256" placeholder="HMAC结果" readonly="readonly" style="opacity: 0.4"/><br/>
         <label for="text">SHA384:</label>
-        <input type="text" class="form-control" id="c_sha384" placeholder="Normal结果" disabled="disabled" />
-        <input type="text" class="form-control" id="c_hsha384" placeholder="HMAC结果" disabled="disabled" /><br/>
+        <input type="text" class="form-control" id="c_sha384" placeholder="Normal结果" readonly="readonly" />
+        <input type="text" class="form-control" id="c_hsha384" placeholder="HMAC结果" readonly="readonly" style="opacity: 0.4"/><br/>
         <label for="text">SHA512:</label>
-        <input type="text" class="form-control" id="c_sha512" placeholder="Normal结果" disabled="disabled" />
-        <input type="text" class="form-control" id="c_hsha512" placeholder="HMAC结果" disabled="disabled" /><br/>
+        <input type="text" class="form-control" id="c_sha512" placeholder="Normal结果" readonly="readonly" />
+        <input type="text" class="form-control" id="c_hsha512" placeholder="HMAC结果" readonly="readonly" style="opacity: 0.4"/><br/>
         <!-- =================================================================================== -->
         <!-- =================================================================================== -->
         <script>
@@ -57,23 +59,22 @@
 
                     c_sha512.value =
                     c_hsha512.value = "";
-                    return;
             }
             function caculateHMAC(str, key) {
-                if(key) {
-                    c_hmd5.hidden    = false; c_hmd5.value    = CryptoJS.HmacMD5(str, key);
-                    c_hsha1.hidden   = false; c_hsha1.value   = CryptoJS.HmacSHA1(str, key);
-                    c_hsha224.hidden = false; c_hsha224.value = CryptoJS.HmacSHA224(str, key);
-                    c_hsha256.hidden = false; c_hsha256.value = CryptoJS.HmacSHA256(str, key);
-                    c_hsha384.hidden = false; c_hsha384.value = CryptoJS.HmacSHA384(str, key);
-                    c_hsha512.hidden = false; c_hsha512.value = CryptoJS.HmacSHA512(str, key);
+                if(0===key.length) {
+                    c_hmd5.style.opacity    = 0.4; c_hmd5.value = "";
+                    c_hsha1.style.opacity   = 0.4; c_hsha1.value = "";
+                    c_hsha224.style.opacity = 0.4; c_hsha224.value = "";
+                    c_hsha256.style.opacity = 0.4; c_hsha256.value = "";
+                    c_hsha384.style.opacity = 0.4; c_hsha384.value = "";
+                    c_hsha512.style.opacity = 0.4; c_hsha512.value = "";
                 } else {
-                    c_hmd5.hidden    = true;
-                    c_hsha1.hidden   = true;
-                    c_hsha224.hidden = true;
-                    c_hsha256.hidden = true;
-                    c_hsha384.hidden = true;
-                    c_hsha512.hidden = true;
+                    c_hmd5.style.opacity    = 1; c_hmd5.value    = CryptoJS.HmacMD5(str, key);
+                    c_hsha1.style.opacity   = 1; c_hsha1.value   = CryptoJS.HmacSHA1(str, key);
+                    c_hsha224.style.opacity = 1; c_hsha224.value = CryptoJS.HmacSHA224(str, key);
+                    c_hsha256.style.opacity = 1; c_hsha256.value = CryptoJS.HmacSHA256(str, key);
+                    c_hsha384.style.opacity = 1; c_hsha384.value = CryptoJS.HmacSHA384(str, key);
+                    c_hsha512.style.opacity = 1; c_hsha512.value = CryptoJS.HmacSHA512(str, key);
                 }
             }
             function caculateNormal(str) {
