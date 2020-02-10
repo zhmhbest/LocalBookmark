@@ -7,8 +7,8 @@
     ]
   },
   {
-    "title": "控制与计算机学院",
-    "url": "http://cce.ncepu.edu.cn/",
+    "title": "研创网",
+    "url": "https://cpipc.chinadegrees.cn/",
     "tag": [
       "私人"
     ]
@@ -17,14 +17,41 @@
     "title": "华北电力大学",
     "url": "https://www.ncepu.edu.cn/",
     "tag": [
-      "私人"
+      "私人",
+      "华电"
     ]
   },
   {
-    "title": "研创网",
-    "url": "https://cpipc.chinadegrees.cn/",
+    "title": "华电-控计学院",
+    "url": "http://cce.ncepu.edu.cn/",
     "tag": [
-      "私人"
+      "私人",
+      "华电"
+    ]
+  },
+  {
+    "title": "华电-WebVPN",
+    "url": "https://webvpn.ncepu.edu.cn/",
+    "tag": [
+      "私人",
+      "华电"
+    ]
+  },
+  {
+    "title": "华电-研究生院",
+    "url": "https://yjsy.ncepu.edu.cn/",
+    "tag": [
+      "私人",
+      "华电"
+    ]
+  },
+  {
+    "title": "华电-研究生教务信息系统",
+    "url": "https://202-204-74-224-8089.webvpn.ncepu.edu.cn/gmis/oauthLogin/hbdldx",
+    "desc": "课表，成绩查询",
+    "tag": [
+      "私人",
+      "华电"
     ]
   }
 ]
