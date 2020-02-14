@@ -1,0 +1,195 @@
+[
+  {
+    "title": "下载 7-ZIP",
+    "url": "https://www.7-zip.org/download.html",
+    "tag": [
+      "软件",
+      "压缩"
+    ]
+  },
+  {
+    "title": "下载 Adobe Creative Cloud",
+    "url": "https://creative.adobe.com/zh-tw/products/download/creative-cloud",
+    "tag": [
+      "软件",
+      "设计"
+    ]
+  },
+  {
+    "title": "下载 Zotero",
+    "url": "https://www.zotero.org/",
+    "desc": "文献管理软件",
+    "tag": [
+      "软件",
+      "学术"
+    ]
+  },
+  {
+    "title": "下载 VSCode",
+    "url": "https://code.visualstudio.com/Download",
+    "tag": [
+      "软件",
+      "编程"
+    ]
+  },
+  {
+    "title": "下载 HBuilderX",
+    "url": "https://www.dcloud.io/hbuilderx.html",
+    "tag": [
+      "软件",
+      "编程"
+    ]
+  },
+  {
+    "title": "JetBrains 破解",
+    "url": "https://zhile.io/custom-license.html",
+    "tag": [
+      "软件",
+      "编程"
+    ]
+  },
+  {
+    "title": "JetBrains 汉化",
+    "url": "https://github.com/pingfangx/jetbrains-in-chinese",
+    "tag": [
+      "软件",
+      "编程"
+    ]
+  },
+  {
+    "title": "下载 IDEA",
+    "url": "https://www.jetbrains.com/idea/download/other.html",
+    "tag": [
+      "软件",
+      "编程"
+    ]
+  },
+  {
+    "title": "下载 CLion",
+    "url": "https://www.jetbrains.com/clion/download/other.html",
+    "tag": [
+      "软件",
+      "编程"
+    ]
+  },
+  {
+    "title": "下载 Git",
+    "url": "https://git-scm.com/downloads/",
+    "tag": [
+      "软件",
+      "编程",
+      "git"
+    ]
+  },
+  {
+    "title": "下载 SourceTree",
+    "url": "https://www.sourcetreeapp.com/",
+    "tag": [
+      "软件",
+      "编程",
+      "git"
+    ]
+  },
+  {
+    "title": "下载 Nginx",
+    "url": "http://nginx.org/en/download.html",
+    "tag": [
+      "软件",
+      "编程"
+    ]
+  },
+  {
+    "title": "下载 Node.js",
+    "url": "https://nodejs.org/en/download/",
+    "tag": [
+      "软件",
+      "编程"
+    ]
+  },
+  {
+    "title": "下载 Python",
+    "url": "https://www.python.org/downloads/",
+    "tag": [
+      "软件",
+      "编程"
+    ]
+  },
+  {
+    "title": "Python pypi",
+    "url": "https://pypi.org/",
+    "tag": [
+      "软件",
+      "编程",
+      "库"
+    ]
+  },
+  {
+    "title": "Python lfd",
+    "url": "https://www.lfd.uci.edu/~gohlke/pythonlibs/",
+    "tag": [
+      "软件",
+      "编程",
+      "库"
+    ]
+  },
+  {
+    "title": "Python conda",
+    "url": "https://anaconda.org/conda-forge/pycrypto/files",
+    "tag": [
+      "软件",
+      "编程",
+      "库"
+    ]
+  },
+  {
+    "title": "下载 Mysql",
+    "url": "https://dev.mysql.com/downloads/mysql/",
+    "tag": [
+      "软件",
+      "编程"
+    ]
+  },
+  {
+    "title": "下载 Mariadb",
+    "url": "https://downloads.mariadb.org/mariadb/",
+    "tag": [
+      "软件",
+      "编程"
+    ]
+  },
+  {
+    "title": "下载 OriginLab",
+    "url": "https://www.originlab.com/",
+    "desc": "制作论文数据图",
+    "tag": [
+      "软件",
+      "图片",
+      "数据展示",
+      "学术"
+    ]
+  },
+  {
+    "title": "下载 Flex Windows",
+    "url": "http://gnuwin32.sourceforge.net/packages/flex.htm",
+    "tag": [
+      "软件",
+      "编程"
+    ]
+  },
+  {
+    "title": "下载 Bison Windows",
+    "url": "http://gnuwin32.sourceforge.net/packages/bison.htm",
+    "tag": [
+      "软件",
+      "编程"
+    ]
+  },
+  {
+    "title": "下载 微信开发工具",
+    "url": "https://developers.weixin.qq.com/miniprogram/dev/devtools/stable.html",
+    "tag": [
+      "软件",
+      "编程"
+    ]
+  }
+]

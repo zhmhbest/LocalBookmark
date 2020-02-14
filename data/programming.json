@@ -9,14 +9,6 @@
     ]
   },
   {
-    "title": "LeetCode",
-    "url": "https://leetcode.com/",
-    "tag": [
-      "编程",
-      "题库"
-    ]
-  },
-  {
     "title": "Github",
     "url": "https://github.com/",
     "tag": [
@@ -61,92 +53,6 @@
     "tag": [
       "编程",
       "工具"
-    ]
-  },
-  {
-    "title": "菜鸟教程",
-    "url": "https://www.runoob.com/",
-    "tag": [
-      "编程",
-      "教程"
-    ]
-  },
-  {
-    "title": "W3school",
-    "url": "http://www.w3school.com.cn/",
-    "tag": [
-      "编程",
-      "教程"
-    ]
-  },
-  {
-    "title": "TinyC",
-    "url": "https://pandolia.net/tinyc",
-    "desc": "手写编译器",
-    "tag": [
-      "编程",
-      "教程"
-    ]
-  },
-  {
-    "title": "7天学会NodeJS",
-    "url": "http://nqdeng.github.io/7-days-nodejs/",
-    "tag": [
-      "编程",
-      "教程",
-      "Web"
-    ]
-  },
-  {
-    "title": "Tensorflow入门",
-    "url": "http://tensornews.cn/",
-    "tag": [
-      "编程",
-      "教程"
-    ]
-  },
-  {
-    "title": "数模知识库",
-    "url": "https://www.shumo.com/wiki/doku.php",
-    "tag": [
-      "编程",
-      "竞赛"
-    ]
-  },
-  {
-    "title": "WebGL",
-    "url": "https://www.w3cschool.cn/webgl/",
-    "tag": [
-      "编程",
-      "教程",
-      "Web"
-    ]
-  },
-  {
-    "title": "ChromeDevTools",
-    "url": "https://www.w3cschool.cn/chromedevtools/",
-    "desc": "F12 或 Ctrl+Shift+I 唤出开发工具",
-    "tag": [
-      "编程",
-      "教程",
-      "Web"
-    ]
-  },
-  {
-    "title": "ECMAScript",
-    "url": "https://www.w3cschool.cn/ecmascript/",
-    "tag": [
-      "编程",
-      "教程",
-      "Web"
-    ]
-  },
-  {
-    "title": "JetBrains激活",
-    "url": "https://zhile.io/custom-license.html",
-    "tag": [
-      "编程",
-      "破解"
     ]
   }
 ]

@@ -66,17 +66,6 @@
     ]
   },
   {
-    "title": "OriginLab",
-    "url": "https://www.originlab.com/",
-    "desc": "制作论文数据图",
-    "tag": [
-      "图片",
-      "数据展示",
-      "学术",
-      "软件"
-    ]
-  },
-  {
     "title": "Echarts",
     "url": "https://echarts.apache.org/examples/zh/index.html",
     "desc": "JS制作数据图",
@@ -94,14 +83,6 @@
       "图片",
       "数据展示",
       "编程"
-    ]
-  },
-  {
-    "title": "Adobe Creative Cloud",
-    "url": "https://creative.adobe.com/zh-tw/products/download/creative-cloud",
-    "tag": [
-      "设计",
-      "软件"
     ]
   }
 ]
