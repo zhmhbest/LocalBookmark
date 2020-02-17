@@ -191,5 +191,30 @@
       "软件",
       "编程"
     ]
+  },
+  {
+    "title": "下载 PP助手",
+    "url": "https://pro.25pp.com/pp_win_iosandroid",
+    "desc": "给iPhone装测试软件",
+    "tag": [
+      "软件",
+      "编程"
+    ]
+  },
+  {
+    "title": "下载 360浏览器XP版",
+    "url": "http://se.360.cn/xp.html",
+    "tag": [
+      "软件",
+      "浏览器"
+    ]
+  },
+  {
+    "title": "下载 VPN-Chromium",
+    "url": "https://github.com/jjqqkk/chromium",
+    "tag": [
+      "软件",
+      "浏览器"
+    ]
   }
 ]

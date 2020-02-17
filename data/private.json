@@ -72,5 +72,32 @@
       "私人",
       "网课"
     ]
+  },
+  {
+    "title": "学堂在线-华北电力",
+    "url": "https://hbdldx.xuetangx.com",
+    "desc": "",
+    "tag": [
+      "私人",
+      "网课"
+    ]
+  },
+  {
+    "title": "中国大学MOOC",
+    "url": "https://www.icourse163.org/",
+    "desc": "",
+    "tag": [
+      "私人",
+      "网课"
+    ]
+  },
+  {
+    "title": "腾讯课堂",
+    "url": "https://ke.qq.com/",
+    "desc": "",
+    "tag": [
+      "私人",
+      "网课"
+    ]
   }
 ]
