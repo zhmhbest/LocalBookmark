@@ -47,8 +47,17 @@
     ]
   },
   {
-    "title": "华电-研究生教务信息系统",
+    "title": "华电-研究生教务信息系统（VPN）",
     "url": "https://202-204-74-224-8089.webvpn.ncepu.edu.cn/gmis/oauthLogin/hbdldx",
+    "desc": "课表，成绩查询 {account:学号, password: 身份证后6位}",
+    "tag": [
+      "私人",
+      "华电"
+    ]
+  },
+  {
+    "title": "华电-研究生教务信息系统",
+    "url": "http://202.204.74.224:8089/gmis/student/default/index",
     "desc": "课表，成绩查询 {account:学号, password: 身份证后6位}",
     "tag": [
       "私人",
