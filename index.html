@@ -22,26 +22,25 @@
 </div>
 </body>
 
+<script src="data/data.js"></script>
 <script src="js/getparams.js"></script>
 <script src="js/bookmarks.js"></script>
 
 <script>
-    var refreshBookmarks;
+    // BOOKMARK_DATA
+    var refreshBookmarks = (function () {
+        var bookmarks = BOOKMARK_DATA;
+        var table = document.getElementById('my_table');
+        return function() {
+            bookmark2Table(table, bookmarkFilter(paramsParseHash(), bookmarks));
+        };
+    })();
 
     layui.use([], function(){
-        var $ = layui.jquery;
         // 第一次加载
-        loadBookmarkConfig($, function (bms) {
-            refreshBookmarks = (function () {
-                var bookmarks = bms;
-                var table = document.getElementById('my_table');
-                return function() {
-                    bookmark2Table(table, bookmarkFilter(paramsParseHash(), bookmarks));
-                };
-            })();
-            refreshBookmarks();
-        });
+        refreshBookmarks();
     });
+
     window.onhashchange = function () {
         refreshBookmarks();
     }
