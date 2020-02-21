@@ -108,5 +108,23 @@
       "私人",
       "网课"
     ]
+  },
+  {
+    "title": "四六级准考证查询",
+    "url": "http://cet-bm.neea.cn/Home/QueryTestTicket",
+    "desc": "",
+    "tag": [
+      "私人",
+      "CET"
+    ]
+  },
+  {
+    "title": "四六级成绩查询",
+    "url": "https://www.chsi.com.cn/cet/query",
+    "desc": "",
+    "tag": [
+      "私人",
+      "CET"
+    ]
   }
 ]
