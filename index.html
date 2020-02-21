@@ -36,7 +36,7 @@
 <script>
     // BOOKMARK_DATA
     var refreshBookmarks = (function () {
-        var bookmarks = BOOKMARK_DATA;
+        var bookmarks = JSON.parse(decodeURI(BOOKMARK_DATA));
         var table = document.getElementById('my_table');
         return function() {
             bookmark2Table(table, bookmarkFilter(paramsParseHash(), bookmarks));

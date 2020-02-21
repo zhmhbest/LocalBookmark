@@ -7,9 +7,23 @@ function readLocalJson(filename, options) {
     });
 }
 
-function writeLocalJson(filename, data, header) {
+function writeLocalJson(filename, data, header, wrap) {
+    let buffer = [];
+    wrap = wrap || '';
+    if ('string'===typeof header) {
+        buffer.push(header);
+    }
+
+    buffer.push(wrap);
+    if (data instanceof Object) {
+        buffer.push(JSON.stringify(data));
+    } else {
+        buffer.push(data);
+    }
+    buffer.push(wrap);
+
     fs.writeFile(filename,
-        (undefined===header)?(''):(header) + JSON.stringify(data),
+        buffer.join(''),
         (err) => { if (err) throw err; }
     );
 }
@@ -57,5 +71,8 @@ function loadBookmarkData(callback) {
 }
 
 loadBookmarkData(function (data) {
-    writeLocalJson('./data.js', data, 'var BOOKMARK_DATA=');
+    writeLocalJson('./data.js',
+        encodeURI(JSON.stringify(data)),
+        'var BOOKMARK_DATA=',
+        "'");
 });
