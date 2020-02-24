@@ -29,7 +29,8 @@
     "url": "https://code.visualstudio.com/Download",
     "tag": [
       "软件",
-      "编程"
+      "编程",
+      "IDE"
     ]
   },
   {
@@ -37,7 +38,8 @@
     "url": "https://www.dcloud.io/hbuilderx.html",
     "tag": [
       "软件",
-      "编程"
+      "编程",
+      "IDE"
     ]
   },
   {
@@ -45,7 +47,8 @@
     "url": "https://zhile.io/custom-license.html",
     "tag": [
       "软件",
-      "编程"
+      "编程",
+      "IDE"
     ]
   },
   {
@@ -53,7 +56,8 @@
     "url": "https://github.com/pingfangx/jetbrains-in-chinese",
     "tag": [
       "软件",
-      "编程"
+      "编程",
+      "IDE"
     ]
   },
   {
@@ -61,7 +65,8 @@
     "url": "https://www.jetbrains.com/idea/download/other.html",
     "tag": [
       "软件",
-      "编程"
+      "编程",
+      "IDE"
     ]
   },
   {
@@ -69,7 +74,8 @@
     "url": "https://www.jetbrains.com/clion/download/other.html",
     "tag": [
       "软件",
-      "编程"
+      "编程",
+      "IDE"
     ]
   },
   {
@@ -91,11 +97,121 @@
     ]
   },
   {
+    "title": "下载 Tomcat",
+    "url": "http://tomcat.apache.org/",
+    "tag": [
+      "软件",
+      "编程",
+      "HTTP"
+    ]
+  },
+  {
+    "title": "下载 Apache2",
+    "url": "https://httpd.apache.org/docs/current/platform/windows.html#down",
+    "tag": [
+      "软件",
+      "编程",
+      "HTTP"
+    ]
+  },
+  {
     "title": "下载 Nginx",
     "url": "http://nginx.org/en/download.html",
     "tag": [
       "软件",
-      "编程"
+      "编程",
+      "HTTP"
+    ]
+  },
+  {
+    "title": "下载 Mingw-w64",
+    "url": "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "下载 Haskell",
+    "url": "https://www.haskell.org/downloads/",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "下载 Go",
+    "url": "https://golang.org/dl/",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎",
+      "科学上网"
+    ]
+  },
+  {
+    "title": "下载 Perl",
+    "url": "https://www.perl.org/get.html",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "下载 Ruby",
+    "url": "https://rubyinstaller.org/downloads/",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "下载 PHP",
+    "url": "https://www.php.net/downloads.php",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "下载 dotNet",
+    "url": "https://dotnet.microsoft.com/download",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "下载 JDK 6",
+    "url": "https://www.oracle.com/java/technologies/javase-java-archive-javase6-downloads.html",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "下载 JDK 7",
+    "url": "https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "下载 JDK 8",
+    "url": "https://www.oracle.com/java/technologies/javase-jdk8-downloads.html",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
     ]
   },
   {
@@ -103,7 +219,8 @@
     "url": "https://nodejs.org/en/download/",
     "tag": [
       "软件",
-      "编程"
+      "编程",
+      "语言引擎"
     ]
   },
   {
@@ -111,7 +228,8 @@
     "url": "https://www.python.org/downloads/",
     "tag": [
       "软件",
-      "编程"
+      "编程",
+      "语言引擎"
     ]
   },
   {
@@ -178,6 +296,15 @@
     ]
   },
   {
+    "title": "下载 Memcached",
+    "url": "https://www.memcached.org/downloads",
+    "tag": [
+      "软件",
+      "编程",
+      "数据库"
+    ]
+  },
+  {
     "title": "下载 OriginLab",
     "url": "https://www.originlab.com/",
     "desc": "制作论文数据图",
@@ -193,7 +320,8 @@
     "url": "http://gnuwin32.sourceforge.net/packages/flex.htm",
     "tag": [
       "软件",
-      "编程"
+      "编程",
+      "库"
     ]
   },
   {
@@ -201,7 +329,8 @@
     "url": "http://gnuwin32.sourceforge.net/packages/bison.htm",
     "tag": [
       "软件",
-      "编程"
+      "编程",
+      "库"
     ]
   },
   {
