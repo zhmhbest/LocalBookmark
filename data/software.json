@@ -146,7 +146,8 @@
     "url": "https://dev.mysql.com/downloads/mysql/",
     "tag": [
       "软件",
-      "编程"
+      "编程",
+      "数据库"
     ]
   },
   {
@@ -154,7 +155,26 @@
     "url": "https://downloads.mariadb.org/mariadb/",
     "tag": [
       "软件",
-      "编程"
+      "编程",
+      "数据库"
+    ]
+  },
+  {
+    "title": "下载 Redis",
+    "url": "https://redis.io/download",
+    "tag": [
+      "软件",
+      "编程",
+      "数据库"
+    ]
+  },
+  {
+    "title": "下载 Mongodb",
+    "url": "https://www.mongodb.com/download-center/community",
+    "tag": [
+      "软件",
+      "编程",
+      "数据库"
     ]
   },
   {
