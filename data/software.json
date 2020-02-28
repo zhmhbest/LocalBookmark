@@ -34,6 +34,16 @@
     ]
   },
   {
+    "title": "VSCode: Markdown Preview Enhanced",
+    "url": "https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/",
+    "tag": [
+      "软件",
+      "编程",
+      "IDE",
+      "Plugins"
+    ]
+  },
+  {
     "title": "下载 HBuilderX",
     "url": "https://www.dcloud.io/hbuilderx.html",
     "tag": [
@@ -233,30 +243,30 @@
     ]
   },
   {
-    "title": "Python pypi",
+    "title": "Python: pypi",
     "url": "https://pypi.org/",
     "tag": [
       "软件",
       "编程",
-      "库"
+      "Library"
     ]
   },
   {
-    "title": "Python lfd",
+    "title": "Python: lfd",
     "url": "https://www.lfd.uci.edu/~gohlke/pythonlibs/",
     "tag": [
       "软件",
       "编程",
-      "库"
+      "Library"
     ]
   },
   {
-    "title": "Python conda",
+    "title": "Python: conda",
     "url": "https://anaconda.org/conda-forge/pycrypto/files",
     "tag": [
       "软件",
       "编程",
-      "库"
+      "Library"
     ]
   },
   {
