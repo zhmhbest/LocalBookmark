@@ -34,6 +34,16 @@
     ]
   },
   {
+    "title": "VSCode: Marketplace",
+    "url": "https://marketplace.visualstudio.com/",
+    "tag": [
+      "软件",
+      "编程",
+      "IDE",
+      "Plugins"
+    ]
+  },
+  {
     "title": "VSCode: Markdown Preview Enhanced",
     "url": "https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/",
     "tag": [
