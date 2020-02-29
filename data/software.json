@@ -34,6 +34,16 @@
     ]
   },
   {
+    "title": "VSCode: Keyboard shortcuts",
+    "url": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf",
+    "desc": "VSCode快捷键",
+    "tag": [
+      "软件",
+      "编程",
+      "IDE"
+    ]
+  },
+  {
     "title": "VSCode: Marketplace",
     "url": "https://marketplace.visualstudio.com/",
     "tag": [
