@@ -3,30 +3,30 @@
     "title": "研招网",
     "url": "https://yz.chsi.com.cn/",
     "tag": [
-      "私人"
+      "教育"
     ]
   },
   {
     "title": "研创网",
     "url": "https://cpipc.chinadegrees.cn/",
     "tag": [
-      "私人"
+      "教育"
     ]
   },
   {
     "title": "华北电力大学",
     "url": "https://www.ncepu.edu.cn/",
     "tag": [
-      "私人",
-      "华电"
+      "教育",
+      "华北电力"
     ]
   },
   {
     "title": "华电-控计学院",
     "url": "http://cce.ncepu.edu.cn/",
     "tag": [
-      "私人",
-      "华电"
+      "教育",
+      "华北电力"
     ]
   },
   {
@@ -34,16 +34,16 @@
     "url": "https://webvpn.ncepu.edu.cn/",
     "desc": "{account:学号, password: 身份证后6位}",
     "tag": [
-      "私人",
-      "华电"
+      "教育",
+      "华北电力"
     ]
   },
   {
     "title": "华电-研究生院",
     "url": "https://yjsy.ncepu.edu.cn/",
     "tag": [
-      "私人",
-      "华电"
+      "教育",
+      "华北电力"
     ]
   },
   {
@@ -51,8 +51,8 @@
     "url": "https://202-204-74-224-8089.webvpn.ncepu.edu.cn/gmis/oauthLogin/hbdldx",
     "desc": "课表，成绩查询 {account:学号, password: 身份证后6位}",
     "tag": [
-      "私人",
-      "华电"
+      "教育",
+      "华北电力"
     ]
   },
   {
@@ -60,8 +60,8 @@
     "url": "http://202.204.74.224:8089/gmis/student/default/index",
     "desc": "课表，成绩查询 {account:学号, password: 身份证后6位}",
     "tag": [
-      "私人",
-      "华电"
+      "教育",
+      "华北电力"
     ]
   },
   {
@@ -69,7 +69,7 @@
     "url": "https://www.yuketang.cn/v2/web/index",
     "desc": "",
     "tag": [
-      "私人",
+      "教育",
       "网课"
     ]
   },
@@ -78,7 +78,7 @@
     "url": "https://next.xuetangx.com/",
     "desc": "",
     "tag": [
-      "私人",
+      "教育",
       "网课"
     ]
   },
@@ -87,8 +87,9 @@
     "url": "https://hbdldx.xuetangx.com",
     "desc": "",
     "tag": [
-      "私人",
-      "网课"
+      "教育",
+      "网课",
+      "华北电力"
     ]
   },
   {
@@ -96,8 +97,9 @@
     "url": "https://www.icourse163.org/",
     "desc": "",
     "tag": [
-      "私人",
-      "网课"
+      "教育",
+      "网课",
+      "网易"
     ]
   },
   {
@@ -105,8 +107,9 @@
     "url": "https://ke.qq.com/",
     "desc": "",
     "tag": [
-      "私人",
-      "网课"
+      "教育",
+      "网课",
+      "腾讯"
     ]
   },
   {
@@ -114,7 +117,7 @@
     "url": "http://cet-bm.neea.cn/Home/QueryTestTicket",
     "desc": "",
     "tag": [
-      "私人",
+      "教育",
       "CET"
     ]
   },
@@ -123,7 +126,7 @@
     "url": "https://www.chsi.com.cn/cet/query",
     "desc": "",
     "tag": [
-      "私人",
+      "教育",
       "CET"
     ]
   }

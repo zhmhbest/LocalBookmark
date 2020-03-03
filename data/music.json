@@ -3,14 +3,16 @@
     "title": "QQ音乐",
     "url": "https://y.qq.com/portal/profile.html#sub=other&tab=create",
     "tag": [
-      "音频"
+      "音频",
+      "腾讯"
     ]
   },
   {
     "title": "网易音乐",
     "url": "https://music.163.com/",
     "tag": [
-      "音频"
+      "音频",
+      "网易"
     ]
   },
   {
@@ -42,7 +44,8 @@
     "url": "https://yobang.tencentmusic.com/",
     "tag": [
       "音频",
-      "榜单"
+      "榜单",
+      "腾讯"
     ]
   },
   {

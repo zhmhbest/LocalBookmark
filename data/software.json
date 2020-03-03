@@ -105,7 +105,8 @@
     "tag": [
       "软件",
       "编程",
-      "IDE"
+      "IDE",
+      "C/C++"
     ]
   },
   {
@@ -114,7 +115,7 @@
     "tag": [
       "软件",
       "编程",
-      "git"
+      "GIT"
     ]
   },
   {
@@ -123,7 +124,7 @@
     "tag": [
       "软件",
       "编程",
-      "git"
+      "GIT"
     ]
   },
   {
@@ -159,7 +160,18 @@
     "tag": [
       "软件",
       "编程",
-      "语言引擎"
+      "语言引擎",
+      "C/C++"
+    ]
+  },
+  {
+    "title": "下载 Cygwin",
+    "url": "https://cygwin.com/install.html",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎",
+      "C/C++"
     ]
   },
   {
@@ -268,7 +280,8 @@
     "tag": [
       "软件",
       "编程",
-      "Library"
+      "Library",
+      "Python"
     ]
   },
   {
@@ -277,7 +290,8 @@
     "tag": [
       "软件",
       "编程",
-      "Library"
+      "Library",
+      "Python"
     ]
   },
   {
@@ -286,7 +300,8 @@
     "tag": [
       "软件",
       "编程",
-      "Library"
+      "Library",
+      "Python"
     ]
   },
   {
@@ -346,12 +361,22 @@
     ]
   },
   {
+    "title": "下载 Cmake",
+    "url": "https://cmake.org/download/",
+    "tag": [
+      "软件",
+      "编程",
+      "C/C++"
+    ]
+  },
+  {
     "title": "下载 Flex Windows",
     "url": "http://gnuwin32.sourceforge.net/packages/flex.htm",
     "tag": [
       "软件",
       "编程",
-      "库"
+      "Library",
+      "C/C++"
     ]
   },
   {
@@ -360,7 +385,8 @@
     "tag": [
       "软件",
       "编程",
-      "库"
+      "Library",
+      "C/C++"
     ]
   },
   {

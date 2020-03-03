@@ -5,7 +5,8 @@
     "desc": "编程语言排名",
     "tag": [
       "编程",
-      "榜单"
+      "榜单",
+      "GIT"
     ]
   },
   {
@@ -13,7 +14,7 @@
     "url": "https://github.com/",
     "tag": [
       "编程",
-      "git"
+      "GIT"
     ]
   },
   {
@@ -21,14 +22,15 @@
     "url": "https://gitee.com/",
     "tag": [
       "编程",
-      "git"
+      "GIT"
     ]
   },
   {
     "title": "Apple Developer",
     "url": "https://developer.apple.com/cn/",
     "tag": [
-      "编程"
+      "编程",
+      "苹果"
     ]
   },
   {
@@ -36,7 +38,7 @@
     "url": "https://developers.weixin.qq.com/miniprogram/dev/framework/",
     "tag": [
       "编程",
-      "文档"
+      "API"
     ]
   },
   {
@@ -53,14 +55,6 @@
     "tag": [
       "编程",
       "工具"
-    ]
-  },
-  {
-    "title": "编程书籍",
-    "url": "http://www.banshujiang.cn/",
-    "tag": [
-      "编程",
-      "书籍"
     ]
   }
 ]
