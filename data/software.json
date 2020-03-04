@@ -110,6 +110,16 @@
     ]
   },
   {
+    "title": "下载 Android Studio",
+    "url": "https://developer.android.google.cn/studio",
+    "tag": [
+      "软件",
+      "编程",
+      "IDE",
+      "谷歌"
+    ]
+  },
+  {
     "title": "下载 Git",
     "url": "https://git-scm.com/downloads/",
     "tag": [
@@ -175,6 +185,18 @@
     ]
   },
   {
+    "title": "Mirrors Cygwin",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/help/cygwin/",
+    "desc": "清华大学开源镜像站 Cygwin",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎",
+      "C/C++",
+      "镜像"
+    ]
+  },
+  {
     "title": "下载 Haskell",
     "url": "https://www.haskell.org/downloads/",
     "tag": [
@@ -190,7 +212,8 @@
       "软件",
       "编程",
       "语言引擎",
-      "科学上网"
+      "科学上网",
+      "谷歌"
     ]
   },
   {
@@ -257,6 +280,15 @@
     ]
   },
   {
+    "title": "下载 Scala",
+    "url": "https://www.scala-lang.org/download/",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
     "title": "下载 Node.js",
     "url": "https://nodejs.org/en/download/",
     "tag": [
@@ -275,7 +307,19 @@
     ]
   },
   {
-    "title": "Python: pypi",
+    "title": "Mirrors Pypi",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/help/pypi/",
+    "desc": "清华大学开源镜像站 Pypi",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎",
+      "Python",
+      "镜像"
+    ]
+  },
+  {
+    "title": "Pypi",
     "url": "https://pypi.org/",
     "tag": [
       "软件",
@@ -285,7 +329,7 @@
     ]
   },
   {
-    "title": "Python: lfd",
+    "title": "lfd",
     "url": "https://www.lfd.uci.edu/~gohlke/pythonlibs/",
     "tag": [
       "软件",
@@ -295,7 +339,7 @@
     ]
   },
   {
-    "title": "Python: conda",
+    "title": "Conda",
     "url": "https://anaconda.org/conda-forge/pycrypto/files",
     "tag": [
       "软件",
