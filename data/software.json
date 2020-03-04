@@ -177,6 +177,7 @@
   {
     "title": "下载 Cygwin",
     "url": "https://cygwin.com/install.html",
+    "desc": "Category > Devel > gcc-g++、make、cmake、gdb",
     "tag": [
       "软件",
       "编程",
