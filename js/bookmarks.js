@@ -5,7 +5,7 @@
 var TagColorHolder = (function () {
     var color_map = {};
 
-    var nextColor = (function () {
+/*    var nextColor = (function () {
         var colors = [
             'layui-bg-orange',
             'layui-bg-green',
@@ -21,13 +21,14 @@ var TagColorHolder = (function () {
             if(index > bound) index = 0;
             return colors[index++];
         }
-    })();
+    })();*/
 
     return {
         add: function (tag_name) {
             if(color_map[tag_name] === undefined) {
                 // 不存在，添加
-                color_map[tag_name] = nextColor();
+                // color_map[tag_name] = nextColor();
+                color_map[tag_name] = randomCommonRGBColor();
             }
         },
         get: function (tag_name) {
@@ -113,6 +114,9 @@ function onTagClick(e) {
     } else if (e.altKey) {
         // 按住Alt 标签减选模式
         change_hash(current_tag, 2)
+    } else if (e.shiftKey) {
+        // 按住Shift 标签排除模式
+        // 略
     } else {
         change_hash(current_tag, 0)
     }
@@ -175,7 +179,9 @@ function bookmark2Table(mount_table, bookmarks) {
         for (var j=0; j<item['tag'].length; j++) {
             tag = item['tag'][j];
             TagColorHolder.add(tag);
-            new_span(td, "bm-tag-badge layui-badge " + TagColorHolder.get(tag), tag);
+            // var span = new_span(td, "bm-tag-badge layui-badge " + TagColorHolder.get(tag), tag);
+            var span = new_span(td, "bm-tag-badge layui-badge", tag);
+            span.style['background-color'] = TagColorHolder.get(tag);
             // <span class="layui-badge layui-bg-orange">橙</span>
         }
         //--------------------------------------------
