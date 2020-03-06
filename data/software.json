@@ -25,6 +25,15 @@
     ]
   },
   {
+    "title": "下载 Tex Live",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/",
+    "desc": "LaTex发行版本",
+    "tag": [
+      "软件",
+      "学术"
+    ]
+  },
+  {
     "title": "下载 VSCode",
     "url": "https://code.visualstudio.com/Download",
     "tag": [
