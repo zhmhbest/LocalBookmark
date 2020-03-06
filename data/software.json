@@ -34,12 +34,33 @@
     ]
   },
   {
+    "title": "下载 Visual Studio",
+    "url": "https://visualstudio.microsoft.com/zh-hans/downloads/",
+    "tag": [
+      "软件",
+      "编程",
+      "IDE",
+      "微软"
+    ]
+  },
+  {
+    "title": "Visual Studio 离线安装帮助",
+    "url": "https://docs.microsoft.com/en-us/visualstudio/install/create-an-offline-installation-of-visual-studio",
+    "tag": [
+      "软件",
+      "编程",
+      "IDE",
+      "微软"
+    ]
+  },
+  {
     "title": "下载 VSCode",
     "url": "https://code.visualstudio.com/Download",
     "tag": [
       "软件",
       "编程",
-      "IDE"
+      "IDE",
+      "微软"
     ]
   },
   {
