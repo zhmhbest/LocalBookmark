@@ -28,7 +28,7 @@ var TagColorHolder = (function () {
             if(color_map[tag_name] === undefined) {
                 // 不存在，添加
                 // color_map[tag_name] = nextColor();
-                color_map[tag_name] = randomCommonRGBColor();
+                color_map[tag_name] = randomSoftRGBColor();
             }
         },
         get: function (tag_name) {
