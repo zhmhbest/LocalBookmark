@@ -3,17 +3,19 @@
   "mail",
   "translation",
   "search",
-  "netdisk",
+  "net_disk",
   "video",
   "music",
   "picture",
   "blog_forum",
   "game",
-  "text",
+  "document",
   "programming",
   "academic",
-  "h", "tool",
+  "h", "local_app",
   "course",
   "software",
-  "private"
+  "education",
+  "life",
+  "ncepu"
 ]

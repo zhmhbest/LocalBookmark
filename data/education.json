@@ -1,0 +1,103 @@
+[
+  {
+    "title": "研招网",
+    "url": "https://yz.chsi.com.cn/",
+    "tag": [
+      "教育",
+      "考试"
+    ]
+  },
+  {
+    "title": "研创网",
+    "url": "https://cpipc.chinadegrees.cn/",
+    "tag": [
+      "教育"
+    ]
+  },
+  {
+    "title": "雨课堂",
+    "url": "https://www.yuketang.cn/v2/web/index",
+    "desc": "",
+    "tag": [
+      "教育",
+      "网课"
+    ]
+  },
+  {
+    "title": "学堂在线",
+    "url": "https://next.xuetangx.com/",
+    "desc": "",
+    "tag": [
+      "教育",
+      "网课"
+    ]
+  },
+  {
+    "title": "中国大学MOOC",
+    "url": "https://www.icourse163.org/",
+    "desc": "",
+    "tag": [
+      "教育",
+      "网课",
+      "网易"
+    ]
+  },
+  {
+    "title": "腾讯课堂",
+    "url": "https://ke.qq.com/",
+    "desc": "",
+    "tag": [
+      "教育",
+      "网课",
+      "腾讯"
+    ]
+  },
+  {
+    "title": "中国教育考试网",
+    "url": "http://cjcx.neea.edu.cn/",
+    "desc": "",
+    "tag": [
+      "教育",
+      "考试"
+    ]
+  },
+  {
+    "title": "四六级准考证查询",
+    "url": "http://cet-bm.neea.cn/Home/QueryTestTicket",
+    "desc": "",
+    "tag": [
+      "教育",
+      "CET"
+    ]
+  },
+  {
+    "title": "四六级成绩查询",
+    "url": "https://www.chsi.com.cn/cet/query",
+    "desc": "",
+    "tag": [
+      "教育",
+      "CET"
+    ]
+  },
+  {
+    "title": "北京市教师资格认定",
+    "url": "https://www.bjtcc.org.cn/",
+    "desc": "",
+    "tag": [
+      "教育",
+      "考试",
+      "教师资格",
+      "北京"
+    ]
+  },
+  {
+    "title": "各省认定机构联系方式",
+    "url": "http://www.jszg.edu.cn/statics/portal/html/provinces.html",
+    "desc": "",
+    "tag": [
+      "教育",
+      "考试",
+      "教师资格"
+    ]
+  }
+]
