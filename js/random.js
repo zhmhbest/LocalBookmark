@@ -111,6 +111,6 @@ function randomSoftRGBColor() {
         rr: [30, 200],
         gg: [20, 150],
         bb: [20, 220],
-        dev: [1000, 3000]
+        dev: [2000, 6000]
     });
 }
