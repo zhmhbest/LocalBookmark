@@ -16,6 +16,13 @@
     ]
   },
   {
+    "title": "小木虫",
+    "url": "http://muchong.com",
+    "tag": [
+      "学术"
+    ]
+  },
+  {
     "title": "虫部落",
     "url": "https://scholar.chongbuluo.com/",
     "tag": [
@@ -98,6 +105,14 @@
     ]
   },
   {
+    "title": "维普网",
+    "url": "http://www.cqvip.com/",
+    "tag": [
+      "学术",
+      "文献检索"
+    ]
+  },
+  {
     "title": "Bing学术",
     "url": "https://cn.bing.com/academic",
     "tag": [
@@ -120,6 +135,15 @@
       "学术",
       "文献检索",
       "科学上网"
+    ]
+  },
+  {
+    "title": "Google学术（镜像）",
+    "url": "https://ac.scmor.com/",
+    "tag": [
+      "学术",
+      "文献检索",
+      "镜像"
     ]
   },
   {
