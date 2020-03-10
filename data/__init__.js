@@ -1,4 +1,21 @@
 let fs = require('fs');
+const crypto = require('crypto');
+
+/**
+ * @return {string}
+ */
+function AES(data) {
+    let buffer = [];
+    const iv = Buffer.alloc(16, 0);
+    const key = crypto.scryptSync('', '', 16);
+    // console.log(key);
+
+    let cipher = crypto.createCipheriv('aes-128-cbc', key, iv);
+    cipher.setAutoPadding(true);
+    buffer.push(cipher.update(data, 'utf8', 'hex'));
+    buffer.push(cipher.final('hex'));
+    return buffer.join('');
+}
 
 function readLocalJson(filename, options) {
     fs.readFile(filename, (err, data) => {
@@ -72,7 +89,7 @@ function loadBookmarkData(callback) {
 
 loadBookmarkData(function (data) {
     writeLocalJson('./data.js',
-        encodeURI(JSON.stringify(data)),
+        AES(JSON.stringify(data)),
         'var BOOKMARK_DATA=',
         "'");
 });

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/default.css" />
     <script src="lib/jquery-1.7.2.min.js"></script>
     <script src="lib/layui/layui.js"></script>
+    <script src="lib/aes.js"></script>
 </head>
 <body>
     <a href="https://github.com/zhmhbest/LocalBookmark" style="position: fixed; right: 15px; top: 15px">
@@ -35,9 +36,22 @@
 <script src="js/bookmarks.js"></script>
 
 <script>
-    // BOOKMARK_DATA
+    function getBookmarks() {
+        // BOOKMARK_DATA
+        var iv = CryptoJS.enc.Hex.parse("00000000000000000000000000000000");
+        var key = CryptoJS.enc.Hex.parse('d72c87d0f077c7766f2985dfab30e895');
+        var data = CryptoJS.enc.Base64.stringify(CryptoJS.enc.Hex.parse(BOOKMARK_DATA));
+        var decrypted = CryptoJS.AES.decrypt(data, key, {
+            iv: iv,
+            mode: CryptoJS.mode.CBC,
+            padding: CryptoJS.pad.Pkcs7
+        });
+        var words = CryptoJS.enc.Utf8.stringify(decrypted);
+        return JSON.parse(words);
+    }
+
     var refreshBookmarks = (function () {
-        var bookmarks = JSON.parse(decodeURI(BOOKMARK_DATA));
+        var bookmarks = getBookmarks();
         var table = document.getElementById('my_table');
         return function() {
             bookmark2Table(table, bookmarkFilter(paramsParseHash(), bookmarks));
