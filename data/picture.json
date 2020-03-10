@@ -51,6 +51,26 @@
     ]
   },
   {
+    "title": "Trace Moe",
+    "url": "https://trace.moe/",
+    "desc": "根据图片搜索动漫",
+    "tag": [
+      "图片",
+      "工具",
+      "二次元"
+    ]
+  },
+  {
+    "title": "Saucenao",
+    "url": "https://saucenao.com/",
+    "desc": "找图片出处",
+    "tag": [
+      "图片",
+      "工具",
+      "二次元"
+    ]
+  },
+  {
     "title": "Remove",
     "url": "https://www.remove.bg/",
     "desc": "自动抠图",

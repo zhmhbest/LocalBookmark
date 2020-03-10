@@ -1,3 +1,23 @@
+function get_array(str_val, null_return) {
+    if (undefined===str_val || 0===str_val.length) {
+        return null_return;
+    } else {
+        return str_val.split(',')
+    }
+}
+
+function pushAsSet(arr, obj) {
+    if (-1 === arr.indexOf(obj)) {
+        arr.push(obj);
+    }
+}
+
+function popAsSet(arr, obj) {
+    var index = arr.indexOf(obj);
+    if (-1 !== index) {
+        arr.splice(index, 1);
+    }
+}
 
 /**
  * 自动分配标签颜色
@@ -37,27 +57,35 @@ var TagColorHolder = (function () {
     }
 })();
 
-
 /**
  * 根据要求过滤书签
+ * @param argv: dict hash
+ * @param bookmarks: dict bookmarks
+ * @returns
  */
 function bookmarkFilter(argv, bookmarks) {
-    var arg_tags = (undefined===argv['tag'] || 0===argv['tag'].length)?
-        undefined: argv['tag'].split(',');
+    var arg_tags = get_array(argv['tag'], undefined);
+    var arg_exclude = get_array(argv['exclude'], undefined);
     var arg_hiding = argv['hidden'] || false;
-    // console.log(arg_hiding);
-    /**
-     * 当前书签是否满足要求
-     * @param item
-     * @param must_tags
-     */
-    function check_tags(item, must_tags) {
-        if (undefined === must_tags) return true;
+
+    function check_tags(item) {
+        // 满足所有标签要求？
+        if (undefined === arg_tags) return true;
         // 交集
         var intersection = item['tag'].filter(function(v){
-            return must_tags.indexOf(v) > -1
+            return arg_tags.indexOf(v) > -1
         });
-        return intersection.length === must_tags.length;
+        return intersection.length === arg_tags.length;
+    }
+    function check_ex(item) {
+        // 不满足所有排除要求？
+        if (undefined === arg_exclude) return true;
+        // 交集
+        var intersection = item['tag'].filter(function(v){
+            return arg_exclude.indexOf(v) > -1
+        });
+        // console.log(intersection.length);
+        return 0 === intersection.length;
     }
     function check_hide(item) {
         if (undefined===item['hidden']) return true;
@@ -68,7 +96,7 @@ function bookmarkFilter(argv, bookmarks) {
     var result = [];
     for(var i=0; i<bookmarks.length; i++) {
         var bookmark = bookmarks[i];
-        if (check_hide(bookmark) && check_tags(bookmark, arg_tags)) {
+        if (check_hide(bookmark) && check_ex(bookmark) && check_tags(bookmark)) {
             result.push(bookmark);
         }
     }
@@ -80,34 +108,37 @@ function bookmarkFilter(argv, bookmarks) {
  * 点击标签
  */
 function onTagClick(e) {
+    var current_hash = paramsParseHash();
+    var current_tag = this.innerHTML;
+
     /**
-     * 改变hash值
+     * 改变hash tag值
      * @param current_tag: 当前点击标签的值
-     * @param mode: 0:单标签 | 1:加选 |2:减选
+     * @param mode: 0:单标签 | 1:加选 | 2:减选 | 3:排除
      */
     function change_hash(current_tag, mode) {
-        var current_hash = paramsParseHash();
-
         if (0===mode) {
             // 单标签
             current_hash['tag'] = current_tag;
+        } else if (3===mode) {
+            var ex = get_array(current_hash['exclude'], []);
+            pushAsSet(ex, current_tag);
+            current_hash['exclude'] = ex.join(',')
         } else {
-            var tags = (undefined===current_hash['tag'] || 0===current_hash['tag'].length) ?
-                [] : current_hash['tag'].split(',');
+            var tags = get_array(current_hash['tag'], []);
             if (1===mode) {
                 // 加选
+                pushAsSet(tags, current_tag);
                 if (-1 === tags.indexOf(current_tag)) {tags.push(current_tag);}
             } else if (2===mode) {
                 // 减选
-                var index = tags.indexOf(current_tag);
-                if (-1 !== index) {tags.splice(index, 1);}
+                popAsSet(tags, current_tag);
             }
             current_hash['tag'] = tags.join(',')
         }
         window.location.hash = params2String(current_hash);
     }
-    var current_tag = this.innerHTML;
-    // console.log(e);
+
     if (e.ctrlKey) {
         // 按住Ctrl 标签加选模式
         change_hash(current_tag, 1)
@@ -116,7 +147,7 @@ function onTagClick(e) {
         change_hash(current_tag, 2)
     } else if (e.shiftKey) {
         // 按住Shift 标签排除模式
-        // 略
+        change_hash(current_tag, 3)
     } else {
         change_hash(current_tag, 0)
     }
