@@ -202,7 +202,19 @@ function bookmark2Table(mount_table, bookmarks) {
         new_td(tr, "bm-title", a);
 
         // desc
-        item['desc'] = item['desc'] || "";
+        if (typeof item['desc'] !== 'string') {
+            item['desc'] = item['desc'] || "";
+            if (item['desc'] instanceof Array) {
+                var _buf = [];
+                _buf.push('<ul>');
+                item['desc'].forEach(function (item) {
+                    _buf.push('<li>' + item + '</li>');
+                });
+                _buf.push('</ul>');
+                item['desc'] = _buf.join('');
+            }
+            // console.log(item['desc']);
+        }
         new_td(tr, "bm-desc", item['desc']);
 
         // tag

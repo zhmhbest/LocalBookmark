@@ -207,7 +207,10 @@
   {
     "title": "下载 Cygwin",
     "url": "https://cygwin.com/install.html",
-    "desc": "Category > Devel > gcc-g++、make、cmake、gdb",
+    "desc": [
+      "apt-cyg: <code>git clone https://github.com/transcode-open/apt-cyg.git</code>",
+      "LinuxC : Category > Devel > gcc-g++、make、cmake、gdb"
+    ],
     "tag": [
       "软件",
       "编程",
