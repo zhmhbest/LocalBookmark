@@ -6,8 +6,8 @@
 
 ## 预览
 
-- [国内](http://zhmhbest.gitee.io/LocalBookmark/)
-- [国外](https://zhmhbest.github.io/LocalBookmark/)
+- [国内](http://zhmhbest.gitee.io/localbookmark/#)
+- [国外](https://zhmhbest.github.io/LocalBookmark/#)
 
 ## 仓库
 
