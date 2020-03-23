@@ -410,6 +410,15 @@
     ]
   },
   {
+    "title": "下载 Redis Windows",
+    "url": "https://github.com/microsoftarchive/redis/releases",
+    "tag": [
+      "软件",
+      "编程",
+      "数据库"
+    ]
+  },
+  {
     "title": "下载 Mongodb",
     "url": "https://www.mongodb.com/download-center/community",
     "tag": [
