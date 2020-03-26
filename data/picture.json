@@ -40,12 +40,61 @@
     ]
   },
   {
+    "title": "FakeUpdate",
+    "url": "http://fakeupdate.net/",
+    "desc": "假装系统升级",
+    "tag": [
+      "图片",
+      "动图"
+    ]
+  },
+  {
+    "title": "This Person Does Not Exist",
+    "url": "https://thispersondoesnotexist.com/",
+    "desc": "AI生成人脸",
+    "tag": [
+      "图片",
+      "人脸"
+    ]
+  },
+  {
+    "title": "Draftbit Personas",
+    "url": "https://personas.draftbit.com/",
+    "desc": "在线捏脸",
+    "tag": [
+      "图片",
+      "头像",
+      "工具"
+    ]
+  },
+  {
     "title": "Charat",
     "url": "https://charat.me/",
     "desc": "在线捏脸",
     "tag": [
       "图片",
       "头像",
+      "工具",
+      "二次元"
+    ]
+  },
+  {
+    "title": "Selfie2Anime",
+    "url": "https://selfie2anime.com/",
+    "desc": "人脸转二次元风格",
+    "tag": [
+      "图片",
+      "头像",
+      "工具",
+      "二次元"
+    ]
+  },
+  {
+    "title": "Petalica Paint",
+    "url": "https://petalica-paint.pixiv.dev/index_zh.html",
+    "desc": "线稿自动上色",
+    "tag": [
+      "图片",
       "工具",
       "二次元"
     ]
@@ -73,10 +122,29 @@
   {
     "title": "Remove",
     "url": "https://www.remove.bg/",
+    "desc": "自动抠背景",
+    "tag": [
+      "图片",
+      "工具"
+    ]
+  },
+  {
+    "title": "稿定抠图",
+    "url": "https://www.gaoding.com/pintu",
     "desc": "自动抠图",
     "tag": [
       "图片",
       "工具"
+    ]
+  },
+  {
+    "title": "Hanabi",
+    "url": "http://hanabi.data-viz.cn/templates",
+    "desc": "动态数据可视化",
+    "tag": [
+      "图片",
+      "视频",
+      "数据展示"
     ]
   },
   {

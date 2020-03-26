@@ -65,5 +65,22 @@
       "笔记",
       "百度"
     ]
+  },
+  {
+    "title": "小鸡词典",
+    "url": "https://jikipedia.com/",
+    "desc": "查流行语",
+    "tag": [
+      "工具",
+      "词典"
+    ]
+  },
+  {
+    "title": "明星缩写查询",
+    "url": "http://www.iseecs.com/",
+    "desc": "",
+    "tag": [
+      "工具"
+    ]
   }
 ]

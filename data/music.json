@@ -41,6 +41,15 @@
     ]
   },
   {
+    "title": "自由钢琴",
+    "url": "https://www.autopiano.cn/",
+    "tag": [
+      "音频",
+      "钢琴",
+      "MIDI"
+    ]
+  },
+  {
     "title": "由你音乐",
     "url": "https://yobang.tencentmusic.com/",
     "tag": [
@@ -55,6 +64,13 @@
     "tag": [
       "音频",
       "榜单"
+    ]
+  },
+  {
+    "title": "听雨声",
+    "url": "https://www.rainymood.com/",
+    "tag": [
+      "音频"
     ]
   }
 ]
