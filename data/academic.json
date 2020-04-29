@@ -171,7 +171,8 @@
     ]
   },
   {
-    "title": "Web of Science",
+    "title": "SCI数据库",
+    "desc": "Web of Science",
     "url": "http://apps.webofknowledge.com",
     "tag": [
       "学术",
