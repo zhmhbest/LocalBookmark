@@ -26,6 +26,15 @@
     ]
   },
   {
+    "title": "Git使用帮助",
+    "url": "https://zhmhbest.github.io/HelloGit/",
+    "tag": [
+      "编程",
+      "GIT",
+      "笔记"
+    ]
+  },
+  {
     "title": "Apple Developer",
     "url": "https://developer.apple.com/cn/",
     "tag": [
@@ -42,12 +51,50 @@
     ]
   },
   {
+    "title": "百度地图 API",
+    "url": "http://lbsyun.baidu.com/",
+    "tag": [
+      "百度",
+      "地图",
+      "编程",
+      "API"
+    ]
+  },
+  {
     "title": "Editor.md",
     "url": "https://pandao.github.io/editor.md/",
     "tag": [
       "编程",
       "工具",
       "笔记"
+    ]
+  },
+  {
+    "title": "Katex",
+    "desc": "数学公式",
+    "url": "https://katex.org/",
+    "tag": [
+      "编程",
+      "Web",
+      "Library"
+    ]
+  },
+  {
+    "title": "LaTeX数学公式",
+    "url": "https://zhmhbest.github.io/HelloLaTeX/notes/formula.html",
+    "tag": [
+      "编程",
+      "笔记"
+    ]
+  },
+  {
+    "title": "Flowchart",
+    "desc": "流程图",
+    "url": "https://creately.com/templates/",
+    "tag": [
+      "编程",
+      "Web",
+      "Library"
     ]
   },
   {

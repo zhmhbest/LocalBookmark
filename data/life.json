@@ -6,5 +6,21 @@
       "生活",
       "北京"
     ]
+  },
+  {
+    "title": "Wiki How",
+    "desc": "生活小技巧",
+    "url": "https://www.wikihow.com/",
+    "tag": [
+      "生活"
+    ]
+  },
+  {
+    "title": "COVID-19疫情图",
+    "url": "https://coronavirus.app/",
+    "tag": [
+      "生活"
+    ]
   }
 ]
+
