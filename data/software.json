@@ -66,6 +66,11 @@
   {
     "title": "下载 VSCode",
     "url": "https://code.visualstudio.com/Download",
+    "desc": [
+      "设置默认Shell",
+      "Step1：编辑 <code>%AppData%\\Code\\User\\settings.json</code>",
+      "Step2：添加 <code>terminal.integrated.shell.windows: {{ShellPath}}</code>"
+    ],
     "tag": [
       "软件",
       "编程",
@@ -375,7 +380,14 @@
   {
     "title": "Mirrors Pypi",
     "url": "https://mirrors.tuna.tsinghua.edu.cn/help/pypi/",
-    "desc": "清华大学开源镜像站 Pypi",
+    "desc": [
+      "清华大学开源镜像站 Pypi",
+      "临时使用：",
+      "&nbsp;&nbsp; <code>pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package %PackageName%</code>",
+      "默认镜像：",
+      "&nbsp;&nbsp; <code>pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple</code>",
+      "&nbsp;&nbsp; <code>pip config set install.trusted-host https://pypi.tuna.tsinghua.edu.cn</code>"
+    ],
     "tag": [
       "软件",
       "编程",
