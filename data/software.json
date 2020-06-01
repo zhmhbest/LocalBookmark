@@ -69,7 +69,7 @@
     "desc": [
       "设置默认Shell",
       "Step1：编辑 <code>%AppData%\\Code\\User\\settings.json</code>",
-      "Step2：添加 <code>terminal.integrated.shell.windows: {{ShellPath}}</code>"
+      "Step2：添加 <code>terminal.integrated.shell.windows: &lt;ShellPath&gt;</code>"
     ],
     "tag": [
       "软件",
@@ -383,10 +383,12 @@
     "desc": [
       "清华大学开源镜像站 Pypi",
       "临时使用：",
-      "&nbsp;&nbsp; <code>pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package %PackageName%</code>",
+      "&nbsp;&nbsp; <code>pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package &lt;PackageName&gt;[==version]</code>",
       "默认镜像：",
       "&nbsp;&nbsp; <code>pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple</code>",
-      "&nbsp;&nbsp; <code>pip config set install.trusted-host https://pypi.tuna.tsinghua.edu.cn</code>"
+      "&nbsp;&nbsp; <code>pip config set install.trusted-host https://pypi.tuna.tsinghua.edu.cn</code>",
+      "批量安装：",
+      "&nbsp;&nbsp; <code>pip install -r requirements.txt</code>"
     ],
     "tag": [
       "软件",
