@@ -1,0 +1,510 @@
+[
+  {
+    "title": "下载 Visual Studio",
+    "url": "https://visualstudio.microsoft.com/zh-hans/downloads/",
+    "tag": [
+      "软件",
+      "编程",
+      "IDE",
+      "微软"
+    ]
+  },
+  {
+    "title": "Visual Studio 离线安装帮助",
+    "url": "https://docs.microsoft.com/en-us/visualstudio/install/create-an-offline-installation-of-visual-studio",
+    "tag": [
+      "软件",
+      "编程",
+      "IDE",
+      "微软"
+    ]
+  },
+  {
+    "title": "下载 VSCode",
+    "url": "https://code.visualstudio.com/Download",
+    "desc": [
+      "设置默认Shell",
+      "&nbsp;&nbsp; Step1：编辑 <code>%AppData%\\Code\\User\\settings.json</code>",
+      "&nbsp;&nbsp; Step2：添加 <code>terminal.integrated.shell.windows: &lt;ShellPath&gt;</code>"
+    ],
+    "tag": [
+      "软件",
+      "编程",
+      "IDE",
+      "微软",
+      "VSCode"
+    ]
+  },
+  {
+    "title": "VSCode: Keyboard shortcuts",
+    "url": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf",
+    "desc": "VSCode 快捷键",
+    "tag": [
+      "软件",
+      "编程",
+      "IDE",
+      "VSCode"
+    ]
+  },
+  {
+    "title": "VSCode: Marketplace",
+    "url": "https://marketplace.visualstudio.com/vscode",
+    "desc": "VSCode 插件市场",
+    "tag": [
+      "软件",
+      "编程",
+      "IDE",
+      "Plugins",
+      "VSCode"
+    ]
+  },
+  {
+    "title": "VSCode: Markdown Preview Enhanced",
+    "url": "https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/",
+    "desc": "搭配插件 <a href='https://github.com/yzhang-gh/vscode-markdown'>Markdown All in One</a> 使用",
+    "tag": [
+      "软件",
+      "编程",
+      "IDE",
+      "Plugins",
+      "VSCode"
+    ]
+  },
+  {
+    "title": "VSCode: Blink Mind",
+    "url": "https://github.com/awehook/vscode-blink-mind",
+    "desc": [
+      "创建思维导图",
+      "&nbsp;&nbsp; Step1：<code>Ctrl + Shift + P</code>",
+      "&nbsp;&nbsp; Step2：<code>mecnm(Mind editor: Create new mindmap)</code>"
+    ],
+    "tag": [
+      "软件",
+      "编程",
+      "IDE",
+      "Plugins",
+      "VSCode"
+    ]
+  },
+  {
+    "title": "下载 HBuilderX",
+    "url": "https://www.dcloud.io/hbuilderx.html",
+    "tag": [
+      "软件",
+      "编程",
+      "IDE"
+    ]
+  },
+  {
+    "title": "JetBrains 破解",
+    "url": "https://zhile.io/custom-license.html",
+    "tag": [
+      "软件",
+      "编程",
+      "IDE"
+    ]
+  },
+  {
+    "title": "JetBrains 汉化",
+    "url": "https://github.com/pingfangx/jetbrains-in-chinese",
+    "tag": [
+      "软件",
+      "编程",
+      "IDE"
+    ]
+  },
+  {
+    "title": "下载 IDEA",
+    "url": "https://www.jetbrains.com/idea/download/other.html",
+    "tag": [
+      "软件",
+      "编程",
+      "IDE"
+    ]
+  },
+  {
+    "title": "下载 CLion",
+    "url": "https://www.jetbrains.com/clion/download/other.html",
+    "tag": [
+      "软件",
+      "编程",
+      "IDE",
+      "C/C++"
+    ]
+  },
+  {
+    "title": "下载 Android Studio",
+    "url": "https://developer.android.google.cn/studio",
+    "tag": [
+      "软件",
+      "编程",
+      "IDE",
+      "谷歌"
+    ]
+  },
+  {
+    "title": "下载 Git",
+    "url": "https://git-scm.com/downloads/",
+    "tag": [
+      "软件",
+      "编程",
+      "GIT"
+    ]
+  },
+  {
+    "title": "下载 SourceTree",
+    "url": "https://www.sourcetreeapp.com/",
+    "tag": [
+      "软件",
+      "编程",
+      "GIT"
+    ]
+  },
+  {
+    "title": "下载 Tomcat",
+    "url": "http://tomcat.apache.org/",
+    "tag": [
+      "软件",
+      "编程",
+      "HTTP"
+    ]
+  },
+  {
+    "title": "下载 Apache2",
+    "url": "https://httpd.apache.org/docs/current/platform/windows.html#down",
+    "tag": [
+      "软件",
+      "编程",
+      "HTTP"
+    ]
+  },
+  {
+    "title": "下载 Nginx",
+    "url": "http://nginx.org/en/download.html",
+    "tag": [
+      "软件",
+      "编程",
+      "HTTP"
+    ]
+  },
+  {
+    "title": "下载 Mingw-w64",
+    "url": "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎",
+      "C/C++"
+    ]
+  },
+  {
+    "title": "下载 Cygwin",
+    "url": "https://cygwin.com/install.html",
+    "desc": [
+      "apt-cyg：<code>git clone https://github.com/transcode-open/apt-cyg.git</code>",
+      "linux-C：<code>Category → Devel → gcc-g++、make、cmake、gdb</code>"
+    ],
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎",
+      "C/C++"
+    ]
+  },
+  {
+    "title": "Mirrors Cygwin",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/help/cygwin/",
+    "desc": "清华大学开源镜像站 Cygwin",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎",
+      "C/C++",
+      "镜像"
+    ]
+  },
+  {
+    "title": "下载 Haskell",
+    "url": "https://www.haskell.org/downloads/",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "下载 Go",
+    "url": "https://golang.org/dl/",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎",
+      "科学上网",
+      "谷歌"
+    ]
+  },
+  {
+    "title": "下载 Perl",
+    "url": "https://www.perl.org/get.html",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "下载 Ruby",
+    "url": "https://rubyinstaller.org/downloads/",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "下载 PHP",
+    "url": "https://www.php.net/downloads.php",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "下载 dotNet",
+    "url": "https://dotnet.microsoft.com/download",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "下载 JDK 6",
+    "url": "https://www.oracle.com/java/technologies/javase-java-archive-javase6-downloads.html",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "下载 JDK 7",
+    "url": "https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "下载 JDK 8",
+    "url": "https://www.oracle.com/java/technologies/javase-jdk8-downloads.html",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "下载 Scala",
+    "url": "https://www.scala-lang.org/download/",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "下载 Node.js",
+    "url": "https://nodejs.org/en/download/",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "下载 Julia",
+    "url": "https://julialang.org/downloads/",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "下载 Python",
+    "url": "https://www.python.org/downloads/",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎"
+    ]
+  },
+  {
+    "title": "Mirrors Pypi",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/help/pypi/",
+    "desc": [
+      "清华大学开源镜像站 Pypi",
+      "临时使用：",
+      "&nbsp;&nbsp; <code>pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package &lt;PackageName&gt;[==version]</code>",
+      "默认镜像：",
+      "&nbsp;&nbsp; <code>pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple</code>",
+      "&nbsp;&nbsp; <code>pip config set install.trusted-host https://pypi.tuna.tsinghua.edu.cn</code>"
+    ],
+    "tag": [
+      "软件",
+      "编程",
+      "Python",
+      "镜像"
+    ]
+  },
+  {
+    "title": "Pypi",
+    "url": "https://pypi.org/",
+    "desc": [
+      "批量安装：",
+      "&nbsp;&nbsp; <code>pip install -r requirements.txt</code>"
+    ],
+    "tag": [
+      "软件",
+      "编程",
+      "Library",
+      "Python"
+    ]
+  },
+  {
+    "title": "lfd",
+    "url": "https://www.lfd.uci.edu/~gohlke/pythonlibs/",
+    "tag": [
+      "软件",
+      "编程",
+      "Library",
+      "Python"
+    ]
+  },
+  {
+    "title": "Conda",
+    "url": "https://anaconda.org/conda-forge/pycrypto/files",
+    "tag": [
+      "软件",
+      "编程",
+      "Library",
+      "Python"
+    ]
+  },
+  {
+    "title": "下载 Mysql",
+    "url": "https://dev.mysql.com/downloads/mysql/",
+    "tag": [
+      "软件",
+      "编程",
+      "数据库"
+    ]
+  },
+  {
+    "title": "下载 Mariadb",
+    "url": "https://downloads.mariadb.org/mariadb/",
+    "tag": [
+      "软件",
+      "编程",
+      "数据库"
+    ]
+  },
+  {
+    "title": "下载 Redis",
+    "url": "https://redis.io/download",
+    "desc": "内存型Key-Value数据库，此外还支持List、Set、Hash等数据结构",
+    "tag": [
+      "软件",
+      "编程",
+      "数据库"
+    ]
+  },
+  {
+    "title": "下载 Redis Windows",
+    "url": "https://github.com/microsoftarchive/redis/releases",
+    "tag": [
+      "软件",
+      "编程",
+      "数据库"
+    ]
+  },
+  {
+    "title": "下载 Mongodb",
+    "url": "https://www.mongodb.com/download-center/community",
+    "desc": "文档型BSON数据库",
+    "tag": [
+      "软件",
+      "编程",
+      "数据库"
+    ]
+  },
+  {
+    "title": "下载 Memcached",
+    "url": "https://www.memcached.org/downloads",
+    "desc": "内存型数据库，主要用于关系型数据库的读取缓存",
+    "tag": [
+      "软件",
+      "编程",
+      "数据库"
+    ]
+  },
+  {
+    "title": "下载 HBase",
+    "url": "http://hbase.apache.org/downloads.html",
+    "desc": "分布式列存储数据库",
+    "tag": [
+      "软件",
+      "编程",
+      "数据库"
+    ]
+  },
+  {
+    "title": "下载 Cmake",
+    "url": "https://cmake.org/download/",
+    "tag": [
+      "软件",
+      "编程",
+      "C/C++"
+    ]
+  },
+  {
+    "title": "下载 Flex Windows",
+    "url": "http://gnuwin32.sourceforge.net/packages/flex.htm",
+    "tag": [
+      "软件",
+      "编程",
+      "Library",
+      "C/C++"
+    ]
+  },
+  {
+    "title": "下载 Bison Windows",
+    "url": "http://gnuwin32.sourceforge.net/packages/bison.htm",
+    "tag": [
+      "软件",
+      "编程",
+      "Library",
+      "C/C++"
+    ]
+  },
+  {
+    "title": "下载 微信开发工具",
+    "url": "https://developers.weixin.qq.com/miniprogram/dev/devtools/stable.html",
+    "tag": [
+      "软件",
+      "编程"
+    ]
+  },
+  {
+    "title": "下载 PP助手",
+    "url": "https://pro.25pp.com/pp_win_iosandroid",
+    "desc": "给 iPhone 装测试软件",
+    "tag": [
+      "软件",
+      "编程"
+    ]
+  }
+]
