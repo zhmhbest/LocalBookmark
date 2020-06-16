@@ -11,6 +11,17 @@
     "title": "下载 Adobe Creative Cloud",
     "url": "https://creative.adobe.com/zh-tw/products/download/creative-cloud",
     "tag": [
+      "Adobe",
+      "软件",
+      "设计"
+    ]
+  },
+  {
+    "title": "下载 Adobe By vposy",
+    "desc": "需要登录微博关注vposy",
+    "url": "https://weibo.com/1112829033/IvJ08cYEU",
+    "tag": [
+      "Adobe",
       "软件",
       "设计"
     ]
@@ -400,7 +411,6 @@
     "tag": [
       "软件",
       "编程",
-      "语言引擎",
       "Python",
       "镜像"
     ]
