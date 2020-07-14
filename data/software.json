@@ -51,6 +51,16 @@
     ]
   },
   {
+    "title": "下载 Acrobat Reader DC",
+    "desc": "最优秀的PDF阅读器",
+    "url": "https://get.adobe.com/cn/reader/otherversions/",
+    "tag": [
+      "软件",
+      "文档",
+      "Adobe"
+    ]
+  },
+  {
     "title": "下载 Zotero",
     "url": "https://www.zotero.org/",
     "desc": "文献管理软件",
