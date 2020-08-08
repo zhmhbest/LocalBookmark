@@ -295,6 +295,15 @@
     ]
   },
   {
+    "title": "中国气象数据",
+    "url": "http://data.cma.cn/site/index.html",
+    "desc": "气象数据",
+    "tag": [
+      "学术",
+      "数据集"
+    ]
+  },
+  {
     "title": "LFW",
     "url": "http://vis-www.cs.umass.edu/lfw/",
     "desc": "标记的人脸",
