@@ -26,6 +26,15 @@
     ]
   },
   {
+    "title": "知网在线教学 ",
+    "url": "https://k.cnki.net/u/MyCourse",
+    "desc": "",
+    "tag": [
+      "教育",
+      "网课"
+    ]
+  },
+  {
     "title": "学堂在线",
     "url": "https://next.xuetangx.com/",
     "desc": "",
@@ -46,7 +55,7 @@
   },
   {
     "title": "腾讯课堂",
-    "url": "https://ke.qq.com/",
+    "url": "https://ke.qq.com/user/index/index.html#",
     "desc": "",
     "tag": [
       "教育",
