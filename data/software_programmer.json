@@ -98,10 +98,7 @@
   {
     "title": "JetBrains 破解",
     "url": "https://zhile.io/custom-license.html",
-    "desc": [
-      "每30天执行一次以下代码即可无限试用",
-      "<pre>@ECHO OFF\nFOR /F \"usebackq delims=\" %%f in (`DIR /A:D /B \"%Userprofile%\\.IntelliJIdea*\" \"%Userprofile%\\.CLion*\"`) DO RMDIR /S /Q \"%Userprofile%\\%%f\\config\\eval\" 2>NUL\nREG DELETE \"HKCU\\SOFTWARE\\JavaSoft\\Prefs\\jetbrains\" /f >NUL 2>NUL\nECHO Finished! & PAUSE>NUL</pre>"
-    ],
+    "desc": "",
     "tag": [
       "软件",
       "编程",
