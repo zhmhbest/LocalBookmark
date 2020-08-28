@@ -67,6 +67,16 @@
     ]
   },
   {
+    "title": "腾讯文档",
+    "url": "https://docs.qq.com/desktop",
+    "desc": "云文档",
+    "tag": [
+      "工具",
+      "文档",
+      "腾讯"
+    ]
+  },
+  {
     "title": "小鸡词典",
     "url": "https://jikipedia.com/",
     "desc": "查流行语",

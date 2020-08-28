@@ -115,7 +115,7 @@
     ]
   },
   {
-    "title": "下载 IDEA",
+    "title": "下载 JetBrains IDEA",
     "url": "https://www.jetbrains.com/idea/download/other.html",
     "tag": [
       "软件",
@@ -124,13 +124,22 @@
     ]
   },
   {
-    "title": "下载 CLion",
+    "title": "下载 JetBrains CLion",
     "url": "https://www.jetbrains.com/clion/download/other.html",
     "tag": [
       "软件",
       "编程",
       "IDE",
       "C/C++"
+    ]
+  },
+  {
+    "title": "下载 Eclipse",
+    "url": "https://www.eclipse.org/downloads/packages/",
+    "tag": [
+      "软件",
+      "编程",
+      "IDE"
     ]
   },
   {
