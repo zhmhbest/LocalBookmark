@@ -1,5 +1,16 @@
 [
   {
+    "title": "下载 Tableau",
+    "url": "https://www.tableau.com/zh-cn/products/trial",
+    "desc": "数据可视化分析工具",
+    "tag": [
+      "软件",
+      "编程",
+      "数据分析",
+      "BI"
+    ]
+  },
+  {
     "title": "下载 Visual Studio",
     "url": "https://visualstudio.microsoft.com/zh-hans/downloads/",
     "tag": [
@@ -350,7 +361,18 @@
     "tag": [
       "软件",
       "编程",
-      "语言引擎"
+      "语言引擎",
+      "科学计算"
+    ]
+  },
+  {
+    "title": "下载 MATLAB",
+    "url": "https://ww2.mathworks.cn/campaigns/products/trials.html",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎",
+      "科学计算"
     ]
   },
   {
@@ -359,7 +381,8 @@
     "tag": [
       "软件",
       "编程",
-      "语言引擎"
+      "语言引擎",
+      "科学计算"
     ]
   },
   {
@@ -524,7 +547,8 @@
     "desc": "给 iPhone 装测试软件",
     "tag": [
       "软件",
-      "编程"
+      "编程",
+      "苹果"
     ]
   }
 ]

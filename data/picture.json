@@ -156,15 +156,5 @@
       "数据展示",
       "编程"
     ]
-  },
-  {
-    "title": "Matplotlib",
-    "url": "https://www.matplotlib.org.cn/gallery/",
-    "desc": "Python制作数据图",
-    "tag": [
-      "图片",
-      "数据展示",
-      "编程"
-    ]
   }
 ]
