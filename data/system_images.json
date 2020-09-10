@@ -17,5 +17,15 @@
       "安卓",
       "镜像"
     ]
+  },
+  {
+    "title": "Android Images for VM",
+    "url": "https://www.osboxes.org/android-x86/",
+    "tag": [
+      "系统",
+      "安卓",
+      "镜像",
+      "虚拟机"
+    ]
   }
 ]
