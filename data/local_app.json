@@ -1,7 +1,15 @@
 [
   {
-    "title": "字符串工具",
-    "url": "static/apps/string/index.html",
+    "title": "字符串 转义",
+    "url": "static/apps/string/escape.html",
+    "tag": [
+      "工具",
+      "编程"
+    ]
+  },
+  {
+    "title": "字符串 散列",
+    "url": "static/apps/string/hash.html",
     "tag": [
       "工具",
       "编程"
