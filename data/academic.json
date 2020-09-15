@@ -188,6 +188,15 @@
     ]
   },
   {
+    "title": "IEEE Xplore",
+    "desc": "提供计算机科学、电机工程学和电子学等相关领域文献的索引",
+    "url": "https://ieeexplore.ieee.org/Xplore/home.jsp",
+    "tag": [
+      "学术",
+      "文献检索"
+    ]
+  },
+  {
     "title": "Engineering Village",
     "url": "https://www.engineeringvillage.com",
     "tag": [
@@ -295,99 +304,18 @@
     ]
   },
   {
+    "title": "IEEE Data",
+    "url": "https://ieee-dataport.org/",
+    "desc": "",
+    "tag": [
+      "学术",
+      "数据集"
+    ]
+  },
+  {
     "title": "中国气象数据",
     "url": "http://data.cma.cn/site/index.html",
     "desc": "气象数据",
-    "tag": [
-      "学术",
-      "数据集"
-    ]
-  },
-  {
-    "title": "LFW",
-    "url": "http://vis-www.cs.umass.edu/lfw/",
-    "desc": "标记的人脸",
-    "tag": [
-      "学术",
-      "数据集"
-    ]
-  },
-  {
-    "title": "MNIST",
-    "url": "http://yann.lecun.com/exdb/mnist/",
-    "desc": "手写数字",
-    "tag": [
-      "学术",
-      "数据集"
-    ]
-  },
-  {
-    "title": "Fashion-MNIST",
-    "url": "https://www.kaggle.com/zalando-research/fashionmnist",
-    "desc": "时尚产品",
-    "tag": [
-      "学术",
-      "数据集"
-    ]
-  },
-  {
-    "title": "MS-COCO",
-    "url": "https://github.com/cocodataset/cocoapi",
-    "desc": "物体检测",
-    "tag": [
-      "学术",
-      "数据集"
-    ]
-  },
-  {
-    "title": "WordNet",
-    "url": "https://wordnet.princeton.edu/",
-    "desc": "图像数据集",
-    "tag": [
-      "学术",
-      "数据集"
-    ]
-  },
-  {
-    "title": "ImageNet",
-    "url": "http://www.image-net.org/",
-    "desc": "图像数据集",
-    "tag": [
-      "学术",
-      "数据集"
-    ]
-  },
-  {
-    "title": "Open Images",
-    "url": "https://storage.googleapis.com/openimages/web/index.html",
-    "desc": "图像数据集",
-    "tag": [
-      "学术",
-      "数据集"
-    ]
-  },
-  {
-    "title": "VisualQA",
-    "url": "https://visualqa.org/",
-    "desc": "图像数据集",
-    "tag": [
-      "学术",
-      "数据集"
-    ]
-  },
-  {
-    "title": "SVHN",
-    "url": "http://ufldl.stanford.edu/housenumbers/",
-    "desc": "街景房屋号码",
-    "tag": [
-      "学术",
-      "数据集"
-    ]
-  },
-  {
-    "title": "CIFAR-10",
-    "url": "https://www.cs.toronto.edu/~kriz/cifar.html",
-    "desc": "图像分类",
     "tag": [
       "学术",
       "数据集"
