@@ -16,13 +16,6 @@
     ]
   },
   {
-    "title": "牛资料",
-    "url": "https://weibo.com/3335452434/IgkwvnRdn",
-    "tag": [
-      "学术"
-    ]
-  },
-  {
     "title": "小木虫",
     "url": "http://muchong.com",
     "tag": [
@@ -45,14 +38,6 @@
       "学术",
       "文献检索",
       "聚合"
-    ]
-  },
-  {
-    "title": "上海研发公共服务平台",
-    "url": "http://lib.sstir.cn/",
-    "tag": [
-      "学术",
-      "文献检索"
     ]
   },
   {
@@ -215,14 +200,6 @@
     ]
   },
   {
-    "title": "猫咪论文",
-    "url": "https://lunwen.im/",
-    "tag": [
-      "学术",
-      "论文获取"
-    ]
-  },
-  {
     "title": "SCI-HUB（TW）",
     "url": "https://www.sci-hub.tw/",
     "tag": [
@@ -364,7 +341,11 @@
   {
     "title": "CVF",
     "url": "https://www.thecvf.com/",
-    "desc": "视觉大会时间表",
+    "desc": [
+      "ICCV 计算机视觉大会",
+      "CVPR 计算机视觉与模式识别会议",
+      "WACV 应用计算机视觉"
+    ],
     "tag": [
       "学术",
       "顶会",
@@ -374,37 +355,7 @@
   {
     "title": "CVF Access",
     "url": "http://openaccess.thecvf.com/menu.py",
-    "desc": "相关文档下载",
-    "tag": [
-      "学术",
-      "顶会",
-      "计算机视觉"
-    ]
-  },
-  {
-    "title": "ICCV 2019",
-    "url": "http://openaccess.thecvf.com/ICCV2019.py",
-    "desc": "国际计算机视觉大会",
-    "tag": [
-      "学术",
-      "顶会",
-      "计算机视觉"
-    ]
-  },
-  {
-    "title": "CVPR 2019",
-    "url": "http://openaccess.thecvf.com/CVPR2019.py",
-    "desc": "国际计算机视觉与模式识别会议",
-    "tag": [
-      "学术",
-      "顶会",
-      "计算机视觉"
-    ]
-  },
-  {
-    "title": "ECCV 2018",
-    "url": "http://openaccess.thecvf.com/ECCV2018.py",
-    "desc": "欧洲计算机视觉国际会议",
+    "desc": "CVF 相关文档下载",
     "tag": [
       "学术",
       "顶会",
@@ -423,19 +374,8 @@
     ]
   },
   {
-    "title": "MICCAI 2019",
-    "url": "https://www.miccai2019.org/",
-    "desc": "国际医学图像计算和计算机辅助干预协会",
-    "tag": [
-      "学术",
-      "顶会",
-      "计算机视觉",
-      "医疗影像"
-    ]
-  },
-  {
-    "title": "ICASSP 2019",
-    "url": "https://2019.ieeeicassp.org/",
+    "title": "ICASSP",
+    "url": "https://www.bing.com/search?q=ICASSP",
     "desc": "国际声学、语音与信号处理会议",
     "tag": [
       "学术",
@@ -444,21 +384,13 @@
     ]
   },
   {
-    "title": "Interspeech 2019",
-    "url": "https://www.interspeech2019.org/",
-    "desc": "",
+    "title": "Interspeech",
+    "url": "https://www.bing.com/search?q=interspeech",
+    "desc": "语音领域顶级学术会议",
     "tag": [
       "学术",
       "顶会",
       "智能声学"
-    ]
-  },
-  {
-    "title": "京东探索者大会",
-    "url": "https://jdder.jd.com/",
-    "tag": [
-      "学术",
-      "会议"
     ]
   }
 ]
