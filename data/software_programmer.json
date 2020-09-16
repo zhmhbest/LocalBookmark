@@ -419,10 +419,6 @@
   {
     "title": "Pypi",
     "url": "https://pypi.org/",
-    "desc": [
-      "批量安装：",
-      "&nbsp;&nbsp; <code>pip install -r requirements.txt</code>"
-    ],
     "tag": [
       "软件",
       "编程",
