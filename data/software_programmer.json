@@ -351,6 +351,26 @@
     ]
   },
   {
+    "title": "下载 Maven",
+    "url": "http://maven.apache.org/download.cgi",
+    "tag": [
+      "软件",
+      "编程",
+      "JAVA",
+      "Build-Tools"
+    ]
+  },
+  {
+    "title": "下载 Gradle",
+    "url": "https://gradle.org/releases/",
+    "tag": [
+      "软件",
+      "编程",
+      "JAVA",
+      "Build-Tools"
+    ]
+  },
+  {
     "title": "下载 Scala",
     "url": "https://www.scala-lang.org/download/",
     "tag": [
@@ -519,7 +539,8 @@
     "tag": [
       "软件",
       "编程",
-      "C/C++"
+      "C/C++",
+      "Build-Tools"
     ]
   },
   {
