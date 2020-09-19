@@ -108,7 +108,7 @@
   },
   {
     "title": "JetBrains 延长试用",
-    "url": "static/files/resetEvaluatePeriod.cmd",
+    "url": "static/files/resetEvaluatePeriod-JetBrains.cmd",
     "desc": "",
     "hidden": "1",
     "tag": [

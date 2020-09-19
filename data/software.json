@@ -1,5 +1,24 @@
 [
   {
+    "title": "下载 IDM",
+    "url": "https://www.internetdownloadmanager.com/download.html",
+    "tag": [
+      "软件",
+      "下载",
+      "工具"
+    ]
+  },
+  {
+    "title": "IDM 延长试用",
+    "url": "static/files/resetEvaluatePeriod-DownloadManager.reg.cmd",
+    "hidden": "1",
+    "tag": [
+      "软件",
+      "下载",
+      "工具"
+    ]
+  },
+  {
     "title": "下载 Windows10",
     "url": "https://www.microsoft.com/zh-cn/software-download/windows10",
     "tag": [
