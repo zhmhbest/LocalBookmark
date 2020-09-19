@@ -107,9 +107,10 @@
     ]
   },
   {
-    "title": "JetBrains 破解",
-    "url": "https://zhile.io/custom-license.html",
+    "title": "JetBrains 延长试用",
+    "url": "static/files/resetEvaluatePeriod.cmd",
     "desc": "",
+    "hidden": "1",
     "tag": [
       "软件",
       "编程",
@@ -464,6 +465,26 @@
       "编程",
       "Library",
       "Python"
+    ]
+  },
+  {
+    "title": "下载 Navicat Premium",
+    "url": "https://navicat.com.cn/download/navicat-premium",
+    "tag": [
+      "软件",
+      "编程",
+      "数据库",
+      "工具"
+    ]
+  },
+  {
+    "title": "下载 DBeaver",
+    "url": "https://dbeaver.io/download/",
+    "tag": [
+      "软件",
+      "编程",
+      "数据库",
+      "工具"
     ]
   },
   {
