@@ -16,6 +16,14 @@
     ]
   },
   {
+    "title": "时间序列相关论文",
+    "url": "https://www.paperswithcode.com/area/time-series",
+    "tag": [
+      "学术",
+      "机器学习"
+    ]
+  },
+  {
     "title": "小木虫",
     "url": "http://muchong.com",
     "tag": [
@@ -163,8 +171,8 @@
     ]
   },
   {
-    "title": "SCI数据库",
-    "desc": "Web of Science",
+    "title": "Web of Science",
+    "desc": "SCI论文数据库",
     "url": "http://apps.webofknowledge.com",
     "tag": [
       "学术",

@@ -33,11 +33,6 @@
   {
     "title": "下载 VSCode",
     "url": "https://code.visualstudio.com/Download",
-    "desc": [
-      "设置默认Shell",
-      "&nbsp;&nbsp; Step1：编辑 <code>%AppData%\\Code\\User\\settings.json</code>",
-      "&nbsp;&nbsp; Step2：添加 <code>terminal.integrated.shell.windows: &lt;ShellPath&gt;</code>"
-    ],
     "tag": [
       "软件",
       "编程",
@@ -344,6 +339,17 @@
   {
     "title": "下载 Spring Framework",
     "url": "https://repo.spring.io/list/libs-release-local/org/springframework/spring/",
+    "tag": [
+      "软件",
+      "编程",
+      "JAVA",
+      "框架"
+    ]
+  },
+  {
+    "title": "下载 Spring Initializr",
+    "desc": "用于初始化一个项目",
+    "url": "https://start.spring.io/",
     "tag": [
       "软件",
       "编程",
