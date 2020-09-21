@@ -10,7 +10,7 @@
   },
   {
     "title": "IDM 延长试用",
-    "url": "static/files/resetEvaluatePeriod-DownloadManager.reg.cmd",
+    "url": "static/files/resetEvaluatePeriod-DownloadManager.cmd",
     "hidden": "1",
     "tag": [
       "软件",
