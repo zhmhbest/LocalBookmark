@@ -82,7 +82,16 @@
     ]
   },
   {
-    "title": "四六级准考证查询",
+    "title": "英语四六级考试报名",
+    "url": "http://cet-bm.neea.edu.cn",
+    "desc": "",
+    "tag": [
+      "教育",
+      "CET"
+    ]
+  },
+  {
+    "title": "英语四六级准考证查询",
     "url": "http://cet-bm.neea.cn/Home/QueryTestTicket",
     "desc": "",
     "tag": [
@@ -91,7 +100,7 @@
     ]
   },
   {
-    "title": "四六级成绩查询",
+    "title": "英语四六级成绩查询",
     "url": "https://www.chsi.com.cn/cet/query",
     "desc": "",
     "tag": [
