@@ -338,7 +338,7 @@
   },
   {
     "title": "下载 Spring Framework",
-    "url": "https://repo.spring.io/list/libs-release-local/org/springframework/spring/",
+    "url": "https://repo.spring.io/release/org/springframework/spring/",
     "tag": [
       "软件",
       "编程",
