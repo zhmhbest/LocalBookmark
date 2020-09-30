@@ -364,7 +364,19 @@
       "软件",
       "编程",
       "JAVA",
+      "Maven",
       "Build-Tools"
+    ]
+  },
+  {
+    "title": "Maven Repository",
+    "url": "https://mvnrepository.com/",
+    "tag": [
+      "软件",
+      "编程",
+      "JAVA",
+      "Maven",
+      "Library"
     ]
   },
   {
