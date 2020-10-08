@@ -16,8 +16,8 @@
     ]
   },
   {
-    "title": "时间序列相关论文",
-    "url": "https://www.paperswithcode.com/area/time-series",
+    "title": "机器学习最新技术",
+    "url": "https://www.paperswithcode.com/sota",
     "tag": [
       "学术",
       "机器学习"
@@ -27,7 +27,8 @@
     "title": "小木虫",
     "url": "http://muchong.com",
     "tag": [
-      "学术"
+      "学术",
+      "社区"
     ]
   },
   {
@@ -176,8 +177,7 @@
     "url": "http://apps.webofknowledge.com",
     "tag": [
       "学术",
-      "文献检索",
-      "付费"
+      "文献检索"
     ]
   },
   {
@@ -194,17 +194,15 @@
     "url": "https://www.engineeringvillage.com",
     "tag": [
       "学术",
-      "文献检索",
-      "付费"
+      "文献检索"
     ]
   },
   {
-    "title": "ACM Digital Library",
-    "url": "https://dlnext.acm.org/",
+    "title": "Science Direct",
+    "url": "https://www.sciencedirect.com/",
     "tag": [
       "学术",
-      "文献检索",
-      "付费"
+      "文献检索"
     ]
   },
   {
@@ -280,8 +278,8 @@
     ]
   },
   {
-    "title": "KDD",
-    "url": "http://kdd.ics.uci.edu/databases/",
+    "title": "IEEE Data",
+    "url": "https://ieee-dataport.org/",
     "desc": "",
     "tag": [
       "学术",
@@ -289,8 +287,8 @@
     ]
   },
   {
-    "title": "IEEE Data",
-    "url": "https://ieee-dataport.org/",
+    "title": "加拿大网络安全研究所",
+    "url": "https://www.unb.ca/cic/datasets/",
     "desc": "",
     "tag": [
       "学术",
