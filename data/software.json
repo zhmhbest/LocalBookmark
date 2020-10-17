@@ -27,10 +27,33 @@
     ]
   },
   {
-    "title": "激活 Windows、Office",
+    "title": "Office C2R-to-VOL",
+    "url": "https://github.com/kkkgo/office-C2R-to-VOL",
+    "desc": "零售许可转为批量许可",
+    "tag": [
+      "软件",
+      "微软",
+      "办公",
+      "激活"
+    ]
+  },
+  {
+    "title": "Office C2R-R2V-AIO",
+    "url": "https://github.com/abbodi1406/C2R-R2V-AIO",
+    "desc": "零售许可转为批量许可",
+    "tag": [
+      "软件",
+      "微软",
+      "办公",
+      "激活"
+    ]
+  },
+  {
+    "title": "激活 Windows、Office By KMSpico",
     "url": "https://www.getkmspico.com/download",
     "tag": [
       "软件",
+      "微软",
       "系统",
       "办公",
       "激活"
