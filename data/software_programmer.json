@@ -373,6 +373,16 @@
     ]
   },
   {
+    "title": "下载 JDK 11",
+    "url": "https://www.oracle.com/java/technologies/javase-jdk11-downloads.html",
+    "tag": [
+      "软件",
+      "编程",
+      "语言引擎",
+      "JAVA"
+    ]
+  },
+  {
     "title": "下载 Spring Framework",
     "url": "https://repo.spring.io/release/org/springframework/spring/",
     "tag": [
