@@ -160,6 +160,42 @@
     ]
   },
   {
+    "title": "下载 Apache Subversion(SVN)",
+    "url": "https://subversion.apache.org/packages.html",
+    "tag": [
+      "软件",
+      "编程",
+      "SVN"
+    ]
+  },
+  {
+    "title": "下载 VisualSVN Server",
+    "url": "https://www.visualsvn.com/server/download/",
+    "tag": [
+      "软件",
+      "编程",
+      "SVN"
+    ]
+  },
+  {
+    "title": "下载 TortoiseSVN Client",
+    "url": "https://tortoisesvn.net/downloads.zh.html",
+    "tag": [
+      "软件",
+      "编程",
+      "SVN"
+    ]
+  },
+  {
+    "title": "下载 Apache-Subversion-1.10.3",
+    "url": "https://www.visualsvn.com/files/Apache-Subversion-1.10.3.zip",
+    "tag": [
+      "软件",
+      "编程",
+      "SVN"
+    ]
+  },
+  {
     "title": "下载 Git",
     "url": "https://git-scm.com/downloads/",
     "tag": [
