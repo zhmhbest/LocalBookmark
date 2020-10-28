@@ -1,5 +1,39 @@
 [
   {
+    "title": "下载 UltraVNC",
+    "url": "https://www.uvnc.com/downloads/ultravnc.html",
+    "tag": [
+      "软件",
+      "远程"
+    ]
+  },
+  {
+    "title": "下载 TightVNC",
+    "url": "https://www.tightvnc.com/download.php",
+    "tag": [
+      "软件",
+      "远程"
+    ]
+  },
+  {
+    "title": "下载 Splashtop Streamer",
+    "url": "https://www.splashtop.com/streamer",
+    "desc": "本地访问使用 Personal",
+    "tag": [
+      "软件",
+      "远程"
+    ]
+  },
+  {
+    "title": "下载 Splashtop Client",
+    "url": "https://www.splashtop.com/cn/downloads",
+    "desc": "本地访问使用 Splashtop Personal",
+    "tag": [
+      "软件",
+      "远程"
+    ]
+  },
+  {
     "title": "下载 IDM",
     "url": "https://www.internetdownloadmanager.com/download.html",
     "tag": [
