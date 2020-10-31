@@ -1,5 +1,14 @@
 [
   {
+    "title": "下载 Psotman",
+    "url": "https://app.getpostman.com/app/download/win64",
+    "tag": [
+      "软件",
+      "编程",
+      "测试"
+    ]
+  },
+  {
     "title": "下载 Tableau",
     "url": "https://www.tableau.com/zh-cn/products/trial",
     "desc": "数据可视化分析工具",
