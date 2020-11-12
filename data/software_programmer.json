@@ -15,7 +15,16 @@
     "desc": "数据可视化分析工具",
     "tag": [
       "软件",
-      "编程",
+      "数据分析",
+      "BI"
+    ]
+  },
+  {
+    "title": "下载 Elastic",
+    "url": "https://www.elastic.co/cn/downloads/",
+    "desc": "大数据搜索",
+    "tag": [
+      "软件",
       "数据分析",
       "BI"
     ]
@@ -203,6 +212,15 @@
       "软件",
       "编程",
       "SVN"
+    ]
+  },
+  {
+    "title": "下载 GitBook",
+    "url": "https://www.gitbook.com/",
+    "tag": [
+      "软件",
+      "编程",
+      "GIT"
     ]
   },
   {
