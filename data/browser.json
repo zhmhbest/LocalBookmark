@@ -8,6 +8,16 @@
     ]
   },
   {
+    "title": "下载 Google ChromeDriver",
+    "url": "http://npm.taobao.org/mirrors/chromedriver/",
+    "desc": "Driver应存在于PATH中，且版本应与当前浏览器版本一致",
+    "tag": [
+      "浏览器",
+      "软件",
+      "编程"
+    ]
+  },
+  {
     "title": "下载 Mozilla Firefox",
     "url": "https://www.firefox.com.cn/",
     "tag": [
