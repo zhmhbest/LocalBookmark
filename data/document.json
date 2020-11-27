@@ -49,11 +49,18 @@
     ]
   },
   {
-    "title": "编程书籍",
+    "title": "搬书匠（编程书籍）",
     "url": "http://www.banshujiang.cn/",
     "tag": [
       "书籍",
       "编程"
+    ]
+  },
+  {
+    "title": "鸠摩搜书",
+    "url": "https://www.jiumodiary.com/",
+    "tag": [
+      "书籍"
     ]
   },
   {
