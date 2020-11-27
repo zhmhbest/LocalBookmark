@@ -74,7 +74,7 @@
   },
   {
     "title": "中国教育考试网",
-    "url": "http://cjcx.neea.edu.cn/",
+    "url": "http://www.neea.edu.cn/",
     "desc": "",
     "tag": [
       "教育",
@@ -132,6 +132,15 @@
   {
     "title": "中国计算机技术职业资格网",
     "url": "http://www.ruankao.org.cn/",
+    "desc": "",
+    "tag": [
+      "教育",
+      "考试"
+    ]
+  },
+  {
+    "title": "国家公务员局",
+    "url": "http://www.scs.gov.cn/",
     "desc": "",
     "tag": [
       "教育",
