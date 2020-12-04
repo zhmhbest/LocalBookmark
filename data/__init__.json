@@ -4,21 +4,31 @@
   "translation",
   "search",
   "net_disk",
-  "video",
-  "music",
-  "picture",
+
+  "media/video",
+  "media/music",
+  "media/picture",
+
+  "doc/document",
+  "doc/font",
+  "doc/novel",
+
+  "edu/academic",
+  "edu/course",
+  "edu/ncepu",
+  "edu/education",
+
+  "res/system_images",
+
+  "software/software",
+  "software/programmer",
+  "software/tool",
+
   "blog_forum",
   "game",
-  "document",
-  "programming",
-  "academic",
-  "local_app",
-  "course",
-  "software",
-  "software_programmer",
-  "system_images",
-  "browser",
-  "education",
   "life",
-  "ncepu"
+
+  "programming",
+  "local_app",
+  "browser"
 ]

@@ -1,37 +1,5 @@
 [
-  {
-    "title": "起点",
-    "url": "https://www.qidian.com/",
-    "tag": [
-      "书籍",
-      "小说"
-    ]
-  },
-  {
-    "title": "知轩",
-    "url": "http://www.zxcs.me/",
-    "tag": [
-      "书籍",
-      "小说"
-    ]
-  },
-  {
-    "title": "变身",
-    "url": "http://www.bswxue.com/",
-    "hidden": true,
-    "tag": [
-      "书籍",
-      "小说"
-    ]
-  },
-  {
-    "title": "字体家",
-    "url": "https://www.zitijia.com/",
-    "tag": [
-      "字体",
-      "资源下载"
-    ]
-  },
+
   {
     "title": "Smallpdf",
     "url": "https://smallpdf.com/cn",
