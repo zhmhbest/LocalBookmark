@@ -1,18 +1,70 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
     <title>bookmark</title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/shortcut.ico"/>
-    <link rel="stylesheet" href="lib/layui/css/layui.css" />
-    <link rel="stylesheet" href="css/default.css" />
-    <script src="lib/jquery-1.7.2.min.js"></script>
-    <script src="lib/layui/layui.js"></script>
-    <script src="lib/aes.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!-- Layui -->
+    <link rel="stylesheet" href="https://www.layuicdn.com/layui-v2.5.6/css/layui.css" />
+    <script src="https://www.layuicdn.com/layui-v2.5.6/layui.js"></script>
+    <!-- crypto-js -->
+    <!-- <script src="https://cdn.bootcdn.net/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script> -->
+    <!-- jquery -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-size: 28px;
+        }
+
+        .container {
+            margin-left: 8%;
+            margin-right: 8%;
+        }
+
+        .bm-title {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px
+        }
+
+        .bm-icon {
+            width: 28px;
+            height: 28px;
+            margin-right: 5px;
+        }
+
+        .bm-title {
+            text-align: center;
+        }
+
+        .bm-desc {
+            text-align: left;
+        }
+
+        .bm-tag {
+            text-align: left;
+        }
+
+        .bm-tag-badge {
+            margin-right: 5px;
+        }
+    </style>
 </head>
+
 <body>
     <a href="https://github.com/zhmhbest/LocalBookmark" style="position: fixed; right: 15px; top: 15px">
-        <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+        <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1" width="32"
+            aria-hidden="true">
+            <path fill-rule="evenodd"
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+            </path>
+        </svg>
     </a>
 
     <div class="container">
@@ -20,11 +72,13 @@
             <h2 class="bm-title">书签聚合</h2>
         </a>
         <table id="my_table" class="layui-table">
-            <thead><tr>
-                <th style="text-align: center">标题</th>
-                <th style="text-align: center">描述</th>
-                <th style="text-align: center">标签</th>
-            </tr></thead>
+            <thead>
+                <tr>
+                    <th style="text-align: center">标题</th>
+                    <th style="text-align: center">描述</th>
+                    <th style="text-align: center">标签</th>
+                </tr>
+            </thead>
         </table>
     </div>
 
@@ -48,19 +102,19 @@
         // });
         // var words = CryptoJS.enc.Utf8.stringify(decrypted);
         // return JSON.parse(words);
-        console.log(BOOKMARK_DATA);
+        // console.log(BOOKMARK_DATA);
         return BOOKMARK_DATA;
     }
 
     var refreshBookmarks = (function () {
         var bookmarks = getBookmarks();
         var table = document.getElementById('my_table');
-        return function() {
+        return function () {
             bookmark2Table(table, bookmarkFilter(paramsParseHash(), bookmarks));
         };
     })();
 
-    layui.use([], function(){
+    layui.use([], function () {
         // 第一次加载
         refreshBookmarks();
     });
@@ -69,4 +123,5 @@
         refreshBookmarks();
     }
 </script>
+
 </html>
