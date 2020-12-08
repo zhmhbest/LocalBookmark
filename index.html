@@ -37,17 +37,19 @@
 
 <script>
     function getBookmarks() {
-        // BOOKMARK_DATA
-        var iv = CryptoJS.enc.Hex.parse("00000000000000000000000000000000");
-        var key = CryptoJS.enc.Hex.parse('d72c87d0f077c7766f2985dfab30e895');
-        var data = CryptoJS.enc.Base64.stringify(CryptoJS.enc.Hex.parse(BOOKMARK_DATA));
-        var decrypted = CryptoJS.AES.decrypt(data, key, {
-            iv: iv,
-            mode: CryptoJS.mode.CBC,
-            padding: CryptoJS.pad.Pkcs7
-        });
-        var words = CryptoJS.enc.Utf8.stringify(decrypted);
-        return JSON.parse(words);
+        // // BOOKMARK_DATA
+        // var iv = CryptoJS.enc.Hex.parse("00000000000000000000000000000000");
+        // var key = CryptoJS.enc.Hex.parse('d72c87d0f077c7766f2985dfab30e895');
+        // var data = CryptoJS.enc.Base64.stringify(CryptoJS.enc.Hex.parse(BOOKMARK_DATA));
+        // var decrypted = CryptoJS.AES.decrypt(data, key, {
+        //     iv: iv,
+        //     mode: CryptoJS.mode.CBC,
+        //     padding: CryptoJS.pad.Pkcs7
+        // });
+        // var words = CryptoJS.enc.Utf8.stringify(decrypted);
+        // return JSON.parse(words);
+        console.log(BOOKMARK_DATA);
+        return BOOKMARK_DATA;
     }
 
     var refreshBookmarks = (function () {

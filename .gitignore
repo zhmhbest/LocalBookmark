@@ -1,6 +1,6 @@
 **/dump
 **/cache
 .idea/*
-data/h.json
+h.json
 !.idea/.idea/modules.xml
 !.idea/.idea/LocalBookmark.iml

@@ -1,10 +1,4 @@
 [
-  "localhost",
-  "mail",
-  "translation",
-  "search",
-  "net_disk",
-
   "media/video",
   "media/music",
   "media/picture",
@@ -21,14 +15,22 @@
   "res/system_images",
 
   "software/software",
+  "software/ide",
   "software/programmer",
   "software/tool",
+  "software/lang",
 
-  "blog_forum",
-  "game",
-  "life",
+  "others/blog_forum",
+  "others/game",
+  "others/life",
 
-  "programming",
-  "local_app",
-  "browser"
+  "others/localhost",
+  "others/mail",
+  "others/translation",
+  "others/search",
+  "others/net_disk",
+
+  "others/programming",
+  "others/local_app",
+  "others/browser"
 ]
