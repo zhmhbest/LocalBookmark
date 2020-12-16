@@ -57,5 +57,14 @@
         "tag": [
             "软件"
         ]
+    },
+    {
+        "title": "下载 Scrcpy",
+        "url": "https://github.com/Genymobile/scrcpy/releases",
+        "desc": "连接数据线控制安卓手机",
+        "tag": [
+            "软件",
+            "安卓"
+        ]
     }
 ]

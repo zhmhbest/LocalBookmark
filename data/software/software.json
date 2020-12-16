@@ -130,31 +130,6 @@
     ]
   },
   {
-    "title": "下载 VMware Workstation Pro 15",
-    "url": "https://my.vmware.com/en/web/vmware/info/slug/desktop_end_user_computing/vmware_workstation_pro/15_0",
-    "tag": [
-      "软件",
-      "虚拟机"
-    ]
-  },
-  {
-    "title": "下载 VirtualBox",
-    "url": "https://www.virtualbox.org/wiki/Downloads",
-    "tag": [
-      "软件",
-      "虚拟机"
-    ]
-  },
-  {
-    "title": "下载 StarWind V2V Converter",
-    "url": "https://www.starwindsoftware.com/starwind-v2v-converter#download",
-    "desc": "VHD, VHDX, VMDK, IMG文件相互转换",
-    "tag": [
-      "软件",
-      "虚拟机"
-    ]
-  },
-  {
     "title": "下载 Typora",
     "url": "https://typora.io/",
     "desc": "Markdown",
