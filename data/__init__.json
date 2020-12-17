@@ -17,6 +17,7 @@
   "software/software",
   "software/ide",
   "software/programmer",
+  "software/gnuwin32",
   "software/vm",
   "software/tool",
   "software/lang",

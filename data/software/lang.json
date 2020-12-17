@@ -160,16 +160,6 @@
         ]
     },
     {
-        "title": "下载 MATLAB",
-        "url": "https://ww2.mathworks.cn/campaigns/products/trials.html",
-        "tag": [
-            "软件",
-            "编程",
-            "语言引擎",
-            "科学计算"
-        ]
-    },
-    {
         "title": "下载 Python",
         "url": "https://www.python.org/downloads/",
         "tag": [
@@ -181,19 +171,8 @@
         ]
     },
     {
-        "title": "下载 MiniConda latest",
-        "url": "https://docs.conda.io/en/latest/miniconda.html",
-        "tag": [
-            "软件",
-            "编程",
-            "语言引擎",
-            "科学计算",
-            "Python"
-        ]
-    },
-    {
         "title": "下载 MiniConda",
-        "url": "https://repo.anaconda.com/miniconda/",
+        "url": "https://docs.conda.io/en/latest/miniconda.html",
         "tag": [
             "软件",
             "编程",

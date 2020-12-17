@@ -193,26 +193,16 @@
     ]
   },
   {
-    "title": "Mirrors Pypi",
-    "url": "https://mirrors.tuna.tsinghua.edu.cn/help/pypi/",
+    "title": "Pypi",
+    "url": "https://pypi.org/",
     "desc": [
       "清华大学开源镜像站 Pypi",
       "临时使用：",
-      "&nbsp;&nbsp; <code>pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package &lt;PackageName&gt;[==version]</code>",
+      "&nbsp;&nbsp; <code>pip install -i https://pypi.tuna.tsinghua.edu.cn/simple &lt;PackageName&gt;[==version]</code>",
       "默认镜像：",
       "&nbsp;&nbsp; <code>pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple</code>",
       "&nbsp;&nbsp; <code>pip config set install.trusted-host https://pypi.tuna.tsinghua.edu.cn</code>"
     ],
-    "tag": [
-      "软件",
-      "编程",
-      "Python",
-      "镜像"
-    ]
-  },
-  {
-    "title": "Pypi",
-    "url": "https://pypi.org/",
     "tag": [
       "软件",
       "编程",
@@ -335,26 +325,6 @@
       "编程",
       "C/C++",
       "Build-Tools"
-    ]
-  },
-  {
-    "title": "下载 Flex Windows",
-    "url": "http://gnuwin32.sourceforge.net/packages/flex.htm",
-    "tag": [
-      "软件",
-      "编程",
-      "Library",
-      "C/C++"
-    ]
-  },
-  {
-    "title": "下载 Bison Windows",
-    "url": "http://gnuwin32.sourceforge.net/packages/bison.htm",
-    "tag": [
-      "软件",
-      "编程",
-      "Library",
-      "C/C++"
     ]
   },
   {
