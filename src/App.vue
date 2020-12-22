@@ -1,16 +1,12 @@
 <template>
-    <div id="app">
-        <div class="frame-top">
-            <span>.</span>
-        </div>
-        <div class="frame-medium">
-            <div class="frame-left"></div>
+    <div id="app" class="row-container">
+        <div class="frame-top">.</div>
+        <div class="frame-medium col-container">
+            <div class="frame-left">.</div>
             <div class="frame-main"><router-view /></div>
-            <div class="frame-right"></div>
+            <div class="frame-right">.</div>
         </div>
-        <div class="frame-bottom">
-            <span>.</span>
-        </div>
+        <div class="frame-bottom">.</div>
     </div>
 </template>
 
@@ -19,31 +15,44 @@ import $$ from "./library";
 export default $$.Vue.extend({
     name: "app",
     mounted() {
-        // @ts-ignore
-        document.querySelector("#app").style[
-            "height"
-        ] = `${document.documentElement.clientHeight}px`;
+        this.balanceFrame();
     },
+    methods: {
+        balanceFrame() {
+            const clientHeight: number = document.documentElement.clientHeight;
+            const frameTopHeight: number = 50;
+            const frameBottomHeight: number = 50;
+            const frameMediumHeight: number = clientHeight - frameTopHeight - frameBottomHeight;
+            //
+            const App: HTMLDivElement = document.querySelector("#app");
+            const Top: HTMLDivElement = document.querySelector(".frame-top");
+            const Bottom: HTMLDivElement = document.querySelector(".frame-bottom");
+            const Medium: HTMLDivElement = document.querySelector(".frame-medium");
+            // const Left: HTMLDivElement = document.querySelector(".frame-left");
+            // const Right: HTMLDivElement = document.querySelector(".frame-right");
+            //
+            App.style.height = `${clientHeight}px`;
+            Top.style.height = `${frameTopHeight}px`;
+            Bottom.style.height = `${frameBottomHeight}px`;
+            Medium.style.height = `${frameMediumHeight}px`;
+        }
+    }
 });
 </script>
 
 <style lang="scss" scoped>
 #app {
-    display: flex;
-    flex-direction: column;
     background-color: gray;
     .frame-top {
         display: flex;
-        background-color: palevioletred;
+        // background-color: palevioletred;
     }
     .frame-bottom {
         display: flex;
-        background-color: cornflowerblue;
+        // background-color: cornflowerblue;
     }
     .frame-medium {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: space-between;
         height: 100%;
     }
@@ -55,7 +64,8 @@ export default $$.Vue.extend({
     .frame-main {
         display: inline-block;
         width: 80%;
-        // background-color: gray;
+        overflow-x: hidden;
+        overflow-y: auto;
     }
     .frame-right {
         display: inline-block;

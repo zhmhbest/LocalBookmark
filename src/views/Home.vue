@@ -1,9 +1,17 @@
 <template>
     <div id="home">
-        <h2>Hello Vue</h2>
-        <div>
-            <img alt="" src="static/images/arrow_girl.png" />
-        </div>
+        <a-card 
+            v-for="item of bookmarks"
+            :key="item"
+            size="small"
+            :title="item.title"
+        >
+            <a slot="extra" href="#">more</a>
+            <p>card content</p>
+        </a-card>
+        <li v-for="item of bookmarks" :key="item">
+            {{item.title}}
+        </li>
     </div>
 </template>
 
@@ -13,24 +21,19 @@ export default $$.Vue.extend({
     name: "home",
     data() {
         return {
-            hello: "Hello Home" as String,
+            bookmarks: [] as Object[]
         };
     },
     mounted() {
-        console.log(this.hello);
+        $$.axios.get("data/bookmark.json").then(res => {
+            this.bookmarks = res.data;
+        });
     },
 });
 </script>
 
 <style lang="scss" scoped>
 #home {
-    h2 {
-        text-align: center;
-        color: darkmagenta;
-    }
-    div {
-        display: flex;
-        justify-content: center;
-    }
+
 }
 </style>

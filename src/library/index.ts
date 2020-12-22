@@ -42,7 +42,7 @@ if (undefined === Antd) {
     // CSS已自动引入
 } else {
     // 若未引入CDN应解除以下注释
-    // require('ant-design-vue/dist/antd.css');
+    require('ant-design-vue/dist/antd.css');
 }
 Vue.use(Antd);
 

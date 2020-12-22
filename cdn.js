@@ -1,7 +1,7 @@
 // https://www.bootcdn.cn/
 // https://cdn.bootcss.com
 
-module.exports = [
+const cdnList = [
     {
         moduleName: 'vue',
         globalName: 'Vue',
@@ -34,3 +34,6 @@ module.exports = [
         js: 'https://cdn.bootcss.com/axios/0.21.0/axios.min.js'
     },
 ];
+
+module.exports = [];
+// module.exports = cdnList;
