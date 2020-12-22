@@ -1,0 +1,49 @@
+{
+  "name": "vue-template",
+  "version": "1.0.0",
+  "description": "手动搭建一个使用Webpack打包的，支持Typescript、Sass、Vue、Ant Design等技术的前端开发模板。",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "npx webpack-dev-server --inline --progress",
+    "build": "npx cross-env NODE_ENV=production webpack",
+    "build.dev": "npx cross-env NODE_ENV=development webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhmhbest/VueTemplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhmhbest/VueTemplate/issues"
+  },
+  "homepage": "https://github.com/zhmhbest/VueTemplate#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.3.2",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.0",
+    "json5-loader": "^4.0.1",
+    "mini-css-extract-plugin": "^1.3.1",
+    "open-browser-webpack-plugin": "0.0.5",
+    "sass": "npm:dart-sass@^1.25.0",
+    "sass-loader": "^10.1.0",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.1.2",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "ant-design-vue": "^1.7.2",
+    "axios": "^0.21.0",
+    "echarts": "^5.0.0",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.9",
+    "vuex": "^3.5.1"
+  }
+}
