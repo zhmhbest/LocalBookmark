@@ -9,9 +9,6 @@
             <a slot="extra" href="#">more</a>
             <p>card content</p>
         </a-card>
-        <li v-for="item of bookmarks" :key="item">
-            {{item.title}}
-        </li>
     </div>
 </template>
 
