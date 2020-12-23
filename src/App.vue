@@ -42,7 +42,7 @@ export default $$.Vue.extend({
 
 <style lang="scss" scoped>
 #app {
-    background-color: gray;
+    background-color: rgb(30, 30, 30);
     .frame-top {
         display: flex;
         // background-color: palevioletred;

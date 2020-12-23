@@ -4,10 +4,8 @@
             <a-avatar
                 shape="square"
                 :size="48"
-                :style="{
-                    backgroundColor: avatarColor,
-                    verticalAlign: 'middle',
-                }"
+                :src="avatarSource"
+                :style="avatarStyle"
                 >{{ title }}</a-avatar
             >
             <div class="title vertical-center">{{ title }}</div>
@@ -39,14 +37,34 @@ export default $$.Vue.extend({
     props: ["title", "url", "tag", "desc"], //组建接受的属性值
     data() {
         return {
+            avatarSource: "#" as string,
+            avatarStyle: {backgroundColor: $$.randomSoftRGBColor()},
             drawerVisible: false,
-            avatarColor: $$.randomSoftRGBColor() as string,
         };
     },
     mounted() {
-        // console.log($$.randomSoftRGBColor());
+        this.loadAvatar(10 * 1000);
     },
     methods: {
+        loadAvatar(timeout: number) {
+            const src: string = `https://ico.kucat.cn/get.php?url=${this.url}`;
+            let isOK: boolean = false;
+            const img: HTMLImageElement = document.createElement('img');
+            img.onload = () => {
+                // 加载图片
+                isOK = true;
+                this.avatarSource = src;
+                this.avatarStyle.backgroundColor = 'rgb(0, 0, 0, 0)';
+            };
+            img.src = src;
+            setTimeout(() => {
+                // 加载文字
+                if(!isOK) {
+                    img.src = "#";
+                    img.remove();
+                }
+            }, timeout);
+        },
         moreInfo() {
             this.drawerVisible = true;
         },
@@ -59,6 +77,7 @@ export default $$.Vue.extend({
 
 <style lang="scss" scoped>
 .bookmark {
+    color: #777;
     font-size: 9px;
 
     .headline {

@@ -3,7 +3,7 @@ import "./index.scss"
 const domLink: HTMLLinkElement = document.querySelector("head link[rel='shortcut icon']");
 domLink.href = require("./favicon.ico").default;
 const domTitle: HTMLTitleElement = document.querySelector("head title");
-domTitle.innerHTML = "Hello Vue";
+domTitle.innerHTML = "Bookmark";
 
 // 加载Vue
 // import Vue from 'vue'
