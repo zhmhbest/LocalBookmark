@@ -3,5 +3,6 @@
         view: 'Home',
         path: '/'
     },
-    'About'
+    'About',
+    'Test'
 ]

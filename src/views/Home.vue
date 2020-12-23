@@ -1,28 +1,32 @@
 <template>
     <div id="home">
-        <a-card 
-            v-for="item of bookmarks"
-            :key="item"
-            size="small"
+        <!-- v-for="item of bookmarks" :key="item.url" -->
+        <bminfo v-for="item of bookmarks" :key="item.url"
             :title="item.title"
-        >
-            <a slot="extra" href="#">more</a>
-            <p>card content</p>
-        </a-card>
+            :url="item.url"
+            :tag="item.tag"
+            :desc="item.desc"
+        ></bminfo>
     </div>
 </template>
 
 <script lang="ts">
 import $$ from "../library";
+import BookmarkInformation from "../components/BookmarkInformation.vue";
+
 export default $$.Vue.extend({
     name: "home",
+    components: {
+        // 引入局部组建
+        "bminfo": BookmarkInformation,
+    },
     data() {
         return {
-            bookmarks: [] as Object[]
+            bookmarks: [] as Object[],
         };
     },
     mounted() {
-        $$.axios.get("data/bookmark.json").then(res => {
+        $$.axios.get("data/bookmark.json").then((res) => {
             this.bookmarks = res.data;
         });
     },
@@ -31,6 +35,5 @@ export default $$.Vue.extend({
 
 <style lang="scss" scoped>
 #home {
-
 }
 </style>

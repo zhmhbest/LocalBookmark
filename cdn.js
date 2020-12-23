@@ -35,5 +35,4 @@ const cdnList = [
     },
 ];
 
-module.exports = [];
-// module.exports = cdnList;
+module.exports = cdnList;
