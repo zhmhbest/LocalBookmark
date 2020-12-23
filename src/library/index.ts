@@ -56,10 +56,18 @@ if (undefined === axios)
     axios = require('axios'); // CDN修正
 
 
+/*
+ * My: SoftColor
+ */
+import { randomSoftRGBColor } from './random'
+
+
+
 // export $$
 export default {
     Vue,
     echarts,
     Antd,
     axios,
+    randomSoftRGBColor
 }

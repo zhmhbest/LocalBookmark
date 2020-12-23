@@ -14,3 +14,15 @@ div.col-container {
     display: flex;
     flex-direction: row;
 }
+
+// 子元素垂直居中
+div.vertical-center {
+    display: flex;
+    align-items: center
+}
+
+// 子元素垂直居底
+div.vertical-bottom {
+    display: flex;
+    align-items: flex-end;
+}
