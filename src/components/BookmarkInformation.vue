@@ -15,7 +15,7 @@
             <a slot="extra" href="#" @click="moreInfo">more</a>
         </div>
         <div class="vertical-bottom description" v-html="desc"></div>
-
+        <div ref="test">.</div>
         <a-drawer
             :title="title"
             placement="right"
@@ -43,6 +43,7 @@ export default $$.Vue.extend({
         };
     },
     mounted() {
+        (this.$refs.test as HTMLDivElement).innerHTML = this.url;
         this.loadAvatar(10 * 1000);
     },
     methods: {
