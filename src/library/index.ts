@@ -57,10 +57,11 @@ if (undefined === axios)
 
 
 /*
- * My: SoftColor
+ * My
  */
 import { randomSoftRGBColor } from './random'
-
+import hash from './hash'
+import book from './bookmark'
 
 
 // export $$
@@ -69,5 +70,7 @@ export default {
     echarts,
     Antd,
     axios,
-    randomSoftRGBColor
+    randomSoftRGBColor,
+    hash,
+    book
 }

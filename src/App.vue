@@ -43,6 +43,9 @@ export default $$.Vue.extend({
 <style lang="scss" scoped>
 #app {
     background-color: rgb(30, 30, 30);
+    color: #777;
+    font-size: 9px;
+
     .frame-top {
         display: flex;
         // background-color: palevioletred;
