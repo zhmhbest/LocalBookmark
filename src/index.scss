@@ -26,3 +26,21 @@ div.vertical-bottom {
     display: flex;
     align-items: flex-end;
 }
+
+// 自定义抽屉
+.ant-drawer-content {
+    .ant-drawer-wrapper-body {
+        background-color: rgb(50, 50, 50);
+        .ant-drawer-header {
+            background-color: rgb(80, 80, 80);
+            border-bottom: 0px;
+            .ant-drawer-title {
+                color: aliceblue;
+            }
+        }
+        .ant-drawer-body {
+            color: aliceblue;
+        }
+    }
+
+}

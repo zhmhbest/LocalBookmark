@@ -1,9 +1,8 @@
 <template>
     <div class="row-container bookmark">
         <div
-            class="col-container headline"
+            class="headline col-container"
             ref="headline"
-            @click.self="onMainClick"
         >
             <a-avatar
                 shape="square"
@@ -16,23 +15,21 @@
             <div class="title vertical-center" @click="onMainClick">
                 {{ title }}
             </div>
-            <div class="vertical-bottom">
+            <div class="description vertical-center" v-html="desc"></div>
+            <!-- <div class="vertical-center">
                 <a-tag v-for="item of tag" :key="item">{{ item }}</a-tag>
-            </div>
-            <a slot="extra" href="#" @click="moreInfo">more</a>
+            </div> -->
+            <a v-if="undefined !== more" slot="extra" href="#" @click="moreInfo">more</a>
         </div>
-        <div class="vertical-bottom description" v-html="desc"></div>
+
         <a-drawer
+            v-if="undefined !== more"
             :title="title"
             placement="right"
             :closable="false"
             :visible="drawerVisible"
             @close="closeInfo"
-        >
-            <p>Some contents...</p>
-            <p>Some contents...</p>
-            <p>Some contents...</p>
-        </a-drawer>
+        ><div v-html="more"></div></a-drawer>
     </div>
 </template>
 
@@ -40,7 +37,7 @@
 import $$ from "../library";
 export default $$.Vue.extend({
     name: "BookmarkInformation",
-    props: ["title", "url", "tag", "desc"], //组建接受的属性值
+    props: ["title", "icon", "url", "tag", "desc", "more"], //组建接受的属性值
     data() {
         return {
             avatarSource: "#" as string,
@@ -49,7 +46,9 @@ export default $$.Vue.extend({
         };
     },
     mounted() {
-        this.loadAvatar(2 * 1000);
+        if (undefined === this.icon) {
+            this.loadAvatar(5 * 1000);
+        }
     },
     methods: {
         loadAvatar(timeout: number) {
@@ -84,13 +83,19 @@ export default $$.Vue.extend({
 
 <style lang="scss" scoped>
 .bookmark {
+    margin-bottom: 20px;
     .headline {
         .title {
+            margin-left: 5px;
+            margin-right: 15px;
             font-size: 200%;
+            font-style: bold;
+            color: #AAA;
         }
     }
     .description {
         font-size: 100%;
+        color: #666;
     }
 }
 </style>

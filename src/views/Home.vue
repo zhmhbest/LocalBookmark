@@ -3,9 +3,11 @@
         <!-- v-for="item of usebooks" :key="item.url" -->
         <bminfo v-for="item of usebooks" :key="item.url"
             :title="item.title"
+            :icon="item.icon"
             :url="item.url"
             :tag="item.tag"
             :desc="item.desc"
+            :more="item.more"
         ></bminfo>
     </div>
 </template>
