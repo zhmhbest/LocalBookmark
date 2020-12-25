@@ -1,5 +1,5 @@
 <template>
-    <div class="row-container bookmark">
+    <div class="col-container bookmark">
         <div
             class="headline col-container"
             ref="headline"
@@ -16,12 +16,15 @@
                 {{ title }}
             </div>
             <div class="description vertical-center" v-html="desc"></div>
-            <!-- <div class="vertical-center">
-                <a-tag v-for="item of tag" :key="item">{{ item }}</a-tag>
-            </div> -->
             <a v-if="undefined !== more" slot="extra" href="#" @click="moreInfo">more</a>
         </div>
 
+        <!-- tag -->
+        <div class="tag vertical-center">
+            <a-tag v-for="item of tag" :key="item" @click="onTagClick">{{ item }}</a-tag>
+        </div>
+
+        <!-- more -->
         <a-drawer
             v-if="undefined !== more"
             :title="title"
@@ -30,6 +33,7 @@
             :visible="drawerVisible"
             @close="closeInfo"
         ><div v-html="more"></div></a-drawer>
+
     </div>
 </template>
 
@@ -77,6 +81,10 @@ export default $$.Vue.extend({
         onMainClick() {
             window.open(this.url);
         },
+        onTagClick(e: Event, item: string) {
+            console.log(e, item);
+            // this.$emit('oninsert', e.data);
+        }
     },
 });
 </script>
@@ -84,6 +92,7 @@ export default $$.Vue.extend({
 <style lang="scss" scoped>
 .bookmark {
     margin-bottom: 20px;
+    justify-content: space-between;
     .headline {
         .title {
             margin-left: 5px;
@@ -92,10 +101,10 @@ export default $$.Vue.extend({
             font-style: bold;
             color: #AAA;
         }
-    }
-    .description {
-        font-size: 100%;
-        color: #666;
+        .description {
+            font-size: 100%;
+            color: #666;
+        }
     }
 }
 </style>
