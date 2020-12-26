@@ -15,7 +15,7 @@
             <div class="title vertical-center" @click="onMainClick">
                 {{ title }}
             </div>
-            <div class="description vertical-center" v-html="desc"></div>
+            <div class="description vertical-center" v-html="desc instanceof Array ? desc.join('&nbsp;') : desc"></div>
             <a v-if="undefined !== more" slot="extra" href="#" @click="moreInfo">more</a>
         </div>
 
@@ -27,12 +27,13 @@
         <!-- more -->
         <a-drawer
             v-if="undefined !== more"
+            :width="'80%'"
             :title="title"
             placement="right"
             :closable="false"
             :visible="drawerVisible"
             @close="closeInfo"
-        ><div v-html="more"></div></a-drawer>
+        ><div v-html="more instanceof Array ? more.join('<br>') : more"></div></a-drawer>
 
     </div>
 </template>

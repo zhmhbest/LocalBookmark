@@ -1,0 +1,402 @@
+[
+  {
+    "title": "每日arXiv",
+    "url": "https://zhuanlan.zhihu.com/arxivdaily",
+    "tag": [
+      "学术",
+      "每日文献"
+    ]
+  },
+  {
+    "title": "机器之心",
+    "url": "https://www.jiqizhixin.com/",
+    "tag": [
+      "学术",
+      "每日文献"
+    ]
+  },
+  {
+    "title": "机器学习最新技术",
+    "url": "https://www.paperswithcode.com/sota",
+    "tag": [
+      "学术",
+      "机器学习"
+    ]
+  },
+  {
+    "title": "小木虫",
+    "url": "http://muchong.com",
+    "tag": [
+      "学术",
+      "社区"
+    ]
+  },
+  {
+    "title": "虫部落",
+    "url": "https://scholar.chongbuluo.com/",
+    "tag": [
+      "学术",
+      "文献检索",
+      "聚合"
+    ]
+  },
+  {
+    "title": "沃克学术",
+    "url": "https://xueshu.9178.work/",
+    "tag": [
+      "学术",
+      "文献检索",
+      "聚合"
+    ]
+  },
+  {
+    "title": "洛奇Town",
+    "url": "https://ifish.fun/paper/search",
+    "tag": [
+      "学术",
+      "文献检索"
+    ]
+  },
+  {
+    "title": "万千合集",
+    "url": "http://www.hejizhan.com/html/search/",
+    "tag": [
+      "学术",
+      "文献检索"
+    ]
+  },
+  {
+    "title": "超星发现",
+    "url": "http://www.chaoxing.com/",
+    "tag": [
+      "学术",
+      "文献检索"
+    ]
+  },
+  {
+    "title": "泉方学术",
+    "url": "http://www.yuntsg.com",
+    "tag": [
+      "学术",
+      "文献检索"
+    ]
+  },
+  {
+    "title": "中教数据库",
+    "url": "http://www.zjdata.net/",
+    "tag": [
+      "学术",
+      "文献检索"
+    ]
+  },
+  {
+    "title": "iData",
+    "url": "https://www.cn-ki.net/",
+    "tag": [
+      "学术",
+      "文献检索"
+    ]
+  },
+  {
+    "title": "中国知网",
+    "url": "https://www.cnki.net/",
+    "tag": [
+      "学术",
+      "文献检索"
+    ]
+  },
+  {
+    "title": "维普网",
+    "url": "http://www.cqvip.com/",
+    "tag": [
+      "学术",
+      "文献检索"
+    ]
+  },
+  {
+    "title": "Bing学术",
+    "url": "https://cn.bing.com/academic",
+    "tag": [
+      "学术",
+      "文献检索"
+    ]
+  },
+  {
+    "title": "Baidu学术",
+    "url": "http://xueshu.baidu.com/",
+    "tag": [
+      "学术",
+      "文献检索"
+    ]
+  },
+  {
+    "title": "Google学术",
+    "url": "https://scholar.google.com/",
+    "tag": [
+      "学术",
+      "文献检索",
+      "科学上网"
+    ]
+  },
+  {
+    "title": "Google学术（镜像）",
+    "url": "https://ac.scmor.com/",
+    "tag": [
+      "学术",
+      "文献检索",
+      "镜像"
+    ]
+  },
+  {
+    "title": "图书馆参考咨询联盟",
+    "url": "http://www.ucdrs.superlib.net/",
+    "tag": [
+      "学术",
+      "文献检索"
+    ]
+  },
+  {
+    "title": "广西图书馆",
+    "url": "http://wap.gxlib.org/ermsClient/browse.do",
+    "tag": [
+      "学术",
+      "文献检索"
+    ]
+  },
+  {
+    "title": "国家哲学社会科学文献中心",
+    "url": "http://www.ncpssd.org/",
+    "tag": [
+      "学术",
+      "文献检索"
+    ]
+  },
+  {
+    "title": "Web of Science",
+    "desc": "SCI论文数据库",
+    "url": "http://apps.webofknowledge.com",
+    "tag": [
+      "学术",
+      "文献检索"
+    ]
+  },
+  {
+    "title": "IEEE Xplore",
+    "desc": "提供计算机科学、电机工程学和电子学等相关领域文献的索引",
+    "url": "https://ieeexplore.ieee.org/Xplore/home.jsp",
+    "tag": [
+      "学术",
+      "文献检索"
+    ]
+  },
+  {
+    "title": "Engineering Village",
+    "url": "https://www.engineeringvillage.com",
+    "tag": [
+      "学术",
+      "文献检索"
+    ]
+  },
+  {
+    "title": "Science Direct",
+    "url": "https://www.sciencedirect.com/",
+    "tag": [
+      "学术",
+      "文献检索"
+    ]
+  },
+  {
+    "title": "SCI-HUB（TW）",
+    "url": "https://www.sci-hub.tw/",
+    "tag": [
+      "学术",
+      "论文获取"
+    ]
+  },
+  {
+    "title": "SCI-HUB（SE）",
+    "url": "https://www.sci-hub.se/",
+    "tag": [
+      "学术",
+      "论文获取"
+    ]
+  },
+  {
+    "title": "文献小镇",
+    "url": "http://www.sci-hub.ac.cn/",
+    "tag": [
+      "学术",
+      "论文获取"
+    ]
+  },
+  {
+    "title": "Standford Courses",
+    "url": "https://online.stanford.edu/courses",
+    "tag": [
+      "学术",
+      "课程"
+    ]
+  },
+  {
+    "title": "OCW Courses",
+    "url": "https://ocw.mit.edu/courses/",
+    "tag": [
+      "学术",
+      "课程"
+    ]
+  },
+  {
+    "title": "Coursera Courses",
+    "url": "https://www.coursera.org/courses",
+    "tag": [
+      "学术",
+      "课程"
+    ]
+  },
+  {
+    "title": "Kaggle",
+    "url": "https://www.kaggle.com/",
+    "tag": [
+      "学术",
+      "数据集"
+    ]
+  },
+  {
+    "title": "UCI",
+    "url": "http://archive.ics.uci.edu/ml/index.php",
+    "tag": [
+      "学术",
+      "数据集"
+    ]
+  },
+  {
+    "title": "Scikit-learn",
+    "url": "https://scikit-learn.org/stable/datasets/index.html",
+    "tag": [
+      "学术",
+      "数据集"
+    ]
+  },
+  {
+    "title": "IEEE Data",
+    "url": "https://ieee-dataport.org/",
+    "desc": "",
+    "tag": [
+      "学术",
+      "数据集"
+    ]
+  },
+  {
+    "title": "加拿大网络安全研究所",
+    "url": "https://www.unb.ca/cic/datasets/",
+    "desc": "",
+    "tag": [
+      "学术",
+      "数据集"
+    ]
+  },
+  {
+    "title": "中国气象数据",
+    "url": "http://data.cma.cn/site/index.html",
+    "desc": "气象数据",
+    "tag": [
+      "学术",
+      "数据集"
+    ]
+  },
+  {
+    "title": "USENIX",
+    "url": "https://www.usenix.org/conferences",
+    "desc": "",
+    "tag": [
+      "学术",
+      "顶会",
+      "信息安全"
+    ]
+  },
+  {
+    "title": "IEEE SSP",
+    "url": "https://www.ieee-security.org/index.html",
+    "desc": "安全与隐私会议",
+    "tag": [
+      "学术",
+      "顶会",
+      "信息安全"
+    ]
+  },
+  {
+    "title": "ACM CCS",
+    "url": "http://www.sigsac.org/ccs.html",
+    "desc": "计算机和通信安全会议",
+    "tag": [
+      "学术",
+      "顶会",
+      "信息安全"
+    ]
+  },
+  {
+    "title": "NDSS",
+    "url": "https://www.ndss-symposium.org/",
+    "desc": "网络与分布式系统安全会议",
+    "tag": [
+      "学术",
+      "顶会",
+      "信息安全"
+    ]
+  },
+  {
+    "title": "CVF",
+    "url": "https://www.thecvf.com/",
+    "desc": [
+      "ICCV 计算机视觉大会",
+      "CVPR 计算机视觉与模式识别会议",
+      "WACV 应用计算机视觉"
+    ],
+    "tag": [
+      "学术",
+      "顶会",
+      "计算机视觉"
+    ]
+  },
+  {
+    "title": "CVF Access",
+    "url": "http://openaccess.thecvf.com/menu.py",
+    "desc": "CVF 相关文档下载",
+    "tag": [
+      "学术",
+      "顶会",
+      "计算机视觉"
+    ]
+  },
+  {
+    "title": "MICCAI",
+    "url": "http://www.miccai.org/",
+    "desc": "国际医学图像计算和计算机辅助干预协会",
+    "tag": [
+      "学术",
+      "顶会",
+      "计算机视觉",
+      "医疗影像"
+    ]
+  },
+  {
+    "title": "ICASSP",
+    "url": "https://www.bing.com/search?q=ICASSP",
+    "desc": "国际声学、语音与信号处理会议",
+    "tag": [
+      "学术",
+      "顶会",
+      "智能声学"
+    ]
+  },
+  {
+    "title": "Interspeech",
+    "url": "https://www.bing.com/search?q=interspeech",
+    "desc": "语音领域顶级学术会议",
+    "tag": [
+      "学术",
+      "顶会",
+      "智能声学"
+    ]
+  }
+]
