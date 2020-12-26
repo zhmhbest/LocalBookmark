@@ -21,7 +21,7 @@
 
         <!-- tag -->
         <div class="tag vertical-center">
-            <a-tag v-for="item of tag" :key="item" @click="onTagClick">{{ item }}</a-tag>
+            <a-tag v-for="item of tag" :key="item" @click="onTagClick($event, item)">{{ item }}</a-tag>
         </div>
 
         <!-- more -->
@@ -38,6 +38,13 @@
 </template>
 
 <script lang="ts">
+export interface TagClickEvent {
+  altKey: boolean;
+  ctrlKey: boolean;
+  shiftKey: boolean;
+  text: string;
+}
+
 import $$ from "../library";
 export default $$.Vue.extend({
     name: "BookmarkInformation",
@@ -81,9 +88,14 @@ export default $$.Vue.extend({
         onMainClick() {
             window.open(this.url);
         },
-        onTagClick(e: Event, item: string) {
-            console.log(e, item);
-            // this.$emit('oninsert', e.data);
+        onTagClick(e: MouseEvent, item: string) {
+            // console.log(e.altKey, e.ctrlKey, e.shiftKey, item);
+            this.$emit('onTagClick', {
+                altKey: e.altKey,
+                ctrlKey: e.ctrlKey,
+                shiftKey: e.shiftKey,
+                text: item
+            } as TagClickEvent);
         }
     },
 });

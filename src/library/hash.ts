@@ -36,14 +36,18 @@ function parseGetString(str: string, sep?: string, eqs?: string): object {
     return buffer;
 }
 
+
 function getHashArguementsString(): string {
     return window.location.hash.split('?', 2)[1];
 }
-
 function getHashArguements(): object {
     const s: string | undefined = getHashArguementsString();
     return undefined === s ? {} : parseGetString(s);
 }
+function setHashArguements(obj: object): void {
+    window.location.hash = `?${toGetString(obj)}`;
+}
+
 
 /**
  * Catch HashChange
@@ -74,5 +78,6 @@ export default {
     parseGetString,
     getHashArguementsString,
     getHashArguements,
+    setHashArguements,
     pushOnHashChange,
 };
