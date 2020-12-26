@@ -109,7 +109,7 @@ export default $$.Vue.extend({
     .headline {
         .title {
             margin-left: 5px;
-            margin-right: 15px;
+            margin-right: 8px;
             font-size: 200%;
             font-style: bold;
             color: #AAA;
