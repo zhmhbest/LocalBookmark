@@ -21,7 +21,7 @@
 
         <!-- tag -->
         <div class="tag vertical-center">
-            <a-tag v-for="item of tag" :key="item" @click="onTagClick($event, item)">{{ item }}</a-tag>
+            <a-tag v-for="item of tag" :key="item" :style="{color: 'white', backgroundColor: tagColorHolder.get(item)}" @click="onTagClick($event, item)">{{ item }}</a-tag>
         </div>
 
         <!-- more -->
@@ -44,13 +44,13 @@ export interface TagClickEvent {
   shiftKey: boolean;
   text: string;
 }
-
 import $$ from "../library";
 export default $$.Vue.extend({
     name: "BookmarkInformation",
     props: ["title", "icon", "url", "tag", "desc", "more"], //组建接受的属性值
     data() {
         return {
+            tagColorHolder: $$.book.tagColorHolder,
             avatarSource: "#" as string,
             avatarStyle: { backgroundColor: $$.randomSoftRGBColor() },
             drawerVisible: false,
@@ -118,5 +118,8 @@ export default $$.Vue.extend({
             color: #666;
         }
     }
+    // .tag {
+    //     color: aliceblue;
+    // }
 }
 </style>

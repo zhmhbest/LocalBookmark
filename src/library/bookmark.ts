@@ -46,7 +46,34 @@ function filterBookmark(
 }
 
 
+/**
+ * 自动分配标签颜色
+ */
+import { randomSoftRGBColor } from "./random";
+export class TagColorHolder {
+    private __color_map__: Map<string, string>;
+    constructor() {
+        this.__color_map__ = new Map<string, string>();
+    }
+    // add(tagName: string) {
+    //     if ( ! this.__color_map__.has(tagName)) {
+    //         this.__color_map__.set(tagName, randomSoftRGBColor());
+    //     }
+    // }
+    get(tagName: string): string {
+        if (this.__color_map__.has(tagName)) {
+            return this.__color_map__.get(tagName);
+        } else {
+            const color = randomSoftRGBColor();
+            this.__color_map__.set(tagName, color);
+            return color;
+        }
+    }
+}
+
+
 export default {
     parseArguements,
-    filterBookmark
+    filterBookmark,
+    tagColorHolder: new TagColorHolder()
 };
