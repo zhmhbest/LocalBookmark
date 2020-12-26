@@ -1,7 +1,7 @@
 {
   "name": "bookmark",
   "version": "1.0.0",
-  "description": "全新2.0开发中。。。",
+  "description": "全新2.0",
   "main": "src/index.ts",
   "scripts": {
     "dev": "npx webpack-dev-server --inline --progress",
