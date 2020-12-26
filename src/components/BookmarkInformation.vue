@@ -6,7 +6,7 @@
         >
             <a-avatar
                 shape="square"
-                :size="48"
+                :size="32"
                 :src="avatarSource"
                 :style="avatarStyle"
                 @click="onMainClick"
