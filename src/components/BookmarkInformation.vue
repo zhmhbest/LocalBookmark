@@ -72,7 +72,7 @@ export default $$.Vue.extend({
                 isOK = true;
                 this.avatarStyle.backgroundColor = "rgb(0, 0, 0, 0)";
             };
-            img.src = `https://ico.kucat.cn/get.php?url=${this.url}`;
+            this.avatarSource = `https://ico.kucat.cn/get.php?url=${this.url}`;
             setTimeout(() => {
                 // 加载文字
                 if (!isOK) {

@@ -91,17 +91,6 @@
         ]
     },
     {
-        "title": "JetBrains 延长试用",
-        "url": "static/files/resetEvaluatePeriod-JetBrains.cmd",
-        "desc": "",
-        "hidden": "1",
-        "tag": [
-            "软件",
-            "编程",
-            "IDE"
-        ]
-    },
-    {
         "title": "JetBrains 汉化",
         "url": "https://github.com/pingfangx/jetbrains-in-chinese",
         "tag": [
