@@ -27,7 +27,7 @@
         <!-- more -->
         <a-drawer
             v-if="undefined !== more"
-            :width="'80%'"
+            :width="'60%'"
             :title="title"
             placement="right"
             :closable="false"

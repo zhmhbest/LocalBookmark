@@ -16,14 +16,18 @@ export default $$.Vue.extend({
     name: "app",
     data() {
         return {
-            appStyle: {fontSize: '9px'},
-            frameLeft: {width: '10%'},
-            frameMain: {width: '80%'},
-            frameRight: {width: '10%'}
+            appStyle: {} as {fontSize: string},
+            frameLeft: {} as {width: string},
+            frameMain: {} as {width: string},
+            frameRight: {} as {width: string}
         }
     },
     mounted() {
         this.balanceFrame();
+        // 根据页面重新平衡框架
+        window.onresize = () =>  {
+            this.balanceFrame();
+        };
     },
     methods: {
         balanceFrame() {
@@ -34,10 +38,15 @@ export default $$.Vue.extend({
             let frameMediumHeight: number = clientHeight - frameTopHeight - frameBottomHeight;
             // 移动设备模式
             if(clientWidth < 1000) {
-                this.appStyle.fontSize = `2px`;
+                this.appStyle.fontSize = `6px`;
                 this.frameLeft.width = `2%`;
                 this.frameMain.width = `96%`;
                 this.frameRight.width = `2%`;
+            } else {
+                this.appStyle.fontSize = `9px`;
+                this.frameLeft.width = `12%`;
+                this.frameMain.width = `76%`;
+                this.frameRight.width = `12%`;
             }
             //
             const App: HTMLDivElement = document.querySelector("#app");
