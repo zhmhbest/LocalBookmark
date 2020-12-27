@@ -43,6 +43,7 @@ if (undefined === Antd) {
 } else {
     // 若未引入CDN应解除以下注释
     // require('ant-design-vue/dist/antd.less');
+    require('ant-design-vue/dist/antd.css');
 }
 Vue.use(Antd);
 

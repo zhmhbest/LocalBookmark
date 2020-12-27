@@ -16,7 +16,7 @@
                 {{ title }}
             </div>
             <div class="description vertical-center" v-html="desc instanceof Array ? desc.join('&nbsp;') : desc"></div>
-            <a v-if="undefined !== more" slot="extra" href="#" @click="moreInfo">more</a>
+            <a v-if="undefined !== more" slot="extra" href="javascript:;" @click="moreInfo">more</a>
         </div>
 
         <!-- tag -->
