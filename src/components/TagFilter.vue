@@ -1,6 +1,8 @@
 <template>
     <div class="tagfilter">
         <div class="filter"><span class="label">包括：</span>
+            <span class="hint" v-if="undefined === include || 0 === include.size"
+            >Ctrl + 左键单击标签</span>
             <a-tag 
             v-for="item of undefined === include ? [] : Array.from(include)"
             :key="item"
@@ -9,6 +11,8 @@
             >{{item}}</a-tag>
         </div>
         <div class="filter"><span class="label">排除：</span>
+            <span class="hint" v-if="undefined === exclude || 0 === exclude.size"
+            >Alt + 左键单击标签</span>
             <a-tag 
             v-for="item of undefined === exclude ? [] : Array.from(exclude)"
             :key="item"
@@ -50,7 +54,9 @@ export default $$.Vue.extend({
 
 <style lang="scss" scoped>
 .tagfilter{
-    margin-bottom: 20px;
+    position: fixed;
+    top: 15px;
+    // margin-bottom: 20px;
     .filter {
         margin-bottom: 10px;
         .label{

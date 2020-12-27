@@ -44,7 +44,7 @@ export default $$.Vue.extend({
         balanceFrame() {
             const clientWidth: number = document.documentElement.clientWidth;
             const clientHeight: number = document.documentElement.clientHeight;
-            let frameTopHeight: number = 50;
+            let frameTopHeight: number = 100;
             let frameBottomHeight: number = 50;
             let frameMediumHeight: number = clientHeight - frameTopHeight - frameBottomHeight;
             // 移动设备模式

@@ -59,7 +59,7 @@ export default $$.Vue.extend({
     },
     mounted() {
         if (undefined === this.icon) {
-            this.loadAvatar(5 * 1000);
+            this.loadAvatar(15 * 1000);
         }
     },
     methods: {
