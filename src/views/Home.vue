@@ -1,5 +1,10 @@
 <template>
   <div id="home">
+    <tagfilter
+        :include="arguements.include"
+        :exclude="arguements.exclude"
+        @filterChange="onFilterChange"
+    />
     <!-- v-for="item of usebooks" :key="item.url" -->
     <bminfo
       v-for="item of usebooks"
@@ -18,7 +23,9 @@
 <script lang="ts">
 import $$ from "../library";
 import BookmarkInformation from "../components/BookmarkInformation.vue";
+import TagFilter from "../components/TagFilter.vue";
 import { TagClickEvent } from "../components/BookmarkInformation.vue";
+import { FilterChangeEvent } from "../components/TagFilter.vue";
 import {
   Bookmark,
   RawHashArguements,
@@ -30,6 +37,7 @@ export default $$.Vue.extend({
   components: {
     // 引入局部组建
     bminfo: BookmarkInformation,
+    tagfilter: TagFilter
   },
   data() {
     return {
@@ -51,8 +59,14 @@ export default $$.Vue.extend({
       this.arguements = $$.book.parseArguements(
         $$.hash.getHashArguements() as RawHashArguements
       );
-      console.log(this.arguements);
+    //   console.log(this.arguements);
       this.usebooks = $$.book.filterBookmark(this.bookmarks, this.arguements);
+    },
+    refreshArugements() {
+        $$.hash.setHashArguements({
+            include: Array.from(this.arguements.include),
+            exclude: Array.from(this.arguements.exclude),
+        });
     },
     onTagClick(tag: TagClickEvent) {
       // Ctrl   : include
@@ -60,22 +74,25 @@ export default $$.Vue.extend({
       // Default: only
       if (tag.ctrlKey) {
         this.arguements.include.add(tag.text);
-        $$.hash.setHashArguements({
-            include: Array.from(this.arguements.include),
-            exclude: Array.from(this.arguements.exclude),
-        });
+        this.refreshArugements();
       } else if (tag.altKey) {
         this.arguements.exclude.add(tag.text);
-        $$.hash.setHashArguements({
-            include: Array.from(this.arguements.include),
-            exclude: Array.from(this.arguements.exclude),
-        });
+        this.refreshArugements();
       } else {
         $$.hash.setHashArguements({
           include: tag.text,
         });
       }
     },
+    onFilterChange(e: FilterChangeEvent) {
+        if('closeInclude' === e.type) {
+            this.arguements.include.delete(e.text);
+            this.refreshArugements();
+        } else if ('closeExclude' === e.type) {
+            this.arguements.exclude.delete(e.text);
+            this.refreshArugements();
+        }
+    }
   },
 });
 </script>
