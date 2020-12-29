@@ -63,7 +63,7 @@ if (undefined === axios)
 import { randomSoftRGBColor } from './random'
 import hash from './hash'
 import book from './bookmark'
-
+import { getJsonpFile } from './jsonp'
 
 // export $$
 export default {
@@ -73,5 +73,6 @@ export default {
     axios,
     randomSoftRGBColor,
     hash,
-    book
+    book,
+    getJsonpFile
 }

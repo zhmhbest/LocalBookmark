@@ -48,7 +48,16 @@ export default $$.Vue.extend({
   },
   mounted() {
     $$.axios.get("data/bookmark.json").then((res) => {
-      this.bookmarks = res.data;
+      this.bookmarks = [...this.bookmarks, ...res.data];
+      // this.bookmarks = res.data;
+      this.filterBookmark();
+    });
+    $$.getJsonpFile("http://127.0.0.1/bookmark/index.js", "bookCallback").then(dat => {
+      let data = dat as Array<Bookmark>;
+      for (let item of data) {
+          item.tag = [...item.tag, '本地书签'];
+      }
+      this.bookmarks = [...this.bookmarks, ...data];
       this.filterBookmark();
     });
     // 书签过滤
