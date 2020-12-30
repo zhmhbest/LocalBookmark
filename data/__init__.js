@@ -4,11 +4,11 @@ const file = require('./lib/file');
 
 // 加载书签
 function loadBookmarks() {
+    const dataPath = path.relative(".", path.join(__dirname, "bookmarks"));
     let buffer = [];
-    file.openDirectory("./bookmarks", (name, stat) => {
+    file.openDirectory(dataPath, (name, stat) => {
         if (stat.isFile() && name.match(/\.json$/)) {
-            // console.log(name);
-            const filename = `./${name}`;
+            const filename = `./${path.relative(__dirname, name)}`.replace(/\\/g, '/');
             const bookmarks = require(filename);
             // for (let item of bookmarks) { item['ref'] = filename; }
             buffer = buffer.concat(bookmarks);
@@ -24,5 +24,6 @@ function main(__to__) {
 }
 
 
+// main("../docs/data/bookmark.json");
 main("../src/assets/data/bookmark.json");
 // main("./bookmark.json");
