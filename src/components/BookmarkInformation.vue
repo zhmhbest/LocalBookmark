@@ -58,12 +58,19 @@ export default $$.Vue.extend({
         };
     },
     mounted() {
-        if (undefined === this.icon) {
-            this.loadAvatar(15 * 1000);
-        }
+        this.loadAvatar();
     },
     methods: {
-        loadAvatar(timeout: number) {
+        loadAvatar() {
+            if (undefined === this.icon) {
+                this.loadAPIAvatar(15 * 1000);
+            } else {
+                // 加载指定的图标
+                this.avatarSource = this.icon;
+                this.avatarStyle.backgroundColor = "rgb(0, 0, 0, 0)";
+            }
+        },
+        loadAPIAvatar(timeout: number) {
             let isOK: boolean = false;
             const img: HTMLImageElement = (this.$refs
                 .headline as HTMLDivElement).querySelector("img");
