@@ -4,20 +4,42 @@ const icon = require('./lib/icon');
 
 // 加载书签
 function loadBookmarks() {
-    let bookmarks = [];
+    let buffer = [];
     file.openDirectory("./bookmarks", (name, stat) => {
-        if ( stat.isFile() && name.match(/\.json$/) ) {
+        if (stat.isFile() && name.match(/\.json$/)) {
             // console.log(name);
-            bookmarks = bookmarks.concat(require(`./${name}`));
+            const filename = `./${name}`;
+            const bookmarks = require(filename);
+            for (let item of bookmarks) {
+                item['ref'] = filename;
+            }
+            buffer = buffer.concat(bookmarks);
         }
-    }); return bookmarks;
+    });
+    return buffer;
 }
 
-const __to = "../src/assets/data/bookmark.json";
-// const __to = "./bookmark.json";
-const bookmarks = loadBookmarks();
-// for (let bookmark of bookmarks) {
-//     icon(bookmark);
-//     break;
-// }
-file.saveJSON(path.join(__dirname, __to), bookmarks);
+
+function main(__to__) {
+    const bookmarks = loadBookmarks();
+    let count = {
+        num: 0,
+        sum: bookmarks.length
+    };
+    for (let bookmark of bookmarks) {
+        icon(bookmark, count);
+    }
+    const interval = setInterval(() => {
+        console.log(`${count.num}/${count.sum}`);
+        if (count.num === count.sum) {
+            clearInterval(interval);
+            for (let bookmark of bookmarks) {
+                delete bookmark['ref'];
+            }
+            file.saveJSON(path.join(__dirname, __to__), bookmarks);
+        }
+    }, 100);
+}
+
+main("./bookmark.json");
+// const __to = "../src/assets/data/bookmark.json";
