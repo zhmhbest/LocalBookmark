@@ -17,7 +17,35 @@ function serachIcon(strlink) {
     return href[0];
 }
 
-function getIconBySelf(url) {
+function getIcon(html) {
+    const links = html.match(/\<link .+?\>/g);
+    if (null == links) return undefined;
+    for (let link of links) {
+        let icon = serachIcon(link);
+        if (undefined === icon) continue;
+        return icon;
+    }
+    return undefined;
+}
+
+
+const HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+};
+
+async function loadIcon(data) {
+    for (let item of data) {
+        if (undefined !== item.icon) continue;
+        // console.log(item);
+        await axios.get(item.url, {}, HEADERS).then(res => {
+            console.log(res.data);
+            // const icon = getIcon(res.data);
+            // console.log(item);
+            // console.log(icon);
+            return;
+        });
+    }
+
     // axios.get(bookmark['url'], {}, {
     //     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
     // }).then(res => {
@@ -40,13 +68,6 @@ function getIconBySelf(url) {
     // });
 }
 
-module.exports = function (bookmark, count) {
-    const done = () => {
-        count.num++;
-    }
-    if (undefined !== bookmark['icon']) {
-        done();
-        return;
-    }
-    done();
+module.exports = {
+    loadIcon
 };

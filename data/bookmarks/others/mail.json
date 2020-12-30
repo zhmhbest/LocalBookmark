@@ -1,43 +1,43 @@
 [
-  {
-    "title": "QQ邮箱",
-    "url": "https://mail.qq.com",
-    "tag": [
-      "邮箱",
-      "腾讯"
-    ]
-  },
-  {
-    "title": "163邮箱",
-    "url": "https://mail.163.com/",
-    "tag": [
-      "邮箱",
-      "网易"
-    ]
-  },
-  {
-    "title": "Sina邮箱",
-    "url": "https://mail.sina.com",
-    "tag": [
-      "邮箱",
-      "新浪"
-    ]
-  },
-  {
-    "title": "Google邮箱",
-    "url": "https://mail.google.com",
-    "tag": [
-      "邮箱",
-      "谷歌",
-      "科学上网"
-    ]
-  },
-  {
-    "title": "Outlook邮箱",
-    "url": "https://outlook.live.com/mail/",
-    "tag": [
-      "邮箱",
-      "微软"
-    ]
-  }
+    {
+        "title": "QQ邮箱",
+        "url": "https://mail.qq.com",
+        "tag": [
+            "邮箱",
+            "腾讯"
+        ]
+    },
+    {
+        "title": "163邮箱",
+        "url": "https://mail.163.com/",
+        "tag": [
+            "邮箱",
+            "网易"
+        ]
+    },
+    {
+        "title": "Sina邮箱",
+        "url": "https://mail.sina.com",
+        "tag": [
+            "邮箱",
+            "新浪"
+        ]
+    },
+    {
+        "title": "Google邮箱",
+        "url": "https://mail.google.com",
+        "tag": [
+            "邮箱",
+            "谷歌",
+            "科学上网"
+        ]
+    },
+    {
+        "title": "Outlook邮箱",
+        "url": "https://outlook.live.com/mail/",
+        "tag": [
+            "邮箱",
+            "微软"
+        ]
+    }
 ]

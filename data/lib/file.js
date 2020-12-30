@@ -44,10 +44,10 @@ function saveText(location, text) {
 }
 
 
-function saveJSON(location, data) {
+function saveJSON(location, data, space) {
     const fp = fs.openSync(location, 'w');
     // Buffer.from(JSON.stringify(data)).toString('base64')
-    fs.writeSync(fp, `${JSON.stringify(data)}`);
+    fs.writeSync(fp, `${JSON.stringify(data, undefined, space)}`);
     fs.closeSync(fp);
 }
 
