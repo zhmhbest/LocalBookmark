@@ -1,0 +1,185 @@
+[
+    {
+        "title": "下载 Mingw-w64",
+        "url": "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/",
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎",
+            "C/C++"
+        ]
+    },
+    {
+        "title": "下载 Cygwin",
+        "url": "https://cygwin.com/install.html",
+        "desc": "模拟Linux环境",
+        "more": [
+            "apt-cyg：<code>git clone https://github.com/transcode-open/apt-cyg.git</code>",
+            "linux-C：<code>Category → Devel → gcc-g++、make、cmake、gdb</code>"
+        ],
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎",
+            "C/C++"
+        ]
+    },
+    {
+        "title": "Mirrors Cygwin",
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/help/cygwin/",
+        "desc": "清华大学开源镜像站 Cygwin",
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎",
+            "C/C++",
+            "镜像"
+        ]
+    },
+    {
+        "title": "下载 Haskell",
+        "url": "https://www.haskell.org/downloads/",
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎"
+        ]
+    },
+    {
+        "title": "下载 Go",
+        "url": "https://golang.google.cn/dl/",
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎",
+            "科学上网",
+            "谷歌"
+        ]
+    },
+    {
+        "title": "下载 Perl",
+        "url": "https://www.perl.org/get.html",
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎"
+        ]
+    },
+    {
+        "title": "下载 Ruby",
+        "url": "https://rubyinstaller.org/downloads/",
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎"
+        ]
+    },
+    {
+        "title": "下载 PHP",
+        "url": "https://www.php.net/downloads.php",
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎"
+        ]
+    },
+    {
+        "title": "下载 dotNet",
+        "url": "https://dotnet.microsoft.com/download",
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎"
+        ]
+    },
+    {
+        "title": "下载 JDK 6",
+        "url": "https://www.oracle.com/java/technologies/javase-java-archive-javase6-downloads.html",
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎",
+            "JAVA"
+        ]
+    },
+    {
+        "title": "下载 JDK 7",
+        "url": "https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html",
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎",
+            "JAVA"
+        ]
+    },
+    {
+        "title": "下载 JDK 8",
+        "url": "https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html",
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎",
+            "JAVA"
+        ]
+    },
+    {
+        "title": "下载 JDK 11",
+        "url": "https://www.oracle.com/java/technologies/javase-jdk11-downloads.html",
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎",
+            "JAVA"
+        ]
+    },
+    {
+        "title": "下载 Scala",
+        "url": "https://www.scala-lang.org/download/",
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎"
+        ]
+    },
+    {
+        "title": "下载 Node.js",
+        "url": "https://nodejs.org/en/download/",
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎"
+        ]
+    },
+    {
+        "title": "下载 Julia",
+        "url": "https://julialang.org/downloads/",
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎",
+            "科学计算"
+        ]
+    },
+    {
+        "title": "下载 Python",
+        "url": "https://www.python.org/downloads/",
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎",
+            "科学计算",
+            "Python"
+        ]
+    },
+    {
+        "title": "下载 MiniConda",
+        "url": "https://docs.conda.io/en/latest/miniconda.html",
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎",
+            "科学计算",
+            "Python"
+        ]
+    }
+]

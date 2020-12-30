@@ -1,0 +1,70 @@
+[
+    {
+        "title": "下载 UltraVNC",
+        "url": "https://www.uvnc.com/downloads/ultravnc.html",
+        "tag": [
+            "软件",
+            "远程"
+        ]
+    },
+    {
+        "title": "下载 TightVNC",
+        "url": "https://www.tightvnc.com/download.php",
+        "tag": [
+            "软件",
+            "远程"
+        ]
+    },
+    {
+        "title": "下载 Splashtop Streamer",
+        "url": "https://www.splashtop.com/streamer",
+        "desc": "本地访问使用 Personal",
+        "tag": [
+            "软件",
+            "远程"
+        ]
+    },
+    {
+        "title": "下载 Splashtop Client",
+        "url": "https://www.splashtop.com/cn/downloads",
+        "desc": "本地访问使用 Splashtop Personal",
+        "tag": [
+            "软件",
+            "远程"
+        ]
+    },
+    {
+        "title": "下载 Mobaxterm",
+        "url": "https://mobaxterm.mobatek.net/download.html",
+        "tag": [
+            "软件",
+            "远程",
+            "SSH"
+        ]
+    },
+    {
+        "title": "下载 Filezilla",
+        "url": "https://filezilla-project.org/download.php?type=client",
+        "tag": [
+            "软件",
+            "远程",
+            "FTP"
+        ]
+    },
+    {
+        "title": "下载 Curl",
+        "url": "https://curl.haxx.se/download.html",
+        "tag": [
+            "软件"
+        ]
+    },
+    {
+        "title": "下载 Scrcpy",
+        "url": "https://github.com/Genymobile/scrcpy/releases",
+        "desc": "连接数据线控制安卓手机",
+        "tag": [
+            "软件",
+            "安卓"
+        ]
+    }
+]
