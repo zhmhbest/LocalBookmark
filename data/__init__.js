@@ -1,6 +1,6 @@
 const path = require('path');
 const file = require('./lib/file');
-const icon = require('./lib/icon');
+
 
 // 加载书签
 function loadBookmarks() {
@@ -10,9 +10,7 @@ function loadBookmarks() {
             // console.log(name);
             const filename = `./${name}`;
             const bookmarks = require(filename);
-            for (let item of bookmarks) {
-                item['ref'] = filename;
-            }
+            // for (let item of bookmarks) { item['ref'] = filename; }
             buffer = buffer.concat(bookmarks);
         }
     });
@@ -22,24 +20,9 @@ function loadBookmarks() {
 
 function main(__to__) {
     const bookmarks = loadBookmarks();
-    let count = {
-        num: 0,
-        sum: bookmarks.length
-    };
-    for (let bookmark of bookmarks) {
-        icon(bookmark, count);
-    }
-    const interval = setInterval(() => {
-        console.log(`${count.num}/${count.sum}`);
-        if (count.num === count.sum) {
-            clearInterval(interval);
-            for (let bookmark of bookmarks) {
-                delete bookmark['ref'];
-            }
-            file.saveJSON(path.join(__dirname, __to__), bookmarks);
-        }
-    }, 100);
+    file.saveJSON(path.join(__dirname, __to__), bookmarks);
 }
 
-main("./bookmark.json");
-// const __to = "../src/assets/data/bookmark.json";
+
+main("../src/assets/data/bookmark.json");
+// main("./bookmark.json");

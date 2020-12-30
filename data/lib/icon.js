@@ -1,7 +1,6 @@
 const axios = require('axios');
 const file = require('./file');
 
-
 function serachIcon(strlink) {
     let rel = strlink.match(/(?<=rel=['"]).+?(?=['"])/);
     if (null === rel) return undefined;
@@ -41,31 +40,13 @@ function getIconBySelf(url) {
     // });
 }
 
-
-function getIconByApi(url, callback) {
-    // https://ico.kucat.cn/get.php?url=
-    axios.get(`https://ico.kucat.cn/get.php?url=${url}`, {}, {}).then(res => {
-        // console.log(res);
-        callback(
-            true,
-            Buffer.from(res.data).toString('base64')
-        );
-    }).catch(err => {
-        callback(false);
-    });
-}
-
-// https://github.com/zhmhbest/LocalBookmark/tree/version1/api/favicon
 module.exports = function (bookmark, count) {
-    function done() { count.num++; }
-    if (undefined !== bookmark['icon']) { done(); return; }
+    const done = () => {
+        count.num++;
+    }
+    if (undefined !== bookmark['icon']) {
+        done();
+        return;
+    }
     done();
-    // getIconByApi(bookmark['url'], (ok, dat) => {
-    //     if (ok) {
-    //         // console.log(dat);
-    //         bookmark['icon'] = dat;
-    //     }
-    //     done();
-    //     return;
-    // });
 };
