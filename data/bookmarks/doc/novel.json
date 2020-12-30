@@ -5,7 +5,8 @@
         "tag": [
             "书籍",
             "小说"
-        ]
+        ],
+        "icon": "http://qidian.gtimg.com/qd/favicon/qd_icon.c443c.ico"
     },
     {
         "title": "知轩",
@@ -13,15 +14,7 @@
         "tag": [
             "书籍",
             "小说"
-        ]
-    },
-    {
-        "title": "变身",
-        "url": "http://www.bswxue.com/",
-        "hidden": true,
-        "tag": [
-            "书籍",
-            "小说"
-        ]
+        ],
+        "icon": "http://www.zxcs.me/favicon.ico"
     }
 ]

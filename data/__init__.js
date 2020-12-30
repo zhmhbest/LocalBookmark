@@ -24,6 +24,6 @@ function main(__to__) {
 }
 
 
-// main("../docs/data/bookmark.json");
+main("../docs/data/bookmark.json");
 main("../src/assets/data/bookmark.json");
 // main("./bookmark.json");

@@ -21,8 +21,7 @@ function openData() {
 async function main() {
     for (let [pack, name] of openData()) {
         const data = require(pack);
-        // await icon.loadIcon(data);
-        // break;
+        await icon.loadIcon(data);
         file.saveJSON(name, data, '    ');
     }
 }

@@ -1,5 +1,5 @@
 const axios = require('axios');
-const file = require('./file');
+// const file = require('./file');
 
 function serachIcon(strlink) {
     let rel = strlink.match(/(?<=rel=['"]).+?(?=['"])/);
@@ -36,36 +36,48 @@ const HEADERS = {
 async function loadIcon(data) {
     for (let item of data) {
         if (undefined !== item.icon) continue;
-        // console.log(item);
+        const url = item.url.match(/\/$/) ? item.url : `${item.url}/`;
+        let favicon = undefined;
         await axios.get(item.url, {}, HEADERS).then(res => {
-            console.log(res.data);
-            // const icon = getIcon(res.data);
-            // console.log(item);
-            // console.log(icon);
-            return;
+            // [ 'status', 'statusText', 'headers', 'config', 'request': [], 'data' ]
+            const host = res.request.connection['_host'];
+            const icon = getIcon(res.data);
+            if (undefined !== icon) {
+                // 匹配到
+                if (icon.match(/^\/[a-z]/)) { // /favicon
+                    favicon = `http://${host}${icon}`;
+                } else if (icon.match(/^\/\/[a-z]/)) { // //favicon
+                    favicon = `http://${icon.substr(2)}`;
+                } else if (icon.match(/^[a-z]/)) { // favicon
+                    favicon = `${url}${icon}`;
+                } else {
+                    console.log("error:", url, icon);
+                }
+            }
+        }).catch(err => {
+            console.log("error first:", url);
         });
-    }
 
-    // axios.get(bookmark['url'], {}, {
-    //     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
-    // }).then(res => {
-    //     if (200 === res.status) {
-    //         const html = res.data.toString();
-    //         const links = html.match(/\<link .+?\>/g);
-    //         if (null === links) return;
-    //         for (let link of links) {
-    //             let icon = serachIcon(link);
-    //             if (undefined === icon) return;
-    //             //
-    //             // console.log(icon);
-    //             //
-    //             bookmark['icon'] = icon;
-    //         }
-    //         // file.saveText("./test.txt", links.join('\n'));
-    //     }
-    // }).catch(err => {
-    //     console.log('error:', bookmark['url']);
-    // });
+        // // 尝试再匹配
+        // if (undefined === favicon) {
+        //     const test = `${url}favicon.ico`;
+        //     await axios.get(item.url, {}, HEADERS).then(res => {
+        //         if(200 === res.status) {
+        //             favicon = test;
+        //         }
+        //     }).catch(err => {
+        //         console.log("error retry:", url);
+        //     });
+        // }
+
+        // 写回
+        if (undefined !== favicon) {
+            item.icon = favicon;
+            console.log(favicon);
+        } else {
+            console.log("error:", url, 'none');
+        }
+    }
 }
 
 module.exports = {

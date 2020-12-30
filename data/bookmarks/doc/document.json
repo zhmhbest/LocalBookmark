@@ -5,7 +5,8 @@
         "tag": [
             "文档",
             "工具"
-        ]
+        ],
+        "icon": "http://smallpdf.com/favicon.png"
     },
     {
         "title": "PDF转Word",
@@ -13,7 +14,8 @@
         "tag": [
             "文档",
             "工具"
-        ]
+        ],
+        "icon": "http://app.xunjiepdf.com/favicon.ico"
     },
     {
         "title": "搬书匠（编程书籍）",
@@ -21,14 +23,16 @@
         "tag": [
             "书籍",
             "编程"
-        ]
+        ],
+        "icon": "http://www.banshujiang.cn/favicon.ico"
     },
     {
         "title": "鸠摩搜书",
         "url": "https://www.jiumodiary.com/",
         "tag": [
             "书籍"
-        ]
+        ],
+        "icon": "https://www.jiumodiary.com/images/favicon.png"
     },
     {
         "title": "百度脑图",
@@ -38,7 +42,8 @@
             "工具",
             "笔记",
             "百度"
-        ]
+        ],
+        "icon": "https://naotu.baidu.com/favicon.ico"
     },
     {
         "title": "腾讯文档",
@@ -48,7 +53,8 @@
             "工具",
             "文档",
             "腾讯"
-        ]
+        ],
+        "icon": "http://docs.idqqimg.com/tim/docs/desktop/favicon.ico"
     },
     {
         "title": "小鸡词典",
@@ -57,7 +63,8 @@
         "tag": [
             "工具",
             "词典"
-        ]
+        ],
+        "icon": "http://jikipedia.com/favicon.ico"
     },
     {
         "title": "明星缩写查询",
@@ -65,6 +72,7 @@
         "desc": "",
         "tag": [
             "工具"
-        ]
+        ],
+        "icon": "http://www.iseecs.com/favicon.ico"
     }
 ]
