@@ -1,5 +1,5 @@
 <template>
-
+    <iframe src="static/pages/gxy/index.html"></iframe>
 </template>
 
 <script lang="ts">
@@ -13,4 +13,10 @@ export default $$.Vue.extend({
 </script>
 
 <style lang="scss" scoped>
+iframe {
+    height: 99%;
+    width: 99%;
+    border: 0;
+    overflow: hidden
+}
 </style>
