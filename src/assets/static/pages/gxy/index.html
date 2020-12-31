@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <script src="./calendar.js"></script>
+    <script src="./time.js"></script>
+    <title>生日</title>
+    <style>
+        body {
+            -webkit-font-smoothing: antialiased;
+            font-family: Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+            /* background-image: url('bg.jpg'); */
+            font-size: 85%;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 220%;
+            font-weight: 400;
+        }
+
+        .content {
+            position: absolute;
+            width: 100%;
+            top: 40%;
+            transform: translate(0, -50%);
+            text-align: center;
+        }
+
+        .timer {
+            font-size: 180%;
+            line-height: 1.5;
+            margin: 1em 0;
+        }
+
+        .timer b {
+            color: rgb(253, 99, 125);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <h2>笨蛋，我们已经在一起了</h2>
+        <div class="timer">
+            <b id="d0"></b> Days <b id="h0"></b> Hours <b id="m0"></b> Minutes <b id="s0"></b> Seconds
+        </div>
+        <h2>距离笨蛋的阳历生日还有</h2>
+        <div class="timer">
+            <b id="d1"></b> Days <b id="h1"></b> Hours <b id="m1"></b> Minutes <b id="s1"></b> Seconds
+        </div>
+        <h2>距离笨蛋的阴历生日还有</h2>
+        <div class="timer">
+            <b id="d2"></b> Days <b id="h2"></b> Hours <b id="m2"></b> Minutes <b id="s2"></b> Seconds
+        </div>
+    </div>
+    <script>
+        const domTime0 = [
+            document.getElementById('d0'),
+            document.getElementById('h0'),
+            document.getElementById('m0'),
+            document.getElementById('s0')
+        ];
+        const domTime1 = [
+            document.getElementById('d1'),
+            document.getElementById('h1'),
+            document.getElementById('m1'),
+            document.getElementById('s1')
+        ];
+        const domTime2 = [
+            document.getElementById('d2'),
+            document.getElementById('h2'),
+            document.getElementById('m2'),
+            document.getElementById('s2')
+        ];
+        const START = new Date("2019-9-12 16:04:00");
+        const BIRTH = getBirth(1996, 1, 7);
+        const solar_birth = new Date(BIRTH.solar.next);
+        const lunar_birth = new Date(BIRTH.lunar.next);
+        console.log(BIRTH);
+        setInterval(() => {
+            const NOW = new Date();
+            const diff_info0 = getTimeGapInfo(new Date() - START);
+            const diff1 = solar_birth - NOW;
+            const diff_info1 = diff1 < 0 ? [0, 0, 0, 0] : getTimeGapInfo(diff1);
+            const diff2 = lunar_birth - NOW;
+            const diff_info2 = diff2 < 0 ? [0, 0, 0, 0] : getTimeGapInfo(diff2);
+            for(let i=0; i<4; i++) {
+                domTime0[i].innerHTML = diff_info0[i];
+                domTime1[i].innerHTML = diff_info1[i];
+                domTime2[i].innerHTML = diff_info2[i];
+            }
+        }, 500);
+    </script>
+</body>
+
+</html>
