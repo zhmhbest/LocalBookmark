@@ -4,14 +4,16 @@
         "url": "https://www.rijutv.com",
         "tag": [
             "视频"
-        ]
+        ],
+        "icon": "https://www.rijutv.com/favicon.ico"
     },
     {
         "title": "韩剧TV",
         "url": "http://www.hanjutv.com/",
         "tag": [
             "视频"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Acfun",
@@ -19,7 +21,8 @@
         "tag": [
             "视频",
             "二次元"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Bilibili",
@@ -28,7 +31,8 @@
             "视频",
             "二次元",
             "社区"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "风车动漫",
@@ -36,7 +40,8 @@
         "tag": [
             "视频",
             "二次元"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "风车动漫（手机）",
@@ -44,7 +49,8 @@
         "tag": [
             "视频",
             "二次元"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "腾讯视频",
@@ -53,7 +59,8 @@
             "视频",
             "社区",
             "腾讯"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "爱奇艺视频",
@@ -61,7 +68,8 @@
         "tag": [
             "视频",
             "社区"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "最大资源",
@@ -69,14 +77,16 @@
         "desc": "域名数字[1-5]可替换",
         "tag": [
             "视频"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "旭旭电影",
         "url": "http://www.hxuxu.com/",
         "tag": [
             "视频"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Youtube",
@@ -84,7 +94,8 @@
         "tag": [
             "视频",
             "科学上网"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Youtube Downloader",
@@ -93,7 +104,8 @@
             "视频",
             "工具",
             "科学上网"
-        ]
+        ],
+        "icon": "http://qdownloader.io/img/favicon/favicon-32x32.png"
     },
     {
         "title": "Panzoid",
@@ -102,7 +114,8 @@
         "tag": [
             "视频",
             "工具"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Unscreen",
@@ -111,6 +124,7 @@
         "tag": [
             "视频",
             "工具"
-        ]
+        ],
+        "icon": "http://www.unscreen.com/favicon-196x196.png"
     }
 ]

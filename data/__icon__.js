@@ -20,8 +20,10 @@ function openData() {
 
 async function main() {
     for (let [pack, name] of openData()) {
+        console.log("open:", pack);
         const data = require(pack);
         await icon.loadIcon(data);
+        console.log("save:", pack);
         file.saveJSON(name, data, '    ');
     }
 }

@@ -5,7 +5,8 @@
         "tag": [
             "音频",
             "腾讯"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "网易音乐",
@@ -13,7 +14,8 @@
         "tag": [
             "音频",
             "网易"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "哔哩音乐",
@@ -21,7 +23,8 @@
         "tag": [
             "音频",
             "二次元"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "猫耳FM",
@@ -30,7 +33,8 @@
             "音频",
             "二次元",
             "社区"
-        ]
+        ],
+        "icon": "http://www.missevan.com/images/index/favicon.ico"
     },
     {
         "title": "MidiShow",
@@ -38,7 +42,8 @@
         "tag": [
             "音频",
             "MIDI"
-        ]
+        ],
+        "icon": "http://www.midishow.com/favicon.ico"
     },
     {
         "title": "自由钢琴",
@@ -47,7 +52,8 @@
             "音频",
             "钢琴",
             "MIDI"
-        ]
+        ],
+        "icon": "https://www.autopiano.cn/favicon.ico"
     },
     {
         "title": "由你音乐",
@@ -56,7 +62,8 @@
             "音频",
             "榜单",
             "腾讯"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "音乐Tai",
@@ -64,13 +71,15 @@
         "tag": [
             "音频",
             "榜单"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "听雨声",
         "url": "https://www.rainymood.com/",
         "tag": [
             "音频"
-        ]
+        ],
+        "icon": "http://www.rainymood.com/favicon-32x32.png?v=oLBgER8B5r"
     }
 ]

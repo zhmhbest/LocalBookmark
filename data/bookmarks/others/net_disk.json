@@ -5,14 +5,16 @@
         "tag": [
             "云盘",
             "百度"
-        ]
+        ],
+        "icon": "http://pan.baidu.com/static/images/favicon.ico"
     },
     {
         "title": "坚果云盘",
         "url": "https://www.jianguoyun.com/d/signup",
         "tag": [
             "云盘"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "谷歌网盘",
@@ -21,13 +23,15 @@
             "云盘",
             "谷歌",
             "科学上网"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "天翼云盘",
         "url": "https://cloud.189.cn/",
         "tag": [
             "云盘"
-        ]
+        ],
+        "icon": ""
     }
 ]

@@ -6,7 +6,8 @@
             "教程",
             "编程",
             "竞赛"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "LeetCode",
@@ -15,7 +16,8 @@
             "教程",
             "编程",
             "题库"
-        ]
+        ],
+        "icon": "http://leetcode.com/favicon-16x16.png"
     },
     {
         "title": "菜鸟教程",
@@ -23,7 +25,8 @@
         "tag": [
             "教程",
             "编程"
-        ]
+        ],
+        "icon": "https://static.runoob.com/images/favicon.ico"
     },
     {
         "title": "W3school",
@@ -31,7 +34,8 @@
         "tag": [
             "教程",
             "编程"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "TinyC",
@@ -40,7 +44,8 @@
         "tag": [
             "教程",
             "编程"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Flutter实战",
@@ -49,7 +54,8 @@
         "tag": [
             "教程",
             "编程"
-        ]
+        ],
+        "icon": "https://pcdn.flutterchina.club/gitbook/images/favicon.ico"
     },
     {
         "title": "W3C School",
@@ -58,7 +64,8 @@
             "教程",
             "课程",
             "编程"
-        ]
+        ],
+        "icon": "https://7n.w3cschool.cn/statics/images/favicon.ico?v=2.2"
     },
     {
         "title": "MK安全渗透",
@@ -67,7 +74,8 @@
             "教程",
             "课程",
             "编程"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "可可英语",
@@ -75,7 +83,8 @@
         "tag": [
             "教程",
             "英语"
-        ]
+        ],
+        "icon": "http://www.kekenet.com/favicon.ico"
     },
     {
         "title": "学习音乐",
@@ -83,6 +92,7 @@
         "tag": [
             "教程",
             "音乐"
-        ]
+        ],
+        "icon": ""
     }
 ]

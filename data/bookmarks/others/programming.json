@@ -7,7 +7,8 @@
             "编程",
             "榜单",
             "GIT"
-        ]
+        ],
+        "icon": "http://hellogithub.com/favicon.ico"
     },
     {
         "title": "Github",
@@ -15,7 +16,8 @@
         "tag": [
             "编程",
             "GIT"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Gitee",
@@ -23,7 +25,8 @@
         "tag": [
             "编程",
             "GIT"
-        ]
+        ],
+        "icon": "https://assets.gitee.com/assets/favicon-9007bd527d8a7851c8330e783151df58.ico"
     },
     {
         "title": "Git使用帮助",
@@ -32,7 +35,8 @@
             "编程",
             "GIT",
             "笔记"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Apple Developer",
@@ -40,7 +44,8 @@
         "tag": [
             "编程",
             "苹果"
-        ]
+        ],
+        "icon": "http://developer.apple.com/favicon.ico?51002006191"
     },
     {
         "title": "Wechat API",
@@ -48,7 +53,8 @@
         "tag": [
             "编程",
             "API"
-        ]
+        ],
+        "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico"
     },
     {
         "title": "百度地图 API",
@@ -58,7 +64,8 @@
             "地图",
             "编程",
             "API"
-        ]
+        ],
+        "icon": "http://mapopen-website-wiki.cdn.bcebos.com/LOGO/lbsyunlogo_icon.ico"
     },
     {
         "title": "Editor.md",
@@ -67,7 +74,8 @@
             "编程",
             "工具",
             "笔记"
-        ]
+        ],
+        "icon": "http://pandao.github.io/editor.md//favicon.ico"
     },
     {
         "title": "Katex",
@@ -77,7 +85,8 @@
             "编程",
             "Web",
             "Library"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "LaTeX数学公式",
@@ -85,7 +94,8 @@
         "tag": [
             "编程",
             "笔记"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Flowchart",
@@ -95,7 +105,8 @@
             "编程",
             "Web",
             "Library"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "编程工具箱",
@@ -103,7 +114,8 @@
         "tag": [
             "编程",
             "工具"
-        ]
+        ],
+        "icon": "http://tool.oschina.net/img/favicon.ico"
     },
     {
         "title": "米扑代理",
@@ -111,6 +123,7 @@
         "tag": [
             "编程",
             "代理"
-        ]
+        ],
+        "icon": "https://cdn-proxy.mimvp.com/favicon.ico"
     }
 ]

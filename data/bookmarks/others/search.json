@@ -6,7 +6,8 @@
             "搜索",
             "谷歌",
             "科学上网"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "聚合狗",
@@ -14,7 +15,8 @@
         "tag": [
             "搜索",
             "聚合"
-        ]
+        ],
+        "icon": "https://cdn.adguider.com/resource/images_addog/favicon.ico"
     },
     {
         "title": "百度搜索",
@@ -22,7 +24,8 @@
         "tag": [
             "搜索",
             "百度"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "必应搜索",
@@ -30,6 +33,7 @@
         "tag": [
             "搜索",
             "微软"
-        ]
+        ],
+        "icon": "http://cn.bing.com/sa/simg/favicon-2x.ico"
     }
 ]

@@ -5,7 +5,8 @@
         "tag": [
             "浏览器",
             "软件"
-        ]
+        ],
+        "icon": "http://www.google.cn/chrome/static/images/favicons/favicon.ico"
     },
     {
         "title": "下载 Google ChromeDriver",
@@ -15,7 +16,8 @@
             "浏览器",
             "软件",
             "编程"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "下载 Mozilla Firefox",
@@ -23,7 +25,8 @@
         "tag": [
             "浏览器",
             "软件"
-        ]
+        ],
+        "icon": "http://www.firefox.com.cn/media/img/favicons/firefox/favicon-196x196.5e474118060e.png"
     },
     {
         "title": "下载 360浏览器XP版",
@@ -31,7 +34,8 @@
         "tag": [
             "浏览器",
             "软件"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "下载 JJQQKK Chromium",
@@ -39,7 +43,8 @@
         "tag": [
             "浏览器",
             "软件"
-        ]
+        ],
+        "icon": "https://github.githubassets.com/favicons/favicon.svg"
     },
     {
         "title": "Chrome WebStore Extensions",
@@ -49,7 +54,8 @@
             "浏览器",
             "谷歌",
             "科学上网"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "极简插件",
@@ -58,6 +64,7 @@
         "tag": [
             "浏览器",
             "谷歌"
-        ]
+        ],
+        "icon": "http://chrome.zzzmh.cn//favicon.ico"
     }
 ]

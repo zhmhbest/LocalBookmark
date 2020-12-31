@@ -7,7 +7,8 @@
             "安卓",
             "镜像",
             "谷歌"
-        ]
+        ],
+        "icon": "https://www.gstatic.cn/devrel-devsite/prod/veaa02889f0c07424beaa31d9bac1e874b6464e7ed7987fde4c94a59ace9487fa/developers/images/favicon.png"
     },
     {
         "title": "Images for Android-x86",
@@ -16,7 +17,8 @@
             "系统",
             "安卓",
             "镜像"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Android Images for VM",
@@ -26,6 +28,7 @@
             "安卓",
             "镜像",
             "虚拟机"
-        ]
+        ],
+        "icon": "http://www.osboxes.org/wp-content/uploads/2018/01/favicon.png"
     }
 ]

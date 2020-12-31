@@ -4,7 +4,8 @@
         "url": "https://www.pexels.com/",
         "tag": [
             "图片"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "必应每日图片",
@@ -12,7 +13,8 @@
         "tag": [
             "图片",
             "微软"
-        ]
+        ],
+        "icon": "http://bing.ioliu.cn/static/images/bing.ico"
     },
     {
         "title": "Pixiv",
@@ -21,7 +23,8 @@
             "图片",
             "二次元",
             "科学上网"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "EasyIcon",
@@ -29,7 +32,8 @@
         "tag": [
             "图片",
             "ICON"
-        ]
+        ],
+        "icon": "https://cdn-img.easyicon.net/favicon.ico"
     },
     {
         "title": "Iconfont",
@@ -37,7 +41,8 @@
         "tag": [
             "图片",
             "ICON"
-        ]
+        ],
+        "icon": "http://img.alicdn.com/tps/i4/TB1_oz6GVXXXXaFXpXXJDFnIXXX-64-64.ico"
     },
     {
         "title": "FakeUpdate",
@@ -46,7 +51,8 @@
         "tag": [
             "图片",
             "动图"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "This Person Does Not Exist",
@@ -55,7 +61,8 @@
         "tag": [
             "图片",
             "人脸"
-        ]
+        ],
+        "icon": "http://thispersondoesnotexist.com/favicon.png"
     },
     {
         "title": "Draftbit Personas",
@@ -65,7 +72,8 @@
             "图片",
             "头像",
             "工具"
-        ]
+        ],
+        "icon": "http://personas.draftbit.com/favicon-32x32.png?v=b625948653119d238257262c4a6d17d5"
     },
     {
         "title": "Charat",
@@ -76,7 +84,8 @@
             "头像",
             "工具",
             "二次元"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Selfie2Anime",
@@ -87,7 +96,8 @@
             "头像",
             "工具",
             "二次元"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Petalica Paint",
@@ -97,7 +107,8 @@
             "图片",
             "工具",
             "二次元"
-        ]
+        ],
+        "icon": "http://petalica-paint.pixiv.dev/images/favicon.ico"
     },
     {
         "title": "Trace Moe",
@@ -107,7 +118,8 @@
             "图片",
             "工具",
             "二次元"
-        ]
+        ],
+        "icon": "http://trace.moe/favicon.png"
     },
     {
         "title": "Saucenao",
@@ -117,7 +129,8 @@
             "图片",
             "工具",
             "二次元"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Remove",
@@ -126,7 +139,8 @@
         "tag": [
             "图片",
             "工具"
-        ]
+        ],
+        "icon": "http://www.remove.bg/favicon-32x32.png?v=YAXaAv7pao"
     },
     {
         "title": "稿定抠图",
@@ -135,7 +149,8 @@
         "tag": [
             "图片",
             "工具"
-        ]
+        ],
+        "icon": "http://www.gaoding.com/favicon.ico"
     },
     {
         "title": "Hanabi",
@@ -145,7 +160,8 @@
             "图片",
             "视频",
             "数据展示"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Echarts",
@@ -155,6 +171,7 @@
             "图片",
             "数据展示",
             "编程"
-        ]
+        ],
+        "icon": "https://cdn.jsdelivr.net/gh/apache/incubator-echarts-website@asf-site/examples/images/favicon.png?_v_=20200710_1"
     }
 ]

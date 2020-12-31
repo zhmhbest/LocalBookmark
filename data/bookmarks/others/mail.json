@@ -5,7 +5,8 @@
         "tag": [
             "邮箱",
             "腾讯"
-        ]
+        ],
+        "icon": "http://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_16h.png"
     },
     {
         "title": "163邮箱",
@@ -13,7 +14,8 @@
         "tag": [
             "邮箱",
             "网易"
-        ]
+        ],
+        "icon": "https://mail.163.com/favicon.ico"
     },
     {
         "title": "Sina邮箱",
@@ -21,7 +23,8 @@
         "tag": [
             "邮箱",
             "新浪"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Google邮箱",
@@ -30,7 +33,8 @@
             "邮箱",
             "谷歌",
             "科学上网"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Outlook邮箱",
@@ -38,6 +42,7 @@
         "tag": [
             "邮箱",
             "微软"
-        ]
+        ],
+        "icon": "https://ow2.res.office365.com/owalanding/2020.9.21.01/images/favicon.ico?v=4"
     }
 ]

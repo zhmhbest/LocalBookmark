@@ -7,7 +7,8 @@
             "编程",
             "IDE",
             "微软"
-        ]
+        ],
+        "icon": "https://visualstudio.microsoft.com/wp-content/uploads/2017/02/Microsoft-favicon.png"
     },
     {
         "title": "Visual Studio 离线安装帮助",
@@ -17,7 +18,8 @@
             "编程",
             "IDE",
             "微软"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "下载 VSCode",
@@ -28,7 +30,8 @@
             "IDE",
             "微软",
             "VSCode"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "VSCode: Keyboard shortcuts",
@@ -39,7 +42,8 @@
             "编程",
             "IDE",
             "VSCode"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "VSCode: Marketplace",
@@ -51,7 +55,8 @@
             "IDE",
             "Plugins",
             "VSCode"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "VSCode: Markdown Preview Enhanced",
@@ -63,7 +68,8 @@
             "IDE",
             "Plugins",
             "VSCode"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "VSCode: Blink Mind",
@@ -79,7 +85,8 @@
             "IDE",
             "Plugins",
             "VSCode"
-        ]
+        ],
+        "icon": "https://github.githubassets.com/favicons/favicon.svg"
     },
     {
         "title": "下载 HBuilderX",
@@ -88,7 +95,8 @@
             "软件",
             "编程",
             "IDE"
-        ]
+        ],
+        "icon": "http://ask.dcloud.net.cn/static/css/classblack/img/favicon.png?v=20141207"
     },
     {
         "title": "JetBrains 汉化",
@@ -97,7 +105,8 @@
             "软件",
             "编程",
             "IDE"
-        ]
+        ],
+        "icon": "https://github.githubassets.com/favicons/favicon.svg"
     },
     {
         "title": "下载 JetBrains IDEA",
@@ -106,7 +115,8 @@
             "软件",
             "编程",
             "IDE"
-        ]
+        ],
+        "icon": "http://www.jetbrains.com/favicon-32x32.png"
     },
     {
         "title": "下载 JetBrains CLion",
@@ -116,7 +126,8 @@
             "编程",
             "IDE",
             "C/C++"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "下载 Eclipse",
@@ -125,7 +136,8 @@
             "软件",
             "编程",
             "IDE"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "下载 Android Studio",
@@ -135,6 +147,7 @@
             "编程",
             "IDE",
             "谷歌"
-        ]
+        ],
+        "icon": "https://www.gstatic.cn/devrel-devsite/prod/veaa02889f0c07424beaa31d9bac1e874b6464e7ed7987fde4c94a59ace9487fa/android/images/favicon.png"
     }
 ]

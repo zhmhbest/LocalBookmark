@@ -6,7 +6,8 @@
             "博客",
             "社区",
             "新浪"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "新浪微博（手机版）",
@@ -15,7 +16,8 @@
             "博客",
             "社区",
             "新浪"
-        ]
+        ],
+        "icon": "http://m.weibo.cn/favicon.ico"
     },
     {
         "title": "微博超话",
@@ -25,7 +27,8 @@
             "社区",
             "榜单",
             "新浪"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "知乎",
@@ -33,7 +36,8 @@
         "tag": [
             "论坛",
             "社区"
-        ]
+        ],
+        "icon": "https://static.zhihu.com/static/favicon.ico"
     },
     {
         "title": "今日热点",
@@ -44,7 +48,8 @@
             "论坛",
             "榜单",
             "社区"
-        ]
+        ],
+        "icon": "https://file.ipadown.com/tophub/assets/images/favicon/android-icon-192x192.png"
     },
     {
         "title": "Facebook",
@@ -52,7 +57,8 @@
         "tag": [
             "博客",
             "科学上网"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Instagram",
@@ -60,7 +66,8 @@
         "tag": [
             "博客",
             "科学上网"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Quora",
@@ -69,7 +76,8 @@
             "论坛",
             "社区",
             "科学上网"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Twitter",
@@ -78,7 +86,8 @@
             "博客",
             "twitter",
             "科学上网"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "TheEconomist",
@@ -88,7 +97,8 @@
             "博客",
             "twitter",
             "科学上网"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "TIME",
@@ -98,7 +108,8 @@
             "博客",
             "twitter",
             "科学上网"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "The New York Times",
@@ -108,7 +119,8 @@
             "博客",
             "twitter",
             "科学上网"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "CNN",
@@ -118,7 +130,8 @@
             "博客",
             "twitter",
             "科学上网"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "BBC News",
@@ -128,7 +141,8 @@
             "博客",
             "twitter",
             "科学上网"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "BBC News (World)",
@@ -138,7 +152,8 @@
             "博客",
             "twitter",
             "科学上网"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "The Washington Times",
@@ -148,6 +163,7 @@
             "博客",
             "twitter",
             "科学上网"
-        ]
+        ],
+        "icon": ""
     }
 ]
