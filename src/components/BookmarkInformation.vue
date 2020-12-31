@@ -62,7 +62,7 @@ export default $$.Vue.extend({
     },
     methods: {
         loadAvatar() {
-            if (undefined === this.icon) {
+            if (undefined === this.icon || 0 === this.icon.length) {
                 this.loadAPIAvatar(15 * 1000);
             } else {
                 // 加载指定的图标
