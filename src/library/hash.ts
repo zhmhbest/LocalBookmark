@@ -65,11 +65,7 @@ function pushOnHashChange(
             fn(this, ev);
         }
     } else {
-        // 方法链
-        window.onhashchange = function (ev: HashChangeEvent) {
-            preHCE.call(this, ev);
-            fn(this, ev);
-        };
+        // 无视
     }
 }
 

@@ -62,6 +62,7 @@ export default $$.Vue.extend({
     });
     // 书签过滤
     $$.hash.pushOnHashChange(this.filterBookmark);
+    // console.log("mounted");
   },
   methods: {
     filterBookmark() {
