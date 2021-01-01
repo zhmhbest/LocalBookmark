@@ -2,13 +2,10 @@
 
 function getTimeGapInfo(gap) {
     let t = Math.ceil(gap / 1000);
-    d = Math.floor(t / 86400); // 3600 * 24
-    s = Math.floor(t % 60);
-    t = t / 60;
-    m = Math.floor(t % 60);
-    t = t / 60;
-    h = Math.floor(t % 60);
-    t = t / 60;
+    let s = Math.floor(t % 60); t = t / 60;
+    let m = Math.floor(t % 60); t = t / 60;
+    let h = Math.floor(t % 24);
+    let d = Math.floor(t / 24);
     return [d, h, m, s];
 }
 

@@ -55,7 +55,7 @@
         <div class="timer">
             <b id="d1"></b> 天 <b id="h1"></b> 时 <b id="m1"></b> 分 <b id="s1"></b> 秒
         </div>
-        <h2>距离笨蛋的阴历生日还有</h2>
+        <h2>距离笨蛋的农历生日还有</h2>
         <div class="timer">
             <b id="d2"></b> 天 <b id="h2"></b> 时 <b id="m2"></b> 分 <b id="s2"></b> 秒
         </div>
@@ -84,7 +84,7 @@
         const solar_birth = new Date(BIRTH.solar.next);
         const lunar_birth = new Date(BIRTH.lunar.next);
         console.log(BIRTH);
-        setInterval(() => {
+        const timer = setInterval(() => {
             const NOW = new Date();
             const diff_info0 = getTimeGapInfo(new Date() - START);
             const diff1 = solar_birth - NOW;
@@ -96,6 +96,7 @@
                 domTime1[i].innerHTML = diff_info1[i];
                 domTime2[i].innerHTML = diff_info2[i];
             }
+            // clearInterval(timer);
         }, 500);
     </script>
 </body>
