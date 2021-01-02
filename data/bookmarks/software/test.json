@@ -5,7 +5,8 @@
         "desc": "测试服务器端应用程序的性能",
         "tag": [
             "测试"
-        ]
+        ],
+        "icon": "https://jmeter.apache.org/images/favicon.png"
     },
     {
         "title": "下载 Splint",
@@ -13,7 +14,8 @@
         "desc": "静态代码分析工具",
         "tag": [
             "测试"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "下载 Appium",
@@ -21,6 +23,7 @@
         "desc": "iOS、Android 、Web应用自动化测试工具",
         "tag": [
             "测试"
-        ]
+        ],
+        "icon": "http://appium.io/ico/favicon.ico"
     }
 ]

@@ -13,7 +13,8 @@
         "url": "https://www.jianguoyun.com/d/signup",
         "tag": [
             "云盘"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "谷歌网盘",
@@ -30,6 +31,7 @@
         "url": "https://cloud.189.cn/",
         "tag": [
             "云盘"
-        ]
+        ],
+        "icon": "https://cloud.189.cn/logo.ico"
     }
 ]

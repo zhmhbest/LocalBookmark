@@ -69,6 +69,7 @@
         "tag": [
             "测试",
             "HTTP"
-        ]
+        ],
+        "icon": "https://www.telerik.com/favicon.ico?v=rebv1"
     }
 ]
