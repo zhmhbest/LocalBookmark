@@ -8,7 +8,7 @@
             "JAVA",
             "Build"
         ],
-        "icon": ""
+        "icon": "https://ant.apache.org/favicon.ico"
     },
     {
         "title": "下载 Maven",
@@ -20,7 +20,7 @@
             "Maven",
             "Build"
         ],
-        "icon": ""
+        "icon": "http://maven.apache.org/favicon.ico"
     },
     {
         "title": "Maven Repository",

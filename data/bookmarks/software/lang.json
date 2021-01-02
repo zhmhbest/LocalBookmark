@@ -24,7 +24,7 @@
             "语言引擎",
             "C/C++"
         ],
-        "icon": ""
+        "icon": "https://cygwin.com/favicon.ico"
     },
     {
         "title": "Mirrors Cygwin",
@@ -47,7 +47,7 @@
             "编程",
             "语言引擎"
         ],
-        "icon": ""
+        "icon": "https://www.haskell.org/img/favicon.ico"
     },
     {
         "title": "下载 Go",
@@ -163,7 +163,7 @@
             "编程",
             "语言引擎"
         ],
-        "icon": ""
+        "icon": "https://nodejs.org/static/images/favicons/favicon-32x32.png"
     },
     {
         "title": "下载 Julia",
@@ -174,7 +174,7 @@
             "语言引擎",
             "科学计算"
         ],
-        "icon": ""
+        "icon": "https://julialang.org/assets/infra/julia.ico"
     },
     {
         "title": "下载 Python",
@@ -198,6 +198,6 @@
             "科学计算",
             "Python"
         ],
-        "icon": ""
+        "icon": "https://docs.conda.io/en/latest/_static/conda-logo.png"
     }
 ]

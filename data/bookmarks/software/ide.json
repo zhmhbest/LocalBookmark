@@ -31,7 +31,7 @@
             "微软",
             "VSCode"
         ],
-        "icon": ""
+        "icon": "https://code.visualstudio.com/favicon.ico"
     },
     {
         "title": "VSCode: Keyboard shortcuts",
@@ -127,7 +127,7 @@
             "IDE",
             "C/C++"
         ],
-        "icon": ""
+        "icon": "https://www.jetbrains.com/favicon-32x32.png"
     },
     {
         "title": "下载 Eclipse",
@@ -137,7 +137,7 @@
             "编程",
             "IDE"
         ],
-        "icon": ""
+        "icon": "https://www.eclipse.org/downloads/packages/sites/all/themes/solstice/_themes/solstice_packages/favicon.ico"
     },
     {
         "title": "下载 Android Studio",

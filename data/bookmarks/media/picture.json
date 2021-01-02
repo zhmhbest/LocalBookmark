@@ -1,50 +1,5 @@
 [
     {
-        "title": "Pexels高清壁纸",
-        "url": "https://www.pexels.com/",
-        "tag": [
-            "图片"
-        ],
-        "icon": ""
-    },
-    {
-        "title": "必应每日图片",
-        "url": "https://bing.ioliu.cn/",
-        "tag": [
-            "图片",
-            "微软"
-        ],
-        "icon": "http://bing.ioliu.cn/static/images/bing.ico"
-    },
-    {
-        "title": "Pixiv",
-        "url": "https://www.pixiv.net/",
-        "tag": [
-            "图片",
-            "二次元",
-            "科学上网"
-        ],
-        "icon": ""
-    },
-    {
-        "title": "EasyIcon",
-        "url": "https://www.easyicon.net/",
-        "tag": [
-            "图片",
-            "ICON"
-        ],
-        "icon": "https://cdn-img.easyicon.net/favicon.ico"
-    },
-    {
-        "title": "Iconfont",
-        "url": "https://www.iconfont.cn",
-        "tag": [
-            "图片",
-            "ICON"
-        ],
-        "icon": "http://img.alicdn.com/tps/i4/TB1_oz6GVXXXXaFXpXXJDFnIXXX-64-64.ico"
-    },
-    {
         "title": "FakeUpdate",
         "url": "http://fakeupdate.net/",
         "desc": "假装系统升级",
@@ -130,7 +85,7 @@
             "工具",
             "二次元"
         ],
-        "icon": ""
+        "icon": "https://saucenao.com/favicon.ico"
     },
     {
         "title": "Remove",

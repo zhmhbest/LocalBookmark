@@ -26,5 +26,7 @@ async function main() {
         console.log("save:", pack);
         file.saveJSON(name, data, '    ');
     }
+    console.log("End");
+    return;
 }
 main();

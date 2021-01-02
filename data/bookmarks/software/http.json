@@ -7,7 +7,7 @@
             "编程",
             "HTTP"
         ],
-        "icon": ""
+        "icon": "http://tomcat.apache.org/favicon.ico"
     },
     {
         "title": "下载 Apache2",
@@ -17,7 +17,7 @@
             "编程",
             "HTTP"
         ],
-        "icon": ""
+        "icon": "https://httpd.apache.org/docs/current/images/favicon.ico"
     },
     {
         "title": "下载 Nginx",

@@ -19,7 +19,7 @@
             "数据库",
             "工具"
         ],
-        "icon": ""
+        "icon": "https://dbeaver.io/wp-content/uploads/2016/07/beaver_icon_32x32.png"
     },
     {
         "title": "下载 Mysql",
@@ -39,7 +39,7 @@
             "编程",
             "数据库"
         ],
-        "icon": ""
+        "icon": "https://downloads.mariadb.org/favicon.ico"
     },
     {
         "title": "下载 Redis",
@@ -82,7 +82,7 @@
             "编程",
             "数据库"
         ],
-        "icon": "https://www.memcached.org/downloads/favicon.png"
+        "icon": ""
     },
     {
         "title": "下载 HBase",
@@ -93,6 +93,6 @@
             "编程",
             "数据库"
         ],
-        "icon": ""
+        "icon": "http://hbase.apache.org/favicon.ico"
     }
 ]

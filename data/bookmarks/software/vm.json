@@ -6,7 +6,7 @@
             "软件",
             "虚拟机"
         ],
-        "icon": ""
+        "icon": "https://my.vmware.com/login/favicon.ico"
     },
     {
         "title": "下载 VirtualBox",
@@ -15,7 +15,7 @@
             "软件",
             "虚拟机"
         ],
-        "icon": ""
+        "icon": "https://www.virtualbox.org/graphics/VirtualBox.ico"
     },
     {
         "title": "下载 Genymotion",
@@ -35,6 +35,6 @@
             "软件",
             "虚拟机"
         ],
-        "icon": ""
+        "icon": "https://www.starwindsoftware.com/favicon.ico"
     }
 ]
