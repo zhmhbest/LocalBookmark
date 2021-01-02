@@ -5,7 +5,8 @@
         "tag": [
             "软件",
             "虚拟机"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "下载 VirtualBox",
@@ -13,7 +14,8 @@
         "tag": [
             "软件",
             "虚拟机"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "下载 Genymotion",
@@ -22,7 +24,8 @@
         "tag": [
             "软件",
             "虚拟机"
-        ]
+        ],
+        "icon": "https://www.genymotion.com/wp-content/themes/genymobile/img/favicon.png"
     },
     {
         "title": "下载 StarWind V2V Converter",
@@ -31,6 +34,7 @@
         "tag": [
             "软件",
             "虚拟机"
-        ]
+        ],
+        "icon": ""
     }
 ]

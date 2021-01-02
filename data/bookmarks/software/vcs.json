@@ -6,7 +6,8 @@
             "软件",
             "编程",
             "SVN"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "下载 VisualSVN Server",
@@ -15,7 +16,8 @@
             "软件",
             "编程",
             "SVN"
-        ]
+        ],
+        "icon": "https://www.visualsvn.com/favicon.ico"
     },
     {
         "title": "下载 TortoiseSVN Client",
@@ -24,7 +26,8 @@
             "软件",
             "编程",
             "SVN"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "下载 GitBook",
@@ -33,7 +36,8 @@
             "软件",
             "编程",
             "GIT"
-        ]
+        ],
+        "icon": "https://uploads-ssl.webflow.com/5c349f90a3cd4515d0564552/5ca4a75b42e38558959fdbb8_favicon.ico"
     },
     {
         "title": "下载 Git",
@@ -42,7 +46,8 @@
             "软件",
             "编程",
             "GIT"
-        ]
+        ],
+        "icon": "https://git-scm.com/favicon.ico"
     },
     {
         "title": "下载 SourceTree",
@@ -51,6 +56,7 @@
             "软件",
             "编程",
             "GIT"
-        ]
+        ],
+        "icon": "https://www.sourcetreeapp.com/assets/img/favicons/sourcetree/favicon-32x32.png"
     }
 ]

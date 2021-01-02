@@ -16,7 +16,8 @@
             "编程",
             "Library",
             "Python"
-        ]
+        ],
+        "icon": "https://pypi.org/static/images/favicon.6a76275d.ico"
     },
     {
         "title": "lfd",
@@ -26,7 +27,8 @@
             "编程",
             "Library",
             "Python"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Conda",
@@ -36,6 +38,7 @@
             "编程",
             "Library",
             "Python"
-        ]
+        ],
+        "icon": ""
     }
 ]

@@ -49,9 +49,9 @@ async function loadIcon(data) {
             method: 'get',
             url: URL,
             headers: HEADERS,
-            timeout: 3500,
-            maxContentLength: 30720,
-            maxRedirects: 3,
+            timeout: 5 * 1000,
+            maxContentLength: 1000 * 1024,
+            maxRedirects: 5,
         }).then(res => {
             // [ 'status', 'statusText', 'headers', 'config', 'request': [], 'data' ]
             host = res.request.connection['_host'];
@@ -78,6 +78,7 @@ async function loadIcon(data) {
                     //# favicon
                     if (path.match(/(html|htm)$/)) {
                         //
+                        console.log(path);
                     } else {
                         favicon = `${PREFIX}${host}${path}/${icon}`;
                     }
@@ -86,7 +87,8 @@ async function loadIcon(data) {
                 }
             }
         }).catch(err => {
-            console.log(`${TAB}${TAB}error: get`);
+            
+            console.log(`${TAB}${TAB}${err}`);
         });
 
         // // 尝试再匹配

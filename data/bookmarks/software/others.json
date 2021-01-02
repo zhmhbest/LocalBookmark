@@ -5,7 +5,8 @@
         "tag": [
             "软件",
             "编程"
-        ]
+        ],
+        "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico"
     },
     {
         "title": "下载 PP助手",
@@ -15,6 +16,173 @@
             "软件",
             "编程",
             "苹果"
-        ]
+        ],
+        "icon": "https://img.ucdl.pp.uc.cn/upload_files/pp_web_pro/images/favicon.ico"
+    },
+    {
+        "title": "下载 IDM",
+        "url": "https://www.internetdownloadmanager.com/download.html",
+        "tag": [
+            "软件",
+            "下载",
+            "工具"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "下载 Windows10",
+        "url": "https://www.microsoft.com/zh-cn/software-download/windows10",
+        "tag": [
+            "软件",
+            "系统"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "Office C2R-to-VOL",
+        "url": "https://github.com/kkkgo/office-C2R-to-VOL",
+        "desc": "零售许可转为批量许可",
+        "tag": [
+            "软件",
+            "微软",
+            "办公",
+            "激活"
+        ],
+        "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
+    {
+        "title": "Office C2R-R2V-AIO",
+        "url": "https://github.com/abbodi1406/C2R-R2V-AIO",
+        "desc": "零售许可转为批量许可",
+        "tag": [
+            "软件",
+            "微软",
+            "办公",
+            "激活"
+        ],
+        "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
+    {
+        "title": "激活 Windows、Office By KMSpico",
+        "url": "https://www.getkmspico.com/download",
+        "tag": [
+            "软件",
+            "微软",
+            "系统",
+            "办公",
+            "激活"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "下载 7-ZIP",
+        "url": "https://www.7-zip.org/download.html",
+        "tag": [
+            "软件",
+            "文件系统"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "下载 ImDisk",
+        "url": "https://sourceforge.net/projects/imdisk-toolkit/",
+        "tag": [
+            "软件",
+            "文件系统"
+        ],
+        "icon": "https://a.fsdn.com/con/img/sandiego/logo-180x180.png"
+    },
+    {
+        "title": "下载 Everything",
+        "url": "https://www.voidtools.com/zh-cn/downloads/",
+        "tag": [
+            "软件",
+            "文件系统"
+        ],
+        "icon": "https://www.voidtools.com/favicon.ico?v=2"
+    },
+    {
+        "title": "下载 FastCopy",
+        "url": "https://fastcopy.jp/en/",
+        "tag": [
+            "软件",
+            "文件系统"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "下载 Adobe Creative Cloud",
+        "url": "https://creative.adobe.com/zh-tw/products/download/creative-cloud",
+        "tag": [
+            "软件",
+            "设计",
+            "Adobe"
+        ],
+        "icon": "https://creativecloud.adobe.com/favicon.ico"
+    },
+    {
+        "title": "下载 Adobe By vposy",
+        "desc": "需要登录微博关注vposy（该条仅粉丝可见）",
+        "url": "https://weibo.com/vposy",
+        "tag": [
+            "软件",
+            "设计",
+            "Adobe"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "下载 Acrobat Reader DC",
+        "desc": "PDF阅读器",
+        "url": "https://get.adobe.com/cn/reader/otherversions/",
+        "tag": [
+            "软件",
+            "文档",
+            "Adobe"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "下载 Zotero",
+        "url": "https://www.zotero.org/",
+        "desc": "文献管理软件",
+        "tag": [
+            "软件",
+            "学术"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "下载 Typora",
+        "url": "https://typora.io/",
+        "desc": "Markdown",
+        "tag": [
+            "软件",
+            "文档"
+        ],
+        "icon": "https://typora.io/img/favicon-16.png"
+    },
+    {
+        "title": "下载 Tex Live",
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/",
+        "desc": "LaTex发行版本",
+        "tag": [
+            "软件",
+            "学术",
+            "笔记"
+        ],
+        "icon": "https://mirrors.tuna.tsinghua.edu.cn/static/img/favicon.png"
+    },
+    {
+        "title": "下载 OriginLab",
+        "url": "https://www.originlab.com/",
+        "desc": "制作论文数据图",
+        "tag": [
+            "软件",
+            "图片",
+            "数据展示",
+            "学术"
+        ],
+        "icon": ""
     }
 ]

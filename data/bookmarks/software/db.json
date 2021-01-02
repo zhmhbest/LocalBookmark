@@ -18,7 +18,8 @@
             "编程",
             "数据库",
             "工具"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "下载 Mysql",
@@ -27,7 +28,8 @@
             "软件",
             "编程",
             "数据库"
-        ]
+        ],
+        "icon": "https://labs.mysql.com/common/themes/sakila/favicon.ico"
     },
     {
         "title": "下载 Mariadb",
@@ -36,7 +38,8 @@
             "软件",
             "编程",
             "数据库"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "下载 Redis",
@@ -56,7 +59,8 @@
             "软件",
             "编程",
             "数据库"
-        ]
+        ],
+        "icon": "https://github.githubassets.com/favicons/favicon.svg"
     },
     {
         "title": "下载 Mongodb",
@@ -66,7 +70,8 @@
             "软件",
             "编程",
             "数据库"
-        ]
+        ],
+        "icon": "https://www.mongodb.com/assets/images/global/favicon.ico"
     },
     {
         "title": "下载 Memcached",
@@ -87,6 +92,7 @@
             "软件",
             "编程",
             "数据库"
-        ]
+        ],
+        "icon": ""
     }
 ]

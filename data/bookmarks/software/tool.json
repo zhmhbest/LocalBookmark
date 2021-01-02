@@ -5,7 +5,8 @@
         "tag": [
             "软件",
             "远程"
-        ]
+        ],
+        "icon": "https://www.uvnc.com/images/favicon.ico"
     },
     {
         "title": "下载 TightVNC",
@@ -13,7 +14,8 @@
         "tag": [
             "软件",
             "远程"
-        ]
+        ],
+        "icon": "https://www.tightvnc.com/favicon-32x32.png"
     },
     {
         "title": "下载 TigerVNC",
@@ -21,7 +23,8 @@
         "tag": [
             "软件",
             "远程"
-        ]
+        ],
+        "icon": "https://tigervnc.org//images/favicon.png"
     },
     {
         "title": "下载 Splashtop Streamer",
@@ -30,7 +33,8 @@
         "tag": [
             "软件",
             "远程"
-        ]
+        ],
+        "icon": "https://www.splashtop.com/wp-content/uploads/splash-512.png"
     },
     {
         "title": "下载 Splashtop Client",
@@ -39,7 +43,8 @@
         "tag": [
             "软件",
             "远程"
-        ]
+        ],
+        "icon": "https://www.splashtop.com/wp-content/uploads/splash-512.png"
     },
     {
         "title": "下载 Mobaxterm",
@@ -48,7 +53,8 @@
             "软件",
             "远程",
             "SSH"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "下载 Filezilla",
@@ -57,14 +63,16 @@
             "软件",
             "远程",
             "FTP"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "下载 Curl",
         "url": "https://curl.haxx.se/download.html",
         "tag": [
             "软件"
-        ]
+        ],
+        "icon": "https://curl.se/favicon.ico"
     },
     {
         "title": "下载 Scrcpy",
@@ -73,7 +81,8 @@
         "tag": [
             "软件",
             "安卓"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "下载 Postman",
@@ -83,6 +92,7 @@
             "编程",
             "测试",
             "工具"
-        ]
+        ],
+        "icon": ""
     }
 ]

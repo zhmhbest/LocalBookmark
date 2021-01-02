@@ -18,7 +18,8 @@
             "编程",
             "IDE",
             "微软"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "下载 VSCode",
@@ -29,7 +30,8 @@
             "IDE",
             "微软",
             "VSCode"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "VSCode: Keyboard shortcuts",
@@ -40,7 +42,8 @@
             "编程",
             "IDE",
             "VSCode"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "VSCode: Marketplace",
@@ -52,7 +55,8 @@
             "IDE",
             "Plugins",
             "VSCode"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "VSCode: Markdown Preview Enhanced",
@@ -64,7 +68,8 @@
             "IDE",
             "Plugins",
             "VSCode"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "VSCode: Blink Mind",

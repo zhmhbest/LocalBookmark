@@ -29,15 +29,6 @@
         "icon": "https://static.runoob.com/images/favicon.ico"
     },
     {
-        "title": "W3school",
-        "url": "http://www.w3school.com.cn/",
-        "tag": [
-            "教程",
-            "编程"
-        ],
-        "icon": ""
-    },
-    {
         "title": "TinyC",
         "url": "https://pandolia.net/tinyc",
         "desc": "手写编译器",
@@ -56,16 +47,6 @@
             "编程"
         ],
         "icon": "https://pcdn.flutterchina.club/gitbook/images/favicon.ico"
-    },
-    {
-        "title": "W3C School",
-        "url": "https://www.w3cschool.cn/",
-        "tag": [
-            "教程",
-            "课程",
-            "编程"
-        ],
-        "icon": "https://7n.w3cschool.cn/statics/images/favicon.ico?v=2.2"
     },
     {
         "title": "MK安全渗透",
@@ -92,6 +73,34 @@
         "tag": [
             "教程",
             "音乐"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "PyTorch官方教程中文版",
+        "url": "http://pytorch.panchuang.net/",
+        "tag": [
+            "教程",
+            "编程",
+            "机器学习"
+        ],
+        "icon": "http://pytorch.panchuang.net//img/favicon.ico"
+    },
+    {
+        "title": "Rust 程序设计语言（中文）",
+        "url": "https://kaisery.github.io/trpl-zh-cn/title-page.html",
+        "tag": [
+            "教程",
+            "编程"
+        ],
+        "icon": "https://kaisery.github.io/trpl-zh-cn/favicon.svg"
+    },
+    {
+        "title": "Rust 程序设计语言（英文）",
+        "url": "https://doc.rust-lang.org/rust-by-example/index.html",
+        "tag": [
+            "教程",
+            "编程"
         ],
         "icon": ""
     }

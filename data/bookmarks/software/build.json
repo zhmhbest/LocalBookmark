@@ -7,7 +7,8 @@
             "编程",
             "JAVA",
             "Build"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "下载 Maven",
@@ -18,7 +19,8 @@
             "JAVA",
             "Maven",
             "Build"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "Maven Repository",
@@ -29,7 +31,8 @@
             "JAVA",
             "Maven",
             "Library"
-        ]
+        ],
+        "icon": "https://mvnrepository.com/assets/images/7080b8b0f6f48e6fbaffd5f9d85fcc7f-favicon.ico"
     },
     {
         "title": "下载 Gradle",
@@ -39,7 +42,8 @@
             "编程",
             "JAVA",
             "Build"
-        ]
+        ],
+        "icon": "https://gradle.org/icon/favicon-32x32.png"
     },
     {
         "title": "下载 Cmake",
@@ -49,6 +53,7 @@
             "编程",
             "C/C++",
             "Build"
-        ]
+        ],
+        "icon": "https://cmake.org/wp-content/uploads/2019/05/cropped-cmake_512-32x32.png"
     }
 ]

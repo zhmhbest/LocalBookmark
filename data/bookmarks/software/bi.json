@@ -7,7 +7,8 @@
             "软件",
             "数据分析",
             "BI"
-        ]
+        ],
+        "icon": "https://www.tableau.com/themes/custom/tableau_www/favicon.ico"
     },
     {
         "title": "下载 Elastic",
@@ -17,6 +18,18 @@
             "软件",
             "数据分析",
             "BI"
-        ]
+        ],
+        "icon": "https://www.elastic.co/favicon-32x32.png"
+    },
+    {
+        "title": "CDH Components",
+        "url": "https://www.cloudera.com/products/open-source/apache-hadoop/key-cdh-components.html",
+        "desc": "Hadoop集成方案",
+        "tag": [
+            "软件",
+            "数据分析",
+            "BI"
+        ],
+        "icon": ""
     }
 ]

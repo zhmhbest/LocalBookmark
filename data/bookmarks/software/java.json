@@ -7,7 +7,8 @@
             "编程",
             "JAVA",
             "框架"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "下载 Spring Initializr",
@@ -18,6 +19,7 @@
             "编程",
             "JAVA",
             "框架"
-        ]
+        ],
+        "icon": ""
     }
 ]
