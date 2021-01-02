@@ -56,7 +56,7 @@
             "Plugins",
             "VSCode"
         ],
-        "icon": ""
+        "icon": "https://marketplace.visualstudio.com/favicon.ico"
     },
     {
         "title": "VSCode: Markdown Preview Enhanced",
@@ -69,7 +69,7 @@
             "Plugins",
             "VSCode"
         ],
-        "icon": ""
+        "icon": "https://marketplace.visualstudio.com/favicon.ico"
     },
     {
         "title": "VSCode: Blink Mind",
@@ -86,7 +86,7 @@
             "Plugins",
             "VSCode"
         ],
-        "icon": "https://github.githubassets.com/favicons/favicon.svg"
+        "icon": "https://marketplace.visualstudio.com/favicon.ico"
     },
     {
         "title": "下载 HBuilderX",

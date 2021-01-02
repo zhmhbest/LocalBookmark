@@ -102,60 +102,6 @@
         "icon": ""
     },
     {
-        "title": "下载 JDK 6",
-        "url": "https://www.oracle.com/java/technologies/javase-java-archive-javase6-downloads.html",
-        "tag": [
-            "软件",
-            "编程",
-            "语言引擎",
-            "JAVA"
-        ],
-        "icon": "https://www.oracle.com/asset/web/favicons/favicon-32.png"
-    },
-    {
-        "title": "下载 JDK 7",
-        "url": "https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html",
-        "tag": [
-            "软件",
-            "编程",
-            "语言引擎",
-            "JAVA"
-        ],
-        "icon": "https://www.oracle.com/asset/web/favicons/favicon-32.png"
-    },
-    {
-        "title": "下载 JDK 8",
-        "url": "https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html",
-        "tag": [
-            "软件",
-            "编程",
-            "语言引擎",
-            "JAVA"
-        ],
-        "icon": "https://www.oracle.com/asset/web/favicons/favicon-32.png"
-    },
-    {
-        "title": "下载 JDK 11",
-        "url": "https://www.oracle.com/java/technologies/javase-jdk11-downloads.html",
-        "tag": [
-            "软件",
-            "编程",
-            "语言引擎",
-            "JAVA"
-        ],
-        "icon": "https://www.oracle.com/asset/web/favicons/favicon-32.png"
-    },
-    {
-        "title": "下载 Scala",
-        "url": "https://www.scala-lang.org/download/",
-        "tag": [
-            "软件",
-            "编程",
-            "语言引擎"
-        ],
-        "icon": "http://www.scala-lang.org/resources/favicon.ico"
-    },
-    {
         "title": "下载 Node.js",
         "url": "https://nodejs.org/en/download/",
         "tag": [
@@ -175,29 +121,5 @@
             "科学计算"
         ],
         "icon": "https://julialang.org/assets/infra/julia.ico"
-    },
-    {
-        "title": "下载 Python",
-        "url": "https://www.python.org/downloads/",
-        "tag": [
-            "软件",
-            "编程",
-            "语言引擎",
-            "科学计算",
-            "Python"
-        ],
-        "icon": "http://www.python.org/static/favicon.ico"
-    },
-    {
-        "title": "下载 MiniConda",
-        "url": "https://docs.conda.io/en/latest/miniconda.html",
-        "tag": [
-            "软件",
-            "编程",
-            "语言引擎",
-            "科学计算",
-            "Python"
-        ],
-        "icon": "https://docs.conda.io/en/latest/_static/conda-logo.png"
     }
 ]

@@ -64,7 +64,7 @@
             "远程",
             "FTP"
         ],
-        "icon": ""
+        "icon": "https://filezilla-project.org/favicon.ico"
     },
     {
         "title": "下载 Scrcpy",

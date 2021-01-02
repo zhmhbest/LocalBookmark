@@ -1,5 +1,29 @@
 [
     {
+        "title": "下载 Python",
+        "url": "https://www.python.org/downloads/",
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎",
+            "科学计算",
+            "Python"
+        ],
+        "icon": "http://www.python.org/static/favicon.ico"
+    },
+    {
+        "title": "下载 MiniConda",
+        "url": "https://docs.conda.io/en/latest/miniconda.html",
+        "tag": [
+            "软件",
+            "编程",
+            "语言引擎",
+            "科学计算",
+            "Python"
+        ],
+        "icon": "https://docs.conda.io/en/latest/_static/conda-logo.png"
+    },
+    {
         "title": "pypi",
         "url": "https://pypi.org/",
         "desc": "软件仓库",
@@ -39,6 +63,6 @@
             "Library",
             "Python"
         ],
-        "icon": ""
+        "icon": "https://docs.conda.io/en/latest/_static/conda-logo.png"
     }
 ]
