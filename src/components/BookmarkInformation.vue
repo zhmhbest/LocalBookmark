@@ -62,15 +62,9 @@ export default $$.Vue.extend({
     },
     methods: {
         loadAvatar() {
-            if (undefined === this.icon || 0 === this.icon.length) {
-                this.loadAPIAvatar(15 * 1000);
-            } else {
-                // 加载指定的图标
-                this.avatarSource = this.icon;
-                this.avatarStyle.backgroundColor = "rgb(0, 0, 0, 0)";
-            }
+            this.loadAPIAvatar(10 * 1000, this.icon);
         },
-        loadAPIAvatar(timeout: number) {
+        loadAPIAvatar(timeout: number, icon?: string) {
             let isOK: boolean = false;
             const img: HTMLImageElement = (this.$refs
                 .headline as HTMLDivElement).querySelector("img");
@@ -79,7 +73,11 @@ export default $$.Vue.extend({
                 isOK = true;
                 this.avatarStyle.backgroundColor = "rgb(0, 0, 0, 0)";
             };
-            this.avatarSource = `https://ico.kucat.cn/get.php?url=${this.url}`;
+            if (undefined === icon || 0 === icon.length) {
+                this.avatarSource = `https://ico.kucat.cn/get.php?url=${this.url}`;
+            } else {
+                this.avatarSource = icon;
+            }
             setTimeout(() => {
                 // 加载文字
                 if (!isOK) {
