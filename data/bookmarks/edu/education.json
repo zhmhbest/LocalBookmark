@@ -26,7 +26,7 @@
             "教育",
             "网课"
         ],
-        "icon": ""
+        "icon": "https://www.yuketang.cn/vue_images/images/favicon.ico"
     },
     {
         "title": "知网在线教学",
@@ -36,7 +36,7 @@
             "教育",
             "网课"
         ],
-        "icon": ""
+        "icon": "https://k.cnki.net/favicon.ico"
     },
     {
         "title": "知网在线教学（手机）",
@@ -46,7 +46,7 @@
             "教育",
             "网课"
         ],
-        "icon": ""
+        "icon": "https://k.cnki.net/favicon.ico"
     },
     {
         "title": "学堂在线",
@@ -181,6 +181,6 @@
             "教育",
             "题库"
         ],
-        "icon": ""
+        "icon": "https://tiku.link/favicon.ico"
     }
 ]

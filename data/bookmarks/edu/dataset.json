@@ -1,0 +1,59 @@
+[
+    {
+        "title": "Kaggle",
+        "url": "https://www.kaggle.com/",
+        "tag": [
+            "学术",
+            "数据集"
+        ],
+        "icon": "http://www.kaggle.com/static/images/favicon.ico"
+    },
+    {
+        "title": "UCI",
+        "url": "http://archive.ics.uci.edu/ml/index.php",
+        "tag": [
+            "学术",
+            "数据集"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "Scikit-learn",
+        "url": "https://scikit-learn.org/stable/datasets/index.html",
+        "tag": [
+            "学术",
+            "数据集"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "IEEE Data",
+        "url": "https://ieee-dataport.org/",
+        "desc": "",
+        "tag": [
+            "学术",
+            "数据集"
+        ],
+        "icon": "https://ieee-dataport.org/favicon.ico"
+    },
+    {
+        "title": "加拿大网络安全研究所",
+        "url": "https://www.unb.ca/cic/datasets/",
+        "desc": "",
+        "tag": [
+            "学术",
+            "数据集"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "中国气象数据",
+        "url": "http://data.cma.cn/site/index.html",
+        "desc": "气象数据",
+        "tag": [
+            "学术",
+            "数据集"
+        ],
+        "icon": ""
+    }
+]

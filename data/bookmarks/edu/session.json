@@ -1,0 +1,106 @@
+[
+    {
+        "title": "USENIX",
+        "url": "https://www.usenix.org/conferences",
+        "desc": "",
+        "tag": [
+            "学术",
+            "顶会",
+            "信息安全"
+        ],
+        "icon": "https://www.usenix.org/sites/default/files/waves_favicon.ico"
+    },
+    {
+        "title": "IEEE SSP",
+        "url": "https://www.ieee-security.org/index.html",
+        "desc": "安全与隐私会议",
+        "tag": [
+            "学术",
+            "顶会",
+            "信息安全"
+        ],
+        "icon": "http://www.ieee-security.org/images/favicon.png"
+    },
+    {
+        "title": "ACM CCS",
+        "url": "http://www.sigsac.org/ccs.html",
+        "desc": "计算机和通信安全会议",
+        "tag": [
+            "学术",
+            "顶会",
+            "信息安全"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "NDSS",
+        "url": "https://www.ndss-symposium.org/",
+        "desc": "网络与分布式系统安全会议",
+        "tag": [
+            "学术",
+            "顶会",
+            "信息安全"
+        ],
+        "icon": "https://www.ndss-symposium.org/wp-content/uploads/cropped-NDSS_512x512-32x32.png"
+    },
+    {
+        "title": "CVF",
+        "url": "https://www.thecvf.com/",
+        "desc": [
+            "ICCV 计算机视觉大会",
+            "CVPR 计算机视觉与模式识别会议",
+            "WACV 应用计算机视觉"
+        ],
+        "tag": [
+            "学术",
+            "顶会",
+            "计算机视觉"
+        ],
+        "icon": "https://www.thecvf.com/wp-content/uploads/2020/06/cropped-cvf-icon-small-32x32.png"
+    },
+    {
+        "title": "CVF Access",
+        "url": "http://openaccess.thecvf.com/menu.py",
+        "desc": "CVF 相关文档下载",
+        "tag": [
+            "学术",
+            "顶会",
+            "计算机视觉"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "MICCAI",
+        "url": "http://www.miccai.org/",
+        "desc": "国际医学图像计算和计算机辅助干预协会",
+        "tag": [
+            "学术",
+            "顶会",
+            "计算机视觉",
+            "医疗影像"
+        ],
+        "icon": "http://www.miccai.org/themes/customtheme/images/favicon.ico"
+    },
+    {
+        "title": "ICASSP",
+        "url": "https://www.bing.com/search?q=ICASSP",
+        "desc": "国际声学、语音与信号处理会议",
+        "tag": [
+            "学术",
+            "顶会",
+            "智能声学"
+        ],
+        "icon": "http://cn.bing.com/sa/simg/favicon-2x.ico"
+    },
+    {
+        "title": "Interspeech",
+        "url": "https://www.bing.com/search?q=interspeech",
+        "desc": "语音领域顶级学术会议",
+        "tag": [
+            "学术",
+            "顶会",
+            "智能声学"
+        ],
+        "icon": "http://cn.bing.com/sa/simg/favicon-2x.ico"
+    }
+]

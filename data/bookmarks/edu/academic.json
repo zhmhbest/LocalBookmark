@@ -15,7 +15,7 @@
             "学术",
             "每日文献"
         ],
-        "icon": ""
+        "icon": "https://www.jiqizhixin.com/favicon.ico"
     },
     {
         "title": "机器学习最新技术",
@@ -24,7 +24,7 @@
             "学术",
             "机器学习"
         ],
-        "icon": ""
+        "icon": "https://www.paperswithcode.com/favicon.ico"
     },
     {
         "title": "小木虫",
@@ -33,7 +33,7 @@
             "学术",
             "社区"
         ],
-        "icon": ""
+        "icon": "http://muchong.com/favicon.ico"
     },
     {
         "title": "虫部落",
@@ -97,7 +97,7 @@
             "学术",
             "文献检索"
         ],
-        "icon": ""
+        "icon": "https://www.cn-ki.net/favicon.ico"
     },
     {
         "title": "中国知网",
@@ -106,7 +106,7 @@
             "学术",
             "文献检索"
         ],
-        "icon": ""
+        "icon": "https://www.cnki.net/favicon.ico"
     },
     {
         "title": "维普网",
@@ -132,7 +132,8 @@
         "tag": [
             "学术",
             "文献检索"
-        ]
+        ],
+        "icon": "http://xueshu.baidu.com/favicon.ico"
     },
     {
         "title": "Google学术",
@@ -161,7 +162,7 @@
             "学术",
             "文献检索"
         ],
-        "icon": ""
+        "icon": "http://www.ucdrs.superlib.net/favicon.ico"
     },
     {
         "title": "广西图书馆",
@@ -179,7 +180,7 @@
             "学术",
             "文献检索"
         ],
-        "icon": ""
+        "icon": "http://www.ncpssd.org/favicon.ico"
     },
     {
         "title": "Web of Science",
@@ -245,193 +246,5 @@
             "论文获取"
         ],
         "icon": "http://www.sci-hub.ac.cn/favicon.ico"
-    },
-    {
-        "title": "Standford Courses",
-        "url": "https://online.stanford.edu/courses",
-        "tag": [
-            "学术",
-            "课程"
-        ],
-        "icon": "http://www-media.stanford.edu/assets/favicon/favicon-196x196.png"
-    },
-    {
-        "title": "OCW Courses",
-        "url": "https://ocw.mit.edu/courses/",
-        "tag": [
-            "学术",
-            "课程"
-        ],
-        "icon": ""
-    },
-    {
-        "title": "Coursera Courses",
-        "url": "https://www.coursera.org/courses",
-        "tag": [
-            "学术",
-            "课程"
-        ],
-        "icon": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/v2/favicon-v2-194x194.png"
-    },
-    {
-        "title": "Kaggle",
-        "url": "https://www.kaggle.com/",
-        "tag": [
-            "学术",
-            "数据集"
-        ],
-        "icon": "http://www.kaggle.com/static/images/favicon.ico"
-    },
-    {
-        "title": "UCI",
-        "url": "http://archive.ics.uci.edu/ml/index.php",
-        "tag": [
-            "学术",
-            "数据集"
-        ],
-        "icon": ""
-    },
-    {
-        "title": "Scikit-learn",
-        "url": "https://scikit-learn.org/stable/datasets/index.html",
-        "tag": [
-            "学术",
-            "数据集"
-        ],
-        "icon": ""
-    },
-    {
-        "title": "IEEE Data",
-        "url": "https://ieee-dataport.org/",
-        "desc": "",
-        "tag": [
-            "学术",
-            "数据集"
-        ],
-        "icon": ""
-    },
-    {
-        "title": "加拿大网络安全研究所",
-        "url": "https://www.unb.ca/cic/datasets/",
-        "desc": "",
-        "tag": [
-            "学术",
-            "数据集"
-        ],
-        "icon": ""
-    },
-    {
-        "title": "中国气象数据",
-        "url": "http://data.cma.cn/site/index.html",
-        "desc": "气象数据",
-        "tag": [
-            "学术",
-            "数据集"
-        ],
-        "icon": ""
-    },
-    {
-        "title": "USENIX",
-        "url": "https://www.usenix.org/conferences",
-        "desc": "",
-        "tag": [
-            "学术",
-            "顶会",
-            "信息安全"
-        ],
-        "icon": "https://www.usenix.org/sites/default/files/waves_favicon.ico"
-    },
-    {
-        "title": "IEEE SSP",
-        "url": "https://www.ieee-security.org/index.html",
-        "desc": "安全与隐私会议",
-        "tag": [
-            "学术",
-            "顶会",
-            "信息安全"
-        ],
-        "icon": "http://www.ieee-security.org/images/favicon.png"
-    },
-    {
-        "title": "ACM CCS",
-        "url": "http://www.sigsac.org/ccs.html",
-        "desc": "计算机和通信安全会议",
-        "tag": [
-            "学术",
-            "顶会",
-            "信息安全"
-        ],
-        "icon": ""
-    },
-    {
-        "title": "NDSS",
-        "url": "https://www.ndss-symposium.org/",
-        "desc": "网络与分布式系统安全会议",
-        "tag": [
-            "学术",
-            "顶会",
-            "信息安全"
-        ],
-        "icon": "https://www.ndss-symposium.org/wp-content/uploads/cropped-NDSS_512x512-32x32.png"
-    },
-    {
-        "title": "CVF",
-        "url": "https://www.thecvf.com/",
-        "desc": [
-            "ICCV 计算机视觉大会",
-            "CVPR 计算机视觉与模式识别会议",
-            "WACV 应用计算机视觉"
-        ],
-        "tag": [
-            "学术",
-            "顶会",
-            "计算机视觉"
-        ],
-        "icon": "https://www.thecvf.com/wp-content/uploads/2020/06/cropped-cvf-icon-small-32x32.png"
-    },
-    {
-        "title": "CVF Access",
-        "url": "http://openaccess.thecvf.com/menu.py",
-        "desc": "CVF 相关文档下载",
-        "tag": [
-            "学术",
-            "顶会",
-            "计算机视觉"
-        ],
-        "icon": ""
-    },
-    {
-        "title": "MICCAI",
-        "url": "http://www.miccai.org/",
-        "desc": "国际医学图像计算和计算机辅助干预协会",
-        "tag": [
-            "学术",
-            "顶会",
-            "计算机视觉",
-            "医疗影像"
-        ],
-        "icon": "http://www.miccai.org/themes/customtheme/images/favicon.ico"
-    },
-    {
-        "title": "ICASSP",
-        "url": "https://www.bing.com/search?q=ICASSP",
-        "desc": "国际声学、语音与信号处理会议",
-        "tag": [
-            "学术",
-            "顶会",
-            "智能声学"
-        ],
-        "icon": "http://cn.bing.com/sa/simg/favicon-2x.ico"
-    },
-    {
-        "title": "Interspeech",
-        "url": "https://www.bing.com/search?q=interspeech",
-        "desc": "语音领域顶级学术会议",
-        "tag": [
-            "学术",
-            "顶会",
-            "智能声学"
-        ],
-        "icon": "http://cn.bing.com/sa/simg/favicon-2x.ico"
     }
 ]

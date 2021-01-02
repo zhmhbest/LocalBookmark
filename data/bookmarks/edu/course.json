@@ -1,5 +1,32 @@
 [
     {
+        "title": "Standford Courses",
+        "url": "https://online.stanford.edu/courses",
+        "tag": [
+            "学术",
+            "课程"
+        ],
+        "icon": "http://www-media.stanford.edu/assets/favicon/favicon-196x196.png"
+    },
+    {
+        "title": "OCW Courses",
+        "url": "https://ocw.mit.edu/courses/",
+        "tag": [
+            "学术",
+            "课程"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "Coursera Courses",
+        "url": "https://www.coursera.org/courses",
+        "tag": [
+            "学术",
+            "课程"
+        ],
+        "icon": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/v2/favicon-v2-194x194.png"
+    },
+    {
         "title": "数模知识库",
         "url": "https://www.shumo.com/wiki/doku.php",
         "tag": [
@@ -7,7 +34,7 @@
             "编程",
             "竞赛"
         ],
-        "icon": ""
+        "icon": "https://www.shumo.com/wiki/lib/tpl/dokuwiki/images/favicon.ico"
     },
     {
         "title": "LeetCode",
@@ -36,7 +63,7 @@
             "教程",
             "编程"
         ],
-        "icon": ""
+        "icon": "https://pandolia.net/favicon.ico"
     },
     {
         "title": "Flutter实战",

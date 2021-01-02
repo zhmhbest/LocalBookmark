@@ -91,21 +91,25 @@ async function loadIcon(data) {
                 }
             }
         }).catch(err => {
-
             console.log(`${TAB}${TAB}${err}`);
         });
 
         // 尝试再匹配
         if (undefined === favicon && undefined !== host) {
-            const test = `${host}favicon.ico`;
-            console.log(test);
-            // await axios.get(item.url, {}, HEADERS).then(res => {
-            //     if(200 === res.status) {
-            //         favicon = test;
-            //     }
-            // }).catch(err => {
-            //     console.log("error retry:", url);
-            // });
+            const test = `${PREFIX}${host}${getBasePath(path)}/favicon.ico`;
+            await axios({
+                method: 'get',
+                url: test,
+                headers: HEADERS,
+                timeout: 3 * 1000,
+                maxRedirects: 0,
+            }).then(res => {
+                if(200 === res.status) {
+                    favicon = test;
+                }
+            }).catch(err => {
+                console.log(`${TAB}${TAB}${err}`);
+            });;
         }
 
         // 写回

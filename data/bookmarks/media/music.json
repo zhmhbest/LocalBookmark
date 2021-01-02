@@ -15,7 +15,7 @@
             "音频",
             "网易"
         ],
-        "icon": ""
+        "icon": "https://s1.music.126.net/style/favicon.ico"
     },
     {
         "title": "哔哩音乐",
@@ -63,7 +63,7 @@
             "榜单",
             "腾讯"
         ],
-        "icon": ""
+        "icon": "https://yobang.tencentmusic.com/favicon.ico"
     },
     {
         "title": "音乐Tai",

@@ -13,7 +13,7 @@
         "tag": [
             "视频"
         ],
-        "icon": ""
+        "icon": "http://www.hanjutv2020.com/pc/images/favicon.ico"
     },
     {
         "title": "Acfun",
@@ -22,7 +22,7 @@
             "视频",
             "二次元"
         ],
-        "icon": ""
+        "icon": "https://cdn.aixifan.com/ico/favicon.ico"
     },
     {
         "title": "Bilibili",
@@ -32,7 +32,7 @@
             "二次元",
             "社区"
         ],
-        "icon": ""
+        "icon": "https://www.bilibili.com/favicon.ico"
     },
     {
         "title": "风车动漫",
@@ -60,7 +60,7 @@
             "社区",
             "腾讯"
         ],
-        "icon": ""
+        "icon": "https://v.qq.com/favicon.ico"
     },
     {
         "title": "爱奇艺视频",
@@ -69,7 +69,7 @@
             "视频",
             "社区"
         ],
-        "icon": ""
+        "icon": "https://www.iqiyipic.com/common/fix/128-128-logo.png"
     },
     {
         "title": "最大资源",
@@ -115,7 +115,7 @@
             "视频",
             "工具"
         ],
-        "icon": ""
+        "icon": "https://panzoid.com/favicon.ico"
     },
     {
         "title": "Unscreen",
