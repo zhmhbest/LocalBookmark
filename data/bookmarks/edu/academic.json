@@ -46,16 +46,6 @@
         "icon": "http://scholar.chongbuluo.com/favicon.ico"
     },
     {
-        "title": "沃克学术",
-        "url": "https://xueshu.9178.work/",
-        "tag": [
-            "学术",
-            "文献检索",
-            "聚合"
-        ],
-        "icon": ""
-    },
-    {
         "title": "洛奇Town",
         "url": "https://ifish.fun/paper/search",
         "tag": [
@@ -142,8 +132,7 @@
         "tag": [
             "学术",
             "文献检索"
-        ],
-        "icon": ""
+        ]
     },
     {
         "title": "Google学术",
@@ -210,7 +199,7 @@
             "学术",
             "文献检索"
         ],
-        "icon": ""
+        "icon": "https://ieeexplore.ieee.org/favicon.ico"
     },
     {
         "title": "Engineering Village",

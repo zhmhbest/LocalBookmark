@@ -41,7 +41,8 @@ async function loadIcon(data) {
 
     for (let item of data) {
         if (undefined !== item.icon) continue;
-    
+        // if (undefined !== item.icon && item.icon.length > 0) continue;
+
         const URL = item.url;
         const PREFIX = URL.match(/^https/) ? 'https://' : 'http://';
         let host = undefined;
@@ -90,21 +91,22 @@ async function loadIcon(data) {
                 }
             }
         }).catch(err => {
-            
+
             console.log(`${TAB}${TAB}${err}`);
         });
 
-        // // 尝试再匹配
-        // if (undefined === favicon && undefined !== host) {
-        //     const test = `${host}favicon.ico`;
-        //     await axios.get(item.url, {}, HEADERS).then(res => {
-        //         if(200 === res.status) {
-        //             favicon = test;
-        //         }
-        //     }).catch(err => {
-        //         console.log("error retry:", url);
-        //     });
-        // }
+        // 尝试再匹配
+        if (undefined === favicon && undefined !== host) {
+            const test = `${host}favicon.ico`;
+            console.log(test);
+            // await axios.get(item.url, {}, HEADERS).then(res => {
+            //     if(200 === res.status) {
+            //         favicon = test;
+            //     }
+            // }).catch(err => {
+            //     console.log("error retry:", url);
+            // });
+        }
 
         // 写回
         if (undefined === favicon) {
