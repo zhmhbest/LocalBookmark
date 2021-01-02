@@ -27,6 +27,10 @@ function getIcon(html) {
     return undefined;
 }
 
+function getBasePath(path) {
+    const pos = path.lastIndexOf('/');
+    return path.substr(0, pos);
+}
 
 const HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
@@ -77,8 +81,7 @@ async function loadIcon(data) {
                     //# ../favicon 
                     //# favicon
                     if (path.match(/(html|htm)$/)) {
-                        //
-                        console.log(path);
+                        favicon = `${PREFIX}${host}${getBasePath(path)}/${icon}`;
                     } else {
                         favicon = `${PREFIX}${host}${path}/${icon}`;
                     }

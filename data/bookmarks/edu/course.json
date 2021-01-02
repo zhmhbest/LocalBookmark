@@ -102,6 +102,6 @@
             "教程",
             "编程"
         ],
-        "icon": ""
+        "icon": "https://doc.rust-lang.org/rust-by-example/favicon.svg"
     }
 ]
