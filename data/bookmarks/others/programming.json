@@ -26,17 +26,7 @@
             "编程",
             "GIT"
         ],
-        "icon": "https://assets.gitee.com/assets/favicon-9007bd527d8a7851c8330e783151df58.ico"
-    },
-    {
-        "title": "Git使用帮助",
-        "url": "https://zhmhbest.github.io/HelloGit/",
-        "tag": [
-            "编程",
-            "GIT",
-            "笔记"
-        ],
-        "icon": ""
+        "icon": "https://assets.gitee.com/assets/favicon.ico"
     },
     {
         "title": "Apple Developer",

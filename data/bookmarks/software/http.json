@@ -39,5 +39,36 @@
             "HTTP"
         ],
         "icon": ""
+    },
+    {
+        "title": "下载 Curl",
+        "url": "https://curl.haxx.se/download.html",
+        "tag": [
+            "软件",
+            "测试",
+            "HTTP"
+        ],
+        "icon": "https://curl.se/favicon.ico"
+    },
+    {
+        "title": "下载 Postman",
+        "url": "https://app.getpostman.com/app/download/win64",
+        "tag": [
+            "软件",
+            "编程",
+            "测试",
+            "工具",
+            "HTTP"
+        ],
+        "icon": "https://app.getpostman.com/favicon.ico"
+    },
+    {
+        "title": "下载 Fiddler",
+        "url": "https://www.telerik.com/download/fiddler",
+        "desc": "监听客户端和服务器的HTTP请求",
+        "tag": [
+            "测试",
+            "HTTP"
+        ]
     }
 ]

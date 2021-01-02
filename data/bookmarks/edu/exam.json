@@ -1,0 +1,102 @@
+[
+    {
+        "title": "中国教育考试网",
+        "url": "http://www.neea.edu.cn/",
+        "desc": "",
+        "tag": [
+            "教育",
+            "考试"
+        ],
+        "icon": "http://www.neea.edu.cn/res/Home/favicon.ico"
+    },
+    {
+        "title": "英语四六级考试报名",
+        "url": "http://cet-bm.neea.edu.cn",
+        "desc": "",
+        "tag": [
+            "教育",
+            "CET"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "英语四六级准考证查询",
+        "url": "http://cet-bm.neea.cn/Home/QueryTestTicket",
+        "desc": "",
+        "tag": [
+            "教育",
+            "CET"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "英语四六级成绩查询",
+        "url": "https://www.chsi.com.cn/cet/query",
+        "desc": "",
+        "tag": [
+            "教育",
+            "CET"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "北京市教师资格认定",
+        "url": "https://www.bjtcc.org.cn/",
+        "desc": "",
+        "tag": [
+            "教育",
+            "考试",
+            "教师资格",
+            "北京"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "各省教师资格认定机构联系方式",
+        "url": "http://www.jszg.edu.cn/statics/portal/html/provinces.html",
+        "desc": "",
+        "tag": [
+            "教育",
+            "考试",
+            "教师资格"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "中国计算机技术职业资格网",
+        "url": "http://www.ruankao.org.cn/",
+        "desc": "",
+        "tag": [
+            "教育",
+            "考试"
+        ],
+        "icon": "https://www.ruankao.org.cn/asset/image/public/logo2.png"
+    },
+    {
+        "title": "国家公务员局",
+        "url": "http://www.scs.gov.cn/",
+        "desc": "",
+        "tag": [
+            "教育",
+            "考试"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "国家公务员考试报名",
+        "url": "http://bm.scs.gov.cn/pp/gkweb/core/web/ui/business/auth/login.html",
+        "tag": [
+            "教育",
+            "考试"
+        ]
+    },
+    {
+        "title": "北京市普通话测试",
+        "url": "http://bjbm.cltt.org/pscweb/signUp.html",
+        "tag": [
+            "教育",
+            "考试",
+            "北京"
+        ]
+    }
+]

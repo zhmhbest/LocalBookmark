@@ -106,27 +106,5 @@
             "工具"
         ],
         "icon": "http://www.gaoding.com/favicon.ico"
-    },
-    {
-        "title": "Hanabi",
-        "url": "http://hanabi.data-viz.cn/templates",
-        "desc": "动态数据可视化",
-        "tag": [
-            "图片",
-            "视频",
-            "数据展示"
-        ],
-        "icon": ""
-    },
-    {
-        "title": "Echarts",
-        "url": "https://echarts.apache.org/examples/zh/index.html",
-        "desc": "JS制作数据图",
-        "tag": [
-            "图片",
-            "数据展示",
-            "编程"
-        ],
-        "icon": "https://cdn.jsdelivr.net/gh/apache/incubator-echarts-website@asf-site/examples/images/favicon.png?_v_=20200710_1"
     }
 ]

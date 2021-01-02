@@ -67,14 +67,6 @@
         "icon": ""
     },
     {
-        "title": "下载 Curl",
-        "url": "https://curl.haxx.se/download.html",
-        "tag": [
-            "软件"
-        ],
-        "icon": "https://curl.se/favicon.ico"
-    },
-    {
         "title": "下载 Scrcpy",
         "url": "https://github.com/Genymobile/scrcpy/releases",
         "desc": "连接数据线控制安卓手机",
@@ -83,16 +75,5 @@
             "安卓"
         ],
         "icon": ""
-    },
-    {
-        "title": "下载 Postman",
-        "url": "https://app.getpostman.com/app/download/win64",
-        "tag": [
-            "软件",
-            "编程",
-            "测试",
-            "工具"
-        ],
-        "icon": "https://app.getpostman.com/favicon.ico"
     }
 ]

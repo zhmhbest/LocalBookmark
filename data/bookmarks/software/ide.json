@@ -140,7 +140,7 @@
         "icon": "https://www.eclipse.org/downloads/packages/sites/all/themes/solstice/_themes/solstice_packages/favicon.ico"
     },
     {
-        "title": "下载 Android Studio",
+        "title": "下载 Android Studio/SDK",
         "url": "https://developer.android.google.cn/studio",
         "tag": [
             "软件",

@@ -1,0 +1,36 @@
+[
+    {
+        "title": "Echarts Examples",
+        "url": "https://echarts.apache.org/examples/zh/index.html",
+        "desc": "JS制作数据图",
+        "tag": [
+            "图片",
+            "数据展示",
+            "编程",
+            "Web"
+        ],
+        "icon": "https://cdn.jsdelivr.net/gh/apache/incubator-echarts-website@asf-site/examples/images/favicon.png"
+    },
+    {
+        "title": "Seaborn 官方教程",
+        "url": "https://seaborn.pydata.org/tutorial.html",
+        "desc": "Python制作数据图",
+        "tag": [
+            "图片",
+            "数据展示",
+            "编程",
+            "Python"
+        ]
+    },
+    {
+        "title": "Hanabi",
+        "url": "http://hanabi.data-viz.cn/templates",
+        "desc": "动态数据可视化",
+        "tag": [
+            "图片",
+            "视频",
+            "数据展示"
+        ],
+        "icon": "https://hanabi.data-viz.cn/favicon.ico"
+    }
+]

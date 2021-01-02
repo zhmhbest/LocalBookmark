@@ -161,28 +161,5 @@
             "文档"
         ],
         "icon": "https://typora.io/img/favicon-16.png"
-    },
-    {
-        "title": "下载 Tex Live",
-        "url": "https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/",
-        "desc": "LaTex发行版本",
-        "tag": [
-            "软件",
-            "学术",
-            "笔记"
-        ],
-        "icon": "https://mirrors.tuna.tsinghua.edu.cn/static/img/favicon.png"
-    },
-    {
-        "title": "下载 OriginLab",
-        "url": "https://www.originlab.com/",
-        "desc": "制作论文数据图",
-        "tag": [
-            "软件",
-            "图片",
-            "数据展示",
-            "学术"
-        ],
-        "icon": ""
     }
 ]
