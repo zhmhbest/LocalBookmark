@@ -109,15 +109,6 @@
         "icon": "https://www.cnki.net/favicon.ico"
     },
     {
-        "title": "维普网",
-        "url": "http://www.cqvip.com/",
-        "tag": [
-            "学术",
-            "文献检索"
-        ],
-        "icon": ""
-    },
-    {
         "title": "Bing学术",
         "url": "https://cn.bing.com/academic",
         "tag": [
@@ -209,7 +200,7 @@
             "学术",
             "文献检索"
         ],
-        "icon": ""
+        "icon": "https://www.engineeringvillage.com/static/images/ei_x.png"
     },
     {
         "title": "Science Direct",
@@ -221,26 +212,9 @@
         "icon": "https://sdfestaticassets-eu-west-1.sciencedirectassets.com/shared-assets/18/images/favSD.ico"
     },
     {
-        "title": "SCI-HUB（TW）",
-        "url": "https://www.sci-hub.tw/",
-        "tag": [
-            "学术",
-            "论文获取"
-        ],
-        "icon": ""
-    },
-    {
-        "title": "SCI-HUB（SE）",
-        "url": "https://www.sci-hub.se/",
-        "tag": [
-            "学术",
-            "论文获取"
-        ],
-        "icon": ""
-    },
-    {
         "title": "文献小镇",
         "url": "http://www.sci-hub.ac.cn/",
+        "desc": "SCI-HUB",
         "tag": [
             "学术",
             "论文获取"

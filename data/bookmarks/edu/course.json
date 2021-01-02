@@ -83,7 +83,7 @@
             "课程",
             "编程"
         ],
-        "icon": ""
+        "icon": "https://9.idqqimg.com/edu/edu_modules/edu-ui/img/nohash/favicon.ico"
     },
     {
         "title": "可可英语",
@@ -101,7 +101,7 @@
             "教程",
             "音乐"
         ],
-        "icon": ""
+        "icon": "https://learningmusic.ableton.com/images/favicon.ico"
     },
     {
         "title": "PyTorch官方教程中文版",

@@ -67,18 +67,18 @@
             "网课",
             "网易"
         ],
-        "icon": ""
+        "icon": "https://edu-image.nosdn.127.net/32a8dd2a-b9aa-4ec9-abd5-66cd8751befb.png?imageView&quality=100"
     },
     {
         "title": "腾讯课堂",
-        "url": "https://ke.qq.com/user/index/index.html#",
+        "url": "https://ke.qq.com/user/index/index.html",
         "desc": "",
         "tag": [
             "教育",
             "网课",
             "腾讯"
         ],
-        "icon": ""
+        "icon": "https://ke.qq.com/favicon.ico"
     },
     {
         "title": "中国教育考试网",
@@ -88,7 +88,7 @@
             "教育",
             "考试"
         ],
-        "icon": ""
+        "icon": "http://www.neea.edu.cn/res/Home/favicon.ico"
     },
     {
         "title": "英语四六级考试报名",

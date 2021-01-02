@@ -3,7 +3,7 @@ const axios = require('axios');
 function serachIcon(strlink) {
     let rel = strlink.match(/(?<=rel=['"]).+?(?=['"])/);
     if (null === rel) return undefined;
-    rel = rel[0];
+    rel = (rel[0]).toLowerCase();
     if (
         'shortcut icon' !== rel &&
         'shortcut' !== rel &&

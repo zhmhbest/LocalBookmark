@@ -1,12 +1,12 @@
 [
     {
         "title": "QQ音乐",
-        "url": "https://y.qq.com/portal/profile.html#sub=other&tab=create",
+        "url": "https://y.qq.com/",
         "tag": [
             "音频",
             "腾讯"
         ],
-        "icon": ""
+        "icon": "https://y.qq.com/favicon.ico"
     },
     {
         "title": "网易音乐",
@@ -24,7 +24,7 @@
             "音频",
             "二次元"
         ],
-        "icon": ""
+        "icon": "https://static.hdslb.com/images/favicon.ico"
     },
     {
         "title": "猫耳FM",
@@ -64,15 +64,6 @@
             "腾讯"
         ],
         "icon": "https://yobang.tencentmusic.com/favicon.ico"
-    },
-    {
-        "title": "音乐Tai",
-        "url": "http://vchart.yinyuetai.com/vchart/month",
-        "tag": [
-            "音频",
-            "榜单"
-        ],
-        "icon": ""
     },
     {
         "title": "听雨声",
