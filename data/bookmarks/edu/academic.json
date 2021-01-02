@@ -55,15 +55,6 @@
         "icon": "http://ifish.fun/img/fish.png"
     },
     {
-        "title": "万千合集",
-        "url": "http://www.hejizhan.com/html/search/",
-        "tag": [
-            "学术",
-            "文献检索"
-        ],
-        "icon": "http://www.toplinks.cc/s/static/im/favicon.ico"
-    },
-    {
         "title": "超星发现",
         "url": "http://www.chaoxing.com/",
         "tag": [
@@ -75,15 +66,6 @@
     {
         "title": "泉方学术",
         "url": "http://www.yuntsg.com",
-        "tag": [
-            "学术",
-            "文献检索"
-        ],
-        "icon": ""
-    },
-    {
-        "title": "中教数据库",
-        "url": "http://www.zjdata.net/",
         "tag": [
             "学术",
             "文献检索"
@@ -154,15 +136,6 @@
             "文献检索"
         ],
         "icon": "http://www.ucdrs.superlib.net/favicon.ico"
-    },
-    {
-        "title": "广西图书馆",
-        "url": "http://wap.gxlib.org/ermsClient/browse.do",
-        "tag": [
-            "学术",
-            "文献检索"
-        ],
-        "icon": ""
     },
     {
         "title": "国家哲学社会科学文献中心",
