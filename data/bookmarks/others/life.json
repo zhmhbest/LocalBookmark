@@ -42,7 +42,8 @@
         "url": "https://coronavirus.app/",
         "tag": [
             "生活"
-        ]
+        ],
+        "icon": ""
     },
     {
         "title": "CPU|GPU 天梯图",

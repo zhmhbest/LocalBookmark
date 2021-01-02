@@ -1,0 +1,22 @@
+[
+    {
+        "title": "下载 Tableau",
+        "url": "https://www.tableau.com/zh-cn/products/trial",
+        "desc": "数据可视化分析工具",
+        "tag": [
+            "软件",
+            "数据分析",
+            "BI"
+        ]
+    },
+    {
+        "title": "下载 Elastic",
+        "url": "https://www.elastic.co/cn/downloads/",
+        "desc": "大数据搜索",
+        "tag": [
+            "软件",
+            "数据分析",
+            "BI"
+        ]
+    }
+]

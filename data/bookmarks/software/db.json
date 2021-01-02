@@ -1,0 +1,92 @@
+[
+    {
+        "title": "下载 Navicat Premium",
+        "url": "https://navicat.com.cn/download/navicat-premium",
+        "tag": [
+            "软件",
+            "编程",
+            "数据库",
+            "工具"
+        ],
+        "icon": "https://navicat.com.cn/images/02.Product_00_AllProducts_Premium.png"
+    },
+    {
+        "title": "下载 DBeaver",
+        "url": "https://dbeaver.io/download/",
+        "tag": [
+            "软件",
+            "编程",
+            "数据库",
+            "工具"
+        ]
+    },
+    {
+        "title": "下载 Mysql",
+        "url": "https://dev.mysql.com/downloads/mysql/",
+        "tag": [
+            "软件",
+            "编程",
+            "数据库"
+        ]
+    },
+    {
+        "title": "下载 Mariadb",
+        "url": "https://downloads.mariadb.org/mariadb/",
+        "tag": [
+            "软件",
+            "编程",
+            "数据库"
+        ]
+    },
+    {
+        "title": "下载 Redis",
+        "url": "https://redis.io/download",
+        "desc": "内存型Key-Value数据库，此外还支持List、Set、Hash等数据结构",
+        "tag": [
+            "软件",
+            "编程",
+            "数据库"
+        ],
+        "icon": "https://redis.io/images/favicon.png"
+    },
+    {
+        "title": "下载 Redis Windows",
+        "url": "https://github.com/microsoftarchive/redis/releases",
+        "tag": [
+            "软件",
+            "编程",
+            "数据库"
+        ]
+    },
+    {
+        "title": "下载 Mongodb",
+        "url": "https://www.mongodb.com/download-center/community",
+        "desc": "文档型BSON数据库",
+        "tag": [
+            "软件",
+            "编程",
+            "数据库"
+        ]
+    },
+    {
+        "title": "下载 Memcached",
+        "url": "https://www.memcached.org/downloads",
+        "desc": "内存型数据库，主要用于关系型数据库的读取缓存",
+        "tag": [
+            "软件",
+            "编程",
+            "数据库"
+        ],
+        "icon": "https://www.memcached.org/downloads/favicon.png"
+    },
+    {
+        "title": "下载 HBase",
+        "url": "http://hbase.apache.org/downloads.html",
+        "desc": "分布式列存储数据库",
+        "tag": [
+            "软件",
+            "编程",
+            "数据库"
+        ]
+    }
+]

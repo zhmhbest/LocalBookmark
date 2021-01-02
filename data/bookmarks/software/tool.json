@@ -16,6 +16,14 @@
         ]
     },
     {
+        "title": "下载 TigerVNC",
+        "url": "https://tigervnc.org/",
+        "tag": [
+            "软件",
+            "远程"
+        ]
+    },
+    {
         "title": "下载 Splashtop Streamer",
         "url": "https://www.splashtop.com/streamer",
         "desc": "本地访问使用 Personal",
@@ -65,6 +73,16 @@
         "tag": [
             "软件",
             "安卓"
+        ]
+    },
+    {
+        "title": "下载 Postman",
+        "url": "https://app.getpostman.com/app/download/win64",
+        "tag": [
+            "软件",
+            "编程",
+            "测试",
+            "工具"
         ]
     }
 ]

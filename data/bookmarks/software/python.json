@@ -1,0 +1,41 @@
+[
+    {
+        "title": "pypi",
+        "url": "https://pypi.org/",
+        "desc": "软件仓库",
+        "more": [
+            "清华大学开源镜像站 Pypi",
+            "临时使用：",
+            "&nbsp;&nbsp; <code>pip install -i https://pypi.tuna.tsinghua.edu.cn/simple &lt;PackageName&gt;[==version]</code>",
+            "默认镜像：",
+            "&nbsp;&nbsp; <code>pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple</code>",
+            "&nbsp;&nbsp; <code>pip config set install.trusted-host https://pypi.tuna.tsinghua.edu.cn</code>"
+        ],
+        "tag": [
+            "软件",
+            "编程",
+            "Library",
+            "Python"
+        ]
+    },
+    {
+        "title": "lfd",
+        "url": "https://www.lfd.uci.edu/~gohlke/pythonlibs/",
+        "tag": [
+            "软件",
+            "编程",
+            "Library",
+            "Python"
+        ]
+    },
+    {
+        "title": "Conda",
+        "url": "https://anaconda.org/conda-forge/pycrypto/files",
+        "tag": [
+            "软件",
+            "编程",
+            "Library",
+            "Python"
+        ]
+    }
+]

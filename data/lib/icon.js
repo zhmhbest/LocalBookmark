@@ -1,6 +1,4 @@
 const axios = require('axios');
-// axios.defaults.timeout = 5 * 1000;
-// const file = require('./file');
 
 function serachIcon(strlink) {
     let rel = strlink.match(/(?<=rel=['"]).+?(?=['"])/);
@@ -32,7 +30,6 @@ function getIcon(html) {
 
 const HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
-    // timeout: 3 * 1000
 };
 
 async function loadIcon(data) {
@@ -40,31 +37,49 @@ async function loadIcon(data) {
 
     for (let item of data) {
         if (undefined !== item.icon) continue;
-        const url = item.url.match(/\/$/) ? item.url : `${item.url}/`;
+    
+        const URL = item.url;
+        const PREFIX = URL.match(/^https/) ? 'https://' : 'http://';
         let host = undefined;
-        console.log(`${TAB}url: ${url}`);
-
+        let path = undefined;
         let favicon = undefined;
-        await axios.get(item.url, {}, HEADERS).then(res => {
+        console.log(`${TAB}url: ${URL}`);
+
+        await axios({
+            method: 'get',
+            url: URL,
+            headers: HEADERS,
+            timeout: 3500,
+            maxContentLength: 30720,
+            maxRedirects: 3,
+        }).then(res => {
             // [ 'status', 'statusText', 'headers', 'config', 'request': [], 'data' ]
-            const icon = getIcon(res.data);
-            const path = res.request.path;
             host = res.request.connection['_host'];
+            path = res.request.path;
+
+            const icon = getIcon(res.data);
             console.log(`${TAB}${TAB}match: ${icon}`);
 
             if (undefined !== icon) {
                 // 匹配到
-                if (icon.match(/^https?:/)) { // https://
+                if (icon.match(/^https?:/)) {
+                    //# http://
+                    //# https://
                     favicon = icon;
-                } else if (icon.match(/^\/[a-z]/)) { // /favicon
-                    favicon = `http://${host}${icon}`;
-                } else if (icon.match(/^\/\/[a-z]/)) { // //favicon
-                    favicon = `http://${icon.substr(2)}`;
-                } else if (icon.match(/^[a-z]/)) { // favicon
+                } else if (icon.match(/^\/[a-z]/)) {
+                    //# /favicon
+                    favicon = `${PREFIX}${host}${icon}`;
+                } else if (icon.match(/^\/\/[a-z]/)) {
+                    //# //favicon
+                    favicon = `${PREFIX}${icon.substr(2)}`;
+                } else if (icon.match(/^[a-z\.]/)) {
+                    //# ./favicon
+                    //# ../favicon 
+                    //# favicon
                     if (path.match(/(html|htm)$/)) {
                         //
                     } else {
-                        favicon = `http://${host}${path}/${icon}`;
+                        favicon = `${PREFIX}${host}${path}/${icon}`;
                     }
                 } else {
                     console.log(`${TAB}${TAB}error: match`);
@@ -87,12 +102,12 @@ async function loadIcon(data) {
         // }
 
         // 写回
-        if (undefined !== favicon) {
-            item.icon = favicon;
-            console.log(`${TAB}${TAB}favicon: ${favicon}`);
-        } else {
+        if (undefined === favicon) {
             item.icon = "";
             console.log(`${TAB}${TAB}error: none`);
+        } else {
+            item.icon = favicon;
+            console.log(`${TAB}${TAB}favicon: ${favicon}`);
         }
     }
 }
