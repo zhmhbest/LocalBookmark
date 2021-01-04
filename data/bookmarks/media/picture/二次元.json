@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Draftbit Personas",
+        "url": "https://personas.draftbit.com/",
+        "desc": "在线捏脸",
+        "tag": [
+            "头像",
+            "工具"
+        ],
+        "icon": "http://personas.draftbit.com/favicon-32x32.png?v=b625948653119d238257262c4a6d17d5"
+    },
+    {
+        "title": "Charat",
+        "url": "https://charat.me/",
+        "desc": "在线捏脸",
+        "tag": [
+            "头像",
+            "工具"
+        ],
+        "icon": "https://charat.me/favicon.ico"
+    },
+    {
+        "title": "Selfie2Anime",
+        "url": "https://selfie2anime.com/",
+        "desc": "人脸转二次元风格",
+        "tag": [
+            "头像",
+            "工具"
+        ],
+        "icon": "https://selfie2anime.com/favicon.ico"
+    },
+    {
+        "title": "Petalica Paint",
+        "url": "https://petalica-paint.pixiv.dev/index_zh.html",
+        "desc": "线稿自动上色",
+        "tag": [
+            "工具"
+        ],
+        "icon": "http://petalica-paint.pixiv.dev/images/favicon.ico"
+    },
+    {
+        "title": "Trace Moe",
+        "url": "https://trace.moe/",
+        "desc": "根据图片搜索动漫",
+        "tag": [
+            "工具"
+        ],
+        "icon": "http://trace.moe/favicon.png"
+    },
+    {
+        "title": "Saucenao",
+        "url": "https://saucenao.com/",
+        "desc": "找图片出处",
+        "tag": [
+            "工具"
+        ],
+        "icon": "https://saucenao.com/favicon.ico"
+    },
+    {
+        "title": "Pixivic",
+        "url": "https://pixivic.com",
+        "desc": "",
+        "icon": "https://pixivic.com/icon.png"
+    }
+]
