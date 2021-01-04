@@ -2,45 +2,19 @@
     {
         "title": "Smallpdf",
         "url": "https://smallpdf.com/cn",
-        "tag": [
-            "文档",
-            "工具"
-        ],
         "icon": "http://smallpdf.com/favicon.png"
     },
     {
         "title": "PDF转Word",
         "url": "https://app.xunjiepdf.com/pdf2word/",
-        "tag": [
-            "文档",
-            "工具"
-        ],
         "icon": "http://app.xunjiepdf.com/favicon.ico"
-    },
-    {
-        "title": "搬书匠（编程书籍）",
-        "url": "http://www.banshujiang.cn/",
-        "tag": [
-            "书籍",
-            "编程"
-        ],
-        "icon": "http://www.banshujiang.cn/favicon.ico"
-    },
-    {
-        "title": "鸠摩搜书",
-        "url": "https://www.jiumodiary.com/",
-        "tag": [
-            "书籍"
-        ],
-        "icon": "https://www.jiumodiary.com/images/favicon.png"
     },
     {
         "title": "百度脑图",
         "url": "https://naotu.baidu.com/",
         "desc": "思维导图",
         "tag": [
-            "工具",
-            "笔记",
+            "note",
             "百度"
         ],
         "icon": "https://naotu.baidu.com/favicon.ico"
@@ -50,8 +24,6 @@
         "url": "https://docs.qq.com/desktop",
         "desc": "云文档",
         "tag": [
-            "工具",
-            "文档",
             "腾讯"
         ],
         "icon": "http://docs.idqqimg.com/tim/docs/desktop/favicon.ico"
@@ -61,7 +33,6 @@
         "url": "https://jikipedia.com/",
         "desc": "查流行语",
         "tag": [
-            "工具",
             "词典"
         ],
         "icon": "http://jikipedia.com/favicon.ico"
@@ -70,9 +41,6 @@
         "title": "明星缩写查询",
         "url": "http://www.iseecs.com/",
         "desc": "",
-        "tag": [
-            "工具"
-        ],
         "icon": "http://www.iseecs.com/favicon.ico"
     },
     {
@@ -80,9 +48,9 @@
         "url": "https://airportal.cn/",
         "desc": "",
         "tag": [
-            "工具",
-            "文件",
-            "分享"
+            "office",
+            "file",
+            "share"
         ],
         "icon": "https://cdn.jsdelivr.net/gh/shangzhenyang/assets/img/ap-icon-512-2.png"
     }

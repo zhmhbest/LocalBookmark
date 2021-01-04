@@ -3,7 +3,6 @@
         "title": "新浪微博",
         "url": "https://weibo.com",
         "tag": [
-            "博客",
             "社区",
             "新浪"
         ],
@@ -13,7 +12,6 @@
         "title": "新浪微博（手机版）",
         "url": "https://m.weibo.cn",
         "tag": [
-            "博客",
             "社区",
             "新浪"
         ],
@@ -23,7 +21,6 @@
         "title": "微博超话",
         "url": "https://huati.weibo.cn/discovery/super",
         "tag": [
-            "博客",
             "社区",
             "榜单",
             "新浪"
@@ -34,7 +31,6 @@
         "title": "知乎",
         "url": "https://www.zhihu.com/search",
         "tag": [
-            "论坛",
             "社区"
         ],
         "icon": "https://static.zhihu.com/static/favicon.ico"
@@ -44,10 +40,7 @@
         "url": "https://tophub.today/",
         "tag": [
             "聚合",
-            "博客",
-            "论坛",
-            "榜单",
-            "社区"
+            "榜单"
         ],
         "icon": "https://file.ipadown.com/tophub/assets/images/favicon/android-icon-192x192.png"
     },
@@ -55,7 +48,6 @@
         "title": "Facebook",
         "url": "https://www.facebook.com",
         "tag": [
-            "博客",
             "科学上网"
         ],
         "icon": ""
@@ -64,7 +56,6 @@
         "title": "Instagram",
         "url": "https://www.instagram.com",
         "tag": [
-            "博客",
             "科学上网"
         ],
         "icon": ""
@@ -73,7 +64,6 @@
         "title": "Quora",
         "url": "www.quora.com/",
         "tag": [
-            "论坛",
             "社区",
             "科学上网"
         ],
@@ -83,7 +73,6 @@
         "title": "Twitter",
         "url": "https://www.twitter.com",
         "tag": [
-            "博客",
             "twitter",
             "科学上网"
         ],
@@ -94,7 +83,6 @@
         "url": "https://twitter.com/TheEconomist",
         "desc": "经济学人",
         "tag": [
-            "博客",
             "twitter",
             "科学上网"
         ],
@@ -105,7 +93,6 @@
         "url": "https://twitter.com/TIME",
         "desc": "时代周刊",
         "tag": [
-            "博客",
             "twitter",
             "科学上网"
         ],
@@ -116,7 +103,6 @@
         "url": "https://twitter.com/nytimes",
         "desc": "纽约时报",
         "tag": [
-            "博客",
             "twitter",
             "科学上网"
         ],
@@ -127,7 +113,6 @@
         "url": "https://twitter.com/CNN",
         "desc": "美国有线电视新闻网",
         "tag": [
-            "博客",
             "twitter",
             "科学上网"
         ],
@@ -138,7 +123,6 @@
         "url": "https://twitter.com/BBC",
         "desc": "英国广播公司",
         "tag": [
-            "博客",
             "twitter",
             "科学上网"
         ],
@@ -149,7 +133,6 @@
         "url": "https://twitter.com/BBCWorld",
         "desc": "英国广播公司",
         "tag": [
-            "博客",
             "twitter",
             "科学上网"
         ],
@@ -160,7 +143,6 @@
         "url": "https://twitter.com/WashTimes",
         "desc": "华盛顿时报",
         "tag": [
-            "博客",
             "twitter",
             "科学上网"
         ],

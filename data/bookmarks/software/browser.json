@@ -2,10 +2,6 @@
     {
         "title": "下载 Google Chrome",
         "url": "https://www.google.cn/chrome/index.html",
-        "tag": [
-            "浏览器",
-            "软件"
-        ],
         "icon": "http://www.google.cn/chrome/static/images/favicons/favicon.ico"
     },
     {
@@ -13,8 +9,6 @@
         "url": "http://npm.taobao.org/mirrors/chromedriver/",
         "desc": "Driver应存在于PATH中，且版本应与当前浏览器版本一致",
         "tag": [
-            "浏览器",
-            "软件",
             "编程"
         ],
         "icon": ""
@@ -22,27 +16,18 @@
     {
         "title": "下载 Mozilla Firefox",
         "url": "https://www.firefox.com.cn/",
-        "tag": [
-            "浏览器",
-            "软件"
-        ],
         "icon": "http://www.firefox.com.cn/media/img/favicons/firefox/favicon-196x196.5e474118060e.png"
     },
     {
         "title": "下载 360浏览器XP版",
         "url": "http://se.360.cn/xp.html",
-        "tag": [
-            "浏览器",
-            "软件"
-        ],
         "icon": "http://se.360.cn/favicon.ico"
     },
     {
         "title": "下载 JJQQKK Chromium",
         "url": "https://github.com/jjqqkk",
         "tag": [
-            "浏览器",
-            "软件"
+            "VPN"
         ],
         "icon": "https://github.githubassets.com/favicons/favicon.svg"
     },
@@ -51,7 +36,6 @@
         "desc": "Chrome Extensions Store",
         "url": "https://chrome.google.com/webstore/category/extensions",
         "tag": [
-            "浏览器",
             "谷歌",
             "科学上网"
         ],
@@ -62,7 +46,6 @@
         "desc": "Chrome Extensions Store",
         "url": "https://chrome.zzzmh.cn/",
         "tag": [
-            "浏览器",
             "谷歌"
         ],
         "icon": "http://chrome.zzzmh.cn//favicon.ico"

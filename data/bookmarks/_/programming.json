@@ -4,46 +4,31 @@
         "url": "https://hellogithub.com/report/tiobe/",
         "desc": "编程语言排名",
         "tag": [
-            "编程",
-            "榜单",
-            "GIT"
+            "榜单"
         ],
         "icon": "http://hellogithub.com/favicon.ico"
     },
     {
         "title": "Github",
         "url": "https://github.com/",
-        "tag": [
-            "编程",
-            "GIT"
-        ],
         "icon": ""
     },
     {
         "title": "Gitee",
         "url": "https://gitee.com/",
-        "tag": [
-            "编程",
-            "GIT"
-        ],
         "icon": "https://assets.gitee.com/assets/favicon.ico"
     },
     {
         "title": "Apple Developer",
         "url": "https://developer.apple.com/cn/",
         "tag": [
-            "编程",
             "苹果"
         ],
         "icon": "http://developer.apple.com/favicon.ico?51002006191"
     },
     {
-        "title": "Wechat API",
+        "title": "Wechat Develope",
         "url": "https://developers.weixin.qq.com/miniprogram/dev/framework/",
-        "tag": [
-            "编程",
-            "API"
-        ],
         "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico"
     },
     {
@@ -52,7 +37,6 @@
         "tag": [
             "百度",
             "地图",
-            "编程",
             "API"
         ],
         "icon": "http://mapopen-website-wiki.cdn.bcebos.com/LOGO/lbsyunlogo_icon.ico"
@@ -61,7 +45,6 @@
         "title": "Editor.md",
         "url": "https://pandao.github.io/editor.md/",
         "tag": [
-            "编程",
             "工具",
             "笔记"
         ],
@@ -72,18 +55,8 @@
         "desc": "数学公式",
         "url": "https://katex.org/",
         "tag": [
-            "编程",
             "Web",
             "Library"
-        ],
-        "icon": ""
-    },
-    {
-        "title": "LaTeX数学公式",
-        "url": "https://zhmhbest.github.io/HelloLaTeX/notes/formula.html",
-        "tag": [
-            "编程",
-            "笔记"
         ],
         "icon": ""
     },
@@ -92,7 +65,6 @@
         "desc": "流程图",
         "url": "https://creately.com/templates/",
         "tag": [
-            "编程",
             "Web",
             "Library"
         ],
@@ -102,7 +74,6 @@
         "title": "编程工具箱",
         "url": "http://tool.oschina.net/",
         "tag": [
-            "编程",
             "工具"
         ],
         "icon": "http://tool.oschina.net/img/favicon.ico"
@@ -111,7 +82,6 @@
         "title": "米扑代理",
         "url": "https://proxy.mimvp.com/",
         "tag": [
-            "编程",
             "代理"
         ],
         "icon": "https://cdn-proxy.mimvp.com/favicon.ico"

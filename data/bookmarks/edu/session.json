@@ -5,7 +5,6 @@
         "desc": "",
         "tag": [
             "学术",
-            "顶会",
             "信息安全"
         ],
         "icon": "https://www.usenix.org/sites/default/files/waves_favicon.ico"
@@ -16,7 +15,6 @@
         "desc": "安全与隐私会议",
         "tag": [
             "学术",
-            "顶会",
             "信息安全"
         ],
         "icon": "http://www.ieee-security.org/images/favicon.png"
@@ -27,7 +25,6 @@
         "desc": "计算机和通信安全会议",
         "tag": [
             "学术",
-            "顶会",
             "信息安全"
         ],
         "icon": ""
@@ -38,7 +35,6 @@
         "desc": "网络与分布式系统安全会议",
         "tag": [
             "学术",
-            "顶会",
             "信息安全"
         ],
         "icon": "https://www.ndss-symposium.org/wp-content/uploads/cropped-NDSS_512x512-32x32.png"
@@ -53,7 +49,6 @@
         ],
         "tag": [
             "学术",
-            "顶会",
             "计算机视觉"
         ],
         "icon": "https://www.thecvf.com/wp-content/uploads/2020/06/cropped-cvf-icon-small-32x32.png"
@@ -64,7 +59,6 @@
         "desc": "CVF 相关文档下载",
         "tag": [
             "学术",
-            "顶会",
             "计算机视觉"
         ],
         "icon": ""
@@ -75,7 +69,6 @@
         "desc": "国际医学图像计算和计算机辅助干预协会",
         "tag": [
             "学术",
-            "顶会",
             "计算机视觉",
             "医疗影像"
         ],
@@ -87,7 +80,6 @@
         "desc": "国际声学、语音与信号处理会议",
         "tag": [
             "学术",
-            "顶会",
             "智能声学"
         ],
         "icon": "http://cn.bing.com/sa/simg/favicon-2x.ico"
@@ -98,7 +90,6 @@
         "desc": "语音领域顶级学术会议",
         "tag": [
             "学术",
-            "顶会",
             "智能声学"
         ],
         "icon": "http://cn.bing.com/sa/simg/favicon-2x.ico"

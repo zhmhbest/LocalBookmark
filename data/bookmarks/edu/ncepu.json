@@ -2,17 +2,11 @@
     {
         "title": "华北电力大学",
         "url": "https://www.ncepu.edu.cn/",
-        "tag": [
-            "NCEPU"
-        ],
         "icon": "https://www.ncepu.edu.cn/favicon.ico"
     },
     {
         "title": "华北电力大学 控计学院",
         "url": "http://cce.ncepu.edu.cn/",
-        "tag": [
-            "NCEPU"
-        ],
         "icon": ""
     },
     {
@@ -23,7 +17,6 @@
             "密码：身份证后6位"
         ],
         "tag": [
-            "NCEPU",
             "VPN"
         ],
         "icon": "http://webvpn.ncepu.edu.cn/favicon.ico"
@@ -31,16 +24,12 @@
     {
         "title": "华北电力大学 研究生院",
         "url": "https://yjsy.ncepu.edu.cn/",
-        "tag": [
-            "NCEPU"
-        ],
         "icon": ""
     },
     {
         "title": "华北电力大学 研究生教务信息系统（VPN）",
         "url": "https://202-204-74-224-8089.webvpn.ncepu.edu.cn/gmis/oauthLogin/hbdldx",
         "tag": [
-            "NCEPU",
             "VPN"
         ],
         "icon": "http://webvpn.ncepu.edu.cn/favicon.ico"
@@ -48,46 +37,30 @@
     {
         "title": "华北电力大学 研究生教务信息系统",
         "url": "http://202.204.74.224:8089/gmis/student/default/index",
-        "tag": [
-            "NCEPU"
-        ],
         "icon": ""
     },
     {
         "title": "华北电力大学 学堂在线",
         "url": "https://hbdldx.xuetangx.com",
         "desc": "",
-        "tag": [
-            "NCEPU",
-            "教育"
-        ],
         "icon": ""
     },
     {
         "title": "控计学院 综合测评管理系统",
         "url": "http://ceping.idangjian.cn/",
         "desc": "",
-        "tag": [
-            "NCEPU"
-        ],
         "icon": ""
     },
     {
         "title": "华电邮箱",
         "url": "https://mail.ncepu.edu.cn/coremail/",
         "desc": "",
-        "tag": [
-            "NCEPU"
-        ],
         "icon": ""
     },
     {
         "title": "华电网络与信息化工作处 ",
         "url": "https://its.ncepu.edu.cn/",
         "desc": "",
-        "tag": [
-            "NCEPU"
-        ],
         "icon": ""
     }
 ]

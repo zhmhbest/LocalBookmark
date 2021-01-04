@@ -2,19 +2,11 @@
     {
         "title": "字体家",
         "url": "https://www.zitijia.com/",
-        "tag": [
-            "字体",
-            "资源下载"
-        ],
         "icon": "http://www.zitijia.com/static/img/favicon.ico"
     },
     {
         "title": "字由",
         "url": "https://www.hellofont.cn/home",
-        "tag": [
-            "字体",
-            "资源下载"
-        ],
         "icon": "https://www.hellofont.cn/favicon.ico"
     }
 ]

@@ -2,24 +2,17 @@
     {
         "title": "日剧TV",
         "url": "https://www.rijutv.com",
-        "tag": [
-            "视频"
-        ],
         "icon": "https://www.rijutv.com/favicon.ico"
     },
     {
         "title": "韩剧TV",
         "url": "http://www.hanjutv.com/",
-        "tag": [
-            "视频"
-        ],
         "icon": "http://www.hanjutv2020.com/pc/images/favicon.ico"
     },
     {
         "title": "Acfun",
         "url": "https://www.acfun.cn/",
         "tag": [
-            "视频",
             "二次元"
         ],
         "icon": "https://cdn.aixifan.com/ico/favicon.ico"
@@ -28,7 +21,6 @@
         "title": "Bilibili",
         "url": "https://t.bilibili.com/",
         "tag": [
-            "视频",
             "二次元",
             "社区"
         ],
@@ -38,7 +30,6 @@
         "title": "风车动漫",
         "url": "http://www.fengchedm.com/",
         "tag": [
-            "视频",
             "二次元"
         ],
         "icon": ""
@@ -47,7 +38,6 @@
         "title": "风车动漫（手机）",
         "url": "http://m.fengchedm.com/",
         "tag": [
-            "视频",
             "二次元"
         ],
         "icon": ""
@@ -56,7 +46,6 @@
         "title": "腾讯视频",
         "url": "https://v.qq.com",
         "tag": [
-            "视频",
             "社区",
             "腾讯"
         ],
@@ -66,7 +55,6 @@
         "title": "爱奇艺视频",
         "url": "https://www.iqiyi.com/",
         "tag": [
-            "视频",
             "社区"
         ],
         "icon": "https://www.iqiyipic.com/common/fix/128-128-logo.png"
@@ -76,7 +64,7 @@
         "url": "http://www.zuidazy1.com/",
         "desc": "域名数字[1-5]可替换",
         "tag": [
-            "视频"
+            "res"
         ],
         "icon": ""
     },
@@ -84,7 +72,7 @@
         "title": "旭旭电影",
         "url": "http://www.hxuxu.com/",
         "tag": [
-            "视频"
+            "res"
         ],
         "icon": ""
     },
@@ -92,7 +80,6 @@
         "title": "Youtube",
         "url": "https://www.youtube.com/",
         "tag": [
-            "视频",
             "科学上网"
         ],
         "icon": ""
@@ -101,7 +88,6 @@
         "title": "Youtube Downloader",
         "url": "http://www.youtube-video-downloader.xyz/",
         "tag": [
-            "视频",
             "工具",
             "科学上网"
         ],
@@ -112,7 +98,6 @@
         "url": "https://panzoid.com/",
         "desc": "制作视频片头动画",
         "tag": [
-            "视频",
             "工具"
         ],
         "icon": "https://panzoid.com/favicon.ico"
@@ -122,7 +107,6 @@
         "url": "https://www.unscreen.com/",
         "desc": "自动抠背景",
         "tag": [
-            "视频",
             "工具"
         ],
         "icon": "http://www.unscreen.com/favicon-196x196.png"

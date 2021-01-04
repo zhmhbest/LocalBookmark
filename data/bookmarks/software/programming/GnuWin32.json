@@ -2,20 +2,12 @@
     {
         "title": "下载 GnuWin32 Packages",
         "url": "http://gnuwin32.sourceforge.net/packages.html",
-        "tag": [
-            "软件",
-            "编程",
-            "GnuWin32"
-        ],
         "icon": ""
     },
     {
         "title": "下载 Flex Windows",
         "url": "http://gnuwin32.sourceforge.net/packages/flex.htm",
         "tag": [
-            "软件",
-            "编程",
-            "GnuWin32",
             "C/C++"
         ],
         "icon": ""
@@ -24,9 +16,6 @@
         "title": "下载 Bison Windows",
         "url": "http://gnuwin32.sourceforge.net/packages/bison.htm",
         "tag": [
-            "软件",
-            "编程",
-            "GnuWin32",
             "C/C++"
         ],
         "icon": ""

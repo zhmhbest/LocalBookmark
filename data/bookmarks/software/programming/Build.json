@@ -3,10 +3,7 @@
         "title": "下载 Apache Ant",
         "url": "https://ant.apache.org/bindownload.cgi",
         "tag": [
-            "软件",
-            "编程",
-            "JAVA",
-            "Build"
+            "Java"
         ],
         "icon": "https://ant.apache.org/favicon.ico"
     },
@@ -14,11 +11,8 @@
         "title": "下载 Maven",
         "url": "http://maven.apache.org/download.cgi",
         "tag": [
-            "软件",
-            "编程",
-            "JAVA",
-            "Maven",
-            "Build"
+            "Java",
+            "Maven"
         ],
         "icon": "http://maven.apache.org/favicon.ico"
     },
@@ -26,9 +20,7 @@
         "title": "Maven Repository",
         "url": "https://mvnrepository.com/",
         "tag": [
-            "软件",
-            "编程",
-            "JAVA",
+            "Java",
             "Maven",
             "Library"
         ],
@@ -38,10 +30,7 @@
         "title": "下载 Gradle",
         "url": "https://gradle.org/releases/",
         "tag": [
-            "软件",
-            "编程",
-            "JAVA",
-            "Build"
+            "Java"
         ],
         "icon": "https://gradle.org/icon/favicon-32x32.png"
     },
@@ -49,10 +38,7 @@
         "title": "下载 Cmake",
         "url": "https://cmake.org/download/",
         "tag": [
-            "软件",
-            "编程",
-            "C/C++",
-            "Build"
+            "C/C++"
         ],
         "icon": "https://cmake.org/wp-content/uploads/2019/05/cropped-cmake_512-32x32.png"
     }

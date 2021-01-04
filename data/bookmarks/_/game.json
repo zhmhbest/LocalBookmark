@@ -3,8 +3,6 @@
         "title": "LPL",
         "url": "https://lpl.qq.com",
         "tag": [
-            "游戏",
-            "比赛",
             "英雄联盟"
         ],
         "icon": ""
@@ -13,7 +11,6 @@
         "title": "英雄数据",
         "url": "https://www.op.gg/champion/statistics",
         "tag": [
-            "游戏",
             "英雄联盟"
         ],
         "icon": "http://www.op.gg/favicon.ico?5"
@@ -23,7 +20,6 @@
         "url": "https://aidn.jp/mikutap/",
         "desc": "音乐游戏",
         "tag": [
-            "游戏",
             "音乐",
             "二次元"
         ],
@@ -34,7 +30,6 @@
         "url": "http://osugame.online/",
         "desc": "音乐游戏",
         "tag": [
-            "游戏",
             "音乐",
             "二次元"
         ],
@@ -45,7 +40,6 @@
         "url": "https://www.meteorshowers.org/",
         "desc": "",
         "tag": [
-            "游戏",
             "天文"
         ],
         "icon": ""

@@ -3,7 +3,6 @@
         "title": "QQ音乐",
         "url": "https://y.qq.com/",
         "tag": [
-            "音频",
             "腾讯"
         ],
         "icon": "https://y.qq.com/favicon.ico"
@@ -12,8 +11,8 @@
         "title": "网易音乐",
         "url": "https://music.163.com/",
         "tag": [
-            "音频",
-            "网易"
+            "网易",
+            "社区"
         ],
         "icon": "https://s1.music.126.net/style/favicon.ico"
     },
@@ -21,7 +20,6 @@
         "title": "哔哩音乐",
         "url": "https://www.bilibili.com/audio/home",
         "tag": [
-            "音频",
             "二次元"
         ],
         "icon": "https://static.hdslb.com/images/favicon.ico"
@@ -30,7 +28,6 @@
         "title": "猫耳FM",
         "url": "https://www.missevan.com/mperson/homepage",
         "tag": [
-            "音频",
             "二次元",
             "社区"
         ],
@@ -40,7 +37,6 @@
         "title": "MidiShow",
         "url": "https://www.midishow.com/",
         "tag": [
-            "音频",
             "MIDI"
         ],
         "icon": "http://www.midishow.com/favicon.ico"
@@ -49,7 +45,6 @@
         "title": "自由钢琴",
         "url": "https://www.autopiano.cn/",
         "tag": [
-            "音频",
             "钢琴",
             "MIDI"
         ],
@@ -59,7 +54,6 @@
         "title": "由你音乐",
         "url": "https://yobang.tencentmusic.com/",
         "tag": [
-            "音频",
             "榜单",
             "腾讯"
         ],
@@ -68,17 +62,11 @@
     {
         "title": "听雨声",
         "url": "https://www.rainymood.com/",
-        "tag": [
-            "音频"
-        ],
         "icon": "http://www.rainymood.com/favicon-32x32.png?v=oLBgER8B5r"
     },
     {
         "title": "万能音乐下载",
         "url": "http://www.guqiankun.com",
-        "tag": [
-            "音频"
-        ],
         "icon": "http://cdn.guqiankun.com/img/g.ico"
     }
 ]

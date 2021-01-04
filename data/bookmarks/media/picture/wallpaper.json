@@ -2,18 +2,12 @@
     {
         "title": "Pexels",
         "url": "https://www.pexels.com/",
-        "tag": [
-            "图片",
-            "壁纸"
-        ],
         "icon": "https://www.pexels.com/favicon.ico"
     },
     {
         "title": "必应每日图片",
         "url": "https://bing.ioliu.cn/",
         "tag": [
-            "图片",
-            "壁纸",
             "微软"
         ],
         "icon": "http://bing.ioliu.cn/static/images/bing.ico"
@@ -22,8 +16,6 @@
         "title": "Pixiv",
         "url": "https://www.pixiv.net/",
         "tag": [
-            "图片",
-            "壁纸",
             "二次元",
             "科学上网"
         ],
@@ -32,73 +24,41 @@
     {
         "title": "Wallhaven",
         "url": "https://wallhaven.cc/",
-        "tag": [
-            "图片",
-            "壁纸"
-        ],
         "icon": "https://wallhaven.cc/favicon.ico"
     },
     {
         "title": "Wallpaper Abyss",
         "url": "https://wall.alphacoders.com/",
-        "tag": [
-            "图片",
-            "壁纸"
-        ],
         "icon": "https://static.alphacoders.com/icons/wallpaper/favicon-32x32.png"
     },
     {
         "title": "极简壁纸",
         "url": "https://bz.zzzmh.cn/",
-        "tag": [
-            "图片",
-            "壁纸"
-        ],
         "icon": "https://bz.zzzmh.cn/favicon.ico"
     },
     {
         "title": "Pixabay",
         "url": "https://pixabay.com/zh/",
-        "tag": [
-            "图片",
-            "壁纸"
-        ],
         "icon": "https://pixabay.com/favicon-32x32.png"
     },
     {
         "title": "Unsplash",
         "url": "https://unsplash.com/",
-        "tag": [
-            "图片",
-            "壁纸"
-        ],
         "icon": "https://unsplash.com/favicon-32x32.png"
     },
     {
         "title": "Foodiesfeed",
         "url": "https://www.foodiesfeed.com",
-        "tag": [
-            "图片",
-            "壁纸"
-        ],
         "icon": "https://www.foodiesfeed.com/wp-content/themes/foodiesfeed/library/images/favicon/favicon-32x32.png"
     },
     {
         "title": "Logosc",
         "url": "https://www.logosc.cn/so/",
-        "tag": [
-            "图片",
-            "壁纸"
-        ],
         "icon": "https://www.logosc.cn/img/so/search_logo.png"
     },
     {
         "title": "CC零",
         "url": "https://cc0.cn/",
-        "tag": [
-            "图片",
-            "壁纸"
-        ],
         "icon": "https://cc0.cn/favicon.ico"
     }
 ]

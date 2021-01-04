@@ -3,10 +3,7 @@
         "title": "下载 JDK 6",
         "url": "https://www.oracle.com/java/technologies/javase-java-archive-javase6-downloads.html",
         "tag": [
-            "软件",
-            "编程",
-            "语言引擎",
-            "JAVA"
+            "语言引擎"
         ],
         "icon": "https://www.oracle.com/asset/web/favicons/favicon-32.png"
     },
@@ -14,10 +11,7 @@
         "title": "下载 JDK 7",
         "url": "https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html",
         "tag": [
-            "软件",
-            "编程",
-            "语言引擎",
-            "JAVA"
+            "语言引擎"
         ],
         "icon": "https://www.oracle.com/asset/web/favicons/favicon-32.png"
     },
@@ -25,10 +19,7 @@
         "title": "下载 JDK 8",
         "url": "https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html",
         "tag": [
-            "软件",
-            "编程",
-            "语言引擎",
-            "JAVA"
+            "语言引擎"
         ],
         "icon": "https://www.oracle.com/asset/web/favicons/favicon-32.png"
     },
@@ -36,10 +27,7 @@
         "title": "下载 JDK 11",
         "url": "https://www.oracle.com/java/technologies/javase-jdk11-downloads.html",
         "tag": [
-            "软件",
-            "编程",
-            "语言引擎",
-            "JAVA"
+            "语言引擎"
         ],
         "icon": "https://www.oracle.com/asset/web/favicons/favicon-32.png"
     },
@@ -47,8 +35,6 @@
         "title": "下载 Scala",
         "url": "https://www.scala-lang.org/download/",
         "tag": [
-            "软件",
-            "编程",
             "语言引擎"
         ],
         "icon": "http://www.scala-lang.org/resources/favicon.ico"
@@ -57,9 +43,6 @@
         "title": "下载 Spring Framework",
         "url": "https://repo.spring.io/release/org/springframework/spring/",
         "tag": [
-            "软件",
-            "编程",
-            "JAVA",
             "框架"
         ],
         "icon": "https://spring.io/icon_144x144.png"
@@ -69,9 +52,6 @@
         "desc": "用于初始化一个项目",
         "url": "https://start.spring.io/",
         "tag": [
-            "软件",
-            "编程",
-            "JAVA",
             "框架"
         ],
         "icon": "https://start.spring.io/images/icon-48x48.png"

@@ -3,7 +3,6 @@
         "title": "地图搜租房",
         "url": "https://house-map.cn",
         "tag": [
-            "生活",
             "租房"
         ],
         "icon": ""
@@ -12,7 +11,6 @@
         "title": "北京市居住证服务平台",
         "url": "https://jzz.gaj.beijing.gov.cn/",
         "tag": [
-            "生活",
             "北京",
             "政府"
         ],
@@ -22,7 +20,6 @@
         "title": "北京市疾控中心",
         "url": "https://www.bjcdc.org",
         "tag": [
-            "生活",
             "北京",
             "政府"
         ],
@@ -32,24 +29,17 @@
         "title": "Wiki How",
         "desc": "生活小技巧",
         "url": "https://www.wikihow.com/",
-        "tag": [
-            "生活"
-        ],
         "icon": "http://www.wikihow.com/favicon.ico"
     },
     {
         "title": "COVID-19疫情图",
         "url": "https://coronavirus.app/",
-        "tag": [
-            "生活"
-        ],
         "icon": ""
     },
     {
         "title": "CPU|GPU 天梯图",
         "url": "http://rank.kkj.cn/",
         "tag": [
-            "生活",
             "工具",
             "硬件",
             "榜单"

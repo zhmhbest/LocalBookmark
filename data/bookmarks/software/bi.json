@@ -4,9 +4,7 @@
         "url": "https://www.tableau.com/zh-cn/products/trial",
         "desc": "数据可视化分析工具",
         "tag": [
-            "软件",
-            "数据分析",
-            "BI"
+            "数据分析"
         ],
         "icon": "https://www.tableau.com/themes/custom/tableau_www/favicon.ico"
     },
@@ -15,9 +13,7 @@
         "url": "https://www.elastic.co/cn/downloads/",
         "desc": "大数据搜索",
         "tag": [
-            "软件",
-            "数据分析",
-            "BI"
+            "数据分析"
         ],
         "icon": "https://www.elastic.co/favicon-32x32.png"
     },
@@ -26,9 +22,7 @@
         "url": "https://www.cloudera.com/products/open-source/apache-hadoop/key-cdh-components.html",
         "desc": "Hadoop集成方案",
         "tag": [
-            "软件",
-            "数据分析",
-            "BI"
+            "数据分析"
         ],
         "icon": "https://www.cloudera.com/apps/settings/wcm/designs/www/clientlibs/css/assets/icons/favicon/favicon.ico"
     }

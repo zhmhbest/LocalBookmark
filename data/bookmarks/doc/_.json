@@ -1,0 +1,19 @@
+[
+    {
+        "title": "搬书匠（编程书籍）",
+        "url": "http://www.banshujiang.cn/",
+        "tag": [
+            "书籍",
+            "编程"
+        ],
+        "icon": "http://www.banshujiang.cn/favicon.ico"
+    },
+    {
+        "title": "鸠摩搜书",
+        "url": "https://www.jiumodiary.com/",
+        "tag": [
+            "书籍"
+        ],
+        "icon": "https://www.jiumodiary.com/images/favicon.png"
+    }
+]

@@ -3,11 +3,8 @@
         "title": "下载 Python",
         "url": "https://www.python.org/downloads/",
         "tag": [
-            "软件",
-            "编程",
             "语言引擎",
-            "科学计算",
-            "Python"
+            "科学计算"
         ],
         "icon": "http://www.python.org/static/favicon.ico"
     },
@@ -15,11 +12,8 @@
         "title": "下载 MiniConda",
         "url": "https://docs.conda.io/en/latest/miniconda.html",
         "tag": [
-            "软件",
-            "编程",
             "语言引擎",
-            "科学计算",
-            "Python"
+            "科学计算"
         ],
         "icon": "https://docs.conda.io/en/latest/_static/conda-logo.png"
     },
@@ -36,10 +30,7 @@
             "&nbsp;&nbsp; <code>pip config set install.trusted-host https://pypi.tuna.tsinghua.edu.cn</code>"
         ],
         "tag": [
-            "软件",
-            "编程",
-            "Library",
-            "Python"
+            "Library"
         ],
         "icon": "https://pypi.org/static/images/favicon.6a76275d.ico"
     },
@@ -47,10 +38,7 @@
         "title": "lfd",
         "url": "https://www.lfd.uci.edu/~gohlke/pythonlibs/",
         "tag": [
-            "软件",
-            "编程",
-            "Library",
-            "Python"
+            "Library"
         ],
         "icon": ""
     },
@@ -58,10 +46,7 @@
         "title": "Conda",
         "url": "https://anaconda.org/conda-forge/pycrypto/files",
         "tag": [
-            "软件",
-            "编程",
-            "Library",
-            "Python"
+            "Library"
         ],
         "icon": "https://docs.conda.io/en/latest/_static/conda-logo.png"
     }

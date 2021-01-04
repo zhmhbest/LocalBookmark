@@ -3,9 +3,6 @@
         "title": "下载 Visual Studio",
         "url": "https://visualstudio.microsoft.com/zh-hans/downloads/",
         "tag": [
-            "软件",
-            "编程",
-            "IDE",
             "微软"
         ],
         "icon": "https://visualstudio.microsoft.com/wp-content/uploads/2017/02/Microsoft-favicon.png"
@@ -14,9 +11,6 @@
         "title": "Visual Studio 离线安装帮助",
         "url": "https://docs.microsoft.com/en-us/visualstudio/install/create-an-offline-installation-of-visual-studio",
         "tag": [
-            "软件",
-            "编程",
-            "IDE",
             "微软"
         ],
         "icon": ""
@@ -25,9 +19,6 @@
         "title": "下载 VSCode",
         "url": "https://code.visualstudio.com/Download",
         "tag": [
-            "软件",
-            "编程",
-            "IDE",
             "微软",
             "VSCode"
         ],
@@ -38,9 +29,6 @@
         "url": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf",
         "desc": "VSCode 快捷键",
         "tag": [
-            "软件",
-            "编程",
-            "IDE",
             "VSCode"
         ],
         "icon": ""
@@ -50,9 +38,6 @@
         "url": "https://marketplace.visualstudio.com/vscode",
         "desc": "VSCode 插件市场",
         "tag": [
-            "软件",
-            "编程",
-            "IDE",
             "Plugins",
             "VSCode"
         ],
@@ -63,9 +48,6 @@
         "url": "https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/",
         "desc": "搭配插件 <a href='https://github.com/yzhang-gh/vscode-markdown'>Markdown All in One</a> 使用",
         "tag": [
-            "软件",
-            "编程",
-            "IDE",
             "Plugins",
             "VSCode"
         ],
@@ -80,9 +62,6 @@
             "&nbsp;&nbsp; Step2：<code>mecnm(Mind editor: Create new mindmap)</code>"
         ],
         "tag": [
-            "软件",
-            "编程",
-            "IDE",
             "Plugins",
             "VSCode"
         ],
@@ -91,40 +70,22 @@
     {
         "title": "下载 HBuilderX",
         "url": "https://www.dcloud.io/hbuilderx.html",
-        "tag": [
-            "软件",
-            "编程",
-            "IDE"
-        ],
         "icon": "http://ask.dcloud.net.cn/static/css/classblack/img/favicon.png?v=20141207"
     },
     {
         "title": "JetBrains 汉化",
         "url": "https://github.com/pingfangx/jetbrains-in-chinese",
-        "tag": [
-            "软件",
-            "编程",
-            "IDE"
-        ],
         "icon": "https://github.githubassets.com/favicons/favicon.svg"
     },
     {
         "title": "下载 JetBrains IDEA",
         "url": "https://www.jetbrains.com/idea/download/other.html",
-        "tag": [
-            "软件",
-            "编程",
-            "IDE"
-        ],
         "icon": "http://www.jetbrains.com/favicon-32x32.png"
     },
     {
         "title": "下载 JetBrains CLion",
         "url": "https://www.jetbrains.com/clion/download/other.html",
         "tag": [
-            "软件",
-            "编程",
-            "IDE",
             "C/C++"
         ],
         "icon": "https://www.jetbrains.com/favicon-32x32.png"
@@ -132,22 +93,19 @@
     {
         "title": "下载 Eclipse",
         "url": "https://www.eclipse.org/downloads/packages/",
-        "tag": [
-            "软件",
-            "编程",
-            "IDE"
-        ],
         "icon": "https://www.eclipse.org/downloads/packages/sites/all/themes/solstice/_themes/solstice_packages/favicon.ico"
     },
     {
         "title": "下载 Android Studio/SDK",
         "url": "https://developer.android.google.cn/studio",
         "tag": [
-            "软件",
-            "编程",
-            "IDE",
             "谷歌"
         ],
         "icon": "https://www.gstatic.cn/devrel-devsite/prod/veaa02889f0c07424beaa31d9bac1e874b6464e7ed7987fde4c94a59ace9487fa/android/images/favicon.png"
+    },
+    {
+        "title": "下载 微信开发工具",
+        "url": "https://developers.weixin.qq.com/miniprogram/dev/devtools/stable.html",
+        "icon": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico"
     }
 ]

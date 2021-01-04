@@ -3,8 +3,7 @@
         "title": "Standford Courses",
         "url": "https://online.stanford.edu/courses",
         "tag": [
-            "学术",
-            "课程"
+            "学术"
         ],
         "icon": "http://www-media.stanford.edu/assets/favicon/favicon-196x196.png"
     },
@@ -12,8 +11,7 @@
         "title": "OCW Courses",
         "url": "https://ocw.mit.edu/courses/",
         "tag": [
-            "学术",
-            "课程"
+            "学术"
         ],
         "icon": ""
     },
@@ -21,8 +19,7 @@
         "title": "Coursera Courses",
         "url": "https://www.coursera.org/courses",
         "tag": [
-            "学术",
-            "课程"
+            "学术"
         ],
         "icon": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/v2/favicon-v2-194x194.png"
     },
@@ -30,7 +27,6 @@
         "title": "数模知识库",
         "url": "https://www.shumo.com/wiki/doku.php",
         "tag": [
-            "教程",
             "编程",
             "竞赛"
         ],
@@ -40,7 +36,6 @@
         "title": "LeetCode",
         "url": "https://leetcode.com/",
         "tag": [
-            "教程",
             "编程",
             "题库"
         ],
@@ -50,7 +45,6 @@
         "title": "菜鸟教程",
         "url": "https://www.runoob.com/",
         "tag": [
-            "教程",
             "编程"
         ],
         "icon": "https://static.runoob.com/images/favicon.ico"
@@ -60,7 +54,6 @@
         "url": "https://pandolia.net/tinyc",
         "desc": "手写编译器",
         "tag": [
-            "教程",
             "编程"
         ],
         "icon": "https://pandolia.net/favicon.ico"
@@ -70,7 +63,6 @@
         "url": "https://book.flutterchina.club/",
         "desc": "Dart语言",
         "tag": [
-            "教程",
             "编程"
         ],
         "icon": "https://pcdn.flutterchina.club/gitbook/images/favicon.ico"
@@ -79,8 +71,6 @@
         "title": "MK安全渗透",
         "url": "https://ke.qq.com/teacher/3310683492",
         "tag": [
-            "教程",
-            "课程",
             "编程"
         ],
         "icon": "https://9.idqqimg.com/edu/edu_modules/edu-ui/img/nohash/favicon.ico"
@@ -89,7 +79,6 @@
         "title": "可可英语",
         "url": "http://www.kekenet.com/",
         "tag": [
-            "教程",
             "英语"
         ],
         "icon": "http://www.kekenet.com/favicon.ico"
@@ -98,7 +87,6 @@
         "title": "学习音乐",
         "url": "https://learningmusic.ableton.com/zh/",
         "tag": [
-            "教程",
             "音乐"
         ],
         "icon": "https://learningmusic.ableton.com/images/favicon.ico"
@@ -107,7 +95,6 @@
         "title": "PyTorch官方教程中文版",
         "url": "http://pytorch.panchuang.net/",
         "tag": [
-            "教程",
             "编程",
             "机器学习"
         ],
@@ -117,7 +104,6 @@
         "title": "Rust 程序设计语言（中文）",
         "url": "https://kaisery.github.io/trpl-zh-cn/title-page.html",
         "tag": [
-            "教程",
             "编程"
         ],
         "icon": "https://kaisery.github.io/trpl-zh-cn/favicon.svg"
@@ -126,7 +112,6 @@
         "title": "Rust 程序设计语言（英文）",
         "url": "https://doc.rust-lang.org/rust-by-example/index.html",
         "tag": [
-            "教程",
             "编程"
         ],
         "icon": "https://doc.rust-lang.org/rust-by-example/favicon.svg"

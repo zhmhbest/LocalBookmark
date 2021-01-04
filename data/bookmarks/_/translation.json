@@ -3,7 +3,6 @@
         "title": "百度翻译",
         "url": "https://fanyi.baidu.com/",
         "tag": [
-            "翻译",
             "百度"
         ],
         "icon": "https://fanyi-cdn.cdn.bcebos.com/static/translation/img/favicon/favicon-32x32_ca689c3.png"
@@ -11,16 +10,12 @@
     {
         "title": "日语翻译",
         "url": "https://dict.hjenglish.com",
-        "tag": [
-            "翻译"
-        ],
         "icon": "http://dict.hjenglish.com/favicon.ico"
     },
     {
         "title": "谷歌翻译",
         "url": "https://translate.google.cn/",
         "tag": [
-            "翻译",
             "谷歌"
         ],
         "icon": "http://ssl.gstatic.com/translate/favicon.ico"
@@ -29,7 +24,6 @@
         "title": "必应翻译",
         "url": "https://cn.bing.com/Translator",
         "tag": [
-            "翻译",
             "微软"
         ],
         "icon": "http://cn.bing.com/sa/simg/favicon-2x.ico"

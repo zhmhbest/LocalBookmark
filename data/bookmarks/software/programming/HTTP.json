@@ -2,51 +2,29 @@
     {
         "title": "下载 Tomcat",
         "url": "http://tomcat.apache.org/",
-        "tag": [
-            "软件",
-            "编程",
-            "HTTP"
-        ],
         "icon": "http://tomcat.apache.org/favicon.ico"
     },
     {
         "title": "下载 Apache2",
         "url": "https://httpd.apache.org/docs/current/platform/windows.html#down",
-        "tag": [
-            "软件",
-            "编程",
-            "HTTP"
-        ],
         "icon": "https://httpd.apache.org/docs/current/images/favicon.ico"
     },
     {
         "title": "下载 Nginx",
         "url": "http://nginx.org/en/download.html",
-        "tag": [
-            "软件",
-            "编程",
-            "HTTP"
-        ],
         "icon": ""
     },
     {
         "title": "下载 Tengine",
         "url": "http://tengine.taobao.org/download.html",
         "desc": "基于Nginx的针对大访问量网站需求的Web服务器项目",
-        "tag": [
-            "软件",
-            "编程",
-            "HTTP"
-        ],
         "icon": ""
     },
     {
         "title": "下载 Curl",
         "url": "https://curl.haxx.se/download.html",
         "tag": [
-            "软件",
-            "测试",
-            "HTTP"
+            "test"
         ],
         "icon": "https://curl.se/favicon.ico"
     },
@@ -54,11 +32,8 @@
         "title": "下载 Postman",
         "url": "https://app.getpostman.com/app/download/win64",
         "tag": [
-            "软件",
-            "编程",
-            "测试",
-            "工具",
-            "HTTP"
+            "test",
+            "工具"
         ],
         "icon": "https://app.getpostman.com/favicon.ico"
     },
@@ -67,8 +42,7 @@
         "url": "https://www.telerik.com/download/fiddler",
         "desc": "监听客户端和服务器的HTTP请求",
         "tag": [
-            "测试",
-            "HTTP"
+            "test"
         ],
         "icon": "https://www.telerik.com/favicon.ico?v=rebv1"
     }

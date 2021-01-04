@@ -3,7 +3,6 @@
         "title": "谷歌搜索",
         "url": "https://www.google.com/",
         "tag": [
-            "搜索",
             "谷歌",
             "科学上网"
         ],
@@ -13,7 +12,6 @@
         "title": "聚合狗",
         "url": "http://www.addog.vip/",
         "tag": [
-            "搜索",
             "聚合"
         ],
         "icon": ""
@@ -22,7 +20,6 @@
         "title": "百度搜索",
         "url": "https://www.baidu.com/",
         "tag": [
-            "搜索",
             "百度"
         ],
         "icon": ""
@@ -31,7 +28,6 @@
         "title": "必应搜索",
         "url": "https://cn.bing.com/",
         "tag": [
-            "搜索",
             "微软"
         ],
         "icon": "http://cn.bing.com/sa/simg/favicon-2x.ico"

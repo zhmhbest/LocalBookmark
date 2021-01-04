@@ -3,9 +3,6 @@
         "title": "下载 Mingw-w64",
         "url": "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/",
         "tag": [
-            "软件",
-            "编程",
-            "语言引擎",
             "C/C++"
         ],
         "icon": "http://a.fsdn.com/con/img/sandiego/logo-180x180.png"
@@ -19,9 +16,6 @@
             "linux-C：<code>Category → Devel → gcc-g++、make、cmake、gdb</code>"
         ],
         "tag": [
-            "软件",
-            "编程",
-            "语言引擎",
             "C/C++"
         ],
         "icon": "https://cygwin.com/favicon.ico"
@@ -31,9 +25,6 @@
         "url": "https://mirrors.tuna.tsinghua.edu.cn/help/cygwin/",
         "desc": "清华大学开源镜像站 Cygwin",
         "tag": [
-            "软件",
-            "编程",
-            "语言引擎",
             "C/C++",
             "镜像"
         ],
@@ -42,20 +33,12 @@
     {
         "title": "下载 Haskell",
         "url": "https://www.haskell.org/downloads/",
-        "tag": [
-            "软件",
-            "编程",
-            "语言引擎"
-        ],
         "icon": "https://www.haskell.org/img/favicon.ico"
     },
     {
         "title": "下载 Go",
         "url": "https://golang.google.cn/dl/",
         "tag": [
-            "软件",
-            "编程",
-            "语言引擎",
             "科学上网",
             "谷歌"
         ],
@@ -64,60 +47,32 @@
     {
         "title": "下载 Perl",
         "url": "https://www.perl.org/get.html",
-        "tag": [
-            "软件",
-            "编程",
-            "语言引擎"
-        ],
         "icon": "https://cdn.perl.org/perlweb/favicon.ico"
     },
     {
         "title": "下载 Ruby",
         "url": "https://rubyinstaller.org/downloads/",
-        "tag": [
-            "软件",
-            "编程",
-            "语言引擎"
-        ],
         "icon": "http://rubyinstaller.org/assets/favicon.png"
     },
     {
         "title": "下载 PHP",
         "url": "https://www.php.net/downloads.php",
-        "tag": [
-            "软件",
-            "编程",
-            "语言引擎"
-        ],
         "icon": "https://www.php.net/favicon.ico"
     },
     {
         "title": "下载 dotNet",
         "url": "https://dotnet.microsoft.com/download",
-        "tag": [
-            "软件",
-            "编程",
-            "语言引擎"
-        ],
         "icon": ""
     },
     {
         "title": "下载 Node.js",
         "url": "https://nodejs.org/en/download/",
-        "tag": [
-            "软件",
-            "编程",
-            "语言引擎"
-        ],
         "icon": "https://nodejs.org/static/images/favicons/favicon-32x32.png"
     },
     {
         "title": "下载 Julia",
         "url": "https://julialang.org/downloads/",
         "tag": [
-            "软件",
-            "编程",
-            "语言引擎",
             "科学计算"
         ],
         "icon": "https://julialang.org/assets/infra/julia.ico"
