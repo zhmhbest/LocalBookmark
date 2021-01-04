@@ -72,5 +72,13 @@
             "音频"
         ],
         "icon": "http://www.rainymood.com/favicon-32x32.png?v=oLBgER8B5r"
+    },
+    {
+        "title": "万能音乐下载",
+        "url": "http://www.guqiankun.com",
+        "tag": [
+            "音频"
+        ],
+        "icon": "http://cdn.guqiankun.com/img/g.ico"
     }
 ]

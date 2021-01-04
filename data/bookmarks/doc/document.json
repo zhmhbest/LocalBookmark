@@ -74,5 +74,16 @@
             "工具"
         ],
         "icon": "http://www.iseecs.com/favicon.ico"
+    },
+    {
+        "title": "文件收发",
+        "url": "https://airportal.cn/",
+        "desc": "",
+        "tag": [
+            "工具",
+            "文件",
+            "分享"
+        ],
+        "icon": "https://cdn.jsdelivr.net/gh/shangzhenyang/assets/img/ap-icon-512-2.png"
     }
 ]
