@@ -11,7 +11,11 @@
     {
         "title": "下载 TightVNC",
         "url": "https://www.tightvnc.com/download.php",
-        "desc": "Windows",
+        "desc": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
         "tag": [
             "远程"
         ],
@@ -20,7 +24,11 @@
     {
         "title": "下载 TigerVNC",
         "url": "https://tigervnc.org/",
-        "desc": ["Windows", "MacOS", "Linux"],
+        "desc": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
         "tag": [
             "远程"
         ],
