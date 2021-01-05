@@ -23,7 +23,7 @@
     },
     {
         "title": "下载 TightVNC",
-        "url": "http://tigervnc.bphinz.com/nightly/",
+        "url": "https://www.tightvnc.com/download.php",
         "desc": [
             "Windows",
             "macOS",
@@ -36,7 +36,7 @@
     },
     {
         "title": "下载 TigerVNC",
-        "url": "https://tigervnc.org/",
+        "url": "http://tigervnc.bphinz.com/nightly/",
         "desc": [
             "Windows",
             "macOS",
