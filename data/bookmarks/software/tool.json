@@ -23,12 +23,13 @@
     },
     {
         "title": "下载 TightVNC",
-        "url": "https://www.tightvnc.com/download.php",
+        "url": "http://tigervnc.bphinz.com/nightly/",
         "desc": [
             "Windows",
             "macOS",
             "Linux"
         ],
+        "more": "",
         "tag": [
             "远程"
         ],
