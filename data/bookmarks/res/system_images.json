@@ -35,8 +35,39 @@
         "url": "https://www.kali.org/downloads/",
         "desc": "渗透测试",
         "tag": [
-            "安全"
+            "安全",
+            "Linux"
         ],
         "icon": "https://www.kali.org/favicon.ico"
+    },
+    {
+        "title": "Deepin",
+        "url": "https://www.deepin.org/zh/download/",
+        "tag": [
+            "Linux"
+        ],
+        "icon": "https://www.deepin.org/wp-content/uploads/2016/12/logo.png"
+    },
+    {
+        "title": "CentOS",
+        "url": "https://www.centos.org/download/",
+        "tag": [
+            "Linux"
+        ],
+        "more": [
+            "<A target='_blank' href='http://mirrors.aliyun.com/centos'>aliyun</A>",
+            "<A target='_blank' href='http://mirrors.neusoft.edu.cn/centos'>neusoft</A>",
+            "<A target='_blank' href='http://mirrors.njupt.edu.cn/centos'>njupt</A>",
+            "<A target='_blank' href='http://mirrors.163.com/centos'>163</A>",
+            "<A target='_blank' href='http://mirrors.tuna.tsinghua.edu.cn/centos'>tsinghua</A>",
+            "<A target='_blank' href='http://mirrors.huaweicloud.com/centos'>huaweicloud</A>",
+            "<A target='_blank' href='http://mirrors.bfsu.edu.cn/centos'>bfsu</A>",
+            "<A target='_blank' href='http://mirrors.nju.edu.cn/centos'>nju</A>",
+            "<A target='_blank' href='http://mirrors.cqu.edu.cn/CentOS'>cqu</A>",
+            "<A target='_blank' href='http://ftp.sjtu.edu.cn/centos'>sjtu</A>",
+            "<A target='_blank' href='http://mirrors.ustc.edu.cn/centos'>ustc</A>",
+            "<A target='_blank' href='http://mirror.bit.edu.cn/centos'>bit</A>"
+        ],
+        "icon": "https://www.centos.org/assets/img/favicon.png"
     }
 ]
