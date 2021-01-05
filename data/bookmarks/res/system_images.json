@@ -55,7 +55,7 @@
             "Linux"
         ],
         "more": [
-            "<A target='_blank' href='http://mirrors.aliyun.com/centos'>aliyun</A>",
+            "<A target='_blank' href='http://mirrors.aliyun.com/centos/'>aliyun</A>",
             "<A target='_blank' href='http://mirrors.neusoft.edu.cn/centos'>neusoft</A>",
             "<A target='_blank' href='http://mirrors.njupt.edu.cn/centos'>njupt</A>",
             "<A target='_blank' href='http://mirrors.163.com/centos'>163</A>",
