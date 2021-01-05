@@ -11,11 +11,17 @@
     {
         "title": "Github",
         "url": "https://github.com/",
+        "tag": [
+            "vcs"
+        ],
         "icon": ""
     },
     {
         "title": "Gitee",
         "url": "https://gitee.com/",
+        "tag": [
+            "vcs"
+        ],
         "icon": ""
     },
     {
