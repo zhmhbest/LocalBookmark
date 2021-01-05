@@ -1,0 +1,12 @@
+[
+    {
+        "title": "下载 PlayOnLinux",
+        "url": "https://www.playonlinux.com/en/download.html",
+        "icon": "https://www.playonlinux.com/images/logos/logo32.png"
+    },
+    {
+        "title": "下载 Wine",
+        "url": "https://download.opensuse.org/repositories/Emulators:/Wine:/",
+        "icon": "https://dl.winehq.org/share/images/winehq_logo_16.png"
+    }
+]
