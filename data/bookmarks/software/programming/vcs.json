@@ -5,6 +5,11 @@
         "icon": ""
     },
     {
+        "title": "下载 Apache Subversion command line tools",
+        "desc": "",
+        "url": "https://www.visualsvn.com/downloads/"
+    },
+    {
         "title": "下载 VisualSVN Server",
         "url": "https://www.visualsvn.com/server/download/",
         "icon": "https://www.visualsvn.com/favicon.ico"
