@@ -71,5 +71,10 @@
             "北京"
         ],
         "icon": ""
+    },
+    {
+        "title": "全国计算机等级考试",
+        "url": "http://ncre.neea.edu.cn/",
+        "icon": ""
     }
 ]
