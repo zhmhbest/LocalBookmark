@@ -21,6 +21,16 @@
         "icon": "https://labs.mysql.com/common/themes/sakila/favicon.ico"
     },
     {
+        "title": "下载 Oracle",
+        "url": "https://www.oracle.com/cn/downloads/",
+        "icon": "https://www.oracle.com/asset/web/favicons/favicon-32.png"
+    },
+    {
+        "title": "下载 Oracle instant client",
+        "url": "https://www.oracle.com/database/technologies/instant-client/downloads.html",
+        "icon": "https://www.oracle.com/asset/web/favicons/favicon-32.png"
+    },
+    {
         "title": "下载 Mariadb",
         "url": "https://downloads.mariadb.org/mariadb/",
         "icon": "https://downloads.mariadb.org/favicon.ico"
