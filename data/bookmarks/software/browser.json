@@ -49,5 +49,14 @@
             "谷歌"
         ],
         "icon": "http://chrome.zzzmh.cn//favicon.ico"
+    },
+    {
+        "title": "GugeApps",
+        "desc": "Chrome Extensions Store",
+        "url": "https://www.gugeapps.net/",
+        "tag": [
+            "谷歌"
+        ],
+        "icon": "https://www.gugeapps.net/favicon.ico"
     }
 ]
