@@ -1,0 +1,41 @@
+[
+    {
+        "title": "Pytorch",
+        "url": "https://pytorch.org/get-started/locally/",
+        "tag": [
+            "编程"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "Tensorflow",
+        "url": "https://tensorflow.google.cn/",
+        "tag": [
+            "编程",
+            "谷歌"
+        ],
+        "more": [
+            "<code>import tensorflow.compat.v1 as tf</code>",
+            "<code>tf.disable_v2_behavior()</code>"
+        ],
+        "icon": "https://www.gstatic.cn/devrel-devsite/prod/veaa02889f0c07424beaa31d9bac1e874b6464e7ed7987fde4c94a59ace9487fa/tensorflow/images/favicon.png"
+    },
+    {
+        "title": "PaddlePaddle",
+        "url": "https://www.paddlepaddle.org.cn/",
+        "tag": [
+            "编程",
+            "百度"
+        ],
+        "icon": "https://paddlepaddle-org-cn.cdn.bcebos.com/paddle-site-front/favicon.ico"
+    },
+    {
+        "title": "机器学习最新技术",
+        "url": "https://www.paperswithcode.com/sota",
+        "tag": [
+            "学术",
+            "机器学习"
+        ],
+        "icon": ""
+    }
+]

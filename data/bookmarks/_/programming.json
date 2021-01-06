@@ -25,6 +25,15 @@
         "icon": ""
     },
     {
+        "title": "StackOverflow",
+        "url": "https://stackoverflow.com/questions",
+        "tag": [
+            "社区",
+            "编程"
+        ],
+        "icon": "https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196"
+    },
+    {
         "title": "Apple Developer",
         "url": "https://developer.apple.com/cn/",
         "tag": [

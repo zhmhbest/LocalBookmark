@@ -27,6 +27,6 @@ async function main() {
         file.saveJSON(name, data, '    ');
     }
     console.log("End");
-    return;
+    process.exit(0);
 }
 main();
