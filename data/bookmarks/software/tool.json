@@ -1,5 +1,18 @@
 [
     {
+        "title": "下载 VNC Server",
+        "url": "https://www.realvnc.com/en/connect/download/vnc/",
+        "desc": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "tag": [
+            "远程"
+        ],
+        "icon": "https://static.realvnc.com/static/349142634/img/favicon.ico"
+    },
+    {
         "title": "下载 VNC Viewer",
         "url": "https://www.realvnc.com/en/connect/download/viewer/",
         "desc": [
