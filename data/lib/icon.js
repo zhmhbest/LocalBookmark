@@ -140,7 +140,7 @@ function loadIcon(data) {
                     last = count.num;
                 }
             }
-        }, 100);
+        }, 10);
     });
 }
 

@@ -17,6 +17,15 @@
         "icon": ""
     },
     {
+        "title": "Gitclone",
+        "url": "https://gitclone.com/",
+        "desc": "Github镜像",
+        "tag": [
+            "vcs"
+        ],
+        "icon": "https://gitclone.com/img/favicon.ico"
+    },
+    {
         "title": "Gitee",
         "url": "https://gitee.com/",
         "tag": [
