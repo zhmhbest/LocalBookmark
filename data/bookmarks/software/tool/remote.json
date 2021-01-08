@@ -7,9 +7,6 @@
             "macOS",
             "Linux"
         ],
-        "tag": [
-            "远程"
-        ],
         "icon": "https://static.realvnc.com/static/349142634/img/favicon.ico"
     },
     {
@@ -20,17 +17,13 @@
             "macOS",
             "Linux"
         ],
-        "tag": [
-            "远程"
-        ],
         "icon": "https://static.realvnc.com/static/349142634/img/favicon.ico"
     },
     {
         "title": "下载 UltraVNC",
         "url": "https://www.uvnc.com/downloads/ultravnc.html",
-        "desc": "Windows",
-        "tag": [
-            "远程"
+        "desc": [
+            "Windows"
         ],
         "icon": "https://www.uvnc.com/images/favicon.ico"
     },
@@ -38,12 +31,7 @@
         "title": "下载 TightVNC",
         "url": "https://www.tightvnc.com/download.php",
         "desc": [
-            "Windows",
-            "macOS",
-            "Linux"
-        ],
-        "tag": [
-            "远程"
+            "Windows"
         ],
         "icon": "https://www.tightvnc.com/favicon-32x32.png"
     },
@@ -51,12 +39,7 @@
         "title": "下载 TigerVNC",
         "url": "http://tigervnc.bphinz.com/nightly/",
         "desc": [
-            "Windows",
-            "macOS",
             "Linux"
-        ],
-        "tag": [
-            "远程"
         ],
         "icon": "https://tigervnc.org//images/favicon.png"
     },
@@ -64,33 +47,24 @@
         "title": "下载 Splashtop Streamer",
         "url": "https://www.splashtop.com/streamer",
         "desc": "本地访问使用 Personal",
-        "tag": [
-            "远程"
-        ],
         "icon": "https://www.splashtop.com/wp-content/uploads/splash-512.png"
     },
     {
         "title": "下载 Splashtop Client",
         "url": "https://www.splashtop.com/cn/downloads",
         "desc": "本地访问使用 Splashtop Personal",
-        "tag": [
-            "远程"
-        ],
         "icon": "https://www.splashtop.com/wp-content/uploads/splash-512.png"
     },
     {
         "title": "下载 Mobaxterm",
         "url": "https://mobaxterm.mobatek.net/download.html",
-        "tag": [
-            "远程"
-        ],
         "icon": ""
     },
     {
         "title": "下载 Filezilla",
         "url": "https://filezilla-project.org/download.php?type=client",
         "tag": [
-            "远程"
+            "文件"
         ],
         "icon": "https://filezilla-project.org/favicon.ico"
     },

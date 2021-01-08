@@ -41,5 +41,6 @@
     "Plugins": "插件",
     "db": "数据库",
     "ml": "机器学习",
-    "community": "社区"
+    "community": "社区",
+    "remote": "远程"
 }
