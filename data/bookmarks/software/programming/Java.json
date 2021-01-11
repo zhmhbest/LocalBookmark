@@ -1,27 +1,19 @@
 [
     {
-        "title": "下载 JDK 6",
-        "url": "https://www.oracle.com/java/technologies/javase-java-archive-javase6-downloads.html",
-        "tag": [
-            "语言引擎"
-        ],
-        "icon": "https://www.oracle.com/asset/web/favicons/favicon-32.png"
-    },
-    {
-        "title": "下载 JDK 7",
-        "url": "https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html",
-        "tag": [
-            "语言引擎"
-        ],
-        "icon": "https://www.oracle.com/asset/web/favicons/favicon-32.png"
-    },
-    {
         "title": "下载 JDK 8",
         "url": "https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html",
         "tag": [
             "语言引擎"
         ],
         "icon": "https://www.oracle.com/asset/web/favicons/favicon-32.png"
+    },
+    {
+        "title": "下载 OpenJDK 11",
+        "url": "http://jdk.java.net/java-se-ri/11",
+        "tag": [
+            "语言引擎"
+        ],
+        "icon": "http://jdk.java.net/images/nanoduke.ico"
     },
     {
         "title": "下载 JDK 11",
