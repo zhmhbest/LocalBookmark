@@ -61,6 +61,15 @@
         "icon": ""
     },
     {
+        "title": "下载 OpenSSH for Windows10",
+        "url": "https://github.com/PowerShell/Win32-OpenSSH/releases",
+        "icon": "",
+        "more": [
+            "<code>set-executionpolicy remotesigned # 启动ps1脚本</code>",
+            "<code>install-sshd.ps1</code>"
+        ]
+    },
+    {
         "title": "下载 Filezilla",
         "url": "https://filezilla-project.org/download.php?type=client",
         "tag": [
