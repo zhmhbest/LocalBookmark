@@ -1,5 +1,4 @@
-[
-    {
+[{
         "title": "下载 PP助手",
         "url": "https://pro.25pp.com/pp_win_iosandroid",
         "desc": "给 iPhone 装测试软件",
@@ -24,6 +23,15 @@
         "tag": [
             "微软",
             "激活"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "查看已订阅的 Office",
+        "url": "https://account.microsoft.com/services/",
+        "tag": [
+            "微软",
+            "办公"
         ],
         "icon": ""
     },
