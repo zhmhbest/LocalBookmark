@@ -63,5 +63,11 @@
         "url": "http://hbase.apache.org/downloads.html",
         "desc": "分布式列存储数据库",
         "icon": "http://hbase.apache.org/favicon.ico"
+    },
+    {
+        "title": "下载 ClickHouse",
+        "url": "https://repo.yandex.ru/clickhouse/rpm/stable/x86_64",
+        "desc": "OLAP database",
+        "icon": "https://clickhouse.tech/favicon.ico"
     }
 ]
