@@ -67,7 +67,28 @@
     {
         "title": "下载 ClickHouse",
         "url": "https://repo.yandex.ru/clickhouse/rpm/stable/x86_64",
-        "desc": "OLAP database",
-        "icon": "https://clickhouse.tech/favicon.ico"
+        "desc": "OLAP数据库",
+        "icon": "https://clickhouse.tech/favicon.ico",
+        "tag": [
+            "BI"
+        ]
+    },
+    {
+        "title": "下载 Kafka",
+        "url": "http://kafka.apache.org/downloads",
+        "desc": "分布式发布订阅消息系统",
+        "tag": [
+            "BI"
+        ],
+        "icon": "http://kafka.apache.org/images/apache_feather.gif"
+    },
+    {
+        "title": "下载 ZooKeeper",
+        "url": "https://zookeeper.apache.org/releases.html#download",
+        "desc": "分布式应用程序协调服务",
+        "tag": [
+            "BI"
+        ],
+        "icon": "https://zookeeper.apache.org/images/favicon.ico"
     }
 ]
