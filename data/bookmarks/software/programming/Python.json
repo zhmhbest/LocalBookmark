@@ -15,6 +15,9 @@
             "语言引擎",
             "科学计算"
         ],
+        "more": [
+            "<code>import sqlite3; ImportError: DLL load failed: 下载<A href='https://sqlite.org/download.html'>sqlite3.dll</A>置<B>DLLs</B></code>"
+        ],
         "icon": "https://docs.conda.io/en/latest/_static/conda-logo.png"
     },
     {
