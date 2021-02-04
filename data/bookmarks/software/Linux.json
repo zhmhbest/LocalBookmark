@@ -8,5 +8,10 @@
         "title": "下载 Wine",
         "url": "https://download.opensuse.org/repositories/Emulators:/Wine:/",
         "icon": "https://dl.winehq.org/share/images/winehq_logo_16.png"
+    },
+    {
+        "title": "下载 aria2",
+        "url": "https://sourceforge.net/projects/aria2/files/stable/",
+        "icon": "https://a.fsdn.com/con/img/sandiego/logo-180x180.png"
     }
 ]
