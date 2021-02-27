@@ -2,6 +2,12 @@
     {
         "title": "下载 Google Chrome",
         "url": "https://www.google.cn/chrome/index.html",
+        "more": [
+            "启用深色模式: <code>chrome://flags/#enable-force-dark</code>"
+        ],
+        "tag": [
+            "谷歌"
+        ],
         "icon": "http://www.google.cn/chrome/static/images/favicons/favicon.ico"
     },
     {
@@ -22,14 +28,6 @@
         "title": "下载 360浏览器XP版",
         "url": "http://se.360.cn/xp.html",
         "icon": "http://se.360.cn/favicon.ico"
-    },
-    {
-        "title": "下载 JJQQKK Chromium",
-        "url": "https://github.com/jjqqkk",
-        "tag": [
-            "VPN"
-        ],
-        "icon": "https://github.githubassets.com/favicons/favicon.svg"
     },
     {
         "title": "Chrome WebStore Extensions",

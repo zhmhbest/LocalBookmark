@@ -86,5 +86,13 @@
             "安卓"
         ],
         "icon": ""
+    },
+    {
+        "title": "NATAPP",
+        "url": "https://natapp.cn/tunnel/lists",
+        "tag": [
+            "内网穿透"
+        ],
+        "icon": "https://cdn.natapp.cn/assets/favicon.ico?version=20190730"
     }
 ]

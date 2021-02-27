@@ -109,5 +109,21 @@
             "代理"
         ],
         "icon": "https://cdn-proxy.mimvp.com/favicon.ico"
+    },
+    {
+        "title": "阿里云控制台",
+        "url": "https://homenew.console.aliyun.com/home/dashboard/Operation",
+        "tag": [
+            "VPS"
+        ],
+        "icon": "https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico"
+    },
+    {
+        "title": "阿里云控制台",
+        "url": "https://www.abeiyun.com/control",
+        "tag": [
+            "VPS"
+        ],
+        "icon": "https://www.abeiyun.com/favicon.ico"
     }
 ]
