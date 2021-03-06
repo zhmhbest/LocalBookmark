@@ -12,6 +12,10 @@
     {
         "title": "下载 aria2",
         "url": "https://sourceforge.net/projects/aria2/files/stable/",
-        "icon": "https://a.fsdn.com/con/img/sandiego/logo-180x180.png"
+        "icon": "https://a.fsdn.com/con/img/sandiego/logo-180x180.png",
+        "more": [
+            "<code>aria2c -k 1M -x 16 -j 5 ${url}</code>",
+            "<code>aria2c -c true -k 1M -x 16 -j 5 ${url}</code>"
+        ]
     }
 ]
