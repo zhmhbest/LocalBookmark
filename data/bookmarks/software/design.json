@@ -1,0 +1,37 @@
+[
+    {
+        "title": "下载 GIMP",
+        "url": "https://www.gimp.org/downloads/",
+        "icon": "https://www.gimp.org/images/wilber16.png"
+    },
+    {
+        "title": "下载 Inkscape",
+        "url": "https://inkscape.org/zh-hant/release",
+        "icon": "https://media.inkscape.org/static/images/inkscape-favicon.png"
+    },
+    {
+        "title": "下载 Openshot",
+        "url": "https://www.openshot.org/zh-hans/download/",
+        "icon": "https://cdn.openshot.org/static/img/favicon.png"
+    },
+    {
+        "title": "下载 Kdenlive",
+        "url": "https://kdenlive.org/zh/download-zh/",
+        "icon": "https://kdenlive.org/wp-content/uploads/2016/08/favicon.png"
+    },
+    {
+        "title": "下载 Blender",
+        "url": "https://www.blender.org/download/",
+        "icon": "https://www.blender.org/wp-content/themes/bthree/assets/images/favicon.ico?x18334"
+    },
+    {
+        "title": "下载 LMMS",
+        "url": "https://lmms.io/download",
+        "icon": "https://lmms.io/img/logo_sm.png"
+    },
+    {
+        "title": "下载 FFmpeg",
+        "url": "https://ffmpeg.org/download.html",
+        "icon": "https://ffmpeg.org/favicon.ico"
+    }
+]
