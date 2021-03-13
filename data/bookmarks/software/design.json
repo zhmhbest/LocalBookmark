@@ -10,6 +10,11 @@
         "icon": "https://media.inkscape.org/static/images/inkscape-favicon.png"
     },
     {
+        "title": "下载 Krita",
+        "url": "https://krita.org/zh/download-zh/krita-desktop-zh/",
+        "icon": ""
+    },
+    {
         "title": "下载 Openshot",
         "url": "https://www.openshot.org/zh-hans/download/",
         "icon": "https://cdn.openshot.org/static/img/favicon.png"
@@ -18,6 +23,16 @@
         "title": "下载 Kdenlive",
         "url": "https://kdenlive.org/zh/download-zh/",
         "icon": "https://kdenlive.org/wp-content/uploads/2016/08/favicon.png"
+    },
+    {
+        "title": "下载 Natron",
+        "url": "https://github.com/NatronGitHub/Natron/releases",
+        "icon": ""
+    },
+    {
+        "title": "下载 Fusion",
+        "url": "http://www.blackmagicdesign.com/products/fusion/",
+        "icon": ""
     },
     {
         "title": "下载 Blender",
