@@ -25,5 +25,14 @@
             "文献检索"
         ],
         "icon": ""
+    },
+    {
+        "title": "下载 Pandoc",
+        "url": "https://pandoc.org/installing.html",
+        "desc": "文档转换",
+        "tag": [
+            "office"
+        ],
+        "icon": ""
     }
 ]
