@@ -48,5 +48,10 @@
         "title": "下载 FFmpeg",
         "url": "https://ffmpeg.org/download.html",
         "icon": "https://ffmpeg.org/favicon.ico"
+    },
+    {
+        "title": "下载 M3U8-Downloader",
+        "url": "https://github.com/HeiSir2014/M3U8-Downloader/releases",
+        "icon": ""
     }
 ]
