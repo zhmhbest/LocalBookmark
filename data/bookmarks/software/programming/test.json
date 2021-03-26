@@ -16,5 +16,27 @@
         "url": "http://appium.io/",
         "desc": "iOS、Android 、Web应用自动化测试工具",
         "icon": "http://appium.io/ico/favicon.ico"
+    },
+    {
+        "title": "下载 Wireshark",
+        "url": "https://www.wireshark.org/download.html",
+        "desc": "抓包工具",
+        "icon": "https://www.wireshark.org/assets/images/favicon.ico"
+    },
+    {
+        "title": "下载 Curl",
+        "url": "https://curl.haxx.se/download.html",
+        "icon": "https://curl.se/favicon.ico"
+    },
+    {
+        "title": "下载 Postman",
+        "url": "https://www.postman.com/downloads/",
+        "icon": "https://app.getpostman.com/favicon.ico"
+    },
+    {
+        "title": "下载 Fiddler",
+        "url": "https://www.telerik.com/download/fiddler",
+        "desc": "监听客户端和服务器的HTTP请求",
+        "icon": "https://www.telerik.com/favicon.ico?v=rebv1"
     }
 ]
