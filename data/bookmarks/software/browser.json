@@ -56,5 +56,14 @@
             "谷歌"
         ],
         "icon": "https://www.gugeapps.net/favicon.ico"
+    },
+    {
+        "title": "彩云小译",
+        "desc": "",
+        "url": "https://fanyi.caiyunapp.com/?utm_source=sala#/web",
+        "tag": [
+            "翻译"
+        ],
+        "icon": "https://www.caiyunapp.com/imgs/xiaoyilogo.png"
     }
 ]
