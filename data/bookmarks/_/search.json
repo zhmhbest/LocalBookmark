@@ -31,5 +31,10 @@
             "微软"
         ],
         "icon": "http://cn.bing.com/sa/simg/favicon-2x.ico"
+    },
+    {
+        "title": "SimilarSites",
+        "url": "https://www.similarsites.com/",
+        "icon": "https://www.similarsites.com/static/favicon.png"
     }
 ]
