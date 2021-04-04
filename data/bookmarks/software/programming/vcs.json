@@ -21,11 +21,6 @@
         "icon": "https://tortoisesvn.net/assets/img/favicons/favicon.ico"
     },
     {
-        "title": "下载 GitBook",
-        "url": "https://www.gitbook.com/",
-        "icon": "https://uploads-ssl.webflow.com/5c349f90a3cd4515d0564552/5ca4a75b42e38558959fdbb8_favicon.ico"
-    },
-    {
         "title": "下载 Git",
         "url": "https://git-scm.com/downloads/",
         "icon": "https://git-scm.com/favicon.ico"

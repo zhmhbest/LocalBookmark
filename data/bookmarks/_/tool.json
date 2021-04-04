@@ -46,12 +46,16 @@
     {
         "title": "文件收发",
         "url": "https://airportal.cn/",
-        "desc": "",
         "tag": [
             "office",
             "file",
             "share"
         ],
         "icon": "https://cdn.jsdelivr.net/gh/shangzhenyang/assets/img/ap-icon-512-2.png"
+    },
+    {
+        "title": "二维码",
+        "url": "https://jiema.wwei.cn",
+        "icon": "https://jiema.wwei.cn/favicon.ico"
     }
 ]

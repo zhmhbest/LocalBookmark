@@ -37,5 +37,25 @@
             "机器学习"
         ],
         "icon": ""
+    },
+    {
+        "title": "ml-js",
+        "url": "https://github.com/mljs/ml",
+        "tag": [
+            "Web",
+            "Library",
+            "math"
+        ],
+        "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
+    {
+        "title": "tf-js",
+        "url": "https://tensorflow.google.cn/js/tutorials/setup?hl=zh-cn",
+        "tag": [
+            "Web",
+            "Library",
+            "math"
+        ],
+        "icon": "https://www.gstatic.cn/devrel-devsite/prod/v236200e9f3bdf34d077efc081c4ecb460c88128ff369ccbfc69028c3ea4bf423/tensorflow/images/favicon.png"
     }
 ]

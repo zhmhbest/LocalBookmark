@@ -17,6 +17,14 @@
         "icon": ""
     },
     {
+        "title": "GitBook",
+        "url": "https://www.gitbook.com/",
+        "icon": "https://uploads-ssl.webflow.com/5c349f90a3cd4515d0564552/5ca4a75b42e38558959fdbb8_favicon.ico",
+        "tag": [
+            "vcs"
+        ]
+    },
+    {
         "title": "Gitclone",
         "url": "https://gitclone.com/",
         "desc": "Github镜像",
@@ -59,6 +67,7 @@
         "title": "百度地图 API",
         "url": "http://lbsyun.baidu.com/",
         "tag": [
+            "Web",
             "百度",
             "地图",
             "API"
@@ -69,30 +78,19 @@
         "title": "Editor.md",
         "url": "https://pandao.github.io/editor.md/",
         "tag": [
+            "Web",
             "工具",
             "笔记"
         ],
         "icon": "http://pandao.github.io/editor.md//favicon.ico"
     },
     {
-        "title": "Katex",
-        "desc": "数学公式",
-        "url": "https://katex.org/",
+        "title": "BootCDN",
+        "url": "https://www.bootcdn.cn",
         "tag": [
-            "Web",
-            "Library"
+            "Web"
         ],
-        "icon": ""
-    },
-    {
-        "title": "Flowchart",
-        "desc": "流程图",
-        "url": "https://creately.com/templates/",
-        "tag": [
-            "Web",
-            "Library"
-        ],
-        "icon": ""
+        "icon": "https://www.bootcdn.cn/assets/ico/favicon.ico"
     },
     {
         "title": "编程工具箱",

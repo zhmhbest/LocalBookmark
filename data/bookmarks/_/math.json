@@ -1,0 +1,63 @@
+[
+    {
+        "title": "Katex",
+        "desc": "数学公式",
+        "url": "https://katex.org/",
+        "tag": [
+            "Web",
+            "Library"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "MathJax",
+        "desc": "数学公式",
+        "url": "https://www.mathjax.org/",
+        "tag": [
+            "Web",
+            "Library"
+        ],
+        "icon": "https://www.mathjax.org/favicon.ico"
+    },
+    {
+        "title": "Flowchart",
+        "desc": "流程图",
+        "url": "https://creately.com/templates/",
+        "tag": [
+            "Web",
+            "Library"
+        ],
+        "icon": "https://creately.com/static/assets/common/icons/favicons-next/favicon-32x32.png"
+    },
+    {
+        "title": "Mermaid",
+        "desc": "美人鱼图",
+        "url": "https://mermaid-js.github.io/mermaid",
+        "tag": [
+            "Web",
+            "Library"
+        ],
+        "icon": ""
+    },
+    {
+        "title": "math-js",
+        "url": "https://mathjs.org/download.html",
+        "tag": [
+            "Web",
+            "Library"
+        ],
+        "icon": "https://mathjs.org/favicon.ico"
+    },
+    {
+        "title": "Desmos",
+        "desc": "二维数学绘图",
+        "url": "https://www.desmos.com/calculator?lang=zh-CN",
+        "icon": ""
+    },
+    {
+        "title": "3D Surface Plotter",
+        "desc": "三维数学绘图",
+        "url": "https://academo.org/demos/3d-surface-plotter/",
+        "icon": "https://academo.org/favicon-new-v2.png"
+    }
+]
