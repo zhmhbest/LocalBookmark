@@ -17,6 +17,14 @@
         "icon": ""
     },
     {
+        "title": "Github Release下载加速",
+        "url": "https://toolwa.com/github/",
+        "tag": [
+            "vcs"
+        ],
+        "icon": ""
+    },
+    {
         "title": "GitBook",
         "url": "https://www.gitbook.com/",
         "icon": "https://uploads-ssl.webflow.com/5c349f90a3cd4515d0564552/5ca4a75b42e38558959fdbb8_favicon.ico",

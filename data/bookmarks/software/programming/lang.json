@@ -33,7 +33,12 @@
     {
         "title": "下载 Haskell",
         "url": "https://www.haskell.org/downloads/",
-        "icon": "https://www.haskell.org/img/favicon.ico"
+        "icon": "https://www.haskell.org/img/favicon.ico",
+        "more": [
+            "Glasgow Haskell Compiler: 编译器及交互式解析器",
+            "Cabal: 包管理工具",
+            "Stack tool: 构建工具"
+        ]
     },
     {
         "title": "下载 Go",
