@@ -47,5 +47,15 @@
             "框架"
         ],
         "icon": "https://start.spring.io/images/icon-48x48.png"
+    },
+    {
+        "title": "下载 Apache Tomcat",
+        "url": "http://tomcat.apache.org/",
+        "icon": "http://tomcat.apache.org/favicon.ico"
+    },
+    {
+        "title": "下载 Eclipse Jetty",
+        "url": "https://www.eclipse.org/jetty/",
+        "icon": "https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/favicon.ico"
     }
 ]
