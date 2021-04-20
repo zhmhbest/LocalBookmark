@@ -22,12 +22,12 @@
     {
         "title": "Flowchart",
         "desc": "流程图",
-        "url": "https://creately.com/templates/",
+        "url": "https://github.com/adrai/flowchart.js",
         "tag": [
             "Web",
             "Library"
         ],
-        "icon": "https://creately.com/static/assets/common/icons/favicons-next/favicon-32x32.png"
+        "icon": ""
     },
     {
         "title": "Mermaid",
