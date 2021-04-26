@@ -17,6 +17,15 @@
         "icon": ""
     },
     {
+        "title": "Github Fast",
+        "url": "https://hub.fastgit.org/",
+        "desc": "Github镜像",
+        "tag": [
+            "vcs"
+        ],
+        "icon": ""
+    },
+    {
         "title": "Github Release下载加速",
         "url": "https://toolwa.com/github/",
         "tag": [
