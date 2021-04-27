@@ -69,5 +69,23 @@
             "<A target='_blank' href='http://mirror.bit.edu.cn/centos'>bit</A>"
         ],
         "icon": "https://www.centos.org/assets/img/favicon.png"
+    },
+    {
+        "title": "Rocky",
+        "url": "https://rockylinux.org/",
+        "desc": "下一个CentOS取代者",
+        "tag": [
+            "Linux"
+        ],
+        "icon": "https://rockylinux.org/favicon-32x32.png"
+    },
+    {
+        "title": "Ubuntu",
+        "url": "https://cn.ubuntu.com/download",
+        "desc": "",
+        "tag": [
+            "Linux"
+        ],
+        "icon": "https://cn.ubuntu.com/static/img/favicon.ico"
     }
 ]
