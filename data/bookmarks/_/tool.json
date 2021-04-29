@@ -57,5 +57,11 @@
         "title": "二维码",
         "url": "https://jiema.wwei.cn",
         "icon": "https://jiema.wwei.cn/favicon.ico"
+    },
+    {
+        "title": "Diagrams",
+        "des": "Free Visio",
+        "url": "https://app.diagrams.net/",
+        "icon": "https://app.diagrams.net//images/favicon-32x32.png"
     }
 ]
