@@ -1,5 +1,27 @@
 [
     {
+        "title": "下载 QT",
+        "url": "https://download.qt.io/",
+        "tag": [
+            "C/C++"
+        ],
+        "more": [
+            "archive——所有安装包",
+            "community_releases——社区版",
+            "development_releases——开发版（不稳定）",
+            "learning——文档教程和示范视频",
+            "ministro——迷你版（针对Android系统）",
+            "official_releases——正式版",
+            "online——在线安装源。",
+            "snapshots——预览版",
+            "vsaddin——针对Visual Studio集成的插件",
+            "qtcreator——官方的集成开发工具",
+            "qt——Qt开发环境",
+            "online_installers——在线安装器"
+        ],
+        "icon": ""
+    },
+    {
         "title": "下载 Mingw-w64",
         "url": "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/",
         "tag": [
