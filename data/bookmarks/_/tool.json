@@ -63,5 +63,11 @@
         "des": "Free Visio",
         "url": "https://app.diagrams.net/",
         "icon": "https://app.diagrams.net//images/favicon-32x32.png"
+    },
+    {
+        "title": "Tiny PNG",
+        "des": "图片压缩",
+        "url": "https://tinify.cn/",
+        "icon": "https://tinify.cn/images/favicon.ico"
     }
 ]

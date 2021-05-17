@@ -8,5 +8,10 @@
         "title": "字由",
         "url": "https://www.hellofont.cn/home",
         "icon": "https://www.hellofont.cn/favicon.ico"
+    },
+    {
+        "title": "Adobe Fonts",
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/adobe-fonts/",
+        "icon": ""
     }
 ]

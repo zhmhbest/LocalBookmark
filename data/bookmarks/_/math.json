@@ -59,5 +59,11 @@
         "desc": "三维数学绘图",
         "url": "https://academo.org/demos/3d-surface-plotter/",
         "icon": "https://academo.org/favicon-new-v2.png"
+    },
+    {
+        "title": "Danfo",
+        "desc": "js数据分析",
+        "url": "https://danfo.jsdata.org/",
+        "icon": "https://gblobscdn.gitbook.com/spaces%2F-MB05JeHIrR5pfcM-_7L%2Favatar-1596932100735.png?alt=media"
     }
 ]

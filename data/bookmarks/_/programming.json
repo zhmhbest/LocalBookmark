@@ -9,6 +9,15 @@
         "icon": "http://hellogithub.com/favicon.ico"
     },
     {
+        "title": "DB Engines",
+        "url": "https://db-engines.com/en/ranking",
+        "desc": "数据库排名",
+        "tag": [
+            "榜单"
+        ],
+        "icon": ""
+    },
+    {
         "title": "Github",
         "url": "https://github.com/",
         "tag": [
