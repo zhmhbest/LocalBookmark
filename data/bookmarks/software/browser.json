@@ -11,6 +11,16 @@
         "icon": "http://www.google.cn/chrome/static/images/favicons/favicon.ico"
     },
     {
+        "title": "下载 Cent Browser",
+        "url": "https://www.centbrowser.cn/",
+        "icon": "https://www.centbrowser.cn/favicon.ico"
+    },
+    {
+        "title": "下载 X Browser",
+        "url": "https://www.xbext.com/",
+        "icon": "https://www.xbext.com/favicon.ico"
+    },
+    {
         "title": "下载 Google ChromeDriver",
         "url": "http://npm.taobao.org/mirrors/chromedriver/",
         "desc": "Driver应存在于PATH中，且版本应与当前浏览器版本一致",
