@@ -1,5 +1,10 @@
 [
     {
+        "title": "下载 Windows",
+        "url": "https://msdn.itellyou.cn/",
+        "icon": ""
+    },
+    {
         "title": "下载 Windows10",
         "url": "https://www.microsoft.com/zh-cn/software-download/windows10",
         "icon": ""
