@@ -69,5 +69,11 @@
         "des": "图片压缩",
         "url": "https://tinify.cn/",
         "icon": "https://tinify.cn/images/favicon.ico"
+    },
+    {
+        "title": "AI Studio",
+        "des": "飞浆",
+        "url": "https://aistudio.baidu.com/aistudio/projectoverview/public",
+        "icon": "https://paddlepaddle-org-cn.cdn.bcebos.com/paddle-site-front/favicon-48.png"
     }
 ]
