@@ -87,5 +87,23 @@
             "Linux"
         ],
         "icon": "https://cn.ubuntu.com/static/img/favicon.ico"
+    },
+    {
+        "title": "Ubuntu for Raspberry Pi",
+        "url": "https://cn.ubuntu.com/download/raspberry-pi",
+        "desc": "",
+        "tag": [
+            "Linux"
+        ],
+        "icon": "https://cn.ubuntu.com/static/img/favicon.ico"
+    },
+    {
+        "title": "Raspberry Pi OS",
+        "url": "https://www.raspberrypi.org/software/operating-systems/",
+        "desc": "",
+        "tag": [
+            "Linux"
+        ],
+        "icon": "https://www.raspberrypi.org/homepage-9df4b/favicon.png"
     }
 ]
