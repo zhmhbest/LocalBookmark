@@ -184,5 +184,15 @@
             "论文获取"
         ],
         "icon": "http://www.sci-hub.ac.cn/favicon.ico"
+    },
+    {
+        "title": "ConnectedPapers",
+        "url": "https://www.connectedpapers.com/",
+        "desc": "文章推演",
+        "tag": [
+            "学术",
+            "论文获取"
+        ],
+        "icon": "https://www.connectedpapers.com/favicon.ico"
     }
 ]
