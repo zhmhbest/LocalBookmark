@@ -27,5 +27,10 @@
             "微软"
         ],
         "icon": "http://cn.bing.com/sa/simg/favicon-2x.ico"
+    },
+    {
+        "title": "Deepl",
+        "url": "https://www.deepl.com/translator",
+        "icon": "https://www.deepl.com/img/favicon/favicon_16.png"
     }
 ]
