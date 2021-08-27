@@ -194,5 +194,23 @@
             "论文获取"
         ],
         "icon": "https://www.connectedpapers.com/favicon.ico"
+    },
+    {
+        "title": "Grammarly",
+        "url": "https://www.grammarly.com/",
+        "desc": "查语法",
+        "tag": [
+            "学术"
+        ],
+        "icon": "https://static.grammarly.com/assets/files/2340c99e5888c621067307ab254ae533/favicon-16x16.png"
+    },
+    {
+        "title": "作者之家",
+        "url": "https://www.home-for-researchers.com/",
+        "desc": "英文查重",
+        "tag": [
+            "学术"
+        ],
+        "icon": ""
     }
 ]
